@@ -1,0 +1,33 @@
+openapi: 3.0.0
+info:
+  title: MELI repo
+  description: |-
+    This is the [BBF](https://sites.google.com/mercadolibre.com.co/cx-help/glosario#h.57dupv51nb1z) documentation for "my queries" [TOAD](https://furydocs.io/repo/latest/guide/#/).  You can find out more about Swagger at [https://swagger.io](https://swagger.io).
+
+    You can now help us improve the API whether it's by making changes to the definition itself or to the code.
+    That way, with time, we can improve the API in general, and expose some of the new features in OAS3.
+
+    Some useful links:
+    - [github repository](https://github.com/melisource/fury_repo)
+    - [fury](https://web.furycloud.io/repo/summary)
+  termsOfService: https://developers.mercadolibre.com.ar/es_ar/terminos-y-condiciones
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  version: Version
+externalDocs:
+  description: Contact the team by slack
+  url: https://meli.slack.com/archives/CS86TLPUK
+servers:
+  - url: https://www.mercadolibre.com.co
+    description: Prod
+  - url: https://ayuda-stage.mercadolibre.com.co
+    description: Stage
+  - url: https://ayuda-dev.mercadolibre.com.co
+    description: Dev
+tags:
+  - name: Case list filter
+    description: Cases after filtered data
+    externalDocs:
+      description: Find out more
+      url: https://furydocs.io/repo/latest/guide/#/./route-features/cases

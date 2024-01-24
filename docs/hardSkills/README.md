@@ -26,28 +26,28 @@ Mis habilidades técnicas son catalogadas así:
 
 ## PROGRAMMING LANGUAGES
 
-| Programming Language                  | Level                          |
-| ------------------------------------- | ------------------------------ |
-| Assembly                              | :star:                         |
-| Bash                                  | :star:                         |
-| C                                     | :star::star:                   |
-| C#                                    | :star::star::star::star::star: |
-| C++                                   | :star::star::star:             |
-| CSS3                                  | :star::star::star::star::star: |
-| Go                                    | :star:                         |
-| [HTML5](../hardSkills/html/README.md) | :star::star::star::star::star: |
-| Java                                  | :star::star:                   |
-| JavaScript                            | :star::star::star::star::star: |
-| JSON                                  | :star::star::star::star::star: |
-| Markdown                              | :star::star::star::star::star: |
-| PHP                                   | :star::star::star::star::star: |
-| Python                                | :star:                         |
-| SASS                                  | :star::star::star::star:       |
-| SCSS                                  | :star:                         |
-| SQL                                   | :star::star::star::star::star: |
-| [SVG](../hardSkills/svg/README.md)    | :star::star::star::star:       |
-| [XML](../hardSkills/xml/README.md)    | :star:                         |
-| YAML                                  | :star:                         |
+| Programming Language | Level                          |
+| -------------------- | ------------------------------ |
+| Assembly             | :star:                         |
+| Bash                 | :star:                         |
+| C                    | :star::star:                   |
+| C#                   | :star::star::star::star::star: |
+| C++                  | :star::star::star:             |
+| CSS3                 | :star::star::star::star::star: |
+| Go                   | :star:                         |
+| [HTML5](./html.md)   | :star::star::star::star::star: |
+| Java                 | :star::star:                   |
+| JavaScript           | :star::star::star::star::star: |
+| JSON                 | :star::star::star::star::star: |
+| Markdown             | :star::star::star::star::star: |
+| PHP                  | :star::star::star::star::star: |
+| Python               | :star:                         |
+| SASS                 | :star::star::star::star:       |
+| SCSS                 | :star:                         |
+| SQL                  | :star::star::star::star::star: |
+| [SVG](./svg.md)      | :star::star::star::star:       |
+| [XML](./xml.md)      | :star:                         |
+| YAML                 | :star:                         |
 
 ## SOFTWARE
 

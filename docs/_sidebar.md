@@ -2,7 +2,7 @@
 
 - [**Home**](./README.md)
 - [**Trayectoria**](./trayectory.md)
-- [**Conocimientos**](./contextual-features.md)
+- [**Conocimientos**](./knowledge.md)
 - [**Artículos**](./contextual-features.md)
 
 ---

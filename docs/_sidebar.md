@@ -1,7 +1,7 @@
 # Alejandro Rangel
 
 - [**Home**](./README.md)
-- [**Trayectoria**](./route-features.md)
+- [**Trayectoria**](./trayectory.md)
 - [**Conocimientos**](./contextual-features.md)
 - [**Artículos**](./contextual-features.md)
 

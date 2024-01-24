@@ -2,9 +2,7 @@
 
 SVG ([Scalable Vector Graphics](https://es.wikipedia.org/wiki/Gr%C3%A1ficos_vectoriales_escalables)) es un formato vectorial poco conocido pero muy útil para su uso online por su flexibilidad y por la capacidad de ofrecer gráficos con calidad.
 
-[Aquí](https://www.w3schools.com/graphics/svg_intro.asp) hay un curso básico y gratuito.
-
-Este lenguaje está basado en [HTML](./html.md) y [XML](./xml.md), por lo que es muy fácil de aprender. SVG es un lenguaje de marcado, por lo que se puede editar con cualquier editor de texto. No es necesario instalar ningún programa adicional.
+Este lenguaje está basado en [HTML](../../hardSkills/html/README.md) y [XML](../../hardSkills/xml/README.md), por lo que es muy fácil de aprender. SVG es un lenguaje de marcado, por lo que se puede editar con cualquier editor de texto. No es necesario instalar ningún programa adicional.
 
 ## ¿Por qué usar SVG?
 
@@ -16,8 +14,12 @@ SVG es compatible con todos los navegadores modernos.
 
 SVG permite modificar el tamaño y el color de los gráficos sin perder calidad y sin necesidad de generar nuevos archivos.
 
-Los modificadores de estilos [CSS](../css/README.md) se pueden aplicar a los gráficos SVG.
+Los modificadores de estilos [CSS](../../hardSkills/css/README.md) se pueden aplicar a los gráficos SVG.
 
-Comandos y funciones [JavaScript](../javascript/README.md) se pueden aplicar a los gráficos SVG.
+Comandos y funciones [JavaScript](../../hardSkills/javascript/README.md) se pueden aplicar a los gráficos SVG.
 
-Atributos padre pueden ser aplicados a los elementos SVG desde el código [HTML](../html/README.md).
+Atributos padre pueden ser aplicados a los elementos SVG desde el código [HTML](../../hardSkills/html/README.md).
+
+## NOTAS
+
+En ésta página solo se encuentra notas y ejemplos de los cursos realizados en SVG. Uno de los cursos gratuitos es el que se encuentra en [w3schools](https://www.w3schools.com/graphics/svg_intro.asp).

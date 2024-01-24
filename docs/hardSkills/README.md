@@ -35,7 +35,7 @@ Mis habilidades técnicas son catalogadas así:
 | C++                  | :star::star::star:             |
 | CSS3                 | :star::star::star::star::star: |
 | Go                   | :star:                         |
-| [HTML5](./html.md)   | :star::star::star::star::star: |
+| [HTML5](./hardSkills/html.md)   | :star::star::star::star::star: |
 | Java                 | :star::star:                   |
 | JavaScript           | :star::star::star::star::star: |
 | JSON                 | :star::star::star::star::star: |
@@ -45,8 +45,8 @@ Mis habilidades técnicas son catalogadas así:
 | SASS                 | :star::star::star::star:       |
 | SCSS                 | :star:                         |
 | SQL                  | :star::star::star::star::star: |
-| [SVG](./svg.md)      | :star::star::star::star:       |
-| [XML](./xml.md)      | :star:                         |
+| [SVG](./hardSkills/svg.md)      | :star::star::star::star:       |
+| [XML](./hardSkills/xml.md)      | :star:                         |
 | YAML                 | :star:                         |
 
 ## SOFTWARE

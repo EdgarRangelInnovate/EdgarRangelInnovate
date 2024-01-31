@@ -8,6 +8,7 @@ Se aprende esta tecnología realizando automatizaciones con varios enfoques:
 
 En la portada de la aplicación se tiene la siguiente documentación:
 
+- URL: <https://llamalab.com/automate/community/flows/47276>
 - Nombre de la app: `📦🐣🐢⛔ Asistente PoGoPoGe`
 - Descripción:
 
@@ -84,6 +85,7 @@ Altera la ubicaciones del jugador en el celular.
 
 En la portada de la aplicación se tiene la siguiente documentación:
 
+- URL: <https://llamalab.com/automate/community/flows/46672>
 - Nombre de la app: `🔋Estado de la Batería🪫`
 - Descripción:
 

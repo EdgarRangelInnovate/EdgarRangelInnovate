@@ -81,6 +81,45 @@ Altera la ubicaciones del jugador en el celular.
 
 - Versionamiento: [0.0.1](../assets/flows/📦🐣🐢⛔%20Asistente%20PoGoPoGe.flo)
 
+### Arquitectura de llamados
+
+Para este juego se crea una arquitectura de llamados mediante json, los cuales están distribuidos en los siguientes niveles:
+
+#### Menus
+
+Los menús están en un llamado simple de diccionarios de datos donde la llave es el nombre del módulo y el valor es la etiqueta que se muestra en el menú:
+
+1. [menu00.filters&Search](./PoGoPoGe/menu00.filters&Search.json)
+2. [menu01.renames](./PoGoPoGe/menu01.renames.json)
+3. [menu02.trades](./PoGoPoGe/menu02.trades.json)
+4. [menu03.locations](./PoGoPoGe/menu03.locations.json)
+
+#### Módulos
+
+Los módulos tienen un controlador para hacer llamados a los utilitarios por medio de arrays de Utilitarios de la siguiente manera:
+
+1. [module00.familyFilter](./PoGoPoGe/module00.familyFilter.json)
+2. [module01.declassifiedFilter](./PoGoPoGe/module01.declassifiedFilter.json)
+3. [module10.renamePokegenie](./PoGoPoGe/module02.renamePokegenie.json)
+4. [module11.actualCostume](./PoGoPoGe/module11.actualCostume.json)
+5. [module12.multiDeclassified](./PoGoPoGe/module12.multiDeclassified.json)
+6. [module13.multiNameEvolve](./PoGoPoGe/module13.multiNameEvolve.json)
+7. [module14.multiResetName](./PoGoPoGe/module14.multiResetName.json)
+8. [module20.simpleTrade](./PoGoPoGe/module20.simpleTrade.json)
+9. [module21.dualTrade](./PoGoPoGe/module21.dualTrade.json)
+10. [module30.gpsMock](./PoGoPoGe/module30.gpsMock.json)
+
+Los anteriores módulos hacen llamados a los componentes que tienen configurados los utilitarios granulares a utilizar:
+
+1. ["component00.firstPoke"](./PoGoPoGe/component00.firstPoke.json)
+
+Los utilitarios son secuencias de bloques preestablecidos que reciben payload de entrada para modificar su comportamiento, los cuales están distribuidos en los siguientes niveles:
+
+1. [util00.click](./PoGoPoGe/util00.click.json)
+2. [util01.swipe](./PoGoPoGe/util01.swipe.json)
+3. [util02.gboardReplace](./PoGoPoGe/util02.gboardReplace.json)
+4. [util03.gboardAppend](./PoGoPoGe/util03.gboardAppend.json)
+
 ## Para la gestión de la batería
 
 En la portada de la aplicación se tiene la siguiente documentación:

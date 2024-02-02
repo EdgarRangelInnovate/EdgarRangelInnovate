@@ -320,25 +320,25 @@ La etiqueta `<g>` define un grupo de elementos.
 | `class`                        | Define una o más clases para el grupo de elementos.                     | `class="myGroup"`                         |
 | `clip-path`                    | Define el área de recorte del grupo de elementos.                       | `clip-path="url(#myClipPath)"`            |
 | `clip-rule`                    | Define la regla de recorte del grupo de elementos.                      | `clip-rule="evenodd"`                     |
-| `color`                        | Define el color del grupo de elementos.                                 | `color="red"`                             |
-| `color-interpolation`          | Define la interpolación de color del grupo de elementos.                | `color-interpolation="sRGB"`              |
 | `color-interpolation-filters`  | Define la interpolación de color de los filtros del grupo de elementos. | `color-interpolation-filters="linearRGB"` |
+| `color-interpolation`          | Define la interpolación de color del grupo de elementos.                | `color-interpolation="sRGB"`              |
 | `color-profile`                | Define el perfil de color del grupo de elementos.                       | `color-profile="sRGB"`                    |
 | `color-rendering`              | Define el modo de renderizado de color del grupo de elementos.          | `color-rendering="auto"`                  |
+| `color`                        | Define el color del grupo de elementos.                                 | `color="red"`                             |
 | `cursor`                       | Define el cursor del grupo de elementos.                                | `cursor="pointer"`                        |
 | `direction`                    | Define la dirección del grupo de elementos.                             | `direction="ltr"`                         |
 | `display`                      | Define si se muestra o no el grupo de elementos.                        | `display="inline"`                        |
 | `dominant-baseline`            | Define la línea base dominante del grupo de elementos.                  | `dominant-baseline="auto"`                |
 | `enable-background`            | Define el modo de fondo del grupo de elementos.                         | `enable-background="accumulate"`          |
-| `fill`                         | Define el color de relleno del grupo de elementos.                      | `fill="red"`                              |
 | `fill-opacity`                 | Define la opacidad de relleno del grupo de elementos.                   | `fill-opacity="1"`                        |
 | `fill-rule`                    | Define la regla de relleno del grupo de elementos.                      | `fill-rule="nonzero"`                     |
+| `fill`                         | Define el color de relleno del grupo de elementos.                      | `fill="red"`                              |
 | `filter`                       | Define los filtros del grupo de elementos.                              | `filter="url(#myFilter)"`                 |
 | `flood-color`                  | Define el color de inundación del grupo de elementos.                   | `flood-color="blue"`                      |
 | `flood-opacity`                | Define la opacidad de inundación del grupo de elementos.                | `flood-opacity="1"`                       |
 | `font-family`                  | Define la familia de fuentes del grupo de elementos.                    | `font-family="Verdana"`                   |
-| `font-size`                    | Define el tamaño de fuente del grupo de elementos.                      | `font-size="16"`                          |
 | `font-size-adjust`             | Define el ajuste de tamaño de fuente del grupo de elementos.            | `font-size-adjust="0.5"`                  |
+| `font-size`                    | Define el tamaño de fuente del grupo de elementos.                      | `font-size="16"`                          |
 | `font-stretch`                 | Define la estiramiento de fuente del grupo de elementos.                | `font-stretch="normal"`                   |
 | `font-style`                   | Define el estilo de fuente del grupo de elementos.                      | `font-style="normal"`                     |
 | `font-variant`                 | Define la variante de fuente del grupo de elementos.                    | `font-variant="normal"`                   |
@@ -359,7 +359,6 @@ La etiqueta `<g>` define un grupo de elementos.
 | `shape-rendering`              | Define el modo de renderizado de forma del grupo de elementos.          | `shape-rendering="auto"`                  |
 | `stop-color`                   | Define el color de parada del grupo de elementos.                       | `stop-color="blue"`                       |
 | `stop-opacity`                 | Define la opacidad de parada del grupo de elementos.                    | `stop-opacity="1"`                        |
-| `stroke`                       | Define el color de trazo del grupo de elementos.                        | `stroke="red"`                            |
 | `stroke-dasharray`             | Define el array de trazo discontinuo del grupo de elementos.            | `stroke-dasharray="5,5"`                  |
 | `stroke-dashoffset`            | Define el desplazamiento de trazo discontinuo del grupo de elementos.   | `stroke-dashoffset="0"`                   |
 | `stroke-linecap`               | Define la terminación de línea de trazo del grupo de elementos.         | `stroke-linecap="butt"`                   |
@@ -367,6 +366,7 @@ La etiqueta `<g>` define un grupo de elementos.
 | `stroke-miterlimit`            | Define el límite de miter de trazo del grupo de elementos.              | `stroke-miterlimit="4"`                   |
 | `stroke-opacity`               | Define la opacidad de trazo del grupo de elementos.                     | `stroke-opacity="1"`                      |
 | `stroke-width`                 | Define el grosor de trazo del grupo de elementos.                       | `stroke-width="1"`                        |
+| `stroke`                       | Define el color de trazo del grupo de elementos.                        | `stroke="red"`                            |
 | `text-anchor`                  | Define el anclaje de texto del grupo de elementos.                      | `text-anchor="start"`                     |
 | `text-decoration`              | Define la decoración de texto del grupo de elementos.                   | `text-decoration="none"`                  |
 | `text-rendering`               | Define el modo de renderizado de texto del grupo de elementos.          | `text-rendering="auto"`                   |
@@ -381,16 +381,21 @@ La etiqueta `rect` define un rectángulo.
 
 | Atributo            | Descripción                                                   | Ejemplo                           |
 | ------------------- | ------------------------------------------------------------- | --------------------------------- |
-| `x`                 | Define la posición en el eje x del rectángulo.                | `x="0"`                           |
-| `y`                 | Define la posición en el eje y del rectángulo.                | `y="0"`                           |
-| `width`             | Define el ancho del rectángulo.                               | `width="100"`                     |
-| `height`            | Define el alto del rectángulo.                                | `height="100"`                    |
-| `rx`                | Define el radio de esquina en el eje x del rectángulo.        | `rx="0"`                          |
-| `ry`                | Define el radio de esquina en el eje y del rectángulo.        | `ry="0"`                          |
-| `fill`              | Define el color de relleno del rectángulo.                    | `fill="red"`                      |
+| `clip-path`         | Define la ruta de recorte del rectángulo.                     | `clip-path="url(#myClipPath)"`    |
+| `clip-rule`         | Define la regla de recorte del rectángulo.                    | `clip-rule="nonzero"`             |
 | `fill-opacity`      | Define la opacidad de relleno del rectángulo.                 | `fill-opacity="1"`                |
 | `fill-rule`         | Define la regla de relleno del rectángulo.                    | `fill-rule="nonzero"`             |
-| `stroke`            | Define el color de trazo del rectángulo.                      | `stroke="red"`                    |
+| `fill`              | Define el color de relleno del rectángulo.                    | `fill="red"`                      |
+| `height`            | Define el alto del rectángulo.                                | `height="100"`                    |
+| `mask`              | Define la máscara del rectángulo.                             | `mask="url(#myMask)"`             |
+| `opacity`           | Define la opacidad del rectángulo.                            | `opacity="1"`                     |
+| `overflow`          | Define si se muestra o no el rectángulo.                      | `overflow="visible"`              |
+| `pointer-events`    | Define si se activan o no los eventos del rectángulo.         | `pointer-events="visiblePainted"` |
+| `rx`                | Define el radio de esquina en el eje x del rectángulo.        | `rx="0"`                          |
+| `ry`                | Define el radio de esquina en el eje y del rectángulo.        | `ry="0"`                          |
+| `shape-rendering`   | Define el modo de renderizado de forma del rectángulo.        | `shape-rendering="auto"`          |
+| `stop-color`        | Define el color de parada del rectángulo.                     | `stop-color="blue"`               |
+| `stop-opacity`      | Define la opacidad de parada del rectángulo.                  | `stop-opacity="1"`                |
 | `stroke-dasharray`  | Define el array de trazo discontinuo del rectángulo.          | `stroke-dasharray="5,5"`          |
 | `stroke-dashoffset` | Define el desplazamiento de trazo discontinuo del rectángulo. | `stroke-dashoffset="0"`           |
 | `stroke-linecap`    | Define la terminación de línea de trazo del rectángulo.       | `stroke-linecap="butt"`           |
@@ -398,24 +403,19 @@ La etiqueta `rect` define un rectángulo.
 | `stroke-miterlimit` | Define el límite de miter de trazo del rectángulo.            | `stroke-miterlimit="4"`           |
 | `stroke-opacity`    | Define la opacidad de trazo del rectángulo.                   | `stroke-opacity="1"`              |
 | `stroke-width`      | Define el grosor de trazo del rectángulo.                     | `stroke-width="1"`                |
-| `transform`         | Define la transformación del rectángulo.                      | `transform="rotate(30 50 50)"`    |
-| `visibility`        | Define si se muestra o no el rectángulo.                      | `visibility="visible"`            |
-| `clip-path`         | Define la ruta de recorte del rectángulo.                     | `clip-path="url(#myClipPath)"`    |
-| `clip-rule`         | Define la regla de recorte del rectángulo.                    | `clip-rule="nonzero"`             |
-| `mask`              | Define la máscara del rectángulo.                             | `mask="url(#myMask)"`             |
-| `opacity`           | Define la opacidad del rectángulo.                            | `opacity="1"`                     |
-| `overflow`          | Define si se muestra o no el rectángulo.                      | `overflow="visible"`              |
-| `pointer-events`    | Define si se activan o no los eventos del rectángulo.         | `pointer-events="visiblePainted"` |
-| `shape-rendering`   | Define el modo de renderizado de forma del rectángulo.        | `shape-rendering="auto"`          |
-| `stop-color`        | Define el color de parada del rectángulo.                     | `stop-color="blue"`               |
-| `stop-opacity`      | Define la opacidad de parada del rectángulo.                  | `stop-opacity="1"`                |
+| `stroke`            | Define el color de trazo del rectángulo.                      | `stroke="red"`                    |
 | `text-anchor`       | Define el anclaje de texto del rectángulo.                    | `text-anchor="start"`             |
 | `text-decoration`   | Define la decoración de texto del rectángulo.                 | `text-decoration="none"`          |
 | `text-rendering`    | Define el modo de renderizado de texto del rectángulo.        | `text-rendering="auto"`           |
+| `transform`         | Define la transformación del rectángulo.                      | `transform="rotate(30 50 50)"`    |
 | `unicode-bidi`      | Define el bidi de unicode del rectángulo.                     | `unicode-bidi="normal"`           |
 | `visibility`        | Define si se muestra o no el rectángulo.                      | `visibility="visible"`            |
+| `visibility`        | Define si se muestra o no el rectángulo.                      | `visibility="visible"`            |
+| `width`             | Define el ancho del rectángulo.                               | `width="100"`                     |
 | `word-spacing`      | Define el espaciado de palabra del rectángulo.                | `word-spacing="0"`                |
 | `writing-mode`      | Define el modo de escritura del rectángulo.                   | `writing-mode="lr-tb"`            |
+| `x`                 | Define la posición en el eje x del rectángulo.                | `x="0"`                           |
+| `y`                 | Define la posición en el eje y del rectángulo.                | `y="0"`                           |
 
 ### circle
 
@@ -725,3 +725,150 @@ Los comandos recibidos en el atributo `d` en la etiqueta `arc` son los siguiente
 | `T`     | Dibuja una curva de Bezier desde la posición actual hasta la especificada, usando un punto de control.   | `T 200 300`                 |
 | `A`     | Dibuja un arco de elipse desde la posición actual hasta la especificada.                                 | `A 150 150 0 0 0 200 300`   |
 | `Z`     | Cierra la ruta.                                                                                          | `Z`                         |
+
+### defs
+
+La etiqueta `defs` define un contenedor para definiciones de gráficos.
+
+Los atributos de la definición de gráficos se pueden escribir separandolos por un espacio, por un salto de linea, por un tabulador opor una coma. También se puede hacer una combinación de estos separadores.
+
+| Atributo            | Descripción                                                | Ejemplo                           |
+| ------------------- | ---------------------------------------------------------- | --------------------------------- |
+| `clip-path`         | Define la ruta de recorte del gráfico.                     | `clip-path="url(#myClipPath)"`    |
+| `clip-rule`         | Define la regla de recorte del gráfico.                    | `clip-rule="nonzero"`             |
+| `fill-opacity`      | Define la opacidad de relleno del gráfico.                 | `fill-opacity="1"`                |
+| `fill-rule`         | Define la regla de relleno del gráfico.                    | `fill-rule="nonzero"`             |
+| `fill`              | Define el color de relleno del gráfico.                    | `fill="red"`                      |
+| `mask`              | Define la máscara del gráfico.                             | `mask="url(#myMask)"`             |
+| `opacity`           | Define la opacidad del gráfico.                            | `opacity="1"`                     |
+| `overflow`          | Define si se muestra o no el gráfico.                      | `overflow="visible"`              |
+| `pointer-events`    | Define si se activan o no los eventos del gráfico.         | `pointer-events="visiblePainted"` |
+| `shape-rendering`   | Define el modo de renderizado de forma del gráfico.        | `shape-rendering="auto"`          |
+| `stop-color`        | Define el color de parada del gráfico.                     | `stop-color="blue"`               |
+| `stop-opacity`      | Define la opacidad de parada del gráfico.                  | `stop-opacity="1"`                |
+| `stroke-dasharray`  | Define el array de trazo discontinuo del gráfico.          | `stroke-dasharray="5,5"`          |
+| `stroke-dashoffset` | Define el desplazamiento de trazo discontinuo del gráfico. | `stroke-dashoffset="0"`           |
+| `stroke-linecap`    | Define la terminación de línea de trazo del gráfico.       | `stroke-linecap="butt"`           |
+| `stroke-linejoin`   | Define la unión de línea de trazo del gráfico.             | `stroke-linejoin="miter"`         |
+| `stroke-miterlimit` | Define el límite de miter de trazo del gráfico.            | `stroke-miterlimit="4"`           |
+| `stroke-opacity`    | Define la opacidad de trazo del gráfico.                   | `stroke-opacity="1"`              |
+| `stroke-width`      | Define el grosor de trazo del gráfico.                     | `stroke-width="1"`                |
+| `stroke`            | Define el color de trazo del gráfico.                      | `stroke="red"`                    |
+| `text-anchor`       | Define el anclaje de texto del gráfico.                    | `text-anchor="start"`             |
+| `text-decoration`   | Define la decoración de texto del gráfico.                 | `text-decoration="none"`          |
+| `text-rendering`    | Define el modo de renderizado de texto del gráfico.        | `text-rendering="auto"`           |
+| `transform`         | Define la transformación del gráfico.                      | `transform="rotate(30 50 50)"`    |
+| `unicode-bidi`      | Define el bidi de unicode del gráfico.                     | `unicode-bidi="normal"`           |
+| `visibility`        | Define si se muestra o no el gráfico.                      | `visibility="visible"`            |
+| `visibility`        | Define si se muestra o no el gráfico.                      | `visibility="visible"`            |
+| `word-spacing`      | Define el espaciado de palabra del gráfico.                | `word-spacing="0"`                |
+| `writing-mode`      | Define el modo de escritura del gráfico.                   | `writing-mode="lr-tb"`            |
+
+Los elementos contenidos en la etiqueta `defs` no se muestran en la pantalla, pero sí se pueden referenciar desde otros elementos.
+
+### use
+
+La etiqueta `use` define un gráfico referenciado.
+
+Los atributos de la definición de gráficos se pueden escribir separandolos por un espacio, por un salto de linea, por un tabulador opor una coma. También se puede hacer una combinación de estos separadores.
+
+| Atributo            | Descripción                                                | Ejemplo                           |
+| ------------------- | ---------------------------------------------------------- | --------------------------------- |
+| `clip-path`         | Define la ruta de recorte del gráfico.                     | `clip-path="url(#myClipPath)"`    |
+| `clip-rule`         | Define la regla de recorte del gráfico.                    | `clip-rule="nonzero"`             |
+| `fill-opacity`      | Define la opacidad de relleno del gráfico.                 | `fill-opacity="1"`                |
+| `fill-rule`         | Define la regla de relleno del gráfico.                    | `fill-rule="nonzero"`             |
+| `fill`              | Define el color de relleno del gráfico.                    | `fill="red"`                      |
+| `mask`              | Define la máscara del gráfico.                             | `mask="url(#myMask)"`             |
+| `opacity`           | Define la opacidad del gráfico.                            | `opacity="1"`                     |
+| `overflow`          | Define si se muestra o no el gráfico.                      | `overflow="visible"`              |
+| `pointer-events`    | Define si se activan o no los eventos del gráfico.         | `pointer-events="visiblePainted"` |
+| `shape-rendering`   | Define el modo de renderizado de forma del gráfico.        | `shape-rendering="auto"`          |
+| `stop-color`        | Define el color de parada del gráfico.                     | `stop-color="blue"`               |
+| `stop-opacity`      | Define la opacidad de parada del gráfico.                  | `stop-opacity="1"`                |
+| `stroke-dasharray`  | Define el array de trazo discontinuo del gráfico.          | `stroke-dasharray="5,5"`          |
+| `stroke-dashoffset` | Define el desplazamiento de trazo discontinuo del gráfico. | `stroke-dashoffset="0"`           |
+| `stroke-linecap`    | Define la terminación de línea de trazo del gráfico.       | `stroke-linecap="butt"`           |
+| `stroke-linejoin`   | Define la unión de línea de trazo del gráfico.             | `stroke-linejoin="miter"`         |
+| `stroke-miterlimit` | Define el límite de miter de trazo del gráfico.            | `stroke-miterlimit="4"`           |
+| `stroke-opacity`    | Define la opacidad de trazo del gráfico.                   | `stroke-opacity="1"`              |
+| `stroke-width`      | Define el grosor de trazo del gráfico.                     | `stroke-width="1"`                |
+| `stroke`            | Define el color de trazo del gráfico.                      | `stroke="red"`                    |
+| `text-anchor`       | Define el anclaje de texto del gráfico.                    | `text-anchor="start"`             |
+| `text-decoration`   | Define la decoración de texto del gráfico.                 | `text-decoration="none"`          |
+| `text-rendering`    | Define el modo de renderizado de texto del gráfico.        | `text-rendering="auto"`           |
+| `transform`         | Define la transformación del gráfico.                      | `transform="rotate(30 50 50)"`    |
+| `unicode-bidi`      | Define el bidi de unicode del gráfico.                     | `unicode-bidi="normal"`           |
+| `visibility`        | Define si se muestra o no el gráfico.                      | `visibility="visible"`            |
+| `word-spacing`      | Define el espaciado de palabra del gráfico.                | `word-spacing="0"`                |
+| `writing-mode`      | Define el modo de escritura del gráfico.                   | `writing-mode="lr-tb"`            |
+
+### symbol
+
+La etiqueta `symbol` define un gráfico simbólico o plantilla.
+
+Los atributos de la definición de gráficos se pueden escribir separandolos por un espacio, por un salto de linea, por un tabulador opor una coma. También se puede hacer una combinación de estos separadores.
+
+| Atributo            | Descripción                                                | Ejemplo                           |
+| ------------------- | ---------------------------------------------------------- | --------------------------------- |
+| `clip-path`         | Define la ruta de recorte del gráfico.                     | `clip-path="url(#myClipPath)"`    |
+| `clip-rule`         | Define la regla de recorte del gráfico.                    | `clip-rule="nonzero"`             |
+| `fill-opacity`      | Define la opacidad de relleno del gráfico.                 | `fill-opacity="1"`                |
+| `fill-rule`         | Define la regla de relleno del gráfico.                    | `fill-rule="nonzero"`             |
+| `fill`              | Define el color de relleno del gráfico.                    | `fill="red"`                      |
+| `mask`              | Define la máscara del gráfico.                             | `mask="url(#myMask)"`             |
+| `opacity`           | Define la opacidad del gráfico.                            | `opacity="1"`                     |
+| `overflow`          | Define si se muestra o no el gráfico.                      | `overflow="visible"`              |
+| `pointer-events`    | Define si se activan o no los eventos del gráfico.         | `pointer-events="visiblePainted"` |
+| `shape-rendering`   | Define el modo de renderizado de forma del gráfico.        | `shape-rendering="auto"`          |
+| `stop-color`        | Define el color de parada del gráfico.                     | `stop-color="blue"`               |
+| `stop-opacity`      | Define la opacidad de parada del gráfico.                  | `stop-opacity="1"`                |
+| `stroke-dasharray`  | Define el array de trazo discontinuo del gráfico.          | `stroke-dasharray="5,5"`          |
+| `stroke-dashoffset` | Define el desplazamiento de trazo discontinuo del gráfico. | `stroke-dashoffset="0"`           |
+| `stroke-linecap`    | Define la terminación de línea de trazo del gráfico.       | `stroke-linecap="butt"`           |
+| `stroke-linejoin`   | Define la unión de línea de trazo del gráfico.             | `stroke-linejoin="miter"`         |
+| `stroke-miterlimit` | Define el límite de miter de trazo del gráfico.            | `stroke-miterlimit="4"`           |
+| `stroke-opacity`    | Define la opacidad de trazo del gráfico.                   | `stroke-opacity="1"`              |
+| `stroke-width`      | Define el grosor de trazo del gráfico.                     | `stroke-width="1"`                |
+| `stroke`            | Define el color de trazo del gráfico.                      | `stroke="red"`                    |
+| `text-anchor`       | Define el anclaje de texto del gráfico.                    | `text-anchor="start"`             |
+| `text-decoration`   | Define la decoración de texto del gráfico.                 | `text-decoration="none"`          |
+| `text-rendering`    | Define el modo de renderizado de texto del gráfico.        | `text-rendering="auto"`           |
+| `transform`         | Define la transformación del gráfico.                      | `transform="rotate(30 50 50)"`    |
+| `unicode-bidi`      | Define el bidi de unicode del gráfico.                     | `unicode-bidi="normal"`           |
+| `visibility`        | Define si se muestra o no el gráfico.                      | `visibility="visible"`            |
+| `word-spacing`      | Define el espaciado de palabra del gráfico.                | `word-spacing="0"`                |
+| `writing-mode`      | Define el modo de escritura del gráfico.                   | `writing-mode="lr-tb"`            |
+
+Las diferencias entre `svg`, `symbol` y `defs` son las siguientes:
+
+| atributo y propiedad        | svg    | symbol | defs |
+| --------------------------- | ------ | ------ | ---- |
+| `baseProfile`               | [x]    | [x]    | [ ]  |
+| `class`                     | [x]    | [x]    | [ ]  |
+| `contentScriptType`         | [x]    | [x]    | [ ]  |
+| `contentStyleType`          | [x]    | [x]    | [ ]  |
+| `desc`                      | [x]    | [x]    | [ ]  |
+| `display`                   | inline | none   | none |
+| `externalResourcesRequired` | [x]    | [x]    | [ ]  |
+| `height`                    | [x]    | [x]    | [ ]  |
+| `id`                        | [x]    | [x]    | [ ]  |
+| `preserveAspectRatio`       | [x]    | [x]    | [ ]  |
+| `requiredExtensions`        | [x]    | [x]    | [ ]  |
+| `requiredFeatures`          | [x]    | [x]    | [ ]  |
+| `style`                     | [x]    | [x]    | [ ]  |
+| `style`                     | [x]    | [x]    | [ ]  |
+| `systemLanguage`            | [x]    | [x]    | [ ]  |
+| `title`                     | [x]    | [x]    | [ ]  |
+| `transform`                 | [x]    | [x]    | [ ]  |
+| `version`                   | [x]    | [x]    | [ ]  |
+| `viewBox`                   | [x]    | [x]    | [ ]  |
+| `width`                     | [x]    | [x]    | [ ]  |
+| `x`                         | [x]    | [x]    | [ ]  |
+| `xmlns:xlink`               | [x]    | [x]    | [ ]  |
+| `xmlns`                     | [x]    | [x]    | [ ]  |
+| `y`                         | [x]    | [x]    | [ ]  |
+
+Por lo que se puede concluir que `svg` es el elemento raíz de un documento SVG, `symbol` es un gráfico simbólico o plantilla y `defs` es un contenedor para definiciones de gráficos.
+
+El elemento `symbol` al igual que el elemento `def` es un contenedor donde los elementos que se definen dentro de él no se muestran en la pantalla, pero sí se pueden referenciar desde otros elementos.

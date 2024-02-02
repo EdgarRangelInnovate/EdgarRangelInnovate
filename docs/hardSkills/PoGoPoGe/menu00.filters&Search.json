@@ -1,4 +1,26 @@
-{
-  "module00.familyFilter": "Buscador de familias", 
-  "module01.declassifiedFilter": "Buscar desclasificados"
-}
+[
+  {
+    "key": "config00.general"
+  },
+  {
+    "key": "component00.firstPoke"
+  },
+  {
+    "key": "component01.pokeDetail"
+  },
+  {
+    "key": "component02.pokeDetailPokedex"
+  },
+  {
+    "key": "component03.seeAllPoke"
+  },
+  {
+    "key": "component04.editFilter"
+  },
+  {
+    "key": "component05.gboardAppend",
+    "payload": {
+      "character": "+"
+    }
+  }
+]

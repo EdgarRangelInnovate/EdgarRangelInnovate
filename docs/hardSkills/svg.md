@@ -95,25 +95,171 @@ SVG admite los estilos en diferentes niveles de importancia:
 3. Class: se define en el atributo `class` del elemento SVG. ejemplo: `<svg class="mySVG">`
 4. Element and pseudo-element: se define en el elemento SVG. ejemplo: `<svg>`
 
-### Atributos de presentación
+## Pintado
 
-SVG admite los siguientes atributos de presentación:
+Cabe destacar que SVG usa los atributos `fill` y `stroke` para pintar. El atributo `fill` define el color de relleno, y el atributo `stroke` define el color de línea.
 
-| Atributo            | Descripción                                               | Ejemplo                   |
-| ------------------- | --------------------------------------------------------- | ------------------------- |
-| `fill`              | Define el color de relleno.                               | `fill="red"`              |
-| `fill-opacity`      | Define la opacidad de relleno.                            | `fill-opacity="0.4"`      |
-| `fill-rule`         | Define la regla de relleno.                               | `fill-rule="evenodd"`     |
-| `stroke`            | Define el color de línea.                                 | `stroke="red"`            |
-| `stroke-dasharray`  | Define el patrón de línea discontinua.                    | `stroke-dasharray="5,5"`  |
-| `stroke-dashoffset` | Define el desplazamiento del patrón de línea discontinua. | `stroke-dashoffset="5"`   |
-| `stroke-linecap`    | Define la forma de la línea de extremo.                   | `stroke-linecap="round"`  |
-| `stroke-linejoin`   | Define la forma de la línea de unión.                     | `stroke-linejoin="round"` |
-| `stroke-miterlimit` | Define el límite de la línea de unión.                    | `stroke-miterlimit="10"`  |
-| `stroke-opacity`    | Define la opacidad de línea.                              | `stroke-opacity="0.4"`    |
-| `stroke-width`      | Define el ancho de línea.                                 | `stroke-width="5"`        |
+Tanto el atributo `fill` como el atributo `stroke` soportan diferentes tipos de valores como lo son:
+
+- color: define el color de relleno o de línea. ejemplo: `fill="red"`
+- url: define el color de relleno o de línea con una URL. ejemplo: `fill="url(#grad1)"`
+- none: define el color de relleno o de línea como transparente. ejemplo: `fill="none"`
+- inherit: define el color de relleno o de línea como heredado. ejemplo: `fill="inherit"`
+- currentColor: define el color de relleno o de línea como el color actual. ejemplo: `fill="currentColor"`
+- context-fill: define el color de relleno o de línea como el color de relleno del contexto. ejemplo: `fill="context-fill"`
+- context-stroke: define el color de relleno o de línea como el color de línea del contexto. ejemplo: `fill="context-stroke"`
+- gradient: define el color de relleno o de línea como un gradiente. ejemplo: `fill="gradient"`
+- pattern: define el color de relleno o de línea como un patrón. ejemplo: `fill="pattern"`
+- radial-gradient: define el color de relleno o de línea como un gradiente radial. ejemplo: `fill="radial-gradient"`
+- linear-gradient: define el color de relleno o de línea como un gradiente lineal. ejemplo: `fill="linear-gradient"`
+- paint: define el color de relleno o de línea como un pintado. ejemplo: `fill="paint"`
+- transparent: define el color de relleno o de línea como transparente. ejemplo: `fill="transparent"`
+- initial: define el color de relleno o de línea como inicial. ejemplo: `fill="initial"`
+- unset: define el color de relleno o de línea como no establecido. ejemplo: `fill="unset"`
+- var: define el color de relleno o de línea como una variable. ejemplo: `fill="var(--myColor)"`
+- hsl: define el color de relleno o de línea como un color HSL. ejemplo: `fill="hsl(0, 100%, 50%)"`
+- hsla: define el color de relleno o de línea como un color HSLA. ejemplo: `fill="hsla(0, 100%, 50%, 1)"`
+- rgb: define el color de relleno o de línea como un color RGB. ejemplo: `fill="rgb(255, 0, 0)"`
+- rgba: define el color de relleno o de línea como un color RGBA. ejemplo: `fill="rgba(255, 0, 0, 1)"`
+- hex: define el color de relleno o de línea como un color hexadecimal. ejemplo: `fill="#ff0000"`
+- system-color: define el color de relleno o de línea como un color de sistema. ejemplo: `fill="system-color(red)"`
+- color-name: define el color de relleno o de línea como un nombre de color. ejemplo: `fill="red"`
+- color-keyword: define el color de relleno o de línea como una palabra clave de color. ejemplo: `fill="currentColor"`
+- color-function: define el color de relleno o de línea como una función de color. ejemplo: `fill="rgb(255, 0, 0)"`
+- color-token: define el color de relleno o de línea como un token de color. ejemplo: `fill="var(--myColor)"`
+
+Los valores de `paint` pueden ser:
+
+- none: define el color de relleno o de línea como transparente. ejemplo: `fill="none"`
+- color: define el color de relleno o de línea como el color actual. ejemplo: `fill="currentColor"`
+- url: define el color de relleno o de línea con una URL. ejemplo: `fill="url(#grad1)"`
+
+Para svg 2.0 se agregaron los siguientes valores de `paint`:
+
+- checked: define el color de relleno o de línea como el color de relleno del elemento marcado. ejemplo: `fill="checked"`
+- child: define el color de relleno o de línea como el color de relleno del hijo. ejemplo: `fill="child"`
+- context-fill: define el color de relleno o de línea como el color de relleno del contexto. ejemplo: `fill="context-fill"`
+- context-stroke: define el color de relleno o de línea como el color de línea del contexto. ejemplo: `fill="context-stroke"`
+- default: define el color de relleno o de línea como el color de relleno del elemento predeterminado. ejemplo: `fill="default"`
+- disabled: define el color de relleno o de línea como el color de relleno del elemento deshabilitado. ejemplo: `fill="disabled"`
+- empty: define el color de relleno o de línea como el color de relleno del elemento vacío. ejemplo: `fill="empty"`
+- enabled: define el color de relleno o de línea como el color de relleno del elemento habilitado. ejemplo: `fill="enabled"`
+- first-child: define el color de relleno o de línea como el color de relleno del primer hijo. ejemplo: `fill="first-child"`
+- first-of-type: define el color de relleno o de línea como el color de relleno del primer tipo. ejemplo: `fill="first-of-type"`
+- gradient: define el color de relleno o de línea como un gradiente. ejemplo: `fill="gradient"`
+- in-range: define el color de relleno o de línea como el color de relleno del elemento dentro del rango. ejemplo: `fill="in-range"`
+- indeterminate: define el color de relleno o de línea como el color de relleno del elemento indeterminado. ejemplo: `fill="indeterminate"`
+- invalid: define el color de relleno o de línea como el color de relleno del elemento inválido. ejemplo: `fill="invalid"`
+- last-child: define el color de relleno o de línea como el color de relleno del último hijo. ejemplo: `fill="last-child"`
+- last-of-type: define el color de relleno o de línea como el color de relleno del último tipo. ejemplo: `fill="last-of-type"`
+- linear-gradient: define el color de relleno o de línea como un gradiente lineal. ejemplo: `fill="linear-gradient"`
+- nth-child: define el color de relleno o de línea como el color de relleno del n-ésimo hijo. ejemplo: `fill="nth-child(1)"`
+- nth-last-child: define el color de relleno o de línea como el color de relleno del n-ésimo hijo desde el final. ejemplo: `fill="nth-last-child(1)"`
+- nth-last-of-type: define el color de relleno o de línea como el color de relleno del n-ésimo tipo desde el final. ejemplo: `fill="nth-last-of-type(1)"`
+- nth-of-type: define el color de relleno o de línea como el color de relleno del n-ésimo tipo. ejemplo: `fill="nth-of-type(1)"`
+- only-child: define el color de relleno o de línea como el color de relleno del único hijo. ejemplo: `fill="only-child"`
+- only-of-type: define el color de relleno o de línea como el color de relleno del único tipo. ejemplo: `fill="only-of-type"`
+- optional: define el color de relleno o de línea como el color de relleno del elemento opcional. ejemplo: `fill="optional"`
+- out-of-range: define el color de relleno o de línea como el color de relleno del elemento fuera del rango. ejemplo: `fill="out-of-range"`
+- parent: define el color de relleno o de línea como el color de relleno del padre. ejemplo: `fill="parent"`
+- pattern: define el color de relleno o de línea como un patrón. ejemplo: `fill="pattern"`
+- radial-gradient: define el color de relleno o de línea como un gradiente radial. ejemplo: `fill="radial-gradient"`
+- required: define el color de relleno o de línea como el color de relleno del elemento requerido. ejemplo: `fill="required"`
+- root: define el color de relleno o de línea como el color de relleno de la raíz. ejemplo: `fill="root"`
+- self: define el color de relleno o de línea como el color de relleno del elemento. ejemplo: `fill="self"`
+- target: define el color de relleno o de línea como el color de relleno del elemento objetivo. ejemplo: `fill="target"`
+- user-active: define el color de relleno o de línea como el color de relleno del elemento de actividad de usuario. ejemplo: `fill="user-active"`
+- user-error: define el color de relleno o de línea como el color de relleno del elemento de error de usuario. ejemplo: `fill="user-error"`
+- user-focus-visible: define el color de relleno o de línea como el color de relleno del elemento de enlace de usuario. ejemplo: `fill="user-focus-visible"`
+- user-focus-within: define el color de relleno o de línea como el color de relleno del elemento de enlace de usuario. ejemplo: `fill="user-focus-within"`
+- user-focus: define el color de relleno o de línea como el color de relleno del elemento de enlace de usuario. ejemplo: `fill="user-focus"`
+- user-inactive: define el color de relleno o de línea como el color de relleno del elemento de inactividad de usuario. ejemplo: `fill="user-inactive"`
+- user-invalid: define el color de relleno o de línea como el color de relleno del elemento de invalidación de usuario. ejemplo: `fill="user-invalid"`
+- user-link: define el color de relleno o de línea como el color de relleno del elemento de enlace de usuario. ejemplo: `fill="user-link"`
+- user-pending: define el color de relleno o de línea como el color de relleno del elemento de pendiente de usuario. ejemplo: `fill="user-pending"`
+- user-valid: define el color de relleno o de línea como el color de relleno del elemento de validación de usuario. ejemplo: `fill="user-valid"`
+- user-visited: define el color de relleno o de línea como el color de relleno del elemento de visitado de usuario. ejemplo: `fill="user-visited"`
+- user-warning: define el color de relleno o de línea como el color de relleno del elemento de advertencia de usuario. ejemplo: `fill="user-warning"`
+- valid: define el color de relleno o de línea como el color de relleno del elemento válido. ejemplo: `fill="valid"`
+
+### Unidades de color
+
+Se pueden usar las siguientes unidades de color:
+
+- basic color keywords: define el color de relleno o de línea como el color de relleno del elemento. ejemplo: `fill="red"`
+- numerical color values: define el color de relleno o de línea como el color de relleno del elemento. ejemplo: `fill="rgb(255, 0, 0)"`
+  - rgb: define el color de relleno o de línea como el color de relleno del elemento. ejemplo: `fill="rgb(255, 0, 0)"`
+  - rgba: define el color de relleno o de línea como el color de relleno del elemento. ejemplo: `fill="rgba(255, 0, 0, 0.5)"`
+  - hsl: define el color de relleno o de línea como el color de relleno del elemento. ejemplo: `fill="hsl(0, 100%, 50%)"`
+  - hsla: define el color de relleno o de línea como el color de relleno del elemento. ejemplo: `fill="hsla(0, 100%, 50%, 0.5)"`
+  - transparent: define el color de relleno o de línea como el color de relleno del elemento. ejemplo: `fill="transparent"`
+- extended color keywords: define el color de relleno o de línea como el color de relleno del elemento. ejemplo: `fill="aliceblue"`
+- `currentColor`: define el color de relleno o de línea como el color de relleno del elemento. ejemplo: `fill="currentColor"`
+- CSS system colors: define el color de relleno o de línea como el color de relleno del elemento. ejemplo: `fill="Canvas"`
+
+### Fill-rule property
+
+La propiedad fill-rule define el algoritmo para determinar qué partes de un elemento se incluyen en el área de relleno.
+
+- nonezero rule: define un camino como un área de relleno si atraviesa el camino en sentido horario. ejemplo: `fill-rule="nonzero"`
+- evenodd rule: define un camino como un área de relleno si atraviesa el camino en sentido horario. ejemplo: `fill-rule="evenodd"`
+
+### stroke
+
+La propiedad stroke define el color de línea de un elemento.
+
+Aquí se puede usar color, gradiente o patrón.
+
+Cuando se aplique stroke hay que tener en cuenta en agrandar el viewBox para que no se corte la línea.
+
+### stroke-width
+
+La propiedad stroke-width define el ancho de línea de un elemento.
+
+### stroke-opacity
+
+La propiedad stroke-opacity define la opacidad de línea de un elemento.
+
+### stroke-linecap
+
+La propiedad stroke-linecap define el estilo de línea de un elemento.
+
+Puede ser:
+
+- `butt`: el extremo de la línea es recto sin extenderse, es el valor por defecto.
+- `round`: el extremo de la línea es redondeado, expande el ancho de línea en la mitad del radio del círculo con el mismo valor definido en stroke-width.
+- `square`: el extremo de la línea es cuadrado, expande el ancho de línea en el valor definido en stroke-width.
+
+### stroke-linejoin
+
+La propiedad stroke-linejoin define el estilo de unión de línea de un elemento.
+
+Puede ser:
+
+- `bevel`: el extremo de la línea es cuadrado, expande el ancho de línea en el valor definido en stroke-width.
+- `round`: el extremo de la línea es redondeado, expande el ancho de línea en la mitad del radio del círculo con el mismo valor definido en stroke-width.
+- `miter`: el extremo de la línea es recto sin extenderse, es el valor por defecto.
+- `arcs`: el extremo de la línea es cuadrado, expande el ancho de línea en el valor definido en stroke-width.
+- `miter-clip`: el extremo de la línea es cuadrado, expande el ancho de línea en el valor definido en stroke-width.
 
 ## ETIQUETAS
+
+El siguiente es un gráfico de las etiquetas SVG y sus atributos.
+
+```mermaid
+graph
+A(svg) --> B(path)
+A(svg) --> C(basic shapes)
+A(svg) --> D(text content elements)
+D(text content elements) --> E(text)
+D(text content elements) --> F(tspan)
+C(basic shapes) --> G(rect)
+C(basic shapes) --> H(circle)
+C(basic shapes) --> I(ellipse)
+C(basic shapes) --> J(polyline)
+C(basic shapes) --> K(polygon)
+C(basic shapes) --> L(line)
+```
 
 ### SVG
 

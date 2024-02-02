@@ -112,6 +112,7 @@ Los módulos tienen un controlador para hacer llamados a los utilitarios por med
 Los anteriores módulos hacen llamados a los componentes que tienen configurados los utilitarios granulares a utilizar:
 
 1. ["component00.firstPoke"](./PoGoPoGe/component00.firstPoke.json)
+2. ["component01.pokeDetail"](./PoGoPoGe/component01.pokeDetail.json)
 
 Los utilitarios son secuencias de bloques preestablecidos que reciben payload de entrada para modificar su comportamiento, los cuales están distribuidos en los siguientes niveles:
 

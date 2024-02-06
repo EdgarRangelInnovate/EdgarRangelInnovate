@@ -417,6 +417,12 @@ La etiqueta `rect` define un rectángulo.
 | `x`                 | Define la posición en el eje x del rectángulo.                | `x="0"`                           |
 | `y`                 | Define la posición en el eje y del rectángulo.                | `y="0"`                           |
 
+Ejemplos:
+
+1. ![Rectángulo 00](../assets/img/hardSkills/svg/rect00.svg)
+2. ![Rectángulo 01](../assets/img/hardSkills/svg/rect01.svg)
+3. ![Rectángulo 02](../assets/img/hardSkills/svg/rect02.svg)
+
 ### circle
 
 La etiqueta `circle` define un círculo.
@@ -455,6 +461,14 @@ La etiqueta `circle` define un círculo.
 | `visibility`        | Define si se muestra o no el círculo.                      | `visibility="visible"`            |
 | `word-spacing`      | Define el espaciado de palabra del círculo.                | `word-spacing="0"`                |
 | `writing-mode`      | Define el modo de escritura del círculo.                   | `writing-mode="lr-tb"`            |
+
+Ejemplos:
+
+1. ![Círculo 00](../assets/img/hardSkills/svg/circle00.svg)
+2. ![Círculo 01](../assets/img/hardSkills/svg/circle01.svg)
+3. ![Círculo 02](../assets/img/hardSkills/svg/circle02.svg)
+4. ![Círculo 03](../assets/img/hardSkills/svg/circle03.svg)
+5. [Círculo 04](../assets/img/hardSkills/svg/circle04.html ":include :type=iframe width=100% height=400px")
 
 ### ellipse
 

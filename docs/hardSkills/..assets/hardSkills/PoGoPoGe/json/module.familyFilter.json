@@ -1,0 +1,81 @@
+[
+  {
+    "key": "component.click",
+    "desc": "firstPoke",
+    "payload": {
+      "x": 21,
+      "y": 31
+    }
+  },
+  {
+    "key": "component.click",
+    "desc": "pokeDetailMenu",
+    "payload": {
+      "x": 87,
+      "y": 92
+    }
+  },
+  {
+    "key": "component.spreadClick",
+    "desc": "pokeDetailMenuPokedex",
+    "payload": {
+      "origin": {
+        "x": 87,
+        "y": 0
+      },
+      "offset": {
+        "x": 0,
+        "y": 10
+      }
+    }
+  },
+  {
+    "key": "component.swipe",
+    "desc": "pokeSwipeVertical",
+    "payload": {
+      "start": {
+        "x": 50,
+        "y": 80
+      },
+      "end": {
+        "x": 50,
+        "y": 20
+      }
+    }
+  },
+  {
+    "key": "component.click",
+    "desc": "seeAllButton",
+    "payload": {
+      "x": 50,
+      "y": 84
+    }
+  },
+  {
+    "key": "component.click",
+    "desc": "openFilterText",
+    "payload": {
+      "x": 27,
+      "y": 18
+    }
+  },
+  {
+    "key": "component.getActualGBoardText",
+    "desc": "getActualGBoardText"
+  },
+  {
+    "key": "component.appendGBoardText",
+    "desc": "appendGBoardText+",
+    "payload": {
+      "preposition": "+"
+    }
+  },
+  {
+    "key": "component.click",
+    "desc": "acceptGboardText",
+    "payload": {
+      "x": 90,
+      "y": 61
+    }
+  }
+]

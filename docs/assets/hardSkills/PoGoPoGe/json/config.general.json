@@ -1,0 +1,15 @@
+{
+  "display": {
+    "size": 1,
+    "offset": {
+      "x": 0,
+      "y": 0
+    }
+  },
+  "interact": {
+    "velocity": 0.5,
+    "delay": 5,
+    "times": 5,
+    "swipe": 1200
+  }
+}

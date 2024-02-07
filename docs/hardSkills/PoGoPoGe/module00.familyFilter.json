@@ -1,8 +1,0 @@
-[
-  {"key":"component00.firstPoke","payload":{}},
-  {"key":"component01.pokeDetail","payload":{}},
-  {"key":"component02.pokeDetailPokedex","payload":{}},
-  {"key":"component03.seeAllPoke","payload":{}},
-  {"key":"component04.editFilter","payload":{}},
-  {"key":"component05.gboardAppend","payload":{"character":"+"}}
-]

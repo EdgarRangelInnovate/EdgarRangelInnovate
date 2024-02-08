@@ -1,0 +1,25 @@
+[
+  {
+    "key": "component.setGBoardText",
+    "desc": "setGBoardTextFromVariable",
+    "payload": {
+      "text": "{newText}"
+    }
+  },
+  {
+    "key": "component.click",
+    "desc": "acceptGboardText",
+    "payload": {
+      "x": 90,
+      "y": 61
+    }
+  },
+  {
+    "key": "component.click",
+    "desc": "acceptPokemonName",
+    "payload": {
+      "x": 50,
+      "y": 55
+    }
+  }
+]

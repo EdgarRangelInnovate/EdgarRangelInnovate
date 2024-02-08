@@ -1,0 +1,17 @@
+[
+  {
+    "key": "component.setGBoardText",
+    "desc": "appendGBoardText+",
+    "payload": {
+      "text": "+{actualText}"
+    }
+  },
+  {
+    "key": "component.click",
+    "desc": "acceptGboardText",
+    "payload": {
+      "x": 90,
+      "y": 61
+    }
+  }
+]

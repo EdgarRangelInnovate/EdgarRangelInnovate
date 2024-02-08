@@ -1,0 +1,10 @@
+[
+  {
+    "key": "component.click",
+    "desc": "closePokemonDetails",
+    "payload": {
+      "x": 50,
+      "y": 92
+    }
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "key": "component.click",
+    "desc": "firstPoke",
+    "payload": {
+      "x": 21,
+      "y": 31
+    }
+  },
+  {
+    "key": "component.click",
+    "desc": "pokeDetailMenu",
+    "payload": {
+      "x": 87,
+      "y": 92
+    }
+  },
+  {
+    "key": "component.click",
+    "desc": "pokeDetailMenuAppraise",
+    "payload": {
+      "x": 87,
+      "y": 77
+    }
+  },
+  {
+    "key": "component.click",
+    "desc": "pokeDetailAppraise",
+    "payload": {
+      "x": 50,
+      "y": 77
+    }
+  },
+  {
+    "key": "component.click",
+    "desc": "pokegenieButtonClick",
+    "payload": {
+      "x": 7,
+      "y": 50
+    }
+  },
+  {
+    "key": "component.validatePokegenieLayout",
+    "desc": "validatePokegenieLayout"
+  },
+  {
+    "key": "component.click",
+    "desc": "closePokegenieLayout",
+    "payload": {
+      "x": 10,
+      "y": 10
+    }
+  },
+  {
+    "key": "component.click",
+    "desc": "closeAppraiseLayout",
+    "payload": {
+      "x": 50,
+      "y": 60
+    }
+  },
+  {
+    "key": "component.click",
+    "desc": "openEditPokeNameText",
+    "payload": {
+      "x": 42,
+      "y": 42
+    }
+  },
+  {
+    "key": "component.getActualGBoardText",
+    "desc": "getActualGBoardText"
+  },
+  {
+    "key": "component.setNewTextFromClipboard",
+    "desc": "setNewTextFromClipboard"
+  }
+]

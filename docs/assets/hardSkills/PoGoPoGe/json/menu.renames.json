@@ -1,7 +1,29 @@
-{
-  "renamePokegenie": "Pokegenie múltiple",
-  "actualCostume": "Disfrazar individual",
-  "multiDeclassified": "Desclasificar múltiple",
-  "multiNameEvolve": "Evolucionar múltiple",
-  "multiResetName": "Reiniciar nombre"
-}
+[
+  {
+    "key": "menu",
+    "payload": {
+      "notification": {
+        "title": "Filtros para Pokémons",
+        "message": "Todas las funciones de filtrado y búsqueda en un solo lugar",
+        "icon": "content://com.llamalab.automate.provider/icons/61687",
+        "cancellable": 1
+      },
+      "dialog": {
+        "title": "Filtros y búsquedas para Pokémons",
+        "choices": {
+          "familyFilter": "Filtrar por familia",
+          "declassifiedFilter": "Filtrar por desclasificados",
+          "sort": 1,
+          "show": 1
+        }
+      }
+    }
+  },
+  {
+    "renamePokegenie": "Pokegenie múltiple",
+    "actualCostume": "Disfrazar individual",
+    "multiDeclassified": "Desclasificar múltiple",
+    "multiNameEvolve": "Evolucionar múltiple",
+    "multiResetName": "Reiniciar nombre"
+  }
+]

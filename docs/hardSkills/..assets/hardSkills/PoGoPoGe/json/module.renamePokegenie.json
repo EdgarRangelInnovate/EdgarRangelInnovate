@@ -1,14 +1,6 @@
 [
   {
     "key": "component.click",
-    "desc": "firstPoke",
-    "payload": {
-      "x": 21,
-      "y": 31
-    }
-  },
-  {
-    "key": "component.click",
     "desc": "pokeDetailMenu",
     "payload": {
       "x": 87,

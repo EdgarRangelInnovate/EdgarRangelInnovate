@@ -47,7 +47,7 @@ SVG admite los siguientes contenedores:
 - `<desc>`: define una descripción para el gráfico SVG.
 - `<title>`: define un título para el gráfico SVG.
 
-![Alt text](../assets/img/hardSkills/svg/container-element.png)
+![Alt text](../assets/hardSkills/img/container-element.png)
 
 ### Formas básicas
 
@@ -419,9 +419,9 @@ La etiqueta `rect` define un rectángulo.
 
 Ejemplos:
 
-1. ![Rectángulo 00](../assets/img/hardSkills/svg/rect00.svg)
-2. ![Rectángulo 01](../assets/img/hardSkills/svg/rect01.svg)
-3. ![Rectángulo 02](../assets/img/hardSkills/svg/rect02.svg)
+1. ![Rectángulo 00](../assets/hardSkills/svg/rect00.svg)
+2. ![Rectángulo 01](../assets/hardSkills/svg/rect01.svg)
+3. ![Rectángulo 02](../assets/hardSkills/svg/rect02.svg)
 
 ### circle
 
@@ -464,11 +464,11 @@ La etiqueta `circle` define un círculo.
 
 Ejemplos:
 
-1. ![Círculo 00](../assets/img/hardSkills/svg/circle00.svg)
-2. ![Círculo 01](../assets/img/hardSkills/svg/circle01.svg)
-3. ![Círculo 02](../assets/img/hardSkills/svg/circle02.svg)
-4. ![Círculo 03](../assets/img/hardSkills/svg/circle03.svg)
-5. [Círculo 04](../assets/img/hardSkills/svg/circle04.html ":include :type=iframe width=100% height=400px")
+1. ![Círculo 00](../assets/hardSkills/svg/circle00.svg)
+2. ![Círculo 01](../assets/hardSkills/svg/circle01.svg)
+3. ![Círculo 02](../assets/hardSkills/svg/circle02.svg)
+4. ![Círculo 03](../assets/hardSkills/svg/circle03.svg)
+5. [Círculo 04](../assets/hardSkills/svg/circle04.html ":include :type=iframe width=100% height=400px")
 
 ### ellipse
 

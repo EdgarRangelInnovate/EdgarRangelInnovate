@@ -32,6 +32,12 @@ El sistema de coordenadas de SVG se define con el atributo `viewBox` de la etiqu
 
 El origen del sistema de coordenadas se define en la esquina superior izquierda del rectángulo. El eje `x` se define horizontalmente a la derecha, y el eje `y` se define verticalmente hacia abajo.
 
+Ejemplos de viewBox:
+
+1. ![Alt text](../assets/hardSkills/img/container-element.png)
+2. [viewBox00](../assets/hardSkills/html/viewbox00.html ":include :type=iframe width=100% height=400px scroll=auto")
+3. [viewBox01](../assets/hardSkills/html/viewbox01.html ":include :type=iframe width=100% height=400px scroll=auto")
+
 ### Contenedores
 
 SVG admite los siguientes contenedores:
@@ -46,8 +52,6 @@ SVG admite los siguientes contenedores:
 - `<foreignObject>`: define un objeto externo para el gráfico SVG.
 - `<desc>`: define una descripción para el gráfico SVG.
 - `<title>`: define un título para el gráfico SVG.
-
-![Alt text](../assets/img/hardSkills/svg/container-element.png)
 
 ### Formas básicas
 
@@ -94,6 +98,11 @@ SVG admite los estilos en diferentes niveles de importancia:
 2. Id: se define en el atributo `id` del elemento SVG. ejemplo: `<svg id="mySVG">`
 3. Class: se define en el atributo `class` del elemento SVG. ejemplo: `<svg class="mySVG">`
 4. Element and pseudo-element: se define en el elemento SVG. ejemplo: `<svg>`
+
+Ejemplos:
+
+1. [svg con estilos 00](../assets/hardSkills/html/svg00.html ":include :type=iframe width=100% height=400px :scrolling=auto")
+2. [svg con estilos 01](../assets/hardSkills/html/svg01.html ":include :type=iframe width=100% height=400px :scrolling=auto")
 
 ## Pintado
 
@@ -241,6 +250,10 @@ Puede ser:
 - `miter`: el extremo de la línea es recto sin extenderse, es el valor por defecto.
 - `arcs`: el extremo de la línea es cuadrado, expande el ancho de línea en el valor definido en stroke-width.
 - `miter-clip`: el extremo de la línea es cuadrado, expande el ancho de línea en el valor definido en stroke-width.
+
+Ejemplo:
+
+1. ![stroke-linejoin](../assets/hardSkills/svg/stroke-linejoin.svg)
 
 ## ETIQUETAS
 
@@ -419,9 +432,10 @@ La etiqueta `rect` define un rectángulo.
 
 Ejemplos:
 
-1. ![Rectángulo 00](../assets/img/hardSkills/svg/rect00.svg)
-2. ![Rectángulo 01](../assets/img/hardSkills/svg/rect01.svg)
-3. ![Rectángulo 02](../assets/img/hardSkills/svg/rect02.svg)
+1. ![Rectángulo 00](../assets/hardSkills/svg/rect00.svg)
+2. ![Rectángulo 01](../assets/hardSkills/svg/rect01.svg)
+3. ![Rectángulo 02](../assets/hardSkills/svg/rect02.svg)
+4. ![Rectángulo 03](../assets/hardSkills/svg/rect03.svg)
 
 ### circle
 
@@ -464,11 +478,11 @@ La etiqueta `circle` define un círculo.
 
 Ejemplos:
 
-1. ![Círculo 00](../assets/img/hardSkills/svg/circle00.svg)
-2. ![Círculo 01](../assets/img/hardSkills/svg/circle01.svg)
-3. ![Círculo 02](../assets/img/hardSkills/svg/circle02.svg)
-4. ![Círculo 03](../assets/img/hardSkills/svg/circle03.svg)
-5. [Círculo 04](../assets/img/hardSkills/svg/circle04.html ":include :type=iframe width=100% height=400px")
+1. ![Círculo 00](../assets/hardSkills/svg/circle00.svg)
+2. ![Círculo 01](../assets/hardSkills/svg/circle01.svg)
+3. ![Círculo 02](../assets/hardSkills/svg/circle02.svg)
+4. ![Círculo 03](../assets/hardSkills/svg/circle03.svg)
+5. [Círculo 04](../assets/hardSkills/html/circle00.html ":include :type=iframe width=100% height=400px :scrolling=auto")
 
 ### ellipse
 
@@ -510,6 +524,10 @@ La etiqueta `ellipse` define una elipse.
 | `word-spacing`      | Define el espaciado de palabra de la elipse.                | `word-spacing="0"`                |
 | `writing-mode`      | Define el modo de escritura de la elipse.                   | `writing-mode="lr-tb"`            |
 
+Ejemplos:
+
+1. [Elipse 00](../assets/hardSkills/html/circleEclipse00.html ":include :type=iframe width=100% height=400px :scrolling=auto")
+
 ### line
 
 La etiqueta `line` define una línea.
@@ -550,6 +568,11 @@ La etiqueta `line` define una línea.
 | `word-spacing`      | Define el espaciado de palabra de la línea.                   | `word-spacing="0"`                |
 | `writing-mode`      | Define el modo de escritura de la línea.                      | `writing-mode="lr-tb"`            |
 
+Ejemplos:
+
+1. ![Línea 00](../assets/hardSkills/svg/line00.svg)
+2. [Línea 01](../assets/hardSkills/html/line00.html ":include :type=iframe width=100% height=400px :scrolling=auto")
+
 ### polyline
 
 La etiqueta `polyline` define una polilínea.
@@ -589,6 +612,11 @@ Los atributos de la polilinea se pueden escribir separandolos por un espacio, po
 | `word-spacing`      | Define el espaciado de palabra de la polilínea.                | `word-spacing="0"`                 |
 | `writing-mode`      | Define el modo de escritura de la polilínea.                   | `writing-mode="lr-tb"`             |
 
+Ejemplos:
+
+1. ![Polilínea 00](../assets/hardSkills/svg/polyline00.svg)
+2. ![Polilínea 01](../assets/hardSkills/svg/polyline01.svg)
+
 ### polygon
 
 La etiqueta `polygon` define un polígono.
@@ -627,6 +655,13 @@ Los atributos del polígono se pueden escribir separandolos por un espacio, por 
 | `visibility`        | Define si se muestra o no el polígono.                      | `visibility="visible"`             |
 | `word-spacing`      | Define el espaciado de palabra del polígono.                | `word-spacing="0"`                 |
 | `writing-mode`      | Define el modo de escritura del polígono.                   | `writing-mode="lr-tb"`             |
+
+Ejemplos:
+
+1. ![Polígono 00](../assets/hardSkills/svg/polygon00.svg)
+2. ![Polígono 01](../assets/hardSkills/svg/polygon01.svg)
+3. ![Polígono 02](../assets/hardSkills/svg/polygon02.svg)
+4. ![Polígono 03](../assets/hardSkills/svg/polygon03.svg)
 
 ### path
 
@@ -685,6 +720,21 @@ Los comandos que recibe en el atributo `d` son los siguientes:
 | `T`     | Dibuja una curva de Bezier desde la posición actual hasta la especificada, usando un punto de control.   | `T 200 300`                 |
 | `A`     | Dibuja un arco de elipse desde la posición actual hasta la especificada.                                 | `A 150 150 0 0 0 200 300`   |
 | `Z`     | Cierra la ruta.                                                                                          | `Z`                         |
+
+Ejemplos:
+
+1. ![Path00](../assets/hardSkills/svg/path00.svg)
+2. ![Path01](../assets/hardSkills/svg/path01.svg)
+3. ![Path02](../assets/hardSkills/svg/path02.svg)
+4. ![Path03](../assets/hardSkills/svg/path03.svg)
+5. ![Path04](../assets/hardSkills/svg/path04.svg)
+6. ![Path05](../assets/hardSkills/svg/path05.svg)
+7. ![Path06](../assets/hardSkills/svg/path06.svg)
+8. ![Path07](../assets/hardSkills/svg/path07.svg)
+9. ![Path08](../assets/hardSkills/svg/path08.svg)
+10. ![Path09](../assets/hardSkills/svg/path09.svg)
+11. ![Path10](../assets/hardSkills/svg/path10.svg)
+12. ![Path11](../assets/hardSkills/svg/path11.svg)
 
 ### arc
 

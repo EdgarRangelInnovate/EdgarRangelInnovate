@@ -63,7 +63,7 @@ Mis habilidades técnicas son catalogadas así:
 | Docsify                                        | :star::star::star::star::star: |
 | Excel                                          | :star::star::star::star::star: |
 | Figma                                          | :star:                         |
-| Git                                            | :star::star::star:             |
+| [Git](./hardSkills/git.md)                     | :star::star::star:             |
 | GitHub                                         | :star::star::star::star:       |
 | GMail                                          | :star::star::star::star::star: |
 | Google Calendar                                | :star::star::star::star::star: |
@@ -107,3 +107,7 @@ Mis habilidades técnicas son catalogadas así:
 ## DESIGN
 
 ## OTHERS
+
+| Tipo     | Nombre                         | Nivel  |
+| -------- | ------------------------------ | ------ |
+| Servidor | [Nginx](./hardSkills/nginx.md) | :star: |

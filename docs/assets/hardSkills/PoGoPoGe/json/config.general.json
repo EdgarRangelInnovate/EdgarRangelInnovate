@@ -7,9 +7,10 @@
     }
   },
   "interact": {
-    "velocity": 0.5,
+    "velocity": 0.8,
     "delay": 5,
     "times": 5,
     "swipe": 1200
-  }
+  },
+  "iteration": 0
 }

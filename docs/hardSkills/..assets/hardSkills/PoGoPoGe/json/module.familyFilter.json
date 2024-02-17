@@ -62,20 +62,5 @@
   {
     "key": "component.getActualGBoardText",
     "desc": "getActualGBoardText"
-  },
-  {
-    "key": "component.appendGBoardText",
-    "desc": "appendGBoardText+",
-    "payload": {
-      "preposition": "+"
-    }
-  },
-  {
-    "key": "component.click",
-    "desc": "acceptGboardText",
-    "payload": {
-      "x": 90,
-      "y": 61
-    }
   }
 ]

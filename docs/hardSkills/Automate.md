@@ -42,6 +42,12 @@ Los siguientes son json de configuraciones:
 Estos json son los llamados hacia los componentes;
 
 1. ["module.familyFilter"](..assets/hardSkills/PoGoPoGe/json/module.familyFilter.json)
+2. ["module.familyFilter variables"](..assets/hardSkills/PoGoPoGe/json/module.familyFilterVariables.json)
+3. ["module.renamePokegenie controller"](..assets/hardSkills/PoGoPoGe/json/module.renamePokegenieController.json)
+4. ["module.renamePokegenie"](..assets/hardSkills/PoGoPoGe/json/module.renamePokegenie.json)
+5. ["module.renamePokegenie Variables"](..assets/hardSkills/PoGoPoGe/json/module.renamePokegenieVariables.json)
+6. ["module.renamePokegenie true"](..assets/hardSkills/PoGoPoGe/json/module.renamePokegenieTrue.json)
+7. ["module.renamePokegenie false"](..assets/hardSkills/PoGoPoGe/json/module.renamePokegenieFalse.json)
 
 ## Para la gestión de la batería
 

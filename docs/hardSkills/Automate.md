@@ -22,7 +22,19 @@ En la portada de la aplicación se tiene la siguiente documentación:
 
 Para este juego se crea una arquitectura de llamados mediante json, los cuales están distribuidos en callers para módulos y para componentes:
 
-#### Menus
+#### Callers
+
+Los Callers, están enfocados en estandarizar tareas repetitivas, como por ejemplo:
+
+1. [Menus](../assets/hardSkills/PoGoPoGe/json/menus.json)
+
+Estos callers tiene la capacidad de llamar a procesos estandarizados y a procesos dinámicos, los cuales son llamados a través de json.
+
+#### Menús
+
+Los menús o botones generados en las notificaciones son los siguientes:
+
+1. [filters&Search](../assets/hardSkills/PoGoPoGe/json/filters&Search.json)
 
 Los menús están en un llamado simple de diccionarios de datos donde la llave es el nombre del módulo y el valor es la etiqueta que se muestra en el menú:
 
@@ -35,7 +47,7 @@ Los menús están en un llamado simple de diccionarios de datos donde la llave e
 
 Los siguientes son json de configuraciones:
 
-1. [config.general](../assets/hardSkills/PoGoPoGe/json/config.general.json)
+1. [config.general](../assets/hardSkills/PoGoPoGe/json/config.json)
 
 #### Procesos
 

@@ -1,0 +1,15 @@
+{
+  "notification": {
+    "title": "Filtros para Pokémons",
+    "description": "Todas las funciones de filtrado y búsqueda de Pokémons se encuentran en la sección de filtros.",
+    "large-icon": "content://com.llamalab.automate.provider/icons/61687",
+    "picture-URI": "content://com.android.providers.downloads.documents/document/raw%3A%2Fstorage%2Femulated%2F0%2FDownload%2F1408992.png"
+  },
+  "dialog": {
+    "title": "Filtros y búsqueda de Pokémons",
+    "choices": {
+      "familyFilter": "Buscador de familias",
+      "declassifiedFilter": "Buscar desclasificados"
+    }
+  }
+}

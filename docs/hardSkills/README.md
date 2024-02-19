@@ -57,6 +57,7 @@ Mis habilidades técnicas son catalogadas así:
 | [Automate(llamalab)](./hardSkills/Automate.md) | :star::star::star::star:       |
 | Automator                                      | :star:                         |
 | Azure DevOps                                   | :star::star::star::star::star: |
+| [Appsheet](./hardSkills/Appsheet.md)           | :star::star::star::star:       |
 | Bizagi                                         | :star::star::star::star:       |
 | Catalina                                       | :star::star::star::star::star: |
 | Docker                                         | :star::star::star::star::star: |

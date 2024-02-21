@@ -23,11 +23,9 @@ All pipelines and deployments are managed for the [fury][url-fury] application, 
 
 | SCOPE  | URL                                              | CONFIG                                                                                                                         |
 | ------ | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
-| local  | <https://dev.mercadopago.com.br:8443>            | [default.js][config-local]                                                                                                     |
 | dev    | <https://path part/>                             | [dev.js][config-dev]                                                                                                           |
 | stage  | <https://path part/>                             | [stage.js][config-stage]                                                                                                       |
 | prod   | <https://path part/>                             | [default-production.js][config-prod]                                                                                           |
-| mobile | mercadopago://cx/help?url=[_url of environment_] | Mobile deep links can be mixed with other environments and on mobile you can open the link by sending it as a message on Slack |
 
 The variants of each url are configured in the [routes][config-routes] file.
 
@@ -53,9 +51,6 @@ The aforementioned URLs need to be complemented with a path comprised of the fol
 
 The following FTs can be consulted in detail with the help of the following curl
 
-```curl
-curl --location 'https://internal-api.mercadolibre.com/cx/support/configurations/cx-mobile-share-faqs'
-```
 
 |  changed   | lists | sites | ranges | business | platform | name        | changed_by   |
 | :--------: | :---: | :---: | :----: | :------: | :------: | ----------- | ------------ |
@@ -97,7 +92,7 @@ If you are developing a production application, we recommend updating the config
 
 ## License
 
-© 2023 Mercado Libre
+© 2023 Alejandro Rangel
 
 [badge-i18n]: https://img.shields.io/badge/-i18next-26A69A?style=plastic&logo=i18next&labelColor=black
 [badge-jest]: https://img.shields.io/badge/-29.6.2-C21325?logo=jest&logoColor=C21325&labelColor=white
@@ -111,7 +106,6 @@ If you are developing a production application, we recommend updating the config
 [badge-storybook]: https://img.shields.io/badge/-7.0.26-FF4785?style=plastic&logo=storybook&labelColor=white
 [badge-ts]: https://img.shields.io/badge/-4.9.5-3178C6?style=plastic&logo=typescript&labelColor=black
 [badge-webpack]: https://img.shields.io/badge/-5.88.2-8DD6F9?style=plastic&logo=webpack&labelColor=2B3A42
-[docs-ff]: https://sites.google.com/mercadolibre.com.co/cx-help/tech/feature-flags
 [gif-app]: ./docs/assets/img/app.gif
 [url-badge]: https://shields.io/
 [url-decode]: https://www.urldecoder.org/

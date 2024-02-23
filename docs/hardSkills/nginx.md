@@ -143,9 +143,15 @@ curl -k https://<dominio expuesto a internet>/<sub-folder>
 o
 
 ```bash
-test_rule all_fe <dominio expuesto> /<path a probar> <url interna> -H "<pseudomino>-ssl:1"
+test_rule all_fe <dominio expuesto> /<path a probar> <url interna> -H "<pseudónimo>-ssl:1"
 
 test_status_with_redirect <Dominio expuesto> /<path a probar> <301 código esperado> '<path completo>'
+```
+
+Para probar junto con la variable de la cookie, se puede hacer lo siguiente agregándola al final.
+
+```bash
+test_rule GET <dominio expuesto> "/<Path a probar>" <url interna> -H "<pseudónimo>-ssl:1" -H "cookie-scope:dev"
 ```
 
 ## COMANDOS

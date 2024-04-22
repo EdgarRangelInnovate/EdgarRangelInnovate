@@ -2,9 +2,7 @@
 
 - [**Home**](./README.md)
 - [**Trayectoria**](./trayectory.md)
-- [**Conocimientos**](./knowledge.md)
-  - [**Hard Skills**](./hardSkills/README.md)
-  - [**Soft Skills**](./softSkills/README.md)
+- [**Conocimientos**](./knowledge/README.md)
 - [**Artículos**](./contextual-features.md)
 
 ---

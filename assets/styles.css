@@ -1,3 +1,10 @@
+.app-nav {
+  margin: 25px 60px 0 0;
+  position: fixed;
+  right: 0;
+  text-align: right;
+  z-index: 10;
+}
 .sidebar-nav {
   margin-left: 20px;
 }

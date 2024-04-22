@@ -39,6 +39,10 @@ This glossary offers a concise overview of the key concepts discussed in this gu
 
 ## B
 
+**BAM**: Business Activity Monitoring.
+
+**BI**: Business Intelligence.
+
 **BPM**: De las siglas en inglés Business Process Management.
 
 **BPMS**: [BPM](#b) system.
@@ -56,6 +60,8 @@ This glossary offers a concise overview of the key concepts discussed in this gu
 ## H
 
 ## I
+
+IP: En el contexto de BPM es la [inteligencia de procesos](/knowledge/hard-skills/Maestría/Gestión-rendimiento-implementación-BPM/README.md#inteligencia-de-procesos-ip)
 
 ## J
 

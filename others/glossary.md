@@ -41,6 +41,8 @@ This glossary offers a concise overview of the key concepts discussed in this gu
 
 **BAM**: Business Activity Monitoring.
 
+**BFF**: Backend For Frontend [Estrategia para seguridad](/knowledge/hard-skills/security/README.md#bff).
+
 **BI**: Business Intelligence.
 
 **BPM**: De las siglas en inglés Business Process Management.

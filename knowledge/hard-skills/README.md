@@ -40,6 +40,6 @@ Mis habilidades técnicas son catalogadas así:
 
 ## OTHERS
 
-| Tipo     | Nombre                                   | Nivel  |
-| -------- | ---------------------------------------- | ------ |
-| Servidor | [Nginx](./knowledge/hardSkills/nginx.md) | :star: |
+| Tipo     | Nombre | Nivel  |
+| -------- | ------ | ------ |
+| Servidor | Nginx  | :star: |

@@ -1,6 +1,7 @@
 # HARD-SKILLS
 
 - [**LENGUAJES DE PROGRAMACIÓN**](./programing-languages/README.md)
+- [**SOFTWARE**](./software/README.md)
 
 ---
 

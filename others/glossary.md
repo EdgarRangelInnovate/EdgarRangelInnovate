@@ -67,6 +67,8 @@ IP: En el contexto de BPM es la [inteligencia de procesos](/knowledge/hard-skill
 
 ## K
 
+KPI: Key Performance Indicator
+
 ## L
 
 ## M
@@ -84,6 +86,8 @@ IP: En el contexto de BPM es la [inteligencia de procesos](/knowledge/hard-skill
 ## S
 
 ## T
+
+TI: Tecnologías de la información
 
 ## U
 

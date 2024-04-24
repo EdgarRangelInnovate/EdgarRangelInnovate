@@ -2,7 +2,7 @@
 
 Parte de la expertise que se va adquiriendo durante los años de trabajo, es el desarrollo seguro siempre evitando que las comunicaciones via web no tengan vulnerabilidades.
 
-## BACKEND FOR FRONTEND [BFF](/others/glossary.md#b)
+## BACKEND FOR FRONTEND ([BFF](/others/glossary.md#b))
 
 Es una estrategia de seguridad que consiste en tener un backend específicamente diseñado para cada frontend o interfaz de usuario. Esta estrategia se utiliza para optimizar la seguridad de una aplicación al limitar el acceso a datos y funciones específicas de cada frontend y evitar posibles vulnerabilidades o ataques.
 
@@ -33,3 +33,58 @@ Al validar la identidad del usuario que realiza una petición a la aplicación, 
 Para validar la identidad del usuario, es importante implementar medidas de autenticación sólidas, como el uso de contraseñas seguras, autenticación de dos factores, certificados digitales, tokens de acceso o biometría, entre otras técnicas. Además, es importante establecer políticas de gestión de sesiones y control de accesos para garantizar que solo los usuarios autorizados puedan acceder a las funcionalidades y datos específicos de la aplicación.
 
 En resumen, validar que el usuario sea quien hace las peticiones es fundamental para garantizar la integridad de los datos en un software, ya que ayuda a prevenir suplantaciones de identidad y accesos no autorizados a la información. Al implementar medidas sólidas de autenticación y control de accesos, se fortalece la seguridad de la aplicación y se protege la integridad de los datos almacenados en el sistema.
+
+## Seguridad en el ciclo de desarrollo
+
+A continuación se describen tips que pueden mejorar los parámetros de seguridad en las etapas del ciclo del desarrollo de aplicaciones.
+
+### Requerimiento
+
+En etapas tempranas como la definición de RFC se puede hacer un checklist de requerimientos no funcionales donde se incluya elementos de seguridad como **Privacidad** y **Seguridad**.
+
+<!-- Repaso activo
+¡Bienvenido/a al quiz! Este desafío te permitirá poner a prueba tus conocimientos. Durante el quiz, se te presentarán una serie de preguntas, algunas de opción única y otras de opción múltiple, cada una con varias opciones de respuesta. Tu tarea será seleccionar la opción correcta para cada pregunta. ¡Diviértete y buena suerte!
+
+En la reunión de planificación del sprint se incluyen tareas de análisis de requerimientos de un nuevo proyecto/feature ¿Qué tarea de seguridad deberíamos priorizar durante el sprint?
+
+Evaluar e introducir los requerimientos no funcionales de seguridad con ayuda de la Security Cheat-Sheet.
+¡Lo lograste!
+
+Evaluar los requerimientos funcionales con ayuda de la Security Cheat-Sheet.
+Ups, parece que no has acertado. ¡Pero no te rindas!.
+
+Analizar el diseño en búsqueda de potenciales vulnerabilidades.
+¡Vaya! Esa no es la respuesta correcta.
+
+En esta instancia no es necesario priorizar tareas de seguridad.
+Oh, parece que esa no es la respuesta correcta.
+Producto nos compartió los requerimientos funcionales y estamos listos para arrancar a diseñar la aplicación. ¿Qué podría suceder si no tenemos en cuenta los requerimientos no funcionales de seguridad durante la etapa de definición de requerimientos?
+
+Los lineamientos de seguridad no serán tenidos en cuenta durante el diseño de la aplicación.
+Oh, parece que esa no es la respuesta correcta.
+
+Los lineamientos de seguridad no serán introducidos en los casos de uso a programar.
+Ups, parece que no has acertado. ¡Pero no te rindas!.
+
+Los lineamientos de seguridad no serán tenidos en cuenta durante las pruebas de la aplicación.
+¡Vaya! Esa no es la respuesta correcta.
+
+Todas las respuestas anteriores.
+¡Lo lograste! -->
+
+### Diseño
+
+Se puede realizar un **Threat Model** el cual es una practica de desarrollo que permite Analizar, Documentar y Debatir las implicaciones de seguridad. Lo cual ayuda a los equipos a identificar pro-activamente potenciales bugs de seguridad y definir las mitigaciones adecuadas.
+
+El **Threat Model** es muy recomendable hacerlo en etapas tempranas, cuanto mas cerca del producto final, mas difícil será implementar cambios.
+
+Esta tarea lleva en promedio entre 1 a 3 horas de un sprint.
+
+Para realizar la tarea se contemplan 4 etapas.
+
+![threat model](./assets/01.ThreatModel.png)
+
+1. Entender que hace nuestra aplicación y cómo funciona: Todos los miembros del equipo que intervienen en el ejercicio, comprendan como debería funcionar la aplicación. La forma más fácil de hacerlo es mostrar toda la documentación y diagramas que se tengan a mano.([DFD](<https://es.wikipedia.org/wiki/Diagrama_de_flujo_de_datos#:~:text=Un%20diagrama%20de%20flujo%20de,de%20datos%20(dise%C3%B1o%20estructurado).>), [diagrama de flujo](https://es.wikipedia.org/wiki/Diagrama_de_flujo) o [diagrama de secuencia](https://es.wikipedia.org/wiki/Diagrama_de_secuencia)).
+2. Buscar posibles amenazas: Aprovechando la experiencia y conocimiento del equipo, se documentar que comportamiento no debería tener nuestra aplicación, por cada requerimiento funcional. Aquí podemos ampliar las [US](/others/glossary.md#u)
+3. Identificar y priorizar correcciones para mitigar las amenazas.
+4. Probar que el cambio efectivamente mitiga la amenaza.

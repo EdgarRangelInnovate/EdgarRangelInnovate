@@ -63,7 +63,7 @@ This glossary offers a concise overview of the key concepts discussed in this gu
 
 ## I
 
-IP: En el contexto de BPM es la [inteligencia de procesos](/knowledge/hard-skills/Maestría/Gestión-rendimiento-implementación-BPM/README.md#inteligencia-de-procesos-ip)
+**IP**: En el contexto de BPM es la [inteligencia de procesos](/knowledge/hard-skills/Maestría/Gestión-rendimiento-implementación-BPM/README.md#inteligencia-de-procesos-ip)
 
 ## J
 
@@ -92,6 +92,8 @@ KPI: Key Performance Indicator
 TI: Tecnologías de la información
 
 ## U
+
+**US**: User Story o [Historias de usuario](/knowledge/hard-skills/development-methodologies/scrum.md#historias-de-usuario).
 
 ## V
 

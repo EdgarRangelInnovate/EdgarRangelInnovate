@@ -1,8 +1,8 @@
 # NGINX
 
-NGINX es un servidor web y proxy inverso de alto rendimiento y un proxy de correo electrónico. Fue creado por Igor Sysoev y se lanzó por primera vez en 2004. Es software libre y de código abierto, licenciado bajo la Licencia BSD simplificada. NGINX se usa ampliamente para servir contenido estático, así como para funcionar como un proxy inverso para servidores de aplicaciones HTTP. También se usa como un balanceador de carga y un proxy de correo electrónico (IMAP/POP3).
+NGINX es un servidor web y proxy inverso de alto rendimiento y un proxy de correo electrónico. Fue creado por Igor Sysoev en lenguaje C y se lanzó por primera vez en 2004. Es software libre y de código abierto, licenciado bajo la Licencia BSD simplificada. NGINX se usa ampliamente para servir contenido estático, así como para funcionar como un proxy inverso para servidores de aplicaciones HTTP. También se usa como un balanceador de carga y un proxy de correo electrónico (IMAP/POP3).
 
-Allí se puede encontrar la documentación oficial de [NGINX](https://nginx.org/en/docs/)
+Allí se puede encontrar la documentación oficial de [NGINX](https://nginx.org/en/docs/) o en la [wiki](https://es.wikipedia.org/wiki/Nginx)
 
 ## INSTALACIÓN
 

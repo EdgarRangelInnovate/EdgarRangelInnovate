@@ -4,6 +4,7 @@ Software que he aprendido a manejar a lo largo de mi carrera.
 
 | Software                            | Level                          |
 | ----------------------------------- | ------------------------------ |
+| 1Password                           | :star::star::star:             |
 | Adobe                               | :star::star::star::star::star: |
 | [Automate(llamalab)](./Automate.md) | :star::star::star::star:       |
 | Automator                           | :star:                         |

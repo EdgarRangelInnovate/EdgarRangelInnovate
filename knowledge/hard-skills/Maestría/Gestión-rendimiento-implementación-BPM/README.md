@@ -18,27 +18,47 @@ En general la IP es un conjunto de herramientas y técnicas diseñadas y creadas
 
 El software de IP tiene varias capacidades entre las que se cuenta: recopilar datos de procesos, proporcionar interpretaciones, distribuir resultados históricos o en tiempo real.
 
-La IP es posible gracias a herramientas como [BI](/others/glossary.md#b), [BAM](/others/glossary.md#b) y descubrimiento de procesos, esto combinado con métodos analíticos de optimización como son **Six Sigma**, **Lean** o **Teoría de las limitaciones**, sumado a soluciones de gestión de procesos empresariales [BPM](/others/glossary.md#b).
+La IP es posible gracias a herramientas como [BI](/others/glossary.md#b), [BAM](/others/glossary.md#b) y descubrimiento de procesos o _process mining_, esto combinado con métodos analíticos de optimización como son _Six Sigma_, _Lean_ o _Teoría de las limitaciones_, sumado a soluciones de gestión de procesos empresariales [BPM](/others/glossary.md#b).
+
+La minería de procesos, descubrimiento de procesos o _process mining_ ([PM](/others/glossary.md#p)) como es ampliamente conocido se centra en la brecha entre el diagrama del proceso y la realidad del proceso. La idea principal de la minería de procesos es _descubrir_, _monitorear_ y _mejorar_ mediante la extracción de conocimiento desde los datos legibles y disponibles de una organización.
+
+Algunos conceptos claves para la minería de procesos son:
+
+- Business process _BP_: Conjunto estructurado de tareas o actividades realizadas por una persona o por un equipo en una secuencia especifica para producir un producto o servicio que cubre un objetivo en particular de la empresa.
+- Domain knowledge _DK_: Es la habilidad de entendimiento e información que aplica a un tema especifico, profesión o actividad.
+- Business process modeling _[BPM](/others/glossary.md#b)_: Es la actividad de representar procesos de una empresa que luego es analizado, mejorado y automatizado.
+- Caso: se refiere a la entidad que va a ser tomada por un proceso que será analizado. ej: una pizza. Siempre puede ser identificado de forma única.
+- Actividad: es un paso en el proceso.
+- Evento: es una acción recordada en el log.
+- Timestamp: Es una secuencia de caracteres que identifican cuando ha ocurrido cierto evento.
+- Throughput time: Es la cantidad de tiempo que toma para crear un producto o realizar un servicio desde el principio al fin.
+- Log de eventos: Es una colección de eventos usados como entrada para el [PM](/others/glossary.md#p).
+- Control-flow model: Es el orden el el cual se deben ejecutar o evaluar las actividades individuales.
+- Business Process Model and Notation _([BPMN](/others/glossary.md#b))_: Es un estándar usado para el modelado de procesos que provee notaciones gráficas para representar todo lo necesario de un proceso.
+
+LOG DE EVENTOS en detalle, es una tabla con tres columnas principales, las cuales incluye un identificador único del caso, el timestamp y el nombre de la actividad. También se puede complementar con información extra como lo es el recurso (persona o dispositivo), detalles en el _timestamp_ u otra información relevante como por ejemplo el tamaño. Al tener este log de eventos, podemos comenzar la _[PM](/others/glossary.md#p)_.
+
+Todas las técnicas de _[PM](/others/glossary.md#p)_ asumen que es posible grabar los eventos de forma secuencial donde cada evento referencia una actividad para un caso en particular.
 
 La IP facilita la comprensión de la vista externa (**Caja Negra**) y de la vista interna (**Caja Blanca**)
 
 #### Casos de Éxito de Uso de Inteligencia de Procesos
 
-Swisscom (Proveedor de [TI](/others/glossary.md#t)):
+- Swisscom (Proveedor de [TI](/others/glossary.md#t)):
+  Utiliza la inteligencia de procesos para monitorear pedidos y medir [KPI](/others/glossary.md#k)s.
+  Todos los participantes del proceso contribuyen a su mejora.
 
-Utiliza la inteligencia de procesos para monitorear pedidos y medir [KPI](/others/glossary.md#k)s.
-Todos los participantes del proceso contribuyen a su mejora.
-Resultados:
-Rendimiento más rápido.
-Menos cancelaciones.
-Clientes más felices.
-Tieto:
+  - Resultados:
+    - Rendimiento más rápido.
+    - Menos cancelaciones.
+    - Clientes más felices.
 
-Quería resolver problemas de clientes dentro de objetivos de calidad y costo.
-Con la inteligencia de procesos:
-Identifican cuellos de botella.
-Manejan hasta 300,000 incidentes al mes con mayor eficiencia.
-Resuelven problemas más rápidamente.
+- Tieto:
+  Quería resolver problemas de clientes dentro de objetivos de calidad y costo.
+  - Con la inteligencia de procesos:
+    - Identifican cuellos de botella.
+    - Manejan hasta 300,000 incidentes al mes con mayor eficiencia.
+    - Resuelven problemas más rápidamente.
 
 ### Arquitectura de Inteligencia de Procesos
 
@@ -157,40 +177,35 @@ objetivos satisfactoriamente.
 
 Las organizaciones pueden clasificarse en tres niveles de madurez en cuanto a su uso de la inteligencia de procesos:
 
-Nivel 1: Monitoreo de procesos
+- Nivel 1: Monitoreo de procesos
+  - Capacidades:
+    - Analizar el rendimiento y costos de los procesos.
+    - Detectar errores o cuellos de botella.
+    - Analizar la actividad de los clientes.
+    - Monitorear tanto procesos explícitos (modelados en BPM) como implícitos.
+  - Beneficios:
+    - Mayor visibilidad de los procesos.
+    - Identificación temprana de problemas.
+    - Mejor comprensión del comportamiento de los procesos.
+- Nivel 2: Mejora y evolución de procesos
+  - Capacidades:
+    - Detectar oportunidades para optimizar o evolucionar los procesos.
+    - Implementar mejoras en respuesta a oportunidades o problemas.
+  - Beneficios:
+    - Mayor eficiencia y productividad de los procesos.
+    - Reducción de costos y riesgos.
+    - Mejor calidad de los productos y servicios.
+- Nivel 3: Capacidad de reacción con decisiones automáticas, semi-manuales o manuales
+  - Capacidades:
+    - Tomar decisiones automáticas, semi-manuales o manuales en respuesta a eventos en tiempo real.
+    - Optimizar los procesos de forma continua y proactiva.
+  - Beneficios:
 
-Capacidades:
-Analizar el rendimiento y costos de los procesos.
-Detectar errores o cuellos de botella.
-Analizar la actividad de los clientes.
-Monitorear tanto procesos explícitos (modelados en BPM) como implícitos.
-Beneficios:
-Mayor visibilidad de los procesos.
-Identificación temprana de problemas.
-Mejor comprensión del comportamiento de los procesos.
-Nivel 2: Mejora y evolución de procesos
-
-Capacidades:
-Detectar oportunidades para optimizar o evolucionar los procesos.
-Implementar mejoras en respuesta a oportunidades o problemas.
-Beneficios:
-Mayor eficiencia y productividad de los procesos.
-Reducción de costos y riesgos.
-Mejor calidad de los productos y servicios.
-Nivel 3: Capacidad de reacción con decisiones automáticas, semi-manuales o manuales
-
-Capacidades:
-Tomar decisiones automáticas, semi-manuales o manuales en respuesta a eventos en tiempo real.
-Optimizar los procesos de forma continua y proactiva.
-Beneficios:
-Mayor agilidad y capacidad de respuesta.
-Innovación en los procesos de negocio.
-Ventaja competitiva sostenida.
 En general, la inteligencia de procesos puede ayudar a las organizaciones a mejorar su madurez en la gestión de procesos, lo que conduce a una mayor eficiencia, eficacia y competitividad.
 
-Recomendaciones para avanzar en los niveles de madurez:
+- Recomendaciones para avanzar en los niveles de madurez:
+  - Nivel 1: Implementar herramientas de monitoreo de procesos.
+  - Nivel 2: Establecer un programa de mejora continua de procesos.
+  - Nivel 3: Invertir en soluciones de inteligencia de procesos de última generación.
 
-Nivel 1: Implementar herramientas de monitoreo de procesos.
-Nivel 2: Establecer un programa de mejora continua de procesos.
-Nivel 3: Invertir en soluciones de inteligencia de procesos de última generación.
 La adopción de un enfoque estratégico para la inteligencia de procesos puede ayudar a las organizaciones a alcanzar el nivel de madurez deseado y cosechar los beneficios que ofrece.

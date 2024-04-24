@@ -47,6 +47,8 @@ This glossary offers a concise overview of the key concepts discussed in this gu
 
 **BPM**: De las siglas en inglés Business Process Management.
 
+**BPMN**: Business Process Model and Notation es un estándar para el modelado de procesos.
+
 **BPMS**: [BPM](#b) system.
 
 ## C
@@ -80,6 +82,8 @@ KPI: Key Performance Indicator
 ## O
 
 ## P
+
+**PM**: Process Mining, Minería de procesos o [descubrimiento de procesos](/knowledge/hard-skills/Maestría/Gestión-rendimiento-implementación-BPM/README.md#inteligencia-de-procesos-y-monitorización-operacional-y-estratégica)
 
 ## Q
 

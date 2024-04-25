@@ -57,6 +57,8 @@ This glossary offers a concise overview of the key concepts discussed in this gu
 
 ## E
 
+**ERP**: Enterprise resource planning.
+
 ## F
 
 ## G

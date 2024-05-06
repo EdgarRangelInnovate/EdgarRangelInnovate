@@ -24,6 +24,7 @@ En resumen, NPM es una herramienta fundamental en el desarrollo de aplicaciones 
 - `npm test`: Ejecuta los tests definidos en el proyecto.
 - `npm run <script>`: Ejecuta un script personalizado definido en `package.json`.
 - `npm list`: Lista todas las dependencias del proyecto.
+- `npm ls <paquete>@<versión>`: Busca un paquete en una versión específica.
 - `npm search <paquete>`: Busca paquetes en el registro de npm.
 - `npm publish`: Publica el proyecto en el registro de npm.
 - `npm version <tipo>`: Actualiza la versión del proyecto (major, minor, patch).

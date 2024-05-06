@@ -34,6 +34,7 @@ Software que he aprendido a manejar a lo largo de mi carrera.
 | Kubernetes                          | :star::star::star::star::star: |
 | Linux                               | :star::star::star::star::star: |
 | Mac OS                              | :star::star::star::star::star: |
+| [npm](./npm/README.md)              | :star:                         |
 | Outlook                             | :star::star::star::star::star: |
 | Postman                             | :star::star::star::star::star: |
 | Power Automate                      | :star::star::star:             |

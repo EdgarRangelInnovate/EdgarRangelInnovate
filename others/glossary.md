@@ -87,6 +87,8 @@ KPI: Key Performance Indicator
 
 **PM**: Process Mining, Minería de procesos o [descubrimiento de procesos](/knowledge/hard-skills/Maestría/Gestión-rendimiento-implementación-BPM/README.md#inteligencia-de-procesos-y-monitorización-operacional-y-estratégica)
 
+**PQL**: Process Query Language.
+
 ## Q
 
 ## R

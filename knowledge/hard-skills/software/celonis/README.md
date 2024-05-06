@@ -74,4 +74,10 @@ De la misma forma un modelo o un mapa de proceso se puede ver desde la perspecti
 
 De la misma forma un mapa digital presenta colores para diferentes areas como parques, lagos, avenidas, calles, etc. O también lineas de diferente grosor para calles principales o secundarias y terciarias.
 
-Igualmente en los mapas de proceso en celonis, se puede observar de forma gruesa, los procesos mas relevante o que tienen cuellos de botella y en lineas delgadas o punteadas las de menos frecuencia.
+Igualmente en los mapas de proceso en Celonis, se puede observar de forma gruesa, los procesos mas relevante o que tienen cuellos de botella y en lineas delgadas o punteadas las de menos frecuencia.
+
+## Características
+
+Celonis es un software para hacer process mining gratuito, que no requiere instalación y es muy fácil de trabajar en él esencialmente es "_plug and play_".
+
+En la parte técnica Celonis usa [PQL](/others/glossary.md#p) para la comunicación con bases de datos. Hbw.FF<2N&$&qE

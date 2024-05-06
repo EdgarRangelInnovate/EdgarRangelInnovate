@@ -19,7 +19,7 @@ Software que he aprendido a manejar a lo largo de mi carrera.
 | Docsify                             | :star::star::star::star::star: |
 | Excel                               | :star::star::star::star::star: |
 | Figma                               | :star:                         |
-| [Git](./git.md)                     | :star::star::star:             |
+| [Git](./git/README.md)              | :star::star::star:             |
 | GitHub                              | :star::star::star::star:       |
 | GMail                               | :star::star::star::star::star: |
 | Google Calendar                     | :star::star::star::star::star: |

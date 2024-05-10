@@ -15,7 +15,7 @@ La Teoría del Conocimiento y la Gestión del Conocimiento juegan un papel funda
 
 ## Beneficios de la aplicación de la Teoría del Conocimiento y Gestión del Conocimiento
 
-1. **Mejora en la toma de decisiones:** Al contar con información estructurada y compartida, los stakeholders podrán tomar decisiones más informadas y acertadas en relación al aplicativo CMS personalizado.
+1. **Mejora en la toma de decisiones:** Al contar con información estructurada y compartida, los stakeholders podrán tomar decisiones más informadas y acertadas en relación al aplicativo personalizado.
 2. **Reducción del riesgo de pérdida de conocimiento:** La implementación de procesos formales para la transferencia de conocimientos ayuda a mitigar el riesgo de pérdida de información crítica ante la salida de un miembro clave del equipo.
 
-En resumen, al aplicar la Teoría del Conocimiento y la Gestión del Conocimiento en la recopilación de información de un aplicativo CMS personalizado, se facilita la transferencia efectiva de conocimientos, se fortalece la capacidad de aprendizaje organizativo y se incrementa la productividad y eficiencia del equipo en el manejo de información crítica.
+En resumen, al aplicar la Teoría del Conocimiento y la Gestión del Conocimiento en la recopilación de información de un aplicativo personalizado, se facilita la transferencia efectiva de conocimientos, se fortalece la capacidad de aprendizaje organizativo y se incrementa la productividad y eficiencia del equipo en el manejo de información crítica.

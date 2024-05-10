@@ -8,7 +8,7 @@
 ---
 
 - [**Glosario** 📖](./others/glossary.md)
-- [**Contactos** ☎️](https://meli.slack.com/archives/CS86TLPUK)
+- [**Contactarme** ☎️](https://github.com/IngAlejandroRangel)
 
 ---
 

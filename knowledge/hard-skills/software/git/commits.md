@@ -26,20 +26,7 @@ Use the following format for your commit messages:
 
 ### Example
 
-```text
-:sparkles: feat(Component): Add a new feature. Closes: #
-^--------^ ^--^ ^-------^   ^---------------^  ^------^
-|          |    |           |                  |
-|          |    |           |                  +--> (Optional) Issue reference: if the commit closes or fixes an issue
-|          |    |           |
-|          |    |           +---------------------> Commit summary
-|          |    |
-|          |    +---------------------------------> (Optional) Commit scope in the project
-|          |
-|          +--------------------------------------> Commit type: feat, fix, docs, refactor, test, style, chore, build, perf or ci
-|
-+-------------------------------------------------> (Optional) Emoji type. See: https://gitmoji.dev/
-```
+![semantic structure](./assets/commit.svg)
 
 **The commit message will be:**
 

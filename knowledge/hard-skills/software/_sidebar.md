@@ -5,6 +5,7 @@
 - [**BSC DESIGNER**](./bsc-designer/README.md)
 - [**CELONIS**](./celonis/README.md)
 - [**Git**](./git/README.md)
+  - [**Commits**](./git/commits.md)
 - [**npm**](./npm/README.md)
 
 ---

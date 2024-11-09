@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCfour svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="905px"
+    height="225px" viewBox="-0.5 -0.5 905 225" data-author="Edgar Alejandro Rangel Moreno" data-title="Commit"
+    data-description="A great commit message" data-page="https://ingalejandrorangel.github.io/IngAlejandroRangel/#/">
+    <style>
+      /* Constants */
+      :root {
+        --one-stroke-color: rgba(255, 86, 86, 1);
+        --one-fill-color: rgba(255, 86, 86, 0.3);
+        --two-stroke-color: rgba(235, 204, 53, 1);
+        --two-fill-color: rgba(235, 204, 53, 0.3);
+        --three-stroke-color: rgba(126, 235, 53, 1);
+        --three-fill-color: rgba(126, 235, 53, 0.3);
+        --four-stroke-color: rgba(53, 105, 253, 1);
+        --four-fill-color: rgba(53, 105, 235, 0.3);
+        --five-stroke-color: rgba(193, 53, 235, 1);
+        --five-fill-color: rgba(193, 53, 235, 0.3);
+        --background-color: #221730;
+        --base-font-size: 12px;
+        --scaled-font-size: calc(var(--base-font-size) * 1.2);
+        --text-color: #f0f0f0;
+      }
+
+      /* Tags */
+      path {
+        stroke-miterlimit: 10;
+        fill: none;
+      }
+
+      text {
+        fill: var(--text-color);
+        font-family: Helvetica;
+        font-size: var(--base-font-size);
+      }
+
+      /* General classes */
+      .arrow .arrow {
+        stroke-width: 2;
+      }
+
+      .indicator {
+        stroke-width: 4;
+      }
+
+      /* one colors */
+      .one path {
+        stroke: var(--one-stroke-color);
+      }
+
+      .one rect {
+        fill: var(--one-fill-color);
+      }
+
+      .one .arrow .arrow {
+        fill: var(--one-stroke-color);
+      }
+
+      /* two colors */
+      .two path {
+        stroke: var(--two-stroke-color);
+      }
+
+      .two rect {
+        fill: var(--two-fill-color);
+      }
+
+      .two .arrow .arrow {
+        fill: var(--two-stroke-color);
+      }
+
+      /* three colors */
+      .three path {
+        stroke: var(--three-stroke-color);
+      }
+
+      .three rect {
+        fill: var(--three-fill-color);
+      }
+
+      .three .arrow .arrow {
+        fill: var(--three-stroke-color);
+      }
+
+      /* four colors */
+      .four path {
+        stroke: var(--four-stroke-color);
+      }
+
+      .four rect {
+        fill: var(--four-fill-color);
+      }
+
+      .four .arrow .arrow {
+        fill: var(--four-stroke-color);
+      }
+
+      /* five colors */
+      .five path {
+        stroke: var(--five-stroke-color);
+      }
+
+      .five rect {
+        fill: var(--five-fill-color);
+      }
+
+      .five .arrow .arrow {
+        fill: var(--five-stroke-color);
+      }
+    </style>
+    <rect id="background" fill=var(--background-color) width="100%" height="100%" x="0" y="0" />
+    <text id="principal" x="10" y="25" fill="#f0f0f0" font-family="Helvetica" font-size=var(--scaled-font-size)>
+      <tspan fill=var(--five-stroke-color)>:sparkles: </tspan>
+      <tspan fill=var(--four-stroke-color)>feat</tspan>
+      (
+      <tspan fill=var(--three-stroke-color)>Component</tspan>
+      ):
+      <tspan fill=var(--two-stroke-color)>Add a new feature. </tspan>
+      <tspan>
+        <tspan fill=var(--one-stroke-color)>Closes: #123</tspan>
+      </tspan>
+    </text>
+    <g class="one" transform="translate(260,30)">
+      <g class="indicator" transform="translate(15, 0)">
+        <path d="M 2 0 L 2 12" pointer-events="all" />
+        <path d="M 2 6 L 68 6" pointer-events="stroke" />
+        <path d="M 68 0 L 68 12" pointer-events="all" />
+      </g>
+      <g class="arrow" transform="translate(50, 8)">
+        <g>
+          <path class="arrow" d="M 5 1 L 10 10 L 5 8 L 1 10 Z" pointer-events="all" />
+          <path d="M 5 8 L 5 50 L 50 50" pointer-events="stroke" />
+        </g>
+        <g transform="translate(50, 42)">
+          <rect x="0" y="0" width="380" height="16" />
+          <text x="2" y="12" text-anchor="start">
+            (Optional) Issue reference: if the commit closes or fixes an issue
+          </text>
+        </g>
+      </g>
+    </g>
+    <g class="two" transform="translate(172, 30)">
+      <g class="indicator">
+        <path d="M 2 0 L 2 12" pointer-events="all" />
+        <path d="M 2 6 L 98 6" pointer-events="stroke" />
+        <path d="M 98 0 L 98 12" pointer-events="all" />
+      </g>
+      <g class="arrow" transform="translate(50, 8)">
+        <g>
+          <path class="arrow" d="M 5 1 L 10 10 L 5 8 L 1 10 Z" pointer-events="all" />
+          <path d="M 5 8 L 5 70 L 138 70" pointer-events="stroke" />
+        </g>
+        <g transform="translate(138, 62)">
+          <rect x="0" y="0" width="380" height="16" />
+          <text x="2" y="12" text-anchor="start">
+            Commit summary
+          </text>
+        </g>
+      </g>
+    </g>
+    <g class="three" transform="translate(75, 30)">
+      <g class="indicator" transform="translate(20, 0)">
+        <path d="M 2 0 L 2 12" pointer-events="all" />
+        <path d="M 2 6 L 63 6" pointer-events="stroke" />
+        <path d="M 63 0 L 63 12" pointer-events="all" />
+      </g>
+      <g class="arrow" transform="translate(50, 8)">
+        <g>
+          <path class="arrow" d="M 5 1 L 10 10 L 5 8 L 1 10 Z" pointer-events="all" />
+          <path d="M 5 8 L 5 90 L 235 90" pointer-events="stroke" />
+        </g>
+        <g transform="translate(235, 82)">
+          <rect x="0" y="0" width="380" height="16" />
+          <text x="2" y="12" text-anchor="start">
+            (Optional) Commit scope in the project
+          </text>
+        </g>
+      </g>
+    </g>
+    <g class="four" transform="translate(20, 30)">
+      <g class="indicator" transform="translate(45, 0)">
+        <path d="M 2 0 L 2 12" pointer-events="all" />
+        <path d="M 2 6 L 18 6" pointer-events="stroke" />
+        <path d="M 18 0 L 18 12" pointer-events="all" />
+      </g>
+      <g class="arrow" transform="translate(50, 8)">
+        <g>
+          <path class="arrow" d="M 5 1 L 10 10 L 5 8 L 1 10 Z" pointer-events="all" />
+          <path d="M 5 8 L 5 110 L 290 110" pointer-events="stroke" />
+        </g>
+        <g transform="translate(290, 102)">
+          <rect x="0" y="0" width="380" height="16" />
+          <text x="2" y="12" text-anchor="start">
+            Commit type: feat, fix, docs, refactor, test, style, chore, build, perf or ci
+          </text>
+        </g>
+      </g>
+    </g>
+    <g class="five" transform="translate(-20, 30)">
+      <g class="indicator" transform="translate(30, 0)">
+        <path d="M 2 0 L 2 12" pointer-events="all" />
+        <path d="M 2 6 L 49 6" pointer-events="stroke" />
+        <path d="M 49 0 L 49 12" pointer-events="all" />
+      </g>
+      <g class="arrow" transform="translate(50, 8)">
+        <g>
+          <path class="arrow" d="M 5 1 L 10 10 L 5 8 L 1 10 Z" pointer-events="all" />
+          <path d="M 5 8 L 5 130 L 330 130" pointer-events="stroke" />
+        </g>
+        <g transform="translate(330, 122)">
+          <rect x="0" y="0" width="380" height="16" />
+          <text x="2" y="12" text-anchor="start">
+            (Optional) Emoji four. See: <a xlink:href="https://gitmoji.dev/" target="_blank">gitmoji</a>
+          </text>
+        </g>
+      </g>
+    </g>
+  </svg>

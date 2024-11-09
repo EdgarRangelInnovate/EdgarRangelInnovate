@@ -104,3 +104,7 @@ Si bien es cierto que los agentes de compilación de los pipelines borran y recr
 - **Configurar el pipeline para que no elimine el archivo `package-lock.json`.**
 
 **En resumen, si bien el archivo `package-lock.json` se recrea en tiempo de ejecución, versionarlo sigue siendo una práctica recomendada para garantizar la trazabilidad, la reproducibilidad, la seguridad, la gestión de cambios y la integración con herramientas en el desarrollo de software.**
+
+### Commits con proposito
+
+Se puede revisar una semántica refinada por la práctica en el siguiente [documento](./commits.md)

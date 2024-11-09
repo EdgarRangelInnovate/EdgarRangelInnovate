@@ -26,7 +26,7 @@ Use the following format for your commit messages:
 
 ### Example
 
-![semantic structure](./assets/commit.svg)
+![semantic structure](./assets/commit.png)
 
 **The commit message will be:**
 

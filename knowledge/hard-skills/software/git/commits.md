@@ -120,7 +120,7 @@ For example, you can use the phrase: Fixes: #1 or Fixes #1. Once the branch is m
 
 When referencing a Jira issue, include the Jira ticket number in the commit message. This can be done similarly to issue tracking systems. Use a format like this:
 
-<emoji_type> <commit_type>(<scope>): <subject> (JIRA-123)
+`<emoji_type> <commit_type>(<scope>): <subject> (JIRA-123)`
 
 **Example:**
 

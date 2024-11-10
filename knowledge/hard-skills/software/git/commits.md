@@ -22,7 +22,7 @@ This document describes the recommended format and structure for using emojis in
 
 Use the following format for your commit messages:
 
-<emoji_type> <commit_type>(<scope>): <subject>. <issue_reference>
+`<emoji_type> <commit_type>(<scope>): <subject>. <issue_reference>`
 
 ### Example
 

@@ -1,6 +1,7 @@
 # Alejandro Rangel
 
 - [**Home**](./README.md)
+- [**Path Profesional**](/professional-path.md)
 - [**Trayectoria**](./trayectory.md)
 - [**Conocimientos**](./knowledge/README.md)
 - [**Artículos**](./contextual-features.md)

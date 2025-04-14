@@ -1,18 +1,103 @@
+```mermaid
+%%graph TD
+flowchart LR
+%%flowchart TD
+    subgraph Etapa1 [ETAPA 1]
+        direction TB
+
+        style Etapa1 fill:#FAD4D4,stroke:#000,stroke-width:1px
+
+        A1(✔️ Practicante / Intern)
+        A2(✔️ Desarrollador Junior)
+        A3(✔️ Desarrollador Semi Senior)
+    end
+
+    subgraph Etapa2 [ETAPA 2]
+        direction TB
+
+        style Etapa2 fill:#FFE5B4,stroke:#000,stroke-width:1px
+
+        B1(✔️ Senior Developer)
+        B2(Staff Engineer / Principal Engineer)
+    end
+
+    subgraph Etapa3 [ETAPA 3]
+        style Etapa3 fill:#FFF8B0,stroke:#000,stroke-width:1px
+        C1(Tech Lead) --> C2(Engineering Manager)
+        C2 --> C3(Arquitecto de Software)
+    end
+
+    subgraph Etapa4 [ETAPA 4]
+        style Etapa4 fill:#D4F4DD,stroke:#000,stroke-width:1px
+        D1(Head of Engineering) --> D2(CTO)
+    end
+
+    subgraph Etapa5 [ETAPA 5]
+        style Etapa5 fill:#EAD4F4,stroke:#000,stroke-width:1px
+        E1(COO) --> E2(CEO)
+        E2 --> E3(Fundador / Co-Fundador)
+        E3 --> E4(Empresario / Inversionista / Mentor)
+    end
+
+    %% Enlace entre nodos
+    A1 --> A2 --> A3
+    B1 --> B2
+
+    %% Enlaces entre etapas
+    A3 --> B1
+    B2 --> C1
+    C3 --> D1
+    D2 --> E1
+
+    %% Vinculos
+    click A1 "#/professional-path?id=practicante--intern-de-desarrollo-de-software" "Ir a Practicante"
+    click A2 "#/professional-path?id=desarrollador-junior-frontend-backend-o-fullstack" "Ir a Junior"
+    click A3 "#/professional-path?id=desarrollador-junior-frontend-backend-o-fullstack" "Ir a Semi-senior"
+    click B1 "#professional-path?id=etapa-2-especialización-y-seniority" "Ir a Senior"
+```
+
+___
+
 # ETAPA 1: Fundamentos y crecimiento técnico
 
 Objetivo: Adquirir habilidades sólidas de programación, buenas prácticas y trabajo en equipo.
 
-1. Practicante / Intern de Desarrollo de Software
-  * Aprende herramientas, lenguajes, frameworks y metodologías de trabajo.
-  * Se enfoca en tareas de bajo riesgo, con supervisión cercana.
+## Practicante / Intern de Desarrollo de Software
+* Habilidades técnicas (duras):
+  * Conocimiento básico de programación (JavaScript, Python, Java, etc.)
+  * Uso de sistemas de control de versiones (Git)
+  * Comprensión de algoritmos y estructuras de datos
+  * Familiaridad con metodologías ágiles
 
-3. Desarrollador Junior (Frontend, Backend o Fullstack)
-  * Gana autonomía progresiva.
-  * Aprende sobre control de versiones, testing, debugging, y metodologías ágiles.
+* Habilidades esenciales:
+  * Ganas de aprender
+  * Comunicación clara
+  * Capacidad para recibir feedback
+  * Trabajo en equipo
 
-4. Desarrollador Semi Senior / Mid-Level Developer
-  * Maneja tareas más complejas y colabora en diseño de soluciones.
-  * Participa activamente en revisiones de código y decisiones técnicas.
+## Desarrollador Junior (Frontend, Backend o Fullstack)
+* Habilidades técnicas:
+  * Programación orientada a objetos
+  * Manejo básico de frameworks (React, Angular, Spring, Django)
+  * Creación de APIs simples
+  * Conocimientos básicos de bases de datos (SQL, NoSQL)
+* Habilidades esenciales:
+  * Organización y responsabilidad
+  * Resolución básica de problemas
+  * Colaboración en equipo
+  * Adaptabilidad
+
+## Desarrollador Semi Senior / Mid-Level Developer
+* Habilidades técnicas:
+  * Desarrollo de componentes reutilizables
+  * Testing (unitario, integración)
+  * Consumo e integración de APIs
+  * Gestión de versiones y ramas en Git
+* Habilidades esenciales:
+  * Pensamiento crítico
+  * Mejora continua
+  * Autonomía
+  * Capacidad para estimar tareas
 
 # ETAPA 2: Especialización y seniority
 

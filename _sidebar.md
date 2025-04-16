@@ -1,14 +1,15 @@
-# Alejandro Rangel
+# Edgar Rangel
 
 - [**Home**](./README.md)
 - [**Path Profesional**](/professional-path.md)
-- [**Conocimientos**](./knowledge/README.md)
-- [**Artículos**](./contextual-features.md)
+- [**Conocimientos**](/knowledge.md)
+<!--- [**Artículos**](./contextual-features.md)-->
 
 ---
 
 - [**Glosario** 📖](./others/glossary.md)
-- [**Contactarme** ☎️](https://github.com/EdgarRangelInnnovate)
+- [**Contactame** 📞](https://www.linkedin.com/in/edgar-rangel-moreno-innovate/)
+- [**Perfil** 👨‍💻](https://github.com/EdgarRangelInnnovate)
 
 ---
 

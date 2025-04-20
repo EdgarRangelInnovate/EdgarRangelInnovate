@@ -136,13 +136,13 @@ ___
 - Definición de KPIs.
 - Estrategia tecnológica o de producto.
 
-**Essential Skills**:
+** Essential Skills**:
 
 - Pensamiento sistémico.
 - Liderazgo organizacional.
 - Visión de largo plazo.
 
-**Indicadores de progreso**:
+**✅ Indicadores de progreso**:
 
 - Influye sobre múltiples equipos.
 - Establece procesos globales.
@@ -156,20 +156,20 @@ ___
 
 **Nivel de impacto**: Empresarial y de mercado.
 
-**Hard Skills**:
+**🔧 Hard Skills**:
 
 - Estrategia de negocio.
 - Escalabilidad.
 - Innovación.
 - Finanzas.
 
-**Essential Skills**:
+**🧠 Essential Skills**:
 
 - Influencia institucional.
 - Adaptabilidad.
 - Liderazgo visionario.
 
-**Indicadores de progreso**:
+**✅ Indicadores de progreso**:
 
 - Define cultura organizacional.
 - Decide sobre modelo de negocio y expansión.
@@ -188,9 +188,14 @@ flowchart LR
   A(Practicante) -->
   B(Junior) -->
   C(Semi-Senior)
+
+  %% Eventos
+  click A "#/knowledge/intern" "Ir a Pasante"
+  click B "#/knowledge/junior" "Ir a Desarrollador Junior"
+  click C "#/knowledge/mid-developer" "Ir a Desarrollador Intermedio"
 ```
 
-1. Practicante / Intern de Desarrollo de Software
+1. [Practicante / Intern de Desarrollo de Software](./knowledge/intern.md)
    - 🔧 Hard Skills
      - Fundamentos de programación (ej. JavaScript, Python, HTML5/CSS3)
      - Uso básico de Git y plataformas como GitHub/GitLab
@@ -205,8 +210,7 @@ flowchart LR
      - Participa en tareas con acompañamiento
      - Pide ayuda oportunamente
      - Documenta lo que aprende
-
-2. Desarrollador Junior (Frontend / Backend / Fullstack)
+2. [Desarrollador Junior (Frontend / Backend / Fullstack)](./knowledge/junior.md)
    - 🔧 Hard Skills
      - Programación orientada a objetos (POO)
      - Uso de frameworks (React, Angular, Vue, Django, Next, etc.)
@@ -221,8 +225,7 @@ flowchart LR
      - Cumple tareas técnicas con supervisión
      - Participa activamente en sprints o entregas
      - Mejora continua con base en feedback
-
-3. Desarrollador Semi Senior / Mid-Level Developer
+3. [Desarrollador Semi Senior / Mid-Level Developer](./knowledge/mid-developer.md)
    - 🔧 Hard Skills
      - Desarrollo de componentes reutilizables y eficientes
      - Testing unitario y de integración
@@ -250,10 +253,15 @@ flowchart LR
   A(Senior Developer) -->
   B(Tech Expert) -->
   C(Staff Engineer)
+
+  %% Eventos
+  click A "#/knowledge/senior" "Ir a Desarrollador Senior"
+  click B "#/knowledge/tech-expert" "Ir a Experto en tecnología"
+  click C "#/knowledge/staff-engineer" "Ir a Ingeniero Principal"
 ```
 
 <!-- markdownlint-disable MD029 -->
-4. Senior Developer (Frontend / Backend / Fullstack)
+1. [Senior Developer (Frontend / Backend / Fullstack)](./knowledge/senior.md)
    - 🔧 Hard Skills:
      - Dominio completo de su stack (frameworks, testing, patrones).
      - CI/CD
@@ -267,8 +275,7 @@ flowchart LR
      - Lidera el desarrollo de módulos o features completas.
      - Mejora la calidad del código, cubrimiento de pruebas y rendimiento.
      - Apoya la evolución del stack y detecta deuda técnica.
-
-5. Especialista Técnico / Tech Expert
+2. [Especialista Técnico / Tech Expert](./knowledge/tech-expert)
    - 🔧 Hard Skills:
      - Experticia profunda en una tecnología o disciplina.
      - Tooling
@@ -281,8 +288,7 @@ flowchart LR
      - Se enfoca en un área crítica: DevOps, QA, Arquitectura, Seguridad, Data.
      - Define estándares y mejores prácticas del área.
      - Participa en la toma de decisiones estratégicas de producto desde su expertise.
-
-6. Staff Engineer / Principal Engineer
+3. [Staff Engineer / Principal Engineer](./knowledge/staff-engineer.md)
    - 🔧 Hard Skills:
      - Sistemas distribuidos
      - Arquitectura evolutiva
@@ -307,9 +313,14 @@ flowchart LR
   A(Tech Lead / Líder Técnico) -->
   B(Arquitecto de Software) -->
   C(Engineering Manager)
+
+  %% Eventos
+  click A "#/knowledge/tech-lead" "Ir a Líder técnico"
+  click B "#/knowledge/architect" "Ir a Arquitecto de software"
+  click C "#/knowledge/engineering-manager" "Ir a Gerente de ingeniería"
 ```
 
-1. Tech Lead / Líder Técnico
+1. [Tech Lead / Líder Técnico](./knowledge/tech-lead)
    - 🔧 Hard Skills
      - Propiedad de la base de código y la arquitectura a nivel de equipo
      - Revisión y calidad de código en PRs
@@ -326,8 +337,7 @@ flowchart LR
      - Toma decisiones técnicas informadas y justifica sus elecciones
      - Mentorea a los miembros del equipo
      - Fomenta un ambiente de colaboración
-
-2. Arquitecto de Software
+2. [Arquitecto de Software / Software Architect](./knowledge/architect.md)
     - 🔧 Hard Skills
       - Definición de la arquitectura global de sistemas y aplicaciones
       - Selección de herramientas y tecnologías adecuadas para el equipo
@@ -342,8 +352,7 @@ flowchart LR
       - Toma decisiones sobre la arquitectura de alto nivel
       - Asegura la cohesión técnica entre equipos y sistemas
       - Realiza presentaciones claras a stakeholders para justificar decisiones arquitectónicas
-
-3. Engineering Manager
+3. [Engineering Manager](./knowledge/engineering-manager.md)
    - 🔧 Hard Skills
      - Gestión de proyectos técnicos y visión a largo plazo
      - Conocimiento profundo de procesos de contratación y gestión de recursos humanos
@@ -369,9 +378,13 @@ ___
 flowchart LR
   A(Head of Engineering) -->
   B(CTO)
+
+  %% Eventos
+  click A "#/knowledge/head-of-engineering" "Ir a Head of Engineering"
+  click B "#/knowledge/cto" "Ir a CTO"
 ```
 
-10. Head of Engineering / Director de Tecnología
+10. [Head of Engineering / Director de Tecnología](./knowledge/head-of-engineering.md)
     - 🔧 Habilidades técnicas (hard skills):
       - Diseño y evolución de arquitectura a gran escala.
       - Gestión de múltiples equipos y portafolios técnicos.
@@ -389,8 +402,7 @@ flowchart LR
       - Promueve una cultura de excelencia técnica y colaboración.
       - Participa en decisiones de negocio y roadmap estratégico.
       - Escala estructuras de equipo técnico acorde a las metas de la empresa.
-
-11. CTO (Chief Technology Officer)
+11. [CTO (Chief Technology Officer)](./knowledge/cto.md)
     - 🔧 Habilidades técnicas (hard skills):
       - Definición de visión tecnológica alineada al negocio.
       - Innovación en productos y servicios desde el frente técnico.
@@ -418,9 +430,12 @@ ___
 ```mermaid
 flowchart TD
   A(CEO)
+
+  %% Eventos
+  click A "#/knowledge/ceo" "Ir a CEO"
 ```
 
-12. CEO (Chief Executive Officer)
+12. [CEO (Chief Executive Officer)](./knowledge/ceo.md)
     - 🔧 Hard Skills:
       - Dirección estratégica, finanzas, cultura y relaciones públicas.
       - Toma de decisiones sobre modelo de negocio y crecimiento.
@@ -462,7 +477,6 @@ flowchart LR
      - Participa en documentación.
      - Entrevistas.
      - Pruebas o investigaciones.
-
 2. Analista Junior / Asistente de Producto
    - 🔧 Hard skills:
      - Métricas básicas.
@@ -475,7 +489,6 @@ flowchart LR
    - ✅ Criterios de desempeño:
      - Apoya definiciones funcionales.
      - Mantiene tareas operativas al día.
-
 3. Associate Product Manager / Business Analyst
    - 🔧 Hard skills:
      - Recolección de datos.
@@ -490,8 +503,8 @@ flowchart LR
 
 ___
 
-<!-- markdownlint-disable MD029 -->
 ### ETAPA 2: Especialización y Seniority Business
+<!-- markdownlint-disable MD029 -->
 
 🎯**Objetivo**: Ser responsable de áreas funcionales, definir roadmap, trabajar con KPIs y liderar equipos pequeños.
 
@@ -512,7 +525,6 @@ flowchart LR
      - Gestión de stakeholders.
    - ✅ Criterios de desempeño:
      - Dirige equipos de desarrollo, alinea producto con objetivos de negocio.
-
 5. Business Strategist / Service Designer
    - 🔧 Hard skills:
      - Diseño de servicios.
@@ -550,7 +562,6 @@ flowchart LR
    - ✅ Criterios de desempeño:
      - Supervisa otros PMs.
      - Optimiza estrategia y rendimiento de producto.
-
 7. Delivery Manager / Business Lead
    - 🔧 Hard skills:
      - Planificación.
@@ -586,7 +597,6 @@ flowchart LR
      - Influencia cultural.
    - ✅ Criterios de desempeño:
      - Define objetivos de toda el área de producto y mide impacto general.
-
 9. CPO (Chief Product Officer)
    - 🔧 Hard skills:
      - Innovación a nivel organizacional.
@@ -620,7 +630,6 @@ flowchart LR
       - Orientación al rendimiento global.
     - ✅ Criterios de desempeño:
       - Supervisa ejecución y entrega de valor en todos los frentes del negocio.
-
 11. CEO / Fundador de Empresa
     - 🔧 Hard skills:
       - Liderazgo de alto nivel.

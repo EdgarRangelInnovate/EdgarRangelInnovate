@@ -130,13 +130,13 @@ ___
 
 **Nivel de impacto**: Organizacional
 
-**Hard Skills**:
+**🔧 Hard Skills**:
 
 - Roadmapping estratégico.
 - Definición de KPIs.
 - Estrategia tecnológica o de producto.
 
-** Essential Skills**:
+**🧠 Essential Skills**:
 
 - Pensamiento sistémico.
 - Liderazgo organizacional.

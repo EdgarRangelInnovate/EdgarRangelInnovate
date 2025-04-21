@@ -21,21 +21,127 @@ Está dividido en cinco etapas evolutivas:
 >
 > *Coloquialmente hablando, solo cuando se entiende y se vive de forma natural las caracteristicas del siguiente rol, es hora de un ascenso.*
 
-```mermaid
+````mermaid
 flowchart LR
-    A([Phase 1. Foundations]) -->
-    B([Phase 2. Specialization and Seniority]) -->
-    C([Phase 3. Leadership and Management]) -->
-    D([Phase 4. Technology Direction and Organizational Vision]) -->
-    E([Phase 5. Executive Direction and Strategic Vision])
+    %% Subgraph para Phase 1
+    subgraph A [Phase 1: Foundations]
+      direction TB
+        subgraph A1 [Tech]
+          direction TB
+            A11([Intern]) -->
+            A12([Junior]) -->
+            A13([Semi-Senior])
+        end
+        subgraph A2 [Business]
+          direction TB
+            A21([Intern]) -->
+            A22([Junior]) -->
+            A23([Associate PM])
+        end
+    end
 
-  %% Aplicar colores a cada nodo
-  style A fill:#FAD4D4,stroke:#000,stroke-width:1px
-  style B fill:#B4D4FA,stroke:#000,stroke-width:1px
-  style C fill:#FFF8B0,stroke:#000,stroke-width:1px
-  style D fill:#D4F4DD,stroke:#000,stroke-width:1px
-  style E fill:#EAD4F4,stroke:#000,stroke-width:1px
-```
+    A13 --> B11
+    A23 --> B21
+
+    %% Subgraph para Phase 2
+    subgraph B [Phase 2: Specialization and Seniority]
+      direction TB
+        subgraph B1 [Tech]
+          direction TB
+            B11([Senior]) -->
+            B12([Expert]) -->
+            B13([Staff Engineer])
+        end
+        subgraph B2 [Businnes]
+          direction TB
+            B21([PO]) -->
+            B22([Business Strategist])
+        end
+    end
+
+    B13 --> C11
+    B22 --> C21
+
+    %% Subgraph para Phase 3
+    subgraph C [Phase 3: Leadership and Management]
+      direction TB
+        subgraph C1 [Tech]
+          direction TB
+            C11([Tech Lead]) -->
+            C12([Architect]) -->
+            C13([Manager])
+        end
+        subgraph C2 [Business]
+          direction TB
+            C21([PL]) -->
+            C22([BL])
+        end
+    end
+
+    C13 --> D11
+    C22 --> D21
+
+    %% Subgraph para Phase 4
+    subgraph D [Phase 4: Technology Direction and Organizational Vision]
+      direction TB
+        subgraph D1 [Tech]
+          direction TB
+            D11([Head Engineering]) -->
+            D12([CTO])
+        end
+        subgraph D2 [Business]
+          direction TB
+            D21([Head of Product]) -->
+            D22([CPO])
+        end
+    end
+
+    D12 --> E11
+    D22 --> E21
+
+    %% Subgraph para Phase 5
+    subgraph E [Phase 5: Executive Direction and Strategic Vision]
+      direction TB
+        subgraph E1 [Tech]
+          direction TB
+            E11([CEO])
+        end
+        subgraph E2 [Business]
+          direction TB
+            E21([COO]) -->
+            E22([CEO])
+        end
+    end
+
+    %% 🔀 Cruce entre paths
+    C11 -.-> C21
+    C13 -.-> C22
+    B13 -.-> B22
+
+    B21 -.-> C11
+    A23 -.-> A13
+    C22 -.-> C13
+
+    %% Conexiones entre subgraphs
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+
+    %% Estilos para los subgraphs
+    style A fill:#FAD4D4,stroke:#000,stroke-width:1px
+    style B fill:#B4D4FA,stroke:#000,stroke-width:1px
+    style C fill:#FFF8B0,stroke:#000,stroke-width:1px
+    style D fill:#D4F4DD,stroke:#000,stroke-width:1px
+    style E fill:#EAD4F4,stroke:#000,stroke-width:1px
+
+    %% Colores para las flechas
+    linkStyle 0,1,2,3,6,7,8,11,12,13,16,17,20 stroke:#FFC300,stroke-width:2px
+    linkStyle 4,5,9,10,14,15,18,19 stroke:#33FF57,stroke-width:2px
+    linkStyle 21,22,23 stroke:#3357FF,stroke-width:4px
+    linkStyle 24,25,26 stroke:#FF5733,stroke-width:4px
+    linkStyle 27,28,29,30 stroke:#DAF7A6,stroke-width:6px
+````
 
 ___
 
@@ -49,19 +155,19 @@ ___
 
 **Nivel de impacto**: Individual operativo
 
-**Hard Skills**:
+**🔧Hard Skills**:
 
 - Fundamentos técnicos.
 - Manejo básico de herramientas.
 - Análisis de datos iniciales.
 
-**Essential Skills**:
+**🧠 Essential Skills**:
 
 - Comunicación básica
 - Actitud de aprendizaje.
 - Responsabilidad.
 
-**Indicadores de progreso**:
+**✅ Indicadores de progreso**:
 
 - Entrega tareas con supervisión.
 - Participa en ceremonias o ciclos de entrega.
@@ -75,20 +181,20 @@ ___
 
 **Nivel de impacto**: Individual con influencia en el equipo
 
-**Hard Skills**:
+**🔧Hard Skills**:
 
 - Dominio del stack.
 - Testing.
 - Diseño de servicios.
 - Roadmapping.
 
-**Essential Skills**:
+**🧠 Essential Skills**:
 
 - Pensamiento crítico.
 - Resolución de problemas.
 - Colaboración avanzada.
 
-**Indicadores de progreso**:
+**✅ Indicadores de progreso**:
 
 - Lidera pequeñas iniciativas.
 - Mejora procesos o Soluciones existentes.
@@ -102,20 +208,20 @@ ___
 
 **Nivel de impacto**: Liderazgo técnico o de producto con visión transversal.
 
-**Hard Skills**:
+**🔧Hard Skills**:
 
 - Arquitectura.
 - Planificación.
 - Gobernanza de producto.
 - Colaboración, co-creación y gestión de los OKRs.
 
-**Essential Skills**:
+**🧠 Essential Skills**:
 
 - Liderazgo situacional.
 - Accountability.
 - Manejo de conflictos.
 
-**Indicadores de progreso**:
+**✅ Indicadores de progreso**:
 
 - Coordina personas.
 - Coordina objetivos.
@@ -176,6 +282,52 @@ ___
 - Lidera visión e innovación a largo plazo.
 
 ___
+
+## 🔀 ¿Puede alguien saltar entre el path técnico y el path de negocio?
+
+✅ Sí, es posible moverse entre el path técnico y el path de negocio, pero no en cualquier momento ni de cualquier rol.
+Generalmente, el salto ocurre en roles donde ya existe una intersección natural entre habilidades técnicas y de negocio.
+
+### 🚀 ¿Desde qué roles se puede hacer el cambio?
+
+#### **De Path Técnico ➡️ a Path de Negocio**
+
+| Rol de Origen (Técnico) | Rol de Destino (Negocio)               | Explicación                                                                                                       |
+| ----------------------- | -------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| Tech Lead               | Product Manager / Product Owner        | Un Tech Lead que domina negocio, usuarios y tecnología puede asumir la definición de producto.                    |
+| Engineering Manager     | Delivery Manager / Business Lead       | Un Engineering Manager que ha gestionado entregas, KPIs y equipos puede pasar a gestionar entregas desde negocio. |
+| Staff Engineer          | Business Strategist / Service Designer | Un Staff Engineer con visión de usuario y ecosistema podría especializarse en diseño de servicios.                |
+
+> 🔥 Nota: El salto es más natural cuando la persona ya participa en discusiones de producto, clientes o roadmap.
+
+#### **De Path de Negocio ➡️ a Path Técnico**
+
+| Rol de Origen (Negocio)          | Rol de Destino (Técnico)                      | Explicación                                                                                                              |
+| -------------------------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Product Manager / Product Owner  | Tech Lead (en proyectos muy técnicos)         | Si domina muy bien aspectos técnicos de producto (APIs, arquitecturas, flujos de datos) podría liderar equipos técnicos. |
+| Business Analyst / Associate PM  | Mid-Level Developer (con formación adicional) | Si decide profundizar en programación podría reinsertarse como desarrollador intermedio.                                 |
+| Business Lead / Delivery Manager | Engineering Manager                           | En casos de fuerte experiencia gestionando equipos técnicos y proyectos de ingeniería.                                   |
+
+> 🔥 Nota: Este tipo de salto requiere generalmente re-skilling técnico (aprender programación avanzada, arquitecturas, etc.).
+
+### **🎯 Resumen visual sencillo**
+
+````mermaid
+flowchart TD
+  TechLead -->|interés en negocio| ProductManager
+  EngineeringManager -->|gestión de entregas| DeliveryManager
+  StaffEngineer -->|visión de usuarios| BusinessStrategist
+
+  ProductManager -->|dominio técnico| TechLead
+  AssociatePM -->|formación técnica| MidDeveloper
+  DeliveryManager -->|experiencia técnica| EngineeringManager
+````
+
+#### 📌 Consideraciones importantes
+
+- No se recomienda saltar antes del nivel Semi-Senior o Mid-Level, porque antes no se domina lo suficiente ningún área.
+- Tener habilidades híbridas (como programación + visión de usuario) facilita mucho los saltos.
+- Comunicación, liderazgo y pensamiento sistémico son habilidades clave en cualquier cambio.
 
 ## ⚙️Path técnico en detalle
 

@@ -130,6 +130,9 @@
             },
           },
         },
+        mermaidConfig: {
+          querySelector: ".mermaid",
+        },
       };
     </script>
 
@@ -145,23 +148,31 @@
 
     <!-- Text search -->
     <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
-
+    
     <!-- Copy to clipboard -->
     <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
-
+    
+    <!-- Import D3.js -->
+    <script src="//cdn.jsdelivr.net/npm/d3@7"></script>
     <!-- mermaid complement -->
-    <script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
     <script src="//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js"></script>
-    <script>
+    <script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <!-- Import Mermaid -->
+    <script type="module">
+      import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
       var config = {
-        startOnLoad: true,
+        suppressErrors: true,
         flowchart: {
-          useMaxWidth: true,
-          htmlLabels: true,
+          useMaxWidth: false,
         },
       };
+
       mermaid.initialize(config);
+      window.mermaid = mermaid;
     </script>
+    <!-- Import Docsify-mermaid-zoom -->
+    <script src="//unpkg.com/docsify-mermaid@2.0.0/dist/docsify-mermaid.js"></script>
+    <script src="//unpkg.com/docsify-mermaid-zoom/dist/docsify-mermaid-zoom.js"></script>
 
     <!-- drawio adapter -->
     <script src="https://cdn.jsdelivr.net/npm/docsify-drawio/viewer.min.js"></script>

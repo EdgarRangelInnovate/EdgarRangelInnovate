@@ -21,21 +21,127 @@ Está dividido en cinco etapas evolutivas:
 >
 > *Coloquialmente hablando, solo cuando se entiende y se vive de forma natural las caracteristicas del siguiente rol, es hora de un ascenso.*
 
-```mermaid
+````mermaid
 flowchart LR
-    A([Phase 1. Foundations]) -->
-    B([Phase 2. Specialization and Seniority]) -->
-    C([Phase 3. Leadership and Management]) -->
-    D([Phase 4. Technology Direction and Organizational Vision]) -->
-    E([Phase 5. Executive Direction and Strategic Vision])
+    %% Subgraph para Phase 1
+    subgraph A [Phase 1: Foundations]
+      direction TB
+        subgraph A1 [Tech]
+          direction TB
+            A11([Intern]) -->
+            A12([Junior]) -->
+            A13([Semi-Senior])
+        end
+        subgraph A2 [Business]
+          direction TB
+            A21([Intern]) -->
+            A22([Junior]) -->
+            A23([Associate PM])
+        end
+    end
 
-  %% Aplicar colores a cada nodo
-  style A fill:#FAD4D4,stroke:#000,stroke-width:1px
-  style B fill:#B4D4FA,stroke:#000,stroke-width:1px
-  style C fill:#FFF8B0,stroke:#000,stroke-width:1px
-  style D fill:#D4F4DD,stroke:#000,stroke-width:1px
-  style E fill:#EAD4F4,stroke:#000,stroke-width:1px
-```
+    A13 --> B11
+    A23 --> B21
+
+    %% Subgraph para Phase 2
+    subgraph B [Phase 2: Specialization and Seniority]
+      direction TB
+        subgraph B1 [Tech]
+          direction TB
+            B11([Senior]) -->
+            B12([Expert]) -->
+            B13([Staff Engineer])
+        end
+        subgraph B2 [Businnes]
+          direction TB
+            B21([PO]) -->
+            B22([Business Strategist])
+        end
+    end
+
+    B13 --> C11
+    B22 --> C21
+
+    %% Subgraph para Phase 3
+    subgraph C [Phase 3: Leadership and Management]
+      direction TB
+        subgraph C1 [Tech]
+          direction TB
+            C11([Tech Lead]) -->
+            C12([Architect]) -->
+            C13([Manager])
+        end
+        subgraph C2 [Business]
+          direction TB
+            C21([PL]) -->
+            C22([BL])
+        end
+    end
+
+    C13 --> D11
+    C22 --> D21
+
+    %% Subgraph para Phase 4
+    subgraph D [Phase 4: Technology Direction and Organizational Vision]
+      direction TB
+        subgraph D1 [Tech]
+          direction TB
+            D11([Head Engineering]) -->
+            D12([CTO])
+        end
+        subgraph D2 [Business]
+          direction TB
+            D21([Head of Product]) -->
+            D22([CPO])
+        end
+    end
+
+    D12 --> E11
+    D22 --> E21
+
+    %% Subgraph para Phase 5
+    subgraph E [Phase 5: Executive Direction and Strategic Vision]
+      direction TB
+        subgraph E1 [Tech]
+          direction TB
+            E11([CEO])
+        end
+        subgraph E2 [Business]
+          direction TB
+            E21([COO]) -->
+            E22([CEO])
+        end
+    end
+
+    %% 🔀 Cruce entre paths
+    C11 -.-> C21
+    C13 -.-> C22
+    B13 -.-> B22
+
+    B21 -.-> C11
+    A23 -.-> A13
+    C22 -.-> C13
+
+    %% Conexiones entre subgraphs
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+
+    %% Estilos para los subgraphs
+    style A fill:#FAD4D4,stroke:#000,stroke-width:1px
+    style B fill:#B4D4FA,stroke:#000,stroke-width:1px
+    style C fill:#FFF8B0,stroke:#000,stroke-width:1px
+    style D fill:#D4F4DD,stroke:#000,stroke-width:1px
+    style E fill:#EAD4F4,stroke:#000,stroke-width:1px
+
+    %% Colores para las flechas
+    linkStyle 0,1,2,3,6,7,8,11,12,13,16,17,20 stroke:#FFC300,stroke-width:2px
+    linkStyle 4,5,9,10,14,15,18,19 stroke:#33FF57,stroke-width:2px
+    linkStyle 21,22,23 stroke:#3357FF,stroke-width:4px
+    linkStyle 24,25,26 stroke:#FF5733,stroke-width:4px
+    linkStyle 27,28,29,30 stroke:#DAF7A6,stroke-width:6px
+````
 
 ___
 
@@ -49,19 +155,19 @@ ___
 
 **Nivel de impacto**: Individual operativo
 
-**Hard Skills**:
+**🔧Hard Skills**:
 
 - Fundamentos técnicos.
 - Manejo básico de herramientas.
 - Análisis de datos iniciales.
 
-**Essential Skills**:
+**🧠 Essential Skills**:
 
 - Comunicación básica
 - Actitud de aprendizaje.
 - Responsabilidad.
 
-**Indicadores de progreso**:
+**✅ Indicadores de progreso**:
 
 - Entrega tareas con supervisión.
 - Participa en ceremonias o ciclos de entrega.
@@ -75,20 +181,20 @@ ___
 
 **Nivel de impacto**: Individual con influencia en el equipo
 
-**Hard Skills**:
+**🔧Hard Skills**:
 
 - Dominio del stack.
 - Testing.
 - Diseño de servicios.
 - Roadmapping.
 
-**Essential Skills**:
+**🧠 Essential Skills**:
 
 - Pensamiento crítico.
 - Resolución de problemas.
 - Colaboración avanzada.
 
-**Indicadores de progreso**:
+**✅ Indicadores de progreso**:
 
 - Lidera pequeñas iniciativas.
 - Mejora procesos o Soluciones existentes.
@@ -102,20 +208,20 @@ ___
 
 **Nivel de impacto**: Liderazgo técnico o de producto con visión transversal.
 
-**Hard Skills**:
+**🔧Hard Skills**:
 
 - Arquitectura.
 - Planificación.
 - Gobernanza de producto.
 - Colaboración, co-creación y gestión de los OKRs.
 
-**Essential Skills**:
+**🧠 Essential Skills**:
 
 - Liderazgo situacional.
 - Accountability.
 - Manejo de conflictos.
 
-**Indicadores de progreso**:
+**✅ Indicadores de progreso**:
 
 - Coordina personas.
 - Coordina objetivos.
@@ -130,19 +236,19 @@ ___
 
 **Nivel de impacto**: Organizacional
 
-**Hard Skills**:
+**🔧 Hard Skills**:
 
 - Roadmapping estratégico.
 - Definición de KPIs.
 - Estrategia tecnológica o de producto.
 
-**Essential Skills**:
+**🧠 Essential Skills**:
 
 - Pensamiento sistémico.
 - Liderazgo organizacional.
 - Visión de largo plazo.
 
-**Indicadores de progreso**:
+**✅ Indicadores de progreso**:
 
 - Influye sobre múltiples equipos.
 - Establece procesos globales.
@@ -156,26 +262,72 @@ ___
 
 **Nivel de impacto**: Empresarial y de mercado.
 
-**Hard Skills**:
+**🔧 Hard Skills**:
 
 - Estrategia de negocio.
 - Escalabilidad.
 - Innovación.
 - Finanzas.
 
-**Essential Skills**:
+**🧠 Essential Skills**:
 
 - Influencia institucional.
 - Adaptabilidad.
 - Liderazgo visionario.
 
-**Indicadores de progreso**:
+**✅ Indicadores de progreso**:
 
 - Define cultura organizacional.
 - Decide sobre modelo de negocio y expansión.
 - Lidera visión e innovación a largo plazo.
 
 ___
+
+## 🔀 ¿Puede alguien saltar entre el path técnico y el path de negocio?
+
+✅ Sí, es posible moverse entre el path técnico y el path de negocio, pero no en cualquier momento ni de cualquier rol.
+Generalmente, el salto ocurre en roles donde ya existe una intersección natural entre habilidades técnicas y de negocio.
+
+### 🚀 ¿Desde qué roles se puede hacer el cambio?
+
+#### **De Path Técnico ➡️ a Path de Negocio**
+
+| Rol de Origen (Técnico) | Rol de Destino (Negocio)               | Explicación                                                                                                       |
+| ----------------------- | -------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| Tech Lead               | Product Manager / Product Owner        | Un Tech Lead que domina negocio, usuarios y tecnología puede asumir la definición de producto.                    |
+| Engineering Manager     | Delivery Manager / Business Lead       | Un Engineering Manager que ha gestionado entregas, KPIs y equipos puede pasar a gestionar entregas desde negocio. |
+| Staff Engineer          | Business Strategist / Service Designer | Un Staff Engineer con visión de usuario y ecosistema podría especializarse en diseño de servicios.                |
+
+> 🔥 Nota: El salto es más natural cuando la persona ya participa en discusiones de producto, clientes o roadmap.
+
+#### **De Path de Negocio ➡️ a Path Técnico**
+
+| Rol de Origen (Negocio)          | Rol de Destino (Técnico)                      | Explicación                                                                                                              |
+| -------------------------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Product Manager / Product Owner  | Tech Lead (en proyectos muy técnicos)         | Si domina muy bien aspectos técnicos de producto (APIs, arquitecturas, flujos de datos) podría liderar equipos técnicos. |
+| Business Analyst / Associate PM  | Mid-Level Developer (con formación adicional) | Si decide profundizar en programación podría reinsertarse como desarrollador intermedio.                                 |
+| Business Lead / Delivery Manager | Engineering Manager                           | En casos de fuerte experiencia gestionando equipos técnicos y proyectos de ingeniería.                                   |
+
+> 🔥 Nota: Este tipo de salto requiere generalmente re-skilling técnico (aprender programación avanzada, arquitecturas, etc.).
+
+### **🎯 Resumen visual sencillo**
+
+````mermaid
+flowchart TD
+  TechLead -->|interés en negocio| ProductManager
+  EngineeringManager -->|gestión de entregas| DeliveryManager
+  StaffEngineer -->|visión de usuarios| BusinessStrategist
+
+  ProductManager -->|dominio técnico| TechLead
+  AssociatePM -->|formación técnica| MidDeveloper
+  DeliveryManager -->|experiencia técnica| EngineeringManager
+````
+
+#### 📌 Consideraciones importantes
+
+- No se recomienda saltar antes del nivel Semi-Senior o Mid-Level, porque antes no se domina lo suficiente ningún área.
+- Tener habilidades híbridas (como programación + visión de usuario) facilita mucho los saltos.
+- Comunicación, liderazgo y pensamiento sistémico son habilidades clave en cualquier cambio.
 
 ## ⚙️Path técnico en detalle
 
@@ -188,9 +340,14 @@ flowchart LR
   A(Practicante) -->
   B(Junior) -->
   C(Semi-Senior)
+
+  %% Eventos
+  click A "#/knowledge/intern" "Ir a Pasante"
+  click B "#/knowledge/junior" "Ir a Desarrollador Junior"
+  click C "#/knowledge/mid-developer" "Ir a Desarrollador Intermedio"
 ```
 
-1. Practicante / Intern de Desarrollo de Software
+1. [Practicante / Intern de Desarrollo de Software](./knowledge/intern.md)
    - 🔧 Hard Skills
      - Fundamentos de programación (ej. JavaScript, Python, HTML5/CSS3)
      - Uso básico de Git y plataformas como GitHub/GitLab
@@ -205,8 +362,7 @@ flowchart LR
      - Participa en tareas con acompañamiento
      - Pide ayuda oportunamente
      - Documenta lo que aprende
-
-2. Desarrollador Junior (Frontend / Backend / Fullstack)
+2. [Desarrollador Junior (Frontend / Backend / Fullstack)](./knowledge/junior.md)
    - 🔧 Hard Skills
      - Programación orientada a objetos (POO)
      - Uso de frameworks (React, Angular, Vue, Django, Next, etc.)
@@ -221,8 +377,7 @@ flowchart LR
      - Cumple tareas técnicas con supervisión
      - Participa activamente en sprints o entregas
      - Mejora continua con base en feedback
-
-3. Desarrollador Semi Senior / Mid-Level Developer
+3. [Desarrollador Semi Senior / Mid-Level Developer](./knowledge/mid-developer.md)
    - 🔧 Hard Skills
      - Desarrollo de componentes reutilizables y eficientes
      - Testing unitario y de integración
@@ -250,10 +405,15 @@ flowchart LR
   A(Senior Developer) -->
   B(Tech Expert) -->
   C(Staff Engineer)
+
+  %% Eventos
+  click A "#/knowledge/senior" "Ir a Desarrollador Senior"
+  click B "#/knowledge/tech-expert" "Ir a Experto en tecnología"
+  click C "#/knowledge/staff-engineer" "Ir a Ingeniero Principal"
 ```
 
 <!-- markdownlint-disable MD029 -->
-4. Senior Developer (Frontend / Backend / Fullstack)
+1. [Senior Developer (Frontend / Backend / Fullstack)](./knowledge/senior.md)
    - 🔧 Hard Skills:
      - Dominio completo de su stack (frameworks, testing, patrones).
      - CI/CD
@@ -267,8 +427,7 @@ flowchart LR
      - Lidera el desarrollo de módulos o features completas.
      - Mejora la calidad del código, cubrimiento de pruebas y rendimiento.
      - Apoya la evolución del stack y detecta deuda técnica.
-
-5. Especialista Técnico / Tech Expert
+2. [Especialista Técnico / Tech Expert](./knowledge/tech-expert)
    - 🔧 Hard Skills:
      - Experticia profunda en una tecnología o disciplina.
      - Tooling
@@ -281,8 +440,7 @@ flowchart LR
      - Se enfoca en un área crítica: DevOps, QA, Arquitectura, Seguridad, Data.
      - Define estándares y mejores prácticas del área.
      - Participa en la toma de decisiones estratégicas de producto desde su expertise.
-
-6. Staff Engineer / Principal Engineer
+3. [Staff Engineer / Principal Engineer](./knowledge/staff-engineer.md)
    - 🔧 Hard Skills:
      - Sistemas distribuidos
      - Arquitectura evolutiva
@@ -307,9 +465,14 @@ flowchart LR
   A(Tech Lead / Líder Técnico) -->
   B(Arquitecto de Software) -->
   C(Engineering Manager)
+
+  %% Eventos
+  click A "#/knowledge/tech-lead" "Ir a Líder técnico"
+  click B "#/knowledge/architect" "Ir a Arquitecto de software"
+  click C "#/knowledge/engineering-manager" "Ir a Gerente de ingeniería"
 ```
 
-1. Tech Lead / Líder Técnico
+1. [Tech Lead / Líder Técnico](./knowledge/tech-lead)
    - 🔧 Hard Skills
      - Propiedad de la base de código y la arquitectura a nivel de equipo
      - Revisión y calidad de código en PRs
@@ -326,8 +489,7 @@ flowchart LR
      - Toma decisiones técnicas informadas y justifica sus elecciones
      - Mentorea a los miembros del equipo
      - Fomenta un ambiente de colaboración
-
-2. Arquitecto de Software
+2. [Arquitecto de Software / Software Architect](./knowledge/architect.md)
     - 🔧 Hard Skills
       - Definición de la arquitectura global de sistemas y aplicaciones
       - Selección de herramientas y tecnologías adecuadas para el equipo
@@ -342,8 +504,7 @@ flowchart LR
       - Toma decisiones sobre la arquitectura de alto nivel
       - Asegura la cohesión técnica entre equipos y sistemas
       - Realiza presentaciones claras a stakeholders para justificar decisiones arquitectónicas
-
-3. Engineering Manager
+3. [Engineering Manager](./knowledge/engineering-manager.md)
    - 🔧 Hard Skills
      - Gestión de proyectos técnicos y visión a largo plazo
      - Conocimiento profundo de procesos de contratación y gestión de recursos humanos
@@ -369,9 +530,13 @@ ___
 flowchart LR
   A(Head of Engineering) -->
   B(CTO)
+
+  %% Eventos
+  click A "#/knowledge/head-of-engineering" "Ir a Head of Engineering"
+  click B "#/knowledge/cto" "Ir a CTO"
 ```
 
-10. Head of Engineering / Director de Tecnología
+10. [Head of Engineering / Director de Tecnología](./knowledge/head-of-engineering.md)
     - 🔧 Habilidades técnicas (hard skills):
       - Diseño y evolución de arquitectura a gran escala.
       - Gestión de múltiples equipos y portafolios técnicos.
@@ -389,8 +554,7 @@ flowchart LR
       - Promueve una cultura de excelencia técnica y colaboración.
       - Participa en decisiones de negocio y roadmap estratégico.
       - Escala estructuras de equipo técnico acorde a las metas de la empresa.
-
-11. CTO (Chief Technology Officer)
+11. [CTO (Chief Technology Officer)](./knowledge/cto.md)
     - 🔧 Habilidades técnicas (hard skills):
       - Definición de visión tecnológica alineada al negocio.
       - Innovación en productos y servicios desde el frente técnico.
@@ -418,9 +582,12 @@ ___
 ```mermaid
 flowchart TD
   A(CEO)
+
+  %% Eventos
+  click A "#/knowledge/ceo" "Ir a CEO"
 ```
 
-12. CEO (Chief Executive Officer)
+12. [CEO (Chief Executive Officer)](./knowledge/ceo.md)
     - 🔧 Hard Skills:
       - Dirección estratégica, finanzas, cultura y relaciones públicas.
       - Toma de decisiones sobre modelo de negocio y crecimiento.
@@ -462,7 +629,6 @@ flowchart LR
      - Participa en documentación.
      - Entrevistas.
      - Pruebas o investigaciones.
-
 2. Analista Junior / Asistente de Producto
    - 🔧 Hard skills:
      - Métricas básicas.
@@ -475,7 +641,6 @@ flowchart LR
    - ✅ Criterios de desempeño:
      - Apoya definiciones funcionales.
      - Mantiene tareas operativas al día.
-
 3. Associate Product Manager / Business Analyst
    - 🔧 Hard skills:
      - Recolección de datos.
@@ -490,8 +655,8 @@ flowchart LR
 
 ___
 
-<!-- markdownlint-disable MD029 -->
 ### ETAPA 2: Especialización y Seniority Business
+<!-- markdownlint-disable MD029 -->
 
 🎯**Objetivo**: Ser responsable de áreas funcionales, definir roadmap, trabajar con KPIs y liderar equipos pequeños.
 
@@ -512,7 +677,6 @@ flowchart LR
      - Gestión de stakeholders.
    - ✅ Criterios de desempeño:
      - Dirige equipos de desarrollo, alinea producto con objetivos de negocio.
-
 5. Business Strategist / Service Designer
    - 🔧 Hard skills:
      - Diseño de servicios.
@@ -550,7 +714,6 @@ flowchart LR
    - ✅ Criterios de desempeño:
      - Supervisa otros PMs.
      - Optimiza estrategia y rendimiento de producto.
-
 7. Delivery Manager / Business Lead
    - 🔧 Hard skills:
      - Planificación.
@@ -586,7 +749,6 @@ flowchart LR
      - Influencia cultural.
    - ✅ Criterios de desempeño:
      - Define objetivos de toda el área de producto y mide impacto general.
-
 9. CPO (Chief Product Officer)
    - 🔧 Hard skills:
      - Innovación a nivel organizacional.
@@ -620,7 +782,6 @@ flowchart LR
       - Orientación al rendimiento global.
     - ✅ Criterios de desempeño:
       - Supervisa ejecución y entrega de valor en todos los frentes del negocio.
-
 11. CEO / Fundador de Empresa
     - 🔧 Hard skills:
       - Liderazgo de alto nivel.

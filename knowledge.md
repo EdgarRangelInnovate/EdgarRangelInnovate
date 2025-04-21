@@ -152,4 +152,3 @@ flowchart LR
      - Promueve cultura de ingeniería, escalabilidad, y sostenibilidad del stack.
 
 ___
-

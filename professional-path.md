@@ -271,5 +271,3 @@ flowchart LR
 - Define cultura organizacional.
 - Decide sobre modelo de negocio y expansión.
 - Lidera visión e innovación a largo plazo.
-
-___

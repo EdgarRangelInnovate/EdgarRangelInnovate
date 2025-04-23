@@ -127,7 +127,7 @@ flowchart LR
      - Trabaja transversalmente entre múltiples equipos.
      - Promueve cultura de ingeniería, escalabilidad, y sostenibilidad del stack.
 
-___
+---
 
 ### ETAPA 3: Liderazgo técnico y gestión
 
@@ -433,7 +433,7 @@ flowchart LR
    - ✅ Criterios de desempeño:
      - Escala la estrategia de producto con impacto en la organización completa.
 
-___
+---
 
 ### ETAPA 5: Dirección Ejecutiva y Visión Global
 

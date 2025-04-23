@@ -16,10 +16,3 @@
   right: 2vw !important;
   bottom: 2vh !important;
 }
-
-#professional-path > .mermaid {
-  overflow-x: auto;
-}
-#professional-path > .mermaid > svg {
-  width: 400%;
-}

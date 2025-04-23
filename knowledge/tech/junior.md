@@ -32,6 +32,11 @@ mindmap
       Estructuras de control
       Funciones
       DOM
+      NGRX
+      RxJS
+      ExpressJS
+      Node.JS
+      ngnix
     Python
       Sintaxis básica
       Tipos de datos

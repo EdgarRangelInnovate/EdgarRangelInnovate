@@ -1,21 +1,12 @@
 # Ingeniero de Sistemas con pasión por la tecnología, los negocios y la innovación
 
-**Ingeniero de sistemas con más de 20 años de experiencia en la administración y gestión de proyectos de desarrollo de software, incluyendo el liderazgo de equipos de entre 3 a 9 personas.**
+| **![Ilustración de un ingeniero de software trabajando en un ordenador](./assets/programador.png)** | **Ingeniero de Sistemas con más de 20 años de experiencia en desarrollo de software y gestión de proyectos, liderando equipos de entre 3 y 9 personas.** |
+|--|--|
+| **Mi pasión por el conocimiento y la tecnología 🔥 me impulsa constantemente a buscar nuevas formas de aplicarlas para resolver problemas y mejorar la vida de las personas. En este camino, he profundizado en el estudio de la Inteligencia Artificial y sus aplicaciones, entendiendo su potencial para transformar industrias y sociedades.** | **![Ilustración de implementación de varias tecnologías](./assets/tecnologías.png)** |
+| **![Ilustración de un equipo de trabajo de desarrollo de software](./assets/reunión.png)** | **Durante mi trayectoria he participado en proyectos de diversa escala, desde iniciativas personales hasta grandes soluciones empresariales. Poseo una sólida experiencia en metodologías ágiles y tradicionales de gestión de proyectos, así como en prácticas de ingeniería de software orientadas al éxito y la calidad.** |
+| **Además, he desarrollado una fuerte inquietud por el mundo de los negocios 🚀. Creo firmemente que la tecnología es una fuerza poderosa para el crecimiento y la innovación, por lo que he complementado mi perfil técnico con habilidades de inteligencia emocional, liderazgo y resolución de conflictos. Estas competencias me han permitido comunicarme eficazmente, liderar equipos de alto rendimiento y contribuir a la transformación organizacional.** | **![Ilustración de un empresario](./assets/empresario.png)** |
+| **![Ilustración de un diagrama de flujo](./assets/procesos.png)** | **Recientemente obtuve mi título de Maestría en Gestión de Procesos de Negocio (BPM), fortaleciendo mis capacidades en análisis, diseño y optimización de procesos empresariales. Estoy convencido de que esta formación me permitirá jugar un rol clave en la transformación digital de las organizaciones.** |
 
-**![Ilustración de un ingeniero de software trabajando en un ordenador](./assets/img/programador.jpeg)**
+---
 
-**Mi pasión por el conocimiento y la tecnología 🔥 me impulsa a buscar nuevas formas de aplicarlas para resolver problemas y mejorar la vida de las personas. En este sentido, he tenido la oportunidad de investigar acerca de Inteligencia Artificial y sus pormenores, lo que me ha permitido comprender mejor el potencial de esta tecnología para transformar el mundo.**
-
-**![Ilustración de un robot](./assets/img/robot.jpeg)**
-
-**Mi amplia trayectoria en el desarrollo de software junto con la administración y gestión de proyectos de desarrollo de software 👨‍💻 incluye proyectos de diversa escala, desde pequeños proyectos personales hasta grandes proyectos empresariales. Soy senior en una variedad de metodologías y herramientas de gestión de proyectos, y tengo un profundo conocimiento de las mejores prácticas para el éxito de los proyectos.**
-
-**![Ilustración de un equipo de trabajo de desarrollo de software](./assets/img/equipo.jpeg)**
-
-**Además de mi experiencia en desarrollo de software, en la administración y gestión de proyectos de desarrollo de software, también cuento con una gran inquietud por los negocios 🚀. Estoy convencido de que la tecnología puede ser una fuerza poderosa para el bien, y estoy comprometido a utilizar mis habilidades para ayudar a las empresas a alcanzar sus objetivos y mejorar el mundo. En este sentido, he puesto en práctica varias técnicas de inteligencia emocional, lo que me ha permitido mejorar mi capacidad para comunicarme, liderar y resolver problemas.**
-
-**![Ilustración de un empresario](./assets/img/empresario.jpeg)**
-
-**Actualmente estoy recien graduado de la maestría en BPM (Business Process Management), que me permite profundizar conocimientos en la gestión de procesos de negocio. Estoy seguro de que esta formación me ayudará a desempeñar un papel más importante en la transformación digital de las empresas.**
-
-**![Ilustración de un diagrama de flujo](./assets/img/holosoftware.jpeg)**
+> Actualmente, estoy en una etapa de consolidación y expansión de mi carrera profesional, orientándome hacia roles de liderazgo tecnológico y estratégico, con el objetivo final de emprender y liderar mi propia compañía tecnológica. 🚀

@@ -119,19 +119,31 @@ flowchart LR
   E21 -. Colabora con .- E1
   linkStyle 32,33,34 stroke:#74D2C9,stroke-width:6px
 
-  %% Eventos
-  click A11 "#/knowledge/tech/intern.md" "Ir a Practicante"
-  click A12 "#/knowledge/tech/junior.md" "Ir a Junior Dev"
-  click A13 "#/knowledge/tech/ssr-senior.md" "Ir a Ssr Senior Dev"
-  click B11 "#/knowledge/tech/senior.md" "Ir a Senior Engineer"
-  click B12 "#/knowledge/tech/expert.md" "Ir a Expert Engineer"
-  click B13 "#/knowledge/tech/staff.md" "Ir a Staff Engineer"
-  click C11 "#/knowledge/tech/lead.md" "Ir a Tech Lead"
-  click C12 "#/knowledge/tech/architect.md" "Ir a Architect"
-  click C13 "#/knowledge/tech/manager.md" "Ir a Tech Manager"
-  click D11 "#/knowledge/tech/head.md" "Ir a Head Engineering"
-  click D12 "#/knowledge/tech/cto.md" "Ir a CTO"
-  click E11 "#/knowledge/tech/ceo.md" "Ir a CEO"
+  %% Eventos path técnico
+  click A11 "#knowledge.md#1-practicante--intern-de-desarrollo-de-software" "Ir a Practicante"
+  click A12 "#knowledge.md#2-desarrollador-junior-frontend--backend--fullstack" "Ir a Junior Dev"
+  click A13 "#knowledge.md#3-desarrollador-semi-senior--mid-level-developer" "Ir a Ssr Senior Dev"
+  click B11 "#knowledge.md#4-senior-developer-frontend--backend--fullstack" "Ir a Senior Engineer"
+  click B12 "#knowledge.md#5-especialista-técnico--tech-expert" "Ir a Expert Engineer"
+  click B13 "#knowledge.md#6-staff-engineer--principal-engineer" "Ir a Staff Engineer"
+  click C11 "#knowledge.md#7-tech-lead--líder-técnico" "Ir a Tech Lead"
+  click C12 "#knowledge.md#8-arquitecto-de-software--software-architect" "Ir a Architect"
+  click C13 "#knowledge.md#9-engineering-manager" "Ir a Tech Manager"
+  click D11 "#knowledge.md#10-head-of-engineering--director-de-tecnología" "Ir a Head Engineering"
+  click D12 "#knowledge.md#11-cto-chief-technology-officer" "Ir a CTO"
+  click E11 "#knowledge.md#12-ceo-chief-executive-officer" "Ir a CEO"
+
+  %% Eventos path business
+  click A21 "#knowledge.md#1-practicante-de-negocio--producto" "Ir a Practicante"
+  click A22 "#knowledge.md#2-analista-junior--asistente-de-producto" "Ir a Junior Analyst"
+  click A23 "#knowledge.md#3-associate-product-manager--business-analyst" "Ir a Business Analyst"
+  click B21 "#knowledge.md#4-product-manager--product-owner" "Ir a Product Owner"
+  click B22 "#knowledge.md#5-business-strategist--service-designer" "Ir a Service Designer"
+  click C21 "#knowledge.md#6-product-lead--product-operations" "Ir a Product Lead"
+  click C22 "#knowledge.md#7-delivery-manager--business-lead" "Ir a Delivery Manager"
+  click D21 "#knowledge.md#8-head-of-product" "Ir a Head of product"
+  click D22 "#knowledge.md#9-cpo-chief-product-officer" "Ir a CPO"
+  click E21 "#knowledge.md#10-coo-chief-operating-officer" "Ir a COO"
 ````
 
 ---

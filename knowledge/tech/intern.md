@@ -6,7 +6,7 @@ En esta fase, es normal cometer errores: lo valioso es aprender de ellos rápida
 
 Este rol sienta las bases tanto técnicas como personales para el crecimiento profesional, permitiendo descubrir intereses, entender el flujo de trabajo colaborativo y prepararse para asumir mayores responsabilidades.
 
-## Hard Skills para Practicante / Intern
+## 🔧 Hard Skills para Practicante / Intern
 
 ### 🦾Fundamentos de programación
 
@@ -230,9 +230,9 @@ mindmap
     - **orientation**: detecta modo vertical u horizontal.
     - **prefers-color-scheme**: detecta si el usuario prefiere modo oscuro o claro.
 
-#### 🗂️ Uso básico de Git y plataformas como GitHub / GitLab
+### 🗂️ Uso básico de Git y plataformas como GitHub / GitLab
 
-##### 🎯 ¿Qué es Git?
+#### 🎯 ¿Qué es Git?
 
 Git es un sistema de control de versiones distribuido que permite gestionar cambios en archivos de forma eficiente y segura a lo largo del tiempo.
 
@@ -242,7 +242,7 @@ Facilita el trabajo en equipo mediante ramas (branches).
 
 Permite retroceder cambios, comparar versiones, fusionar trabajo de varias personas.
 
-##### 📚 Conceptos fundamentales
+#### 📚 Conceptos fundamentales
 
 |      Concepto      | Descripción                                                                                                     |
 | :----------------: | :-------------------------------------------------------------------------------------------------------------- |
@@ -254,7 +254,7 @@ Permite retroceder cambios, comparar versiones, fusionar trabajo de varias perso
 |        Push        | Envía tus cambios locales al repositorio remoto (GitHub/GitLab).                                                |
 |       Clone        | Copia un repositorio remoto en tu máquina local.                                                                |
 
-##### 🛠️ Comandos básicos de Git
+#### 🛠️ Comandos básicos de Git
 
 ````bash
 git init                # Inicializar un repositorio en un directorio
@@ -269,7 +269,7 @@ git branch              # Listar ramas existentes
 git merge <rama>        # Fusionar otra rama a la actual
 ````
 
-##### 🌐 ¿Qué es GitHub y GitLab?
+#### 🌐 ¿Qué es GitHub y GitLab?
 
 Son plataformas web que alojan repositorios Git y ofrecen herramientas adicionales como:
 
@@ -278,7 +278,7 @@ Son plataformas web que alojan repositorios Git y ofrecen herramientas adicional
 - Issues: gestión de tareas o reportes de bugs.
 - Pipelines (CI/CD): automatización de pruebas, builds y despliegues (en fases más avanzadas).
 
-##### 🚀 Flujo básico de trabajo como practicante
+#### 🚀 Flujo básico de trabajo como practicante
 
 ````mermaid
 gitGraph
@@ -296,7 +296,7 @@ gitGraph
    merge correccion id: "✅ Merge corrección"
 ````
 
-##### 🛠️ Buenas prácticas adicionales para Git como practicante
+#### 🛠️ Buenas prácticas adicionales para Git como practicante
 
 - Usar ramas: nunca trabajar directamente en main o master.
 - Commits pequeños y claros: no guardar 10 cambios diferentes en un solo commit.
@@ -320,7 +320,7 @@ gitGraph
     | chore    | :wrench: `:wrench:`                           |
     | perf     | :zap: `:zap:`                                 |
 
-#### 🧠 Comprensión inicial de estructuras de datos y algoritmos
+### 🧠 Comprensión inicial de estructuras de datos y algoritmos
 
 **🎯 Objetivo**: Entender los conceptos básicos de cómo se organizan, almacenan y manipulan datos, así como las técnicas fundamentales para resolver problemas de programación de manera eficiente.
 
@@ -349,9 +349,9 @@ mindmap
       Complejidad Espacial
 ````
 
-##### Estructuras de datos básicas
+#### Estructuras de datos básicas
 
-###### Arreglos (Arrays): Colecciones ordenadas de elementos accesibles mediante índices
+##### Arreglos (Arrays): Colecciones ordenadas de elementos accesibles mediante índices
 
 ````javascript
 // Crear un array y recorrerlo
@@ -370,7 +370,7 @@ for numero in numeros:
 
 - Uso típico: listas de datos, secuencias, colecciones homogéneas.
 
-###### Listas enlazadas (Linked Lists): Estructura donde cada elemento apunta al siguiente
+##### Listas enlazadas (Linked Lists): Estructura donde cada elemento apunta al siguiente
 
 - Ejemplos:
 
@@ -425,7 +425,7 @@ for numero in numeros:
 
 - Uso: manipulación dinámica de memoria, operaciones frecuentes de inserción/eliminación.
 
-###### Pilas (Stacks)
+##### Pilas (Stacks)
 
 Colección de elementos que sigue el principio LIFO (Last In, First Out).
 
@@ -448,7 +448,7 @@ Colección de elementos que sigue el principio LIFO (Last In, First Out).
     print(pila.pop())  # Remover el último elemento (2)
     ````
 
-###### Colas (Queues)
+##### Colas (Queues)
 
 Colección que sigue el principio FIFO (First In, First Out).
 
@@ -473,7 +473,7 @@ Colección que sigue el principio FIFO (First In, First Out).
     print(cola.popleft())  # Remover del inicio (1)
     ````
 
-###### Diccionarios / Objetos (Hash Maps)
+##### Diccionarios / Objetos (Hash Maps)
 
 Estructuras de clave-valor para búsquedas rápidas.
 
@@ -498,7 +498,7 @@ Estructuras de clave-valor para búsquedas rápidas.
     print(usuario["nombre"])  # Alejandro
     ````
 
-###### Conjuntos (Sets)
+##### Conjuntos (Sets)
 
 Colecciones de elementos únicos sin orden específico.
 
@@ -545,9 +545,9 @@ Colecciones de elementos únicos sin orden específico.
         print(numero)
     ````
 
-##### Algoritmos básicos
+#### Algoritmos básicos
 
-###### Búsqueda lineal
+##### Búsqueda lineal
 
 Recorrer secuencialmente un arreglo para encontrar un elemento.
 
@@ -574,7 +574,7 @@ def busqueda_lineal(arr, objetivo):
 print(busqueda_lineal([10, 20, 30, 40], 30))  # 2
 ````
 
-###### Búsqueda binaria
+##### Búsqueda binaria
 
 Encontrar un elemento en un arreglo ordenado dividiéndolo sucesivamente.
 
@@ -617,7 +617,7 @@ def busqueda_binaria(arr, objetivo):
 print(busqueda_binaria([10, 20, 30, 40, 50], 30))  # 2
 ````
 
-###### Ordenamiento sencillo
+##### Ordenamiento sencillo
 
 - Bubble Sort: Mueve el mayor elemento al final en cada pasada (como burbujas).
 
@@ -744,8 +744,9 @@ print(busqueda_binaria([10, 20, 30, 40, 50], 30))  # 2
     print(factorial(5))  # 120
     ````
 
-- Conceptos de eficiencia
-  - ⏱️ Tiempo de ejecución (Time Complexity): Es cuánto tiempo tarda un algoritmo en completarse en función del tamaño de la entrada (n).
+#### Conceptos de eficiencia
+
+- ⏱️ Tiempo de ejecución (Time Complexity): Es cuánto tiempo tarda un algoritmo en completarse en función del tamaño de la entrada (n).
 
     ````javascript
     function printNumbers(n) {
@@ -755,77 +756,77 @@ print(busqueda_binaria([10, 20, 30, 40, 50], 30))  # 2
     }
     ````
 
-  - Análisis: Se ejecuta n veces → Complejidad: O(n) (lineal).
-  - 🧮 Uso de memoria (Space Complexity): Es cuánta memoria adicional necesita el algoritmo para funcionar, en función del tamaño de la entrada.
+- 🤔 Análisis: Se ejecuta n veces → Complejidad: O(n) (lineal).
+- 🧮 Uso de memoria (Space Complexity): Es cuánta memoria adicional necesita el algoritmo para funcionar, en función del tamaño de la entrada.
   
-      ````python
-      def create_array(n):
-          arr = []
-          for i in range(n):
-              arr.append(i)
-              return arr
+    ````python
+    def create_array(n):
+        arr = []
+        for i in range(n):
+            arr.append(i)
+            return arr
+    ````
+  
+  - Análisis: Se guarda una lista de n elementos → Complejidad espacial: O(n) (lineal).
+- 🔍 Notación Big O: La notación Big O describe el "peor caso" de eficiencia de un algoritmo.
+  
+    |   Big O    | Descripción                        | Ejemplo práctico                         |
+    | :--------: | :--------------------------------- | :--------------------------------------- |
+    |    O(1)    | Tiempo constante (no depende de n) | Acceder a un elemento de un array arr[5] |
+    |  O(log n)  | Logarítmico                        | Búsqueda binaria en un array ordenado    |
+    |    O(n)    | Lineal                             | Recorrer todos los elementos de un array |
+    | O(n log n) | Log lineal                         | Merge Sort, Quick Sort                   |
+    |   O(n²)    | Cuadrático                         | Algoritmo Bubble Sort                    |
+  
+  - 🧩 Ejemplos prácticos de Big O
+    - O(1) - Tiempo constante
+
+      ````javascript
+      function getFirstElement(arr) {
+          return arr[0]; // Siempre toma el mismo tiempo
+      }
       ````
-  
-    - Análisis: Se guarda una lista de n elementos → Complejidad espacial: O(n) (lineal).
-  - 🔍 Notación Big O: La notación Big O describe el "peor caso" de eficiencia de un algoritmo.
-  
-      |   Big O    | Descripción                        | Ejemplo práctico                         |
-      | :--------: | :--------------------------------- | :--------------------------------------- |
-      |    O(1)    | Tiempo constante (no depende de n) | Acceder a un elemento de un array arr[5] |
-      |  O(log n)  | Logarítmico                        | Búsqueda binaria en un array ordenado    |
-      |    O(n)    | Lineal                             | Recorrer todos los elementos de un array |
-      | O(n log n) | Log lineal                         | Merge Sort, Quick Sort                   |
-      |   O(n²)    | Cuadrático                         | Algoritmo Bubble Sort                    |
-  
-    - 🧩 Ejemplos prácticos de Big O
-      - O(1) - Tiempo constante
-  
-        ````javascript
-        function getFirstElement(arr) {
-            return arr[0]; // Siempre toma el mismo tiempo
+
+    - O(log n) - Logarítmico
+
+      ````python
+      def binary_search(arr, target):
+          left, right = 0, len(arr) -1
+          while left <= right:
+              mid = (left + right) // 2
+              if arr[mid] == target:
+                  return mid
+              elif arr[mid] < target:
+                  left = mid + 1
+              else:
+                  right = mid - 1
+              return -1
+      ````
+
+      - Explicación: En cada paso divides a la mitad la cantidad de elementos a revisar → eficiencia logarítmica.
+    - O(n) - Lineal
+
+      ````javascript
+      function findElement(arr, target) {
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] === target) {
+                return i;
+            }
         }
-        ````
-  
-      - O(log n) - Logarítmico
-  
-        ````python
-        def binary_search(arr, target):
-            left, right = 0, len(arr) -1
-            while left <= right:
-                mid = (left + right) // 2
-                if arr[mid] == target:
-                    return mid
-                elif arr[mid] < target:
-                    left = mid + 1
-                else:
-                    right = mid - 1
-                return -1
-        ````
-  
-        - Explicación: En cada paso divides a la mitad la cantidad de elementos a revisar → eficiencia logarítmica.
-      - O(n) - Lineal
-  
-        ````javascript
-        function findElement(arr, target) {
-          for (let i = 0; i < arr.length; i++) {
-              if (arr[i] === target) {
-                  return i;
-              }
-          }
-          return -1;
-        }
-        ````
-  
-      - O(n²) - Cuadrático
-  
-        ````python
-        def print_pairs(arr):
-          for i in arr:
-              for j in arr:
-                  print(i, j)
-        ````
-  
-        - Explicación: Dos bucles anidados → el tiempo crece al cuadrado respecto a n.
+        return -1;
+      }
+      ````
+
+    - O(n²) - Cuadrático
+
+      ````python
+      def print_pairs(arr):
+        for i in arr:
+            for j in arr:
+                print(i, j)
+      ````
+
+      - Explicación: Dos bucles anidados → el tiempo crece al cuadrado respecto a n.
   - 🛠️ Ejemplos prácticos iniciales
 
     | Estructura / Algoritmo | Ejemplo práctico                                       |
@@ -836,7 +837,7 @@ print(busqueda_binaria([10, 20, 30, 40, 50], 30))  # 2
     |      Diccionario       | Relacionar nombres de usuario con contraseñas en login |
     |    Búsqueda binaria    | Buscar un libro en una estantería ordenada             |
 
-##### 🌱 Buenas prácticas al aprender estructuras y algoritmos
+#### 🌱 Buenas prácticas al aprender estructuras y algoritmos
 
 - No memorizar, sino comprender patrones.
 - Visualizar el flujo de datos (dibujar arrays, stacks, queues en papel o herramientas gráficas).
@@ -845,7 +846,7 @@ print(busqueda_binaria([10, 20, 30, 40, 50], 30))  # 2
   - LeetCode (Easy)
   - HackerRank (Data Structures)
 
-#### 🚀 Introducción a Metodologías Ágiles
+### 🚀 Introducción a Metodologías Ágiles
 
 Las metodologías ágiles son enfoques de trabajo para gestionar proyectos de forma iterativa, colaborativa y flexible, adaptándose rápidamente a los cambios.
 
@@ -879,21 +880,21 @@ mindmap
 
 Para un practicante, los principales marcos de trabajo que debes conocer son:
 
-##### 🏉 Scrum (Marco de trabajo ágil más popular)
+#### 🏉 Scrum (Marco de trabajo ágil más popular)
 
-##### ¿Qué es?
+#### ¿Qué es?
 
 Scrum es un marco de trabajo ágil para desarrollar productos complejos. Organiza el trabajo en ciclos cortos y repetitivos llamados Sprints.
 
-##### Elementos principales de Scrum
+#### Elementos principales de Scrum
 
-###### Roles
+##### Roles
 
 - Product Owner: Define el qué (qué se necesita construir).
 - Scrum Master: Facilita el proceso ágil, elimina impedimentos.
 - Development Team: Equipo multidisciplinario que construye el producto.
 
-###### Eventos
+##### Eventos
 
 - Sprint: Ciclo de trabajo de 1 a 4 semanas.
 - Sprint Planning: Planificación del Sprint.
@@ -901,27 +902,27 @@ Scrum es un marco de trabajo ágil para desarrollar productos complejos. Organiz
 - Sprint Review: Revisión de lo entregado al final del Sprint.
 - Sprint Retrospective: Reflexión sobre el proceso para mejorarlo.
 
-###### Artefactos
+##### Artefactos
 
 - Product Backlog: Lista priorizada de funcionalidades.
 - Sprint Backlog: Tareas seleccionadas para el Sprint.
 - Increment: Producto funcional entregado.
 
-##### 🔵 Conceptos básicos que debe conocer un practicante
+#### 🔵 Conceptos básicos que debe conocer un practicante
 
 - Asistir a las Dailys (Daily Stand-Up).
 - Entender el concepto de Sprint y cumplir con sus tareas asignadas.
 - Estar abierto a la mejora continua (en Retrospectives).
 
-##### 🗂️ Kanban (Sistema visual de flujo de trabajo)
+#### 🗂️ Kanban (Sistema visual de flujo de trabajo)
 
-##### ¿Qué es Kanban?
+#### ¿Qué es Kanban?
 
 Kanban es un método visual para gestionar el trabajo a medida que avanza por un flujo. Ayuda a visualizar el progreso, limitar el trabajo en curso y optimizar el flujo.
 
-##### Elementos principales de Kanban
+#### Elementos principales de Kanban
 
-###### Tablero Kanban
+##### Tablero Kanban
 
 Representa visualmente las etapas del flujo de trabajo, normalmente:
 
@@ -942,19 +943,19 @@ journey
 - Tarjetas: Cada tarea se representa como una tarjeta que se mueve entre columnas.
 - WIP Limits (Work In Progress): Límites para evitar trabajar en demasiadas tareas al mismo tiempo.
 
-##### Principios básicos
+#### Principios básicos
 
 - Visualizar el flujo de trabajo.
 - Limitar el trabajo en curso.
 - Mejorar continuamente.
 
-##### 🟢 Conceptos básicos que debe conocer un practicante
+#### 🟢 Conceptos básicos que debe conocer un practicante
 
 - Actualizar el estado de sus tareas en el tablero.
 - No tomar muchas tareas a la vez (respetar WIP).
 - Priorizar la finalización de tareas antes de comenzar nuevas.
 
-##### 📚 Diferencias rápidas entre Scrum y Kanban
+#### 📚 Diferencias rápidas entre Scrum y Kanban
 
 |    Característica     | Scrum                                    | Kanban                           |
 | :-------------------: | :--------------------------------------- | :------------------------------- |
@@ -963,7 +964,7 @@ journey
 | Cambios durante ciclo | Generalmente evitados                    | Se permiten en cualquier momento |
 |     Visualización     | Puede usar tableros Scrum (Sprint Board) | Usa tableros Kanban              |
 
-##### 📌 Para el practicante es clave
+#### 📌 Para el practicante es clave
 
 - Entender que la agilidad implica entregas frecuentes, retroalimentación continua y adaptabilidad.
 - Participar activamente en reuniones diarias y actualizar su progreso en herramientas como Azure DevOps, Jira, Trello, Asana o GitHub Projects.

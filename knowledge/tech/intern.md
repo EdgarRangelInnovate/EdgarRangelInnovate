@@ -1,14 +1,4 @@
-# ETAPA 1: Fundamentos y crecimiento técnico
-
-🎯 Objetivo: Adquirir habilidades sólidas de programación, buenas prácticas y trabajo en equipo.
-
-Esta etapa representa el inicio del camino profesional en tecnología, donde se forma la base que sustentará todo el crecimiento futuro. Aquí, el foco está en aprender haciendo: familiarizarse con el código, entender cómo se trabaja en un equipo de desarrollo, adoptar buenas prácticas desde el comienzo y cultivar una actitud abierta y resiliente frente al aprendizaje constante.
-
-Los roles en esta etapa están diseñados para desarrollar la autonomía técnica inicial, la colaboración efectiva y la capacidad de adaptación a entornos cambiantes. Se comienza participando en tareas sencillas con acompañamiento, y se avanza hacia una ejecución más autónoma, siempre bajo una cultura de feedback continuo.
-
-Esta etapa es esencial para descubrir fortalezas personales y preferencias técnicas, entendiendo que el aprendizaje no solo es técnico, sino también humano y organizacional.
-
-## Practicante / Intern de Desarrollo de Software
+# Practicante / Intern de Desarrollo de Software
 
 El rol de Practicante marca el primer paso dentro del camino profesional en tecnología. Es una etapa enfocada completamente en el aprendizaje, la curiosidad y la adquisición de fundamentos sólidos. El objetivo principal es entender cómo se trabaja en un entorno de desarrollo real, aplicar los conocimientos básicos adquiridos en la formación académica y comenzar a integrarse a la dinámica de equipos ágiles.
 
@@ -16,9 +6,9 @@ En esta fase, es normal cometer errores: lo valioso es aprender de ellos rápida
 
 Este rol sienta las bases tanto técnicas como personales para el crecimiento profesional, permitiendo descubrir intereses, entender el flujo de trabajo colaborativo y prepararse para asumir mayores responsabilidades.
 
-### Hard Skills para Practicante / Intern
+## Hard Skills para Practicante / Intern
 
-#### 🦾Fundamentos de programación
+### 🦾Fundamentos de programación
 
 📘 Descripción general
 Los fundamentos de programación permiten adquirir la lógica y pensamiento computacional necesarios para resolver problemas con código. Esta etapa se enfoca en conocer la sintaxis básica, estructuras de control y cómo interactuar con el navegador.
@@ -52,29 +42,22 @@ mindmap
       Animaciones
 ```
 
-##### 📌 JavaScript
+#### 📌 JavaScript
 
 - Sintaxis básica: `let`, `const`, `function`, `=>`, `if`, `for`, `while`
-
 - Tipos de datos: `Number`, `String`, `Boolean`, `Object`, `Array`, `null`, `undefined`
-
 - Estructuras de control: `if`, `switch`, `for`, `while`, `do while`
-
 - Funciones: Declaración, expresión, flecha, callbacks
-
 - DOM: ``document.querySelector``, ``addEventListener``, manipulación de nodos
 
-##### 🐍 Python
+#### 🐍 Python
 
 - Tipos de datos: ``int``, ``float``, ``str``, ``list``, ``dict``, ``set``, ``tuple``, ``bool``
-
 - Control de flujo: ``if``, ``elif``, ``else``, ``for``, ``while``
-
 - Funciones: ``def``, parámetros, retorno, argumentos por defecto
-
 - List comprehensions: ``new_list = [x for x in iterable if condition]``
 
-##### 🌐 HTML5
+#### 🌐 HTML5
 
 - Estructura básica:
   - Estructura del documento: ``<html>``, ``<head>``, ``<body>``.
@@ -109,39 +92,40 @@ mindmap
     </svg>
     ````
 
-    <!-- markdownlint-disable MD033 -->
+    <!-- markdownlint-disable MD033 MD046 -->
+    <!-- FIXME: Corregir el funcionamiento HTML5 -->
     <svg width="100" height="100">
         <circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="skyblue" />
     </svg>
     <canvas id="threejs-canvas"></canvas>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script>
-    const scene = new THREE.Scene();
-    const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-    const renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('threejs-canvas') });
-    renderer.setSize(window.innerWidth, window.innerHeight);
-    document.body.appendChild(renderer.domElement);
+      const scene = new THREE.Scene();
+      const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+      const renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('threejs-canvas') });
+      renderer.setSize(window.innerWidth, window.innerHeight);
+      document.body.appendChild(renderer.domElement);
 
-    const geometry = new THREE.BoxGeometry();
-    const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
-    const cube = new THREE.Mesh(geometry, material);
-    scene.add(cube);
+      const geometry = new THREE.BoxGeometry();
+      const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+      const cube = new THREE.Mesh(geometry, material);
+      scene.add(cube);
 
-    camera.position.z = 5;
+      camera.position.z = 5;
 
-    function animate() {
-        requestAnimationFrame(animate);
-        cube.rotation.x += 0.01;
-        cube.rotation.y += 0.01;
-        renderer.render(scene, camera);
-    }
-    animate();
+      function animate() {
+          requestAnimationFrame(animate);
+          cube.rotation.x += 0.01;
+          cube.rotation.y += 0.01;
+          renderer.render(scene, camera);
+      }
+      animate();
     </script>
-    <!-- markdownlint-enable MD033 -->
+    <!-- markdownlint-enable MD033 MD046 -->
 
     > 🔎 Puedes manipular SVG con CSS y JavaScript igual que otros elementos HTML.
 
-##### 🎨 CSS3
+#### 🎨 CSS3
 
 - **🎯 Selectores**: Los selectores permiten aplicar estilos a elementos específicos en HTML.
   - **De tipo**: seleccionan elementos por su nombre de etiqueta (div, p, h1).
@@ -321,7 +305,7 @@ gitGraph
 - Solicitar revisión y feedback antes de hacer merge.
 
 - 🌟 Estructura de mensajes de commit con buenas prácticas:
-  ![git commit structure](./hard-skills/software/git/assets/commit.png)
+  ![git commit structure](../hard-skills/software/git/assets/commit.png)
 
     | Type     | Emoji                                         |
     | -------- | --------------------------------------------- |
@@ -985,147 +969,58 @@ journey
 - Participar activamente en reuniones diarias y actualizar su progreso en herramientas como Azure DevOps, Jira, Trello, Asana o GitHub Projects.
 - Ser receptivo a cambios y mejoras.
 
-### 🧠 Essential Skills para Practicante / Intern
+## 🧠 Essential Skills para Practicante / Intern
+
+````mermaid
+mindmap
+  root((Essential Skills - Practicante / Intern))
+    🎯 Ganas de aprender y superarse
+      Actitud positiva hacia el aprendizaje continuo
+      Curiosidad genuina por tecnologías y procesos
+      Búsqueda activa de retroalimentación
+    🗣️ Comunicación clara y receptiva
+      Expresar dudas, avances y obstáculos
+      Escuchar activamente a compañeros y mentores
+      Formular preguntas específicas y relevantes
+    🔄 Capacidad para recibir feedback sin frustración
+      Aceptar retroalimentación como herramienta de mejora
+      No tomar observaciones de forma personal
+      Implementar sugerencias en su trabajo
+    🤝 Trabajo colaborativo en entornos nuevos
+      Integrarse respetuosamente a equipos existentes
+      Participar en dinámicas de equipo (pair programming, dailys)
+      Compartir conocimientos o recursos útiles
+````
 
 Los Soft Skills o habilidades esenciales son igual o incluso más importantes que las habilidades técnicas al inicio de la carrera profesional. Para un practicante en desarrollo de software, se espera demostrar:
 
-#### 🎯 Ganas de aprender y superarse
+### 🎯 Ganas de aprender y superarse
 
 - Tener actitud positiva hacia el aprendizaje continuo.
 - Mostrar curiosidad genuina por las tecnologías, procesos y buenas prácticas.
 - Buscar retroalimentación para mejorar sus habilidades.
 
-#### 🗣️ Comunicación clara y receptiva
+### 🗣️ Comunicación clara y receptiva
 
 - Expresar dudas, avances y obstáculos de forma oportuna y respetuosa.
 - Escuchar activamente a compañeros, líderes y mentores.
 - Formular preguntas específicas y relevantes.
 
-#### 🔄 Capacidad para recibir feedback sin frustración
+### 🔄 Capacidad para recibir feedback sin frustración
 
 - Aceptar retroalimentación como una herramienta de crecimiento.
 - No tomar las observaciones como algo personal.
 - Implementar las sugerencias en su trabajo.
 
-#### 🤝 Trabajo colaborativo en entornos nuevos
+### 🤝 Trabajo colaborativo en entornos nuevos
 
 - Integrarse a equipos existentes mostrando respeto y apertura.
 - Participar en dinámicas de equipo (pair programming, dailys, revisiones de código).
 - Compartir conocimientos o recursos que puedan ayudar al equipo.
 
-### ✅ Criterios de desempeño
+## ✅ Criterios de desempeño
 
 - Solicitar ayuda cuando sea necesario, demostrando autonomía responsable.
 - Estar disponible y comprometido con las tareas asignadas.
 - Colaborar con una actitud constructiva y proactiva.
 - Documenta lo que aprende
-
----
-
-## Desarrollador Junior (Frontend / Backend / Fullstack)
-
-### 🔧 Hard Skills
-
-#### Programación orientada a objetos (POO)
-
-#### Uso de frameworks (React, Angular, Vue, Django, Next, etc.)
-
-#### Construcción de APIs simples (REST/GraphQL)
-
-#### Bases de datos relacionales y NoSQL básicas
-
-### 🧠 Essential Skills
-
-#### Organización personal y manejo del tiempo
-
-#### Resolución básica de bugs o errores
-
-#### Colaboración fluida con el equipo
-
-#### Adaptabilidad a cambios técnicos
-
-### ✅ Criterios de desempeño para Junior
-
-#### Cumple tareas técnicas con supervisión
-
-#### Participa activamente en sprints o entregas
-
-#### Mejora continua con base en feedback
-
-2. Desarrollador Semi Senior / Mid-Level Developer
-   - 🔧 Hard Skills
-     - Desarrollo de componentes reutilizables y eficientes
-     - Testing unitario y de integración
-     - Integración y consumo de APIs externas
-     - Gestión avanzada de ramas en Git (merge, rebase, PRs)
-     - Documentación técnica eficiente
-   - 🧠 Essential Skills
-     - Pensamiento crítico en la toma de decisiones
-     - Autonomía técnica en tareas asignadas
-     - Capacidad para estimar esfuerzos y tiempos
-     - Propuesta activa de mejoras al código y procesos
-   - ✅ Criterios de desempeño
-     - Ejecuta tareas complejas con mínima supervisión
-     - Apoya a desarrolladores junior
-     - Participa en decisiones técnicas a nivel de equipo
-
-___
-
-### ETAPA 2: Especialización y seniority
-
-🎯**Objetivo**: Convertirse en referente técnico en un stack o dominio.
-
-```mermaid
-flowchart LR
-  A(Senior Developer) -->
-  B(Tech Expert) -->
-  C(Staff Engineer)
-```
-
-<!-- markdownlint-disable MD029 -->
-4. Senior Developer (Frontend / Backend / Fullstack)
-   - 🔧 Hard Skills:
-     - Dominio completo de su stack (frameworks, testing, patrones).
-     - CI/CD
-     - Performance
-     - Buenas prácticas
-   - 🧠 Essential Skills:
-     - Mentoring activo
-     - Ownership
-     - Comunicación técnica efectiva
-   - ✅ Criterios de desempeño:
-     - Lidera el desarrollo de módulos o features completas.
-     - Mejora la calidad del código, cubrimiento de pruebas y rendimiento.
-     - Apoya la evolución del stack y detecta deuda técnica.
-
-5. Especialista Técnico / Tech Expert
-   - 🔧 Hard Skills:
-     - Experticia profunda en una tecnología o disciplina.
-     - Tooling
-     - Auditoría técnica, performance y escaneo continuo.
-   - 🧠 Essential Skills:
-     - Curiosidad profesional
-     - Liderazgo técnico no jerárquico
-     - Pensamiento crítico
-   - ✅ Criterios de desempeño:
-     - Se enfoca en un área crítica: DevOps, QA, Arquitectura, Seguridad, Data.
-     - Define estándares y mejores prácticas del área.
-     - Participa en la toma de decisiones estratégicas de producto desde su expertise.
-
-6. Staff Engineer / Principal Engineer
-   - 🔧 Hard Skills:
-     - Sistemas distribuidos
-     - Arquitectura evolutiva
-     - Diseño de plataformas
-   - 🧠 Essential Skills:
-     - Pensamiento sistémico
-     - Influencia sin autoridad
-     - Visión técnica de largo plazo
-   - ✅ Criterios de desempeño:
-     - Diseña e influencia la arquitectura general de sistemas.
-     - Trabaja transversalmente entre múltiples equipos.
-     - Promueve cultura de ingeniería, escalabilidad, y sostenibilidad del stack.
-
-___
-
-[Regresar](../knowledge.md)

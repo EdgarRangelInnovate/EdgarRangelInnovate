@@ -1,4 +1,5 @@
 # Practicante / Intern de Desarrollo de Software
+# Practicante / Intern de Desarrollo de Software
 
 El rol de Practicante marca el primer paso dentro del camino profesional en tecnología. Es una etapa enfocada completamente en el aprendizaje, la curiosidad y la adquisición de fundamentos sólidos. El objetivo principal es entender cómo se trabaja en un entorno de desarrollo real, aplicar los conocimientos básicos adquiridos en la formación académica y comenzar a integrarse a la dinámica de equipos ágiles.
 
@@ -8,6 +9,7 @@ Este rol sienta las bases tanto técnicas como personales para el crecimiento pr
 
 ## 🔧 Hard Skills para Practicante / Intern
 
+### 🦾Fundamentos de programación
 ### 🦾Fundamentos de programación
 
 📘 Descripción general
@@ -43,6 +45,7 @@ mindmap
 ```
 
 #### 📌 JavaScript
+#### 📌 JavaScript
 
 - Sintaxis básica: `let`, `const`, `function`, `=>`, `if`, `for`, `while`
 - Tipos de datos: `Number`, `String`, `Boolean`, `Object`, `Array`, `null`, `undefined`
@@ -51,12 +54,14 @@ mindmap
 - DOM: ``document.querySelector``, ``addEventListener``, manipulación de nodos
 
 #### 🐍 Python
+#### 🐍 Python
 
 - Tipos de datos: ``int``, ``float``, ``str``, ``list``, ``dict``, ``set``, ``tuple``, ``bool``
 - Control de flujo: ``if``, ``elif``, ``else``, ``for``, ``while``
 - Funciones: ``def``, parámetros, retorno, argumentos por defecto
 - List comprehensions: ``new_list = [x for x in iterable if condition]``
 
+#### 🌐 HTML5
 #### 🌐 HTML5
 
 - Estructura básica:
@@ -94,6 +99,8 @@ mindmap
 
     <!-- markdownlint-disable MD033 MD046 -->
     <!-- FIXME: Corregir el funcionamiento HTML5 -->
+    <!-- markdownlint-disable MD033 MD046 -->
+    <!-- FIXME: Corregir el funcionamiento HTML5 -->
     <svg width="100" height="100">
         <circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="skyblue" />
     </svg>
@@ -105,12 +112,22 @@ mindmap
       const renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('threejs-canvas') });
       renderer.setSize(window.innerWidth, window.innerHeight);
       document.body.appendChild(renderer.domElement);
+      const scene = new THREE.Scene();
+      const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+      const renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('threejs-canvas') });
+      renderer.setSize(window.innerWidth, window.innerHeight);
+      document.body.appendChild(renderer.domElement);
 
       const geometry = new THREE.BoxGeometry();
       const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
       const cube = new THREE.Mesh(geometry, material);
       scene.add(cube);
+      const geometry = new THREE.BoxGeometry();
+      const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+      const cube = new THREE.Mesh(geometry, material);
+      scene.add(cube);
 
+      camera.position.z = 5;
       camera.position.z = 5;
 
       function animate() {
@@ -120,11 +137,20 @@ mindmap
           renderer.render(scene, camera);
       }
       animate();
+      function animate() {
+          requestAnimationFrame(animate);
+          cube.rotation.x += 0.01;
+          cube.rotation.y += 0.01;
+          renderer.render(scene, camera);
+      }
+      animate();
     </script>
+    <!-- markdownlint-enable MD033 MD046 -->
     <!-- markdownlint-enable MD033 MD046 -->
 
     > 🔎 Puedes manipular SVG con CSS y JavaScript igual que otros elementos HTML.
 
+#### 🎨 CSS3
 #### 🎨 CSS3
 
 - **🎯 Selectores**: Los selectores permiten aplicar estilos a elementos específicos en HTML.
@@ -305,6 +331,7 @@ gitGraph
 - Solicitar revisión y feedback antes de hacer merge.
 
 - 🌟 Estructura de mensajes de commit con buenas prácticas:
+  ![git commit structure](../hard-skills/software/git/assets/commit.png)
   ![git commit structure](../hard-skills/software/git/assets/commit.png)
 
     | Type     | Emoji                                         |
@@ -992,9 +1019,32 @@ mindmap
       Participar en dinámicas de equipo (pair programming, dailys)
       Compartir conocimientos o recursos útiles
 ````
+## 🧠 Essential Skills para Practicante / Intern
+
+````mermaid
+mindmap
+  root((Essential Skills - Practicante / Intern))
+    🎯 Ganas de aprender y superarse
+      Actitud positiva hacia el aprendizaje continuo
+      Curiosidad genuina por tecnologías y procesos
+      Búsqueda activa de retroalimentación
+    🗣️ Comunicación clara y receptiva
+      Expresar dudas, avances y obstáculos
+      Escuchar activamente a compañeros y mentores
+      Formular preguntas específicas y relevantes
+    🔄 Capacidad para recibir feedback sin frustración
+      Aceptar retroalimentación como herramienta de mejora
+      No tomar observaciones de forma personal
+      Implementar sugerencias en su trabajo
+    🤝 Trabajo colaborativo en entornos nuevos
+      Integrarse respetuosamente a equipos existentes
+      Participar en dinámicas de equipo (pair programming, dailys)
+      Compartir conocimientos o recursos útiles
+````
 
 Los Soft Skills o habilidades esenciales son igual o incluso más importantes que las habilidades técnicas al inicio de la carrera profesional. Para un practicante en desarrollo de software, se espera demostrar:
 
+### 🎯 Ganas de aprender y superarse
 ### 🎯 Ganas de aprender y superarse
 
 - Tener actitud positiva hacia el aprendizaje continuo.
@@ -1002,11 +1052,13 @@ Los Soft Skills o habilidades esenciales son igual o incluso más importantes qu
 - Buscar retroalimentación para mejorar sus habilidades.
 
 ### 🗣️ Comunicación clara y receptiva
+### 🗣️ Comunicación clara y receptiva
 
 - Expresar dudas, avances y obstáculos de forma oportuna y respetuosa.
 - Escuchar activamente a compañeros, líderes y mentores.
 - Formular preguntas específicas y relevantes.
 
+### 🔄 Capacidad para recibir feedback sin frustración
 ### 🔄 Capacidad para recibir feedback sin frustración
 
 - Aceptar retroalimentación como una herramienta de crecimiento.
@@ -1014,11 +1066,13 @@ Los Soft Skills o habilidades esenciales son igual o incluso más importantes qu
 - Implementar las sugerencias en su trabajo.
 
 ### 🤝 Trabajo colaborativo en entornos nuevos
+### 🤝 Trabajo colaborativo en entornos nuevos
 
 - Integrarse a equipos existentes mostrando respeto y apertura.
 - Participar en dinámicas de equipo (pair programming, dailys, revisiones de código).
 - Compartir conocimientos o recursos que puedan ayudar al equipo.
 
+## ✅ Criterios de desempeño
 ## ✅ Criterios de desempeño
 
 - Solicitar ayuda cuando sea necesario, demostrando autonomía responsable.

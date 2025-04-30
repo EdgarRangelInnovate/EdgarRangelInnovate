@@ -1160,7 +1160,7 @@ Documentar y compartir conocimientos adquiridos para ayudar a otros miembros del
 
 ## ✅ Criterios de desempeño
 
-Los criterios de desempeño para un desarrollador practicante o Intern son fundamentales para evaluar su progreso y garantizar un aprendizaje efectivo. Estos criterios se enfocan en la responsabilidad, el compromiso, la colaboración y la documentación, elementos clave para el éxito en este rol.
+Los criterios de desempeño para un desarrollador practicante o Intern son fundamentales para evaluar su progreso y garantizar un aprendizaje efectivo. Estos criterios se enfocan en la responsabilidad, el compromiso, la colaboración y la documentación, elementos clave para el éxito en este rol. Una vez que estos criterios se desempeñen de forma natural y consistente, demostrando un dominio sólido de las habilidades requeridas, será el momento adecuado para considerar un ascenso al siguiente rol: [desarrollador Junior](./junior.md). Este avance refleja la capacidad del practicante para asumir mayores responsabilidades y enfrentar desafíos más complejos en su carrera profesional.
 
 ```mermaid
 mindmap
@@ -1224,3 +1224,7 @@ Estructurar la información de manera clara y accesible para optimizar el flujo 
 #### Compartir conocimientos con el equipo
 
 Difundir aprendizajes y recursos útiles para fomentar la colaboración y el crecimiento colectivo.
+
+---
+
+[⬆️](/knowledge.md) | [Junior](./junior.md)

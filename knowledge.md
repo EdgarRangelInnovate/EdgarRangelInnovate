@@ -26,26 +26,6 @@ flowchart LR
 
 En esta primera etapa, el [practicante](./knowledge/tech/intern.md) se inicia en el mundo del desarrollo de software profesional. Su enfoque está en aprender, explorar herramientas básicas y comenzar a participar en tareas reales dentro de un equipo. Es un periodo fundamental para cultivar hábitos, adquirir confianza técnica y desarrollar habilidades blandas esenciales para el trabajo en equipo. Aquí se siembra la curiosidad y la capacidad de adaptación, pilares del crecimiento futuro.
 
-##### 🔧 Hard Skills (Intern)
-
-- Fundamentos de programación (ej. JavaScript, Python, HTML5/CSS3)
-- Uso básico de Git y plataformas como GitHub/GitLab
-- Comprensión inicial de estructuras de datos y algoritmos
-- Introducción a metodologías ágiles (Scrum, Kanban)
-
-##### 🧠 Essential Skills (Intern)
-
-- Ganas de aprender y superarse
-- Comunicación clara y receptiva
-- Capacidad para recibir feedback sin frustración
-- Trabajo colaborativo en entornos nuevos
-
-##### ✅ Criterios de desempeño (Intern)
-
-- Participa en tareas con acompañamiento
-- Pide ayuda oportunamente
-- Documenta lo que aprende
-
 #### 2. Desarrollador Junior (Frontend / Backend / Fullstack)
 
 En esta etapa, el [desarrollador junior](./knowledge/tech/junior.md) comienza a aplicar sus conocimientos técnicos en proyectos reales con mayor autonomía. Aún requiere guía y acompañamiento frecuente, pero ya es capaz de desarrollar funcionalidades básicas, colaborar en sprints y proponer soluciones sencillas. Es un rol clave para consolidar buenas prácticas, afianzar la lógica de programación y ganar experiencia en entornos colaborativos.

@@ -108,7 +108,7 @@ Los fundamentos de programación permiten adquirir la lógica y pensamiento comp
 - Tipos de datos: `Number`, `String`, `Boolean`, `Object`, `Array`, `null`, `undefined`
 - Estructuras de control: `if`, `switch`, `for`, `while`, `do while`
 - Funciones: Declaración, expresión, flecha, callbacks
-- DOM: ``document.querySelector``, ``addEventListener``, manipulación de nodos
+- [DOM](/others/glossary.md#d): ``document.querySelector``, ``addEventListener``, manipulación de nodos
 
 #### 🐍 Python
 
@@ -129,7 +129,7 @@ Los fundamentos de programación permiten adquirir la lógica y pensamiento comp
 - Nuevos tipos de input: ``<email>``, ``<date>``, ``<range>``, ``<color>``
 - Multimedia: ``<img>``, ``<audio>``, ``<video>``, ``<source>``, ``<track>``
     Soporte nativo para contenido visual y sonoro sin plugins externos.
-- ✏️ Atributos HTML
+- ✏️ Atributos [HTML](/others/glossary.md#h)
     Los atributos proporcionan información adicional sobre los elementos HTML. Siempre van en la etiqueta de apertura y tienen la forma nombre="valor".
 
     Ejemplos comunes: ``id``, ``class``, ``style``, ``src``, ``href``, ``alt``, ``disabled``, ``placeholder``, ``type``, ``value``
@@ -140,7 +140,7 @@ Los fundamentos de programación permiten adquirir la lógica y pensamiento comp
     ```
 
 - SVG (Scalable Vector Graphics)
-    SVG permite representar gráficos vectoriales directamente en HTML.
+    [SVG](/others/glossary.md#s) permite representar gráficos vectoriales directamente en HTML.
 
     Se utiliza para íconos, diagramas, animaciones o ilustraciones escalables.
 
@@ -200,7 +200,7 @@ Los fundamentos de programación permiten adquirir la lógica y pensamiento comp
     </script>
     <!-- markdownlint-enable MD033 MD046 -->
 
-    > 🔎 Puedes manipular SVG con CSS y JavaScript igual que otros elementos HTML.
+    > 🔎 Puedes manipular [SVG](/others/glossary.md#s) con [CSS](/others/glossary.md#c) y JavaScript igual que otros elementos HTML.
 
 #### 🎨 CSS3
 
@@ -232,7 +232,7 @@ Los fundamentos de programación permiten adquirir la lógica y pensamiento comp
   }
   ```
 
-  Visualizar el Box Model es crucial para dominar el layout en CSS.
+  Visualizar el Box Model es crucial para dominar el layout en [CSS](/others/glossary.md#c).
 
 - **🧲 Flexbox**: Flexbox facilita la distribución de espacio y alineación de ítems en un contenedor flexible.
   - **``display``**: flex: activa el modo flex en el contenedor.
@@ -309,10 +309,6 @@ Los fundamentos de programación permiten adquirir la lógica y pensamiento comp
 
 ### 🗂️ Uso básico de versionamiento de código
 
-El versionamiento de código es una habilidad esencial para cualquier desarrollador, especialmente en entornos colaborativos. En esta sección, se introduce a los practicantes en el uso de herramientas como Git y plataformas como GitHub o GitLab. El objetivo es aprender a gestionar cambios en el código, trabajar con ramas, realizar commits claros y colaborar en equipos mediante flujos de trabajo básicos. Estas prácticas sientan las bases para un desarrollo organizado, eficiente y alineado con las mejores prácticas de la industria.
-
-#### 🎯 Definición
-
 Git es un sistema de control de versiones distribuido que permite gestionar cambios en archivos de forma eficiente y segura a lo largo del tiempo.
 
 Permite guardar estados de tu proyecto llamados commits.
@@ -323,15 +319,15 @@ Permite retroceder cambios, comparar versiones, fusionar trabajo de varias perso
 
 #### 📚 Conceptos fundamentales
 
-|      Concepto      | Descripción                                                                                                     |
-| :----------------: | :-------------------------------------------------------------------------------------------------------------- |
+| Concepto           | Descripción                                                                                                     |
+| :----------------- | :-------------------------------------------------------------------------------------------------------------- |
 | Repositorio (repo) | Es la base de tu proyecto. Contiene todos los archivos y el historial de cambios. Puede ser local o remoto.     |
-|       Commit       | Es un "snapshot" de los archivos en un momento determinado. Guarda cambios junto a un mensaje descriptivo.      |
-|   Branch (rama)    | Línea de desarrollo independiente. Permite trabajar en funcionalidades nuevas sin afectar la versión principal. |
-|       Merge        | Combina cambios de distintas ramas.                                                                             |
-|        Pull        | Actualiza tu repositorio local con cambios del repositorio remoto.                                              |
-|        Push        | Envía tus cambios locales al repositorio remoto (GitHub/GitLab).                                                |
-|       Clone        | Copia un repositorio remoto en tu máquina local.                                                                |
+| Commit             | Es un "snapshot" de los archivos en un momento determinado. Guarda cambios junto a un mensaje descriptivo.      |
+| Branch (rama)      | Línea de desarrollo independiente. Permite trabajar en funcionalidades nuevas sin afectar la versión principal. |
+| Merge              | Combina cambios de distintas ramas.                                                                             |
+| Pull               | Actualiza tu repositorio local con cambios del repositorio remoto.                                              |
+| Push               | Envía tus cambios locales al repositorio remoto (GitHub/GitLab).                                                |
+| Clone              | Copia un repositorio remoto en tu máquina local.                                                                |
 
 #### 🛠️ Comandos básicos de Git
 
@@ -350,7 +346,12 @@ git merge <rama>        # Fusionar otra rama a la actual
 
 #### 🌐 Servidores
 
-Los servidores o plataformas de versionamiento de código, como GitHub, GitLab, Bitbucket y Azure DevOps, son herramientas esenciales para gestionar proyectos de desarrollo de software de manera colaborativa. Estas plataformas permiten almacenar repositorios de código de forma remota, facilitar el trabajo en equipo mediante ramas, realizar revisiones de código, y automatizar flujos de trabajo con integraciones como CI/CD. Para un practicante, familiarizarse con estas herramientas es clave para colaborar eficazmente en proyectos reales y adoptar las mejores prácticas de la industria.
+Son plataformas web que alojan repositorios Git y ofrecen herramientas adicionales como:
+
+- Repositorios remotos: espacio en la nube para tu código.
+- Pull Requests (GitHub) / Merge Requests (GitLab): revisiones de código colaborativas.
+- Issues: gestión de tareas o reportes de bugs.
+- Pipelines ([CI/CD](/others/glossary.md#c)): automatización de pruebas, builds y despliegues (en fases más avanzadas).
 
 #### 🚀 Flujo básico de trabajo como practicante
 
@@ -379,8 +380,7 @@ gitGraph
 - Solicitar revisión y feedback antes de hacer merge.
 
 - 🌟 Estructura de mensajes de commit con buenas prácticas:
-  ![git commit structure](../hard-skills/software/git/assets/commit.png)
-  ![git commit structure](../hard-skills/software/git/assets/commit.png)
+  ![git commit structure](./hard-skills/software/git/assets/commit.png)
 
     | Type     | Emoji                                         |
     | -------- | --------------------------------------------- |
@@ -481,7 +481,7 @@ while actual is not None:
 
 ##### Pilas (Stacks)
 
-Colección de elementos que sigue el principio LIFO (Last In, First Out).
+Colección de elementos que sigue el principio [LIFO](/others/glossary.md#l).
 
 **Métodos**: push(), pop()
 
@@ -503,7 +503,7 @@ print(pila.pop())  # Remover el último elemento (2)
 
 ##### Colas (Queues)
 
-Colección que sigue el principio FIFO (First In, First Out).
+Colección que sigue el principio [FIFO](/others/glossary.md#f).
 
 **Métodos**: enqueue(), dequeue()
 
@@ -919,8 +919,15 @@ La notación Big O describe el "peor caso" de eficiencia de un algoritmo.
 - Visualizar el flujo de datos (dibujar arrays, stacks, queues en papel o herramientas gráficas).
 - Empezar resolviendo problemas simples antes de optimizar.
 - Practicar en plataformas como:
-  - LeetCode (Easy)
-  - HackerRank (Data Structures)
+  - [LeetCode](https://leetcode.com/) (Easy)
+  - [HackerRank](https://www.hackerrank.com/) (Data Structures)
+  - [CodeWars](https://www.codewars.com/)
+  - [CodeFinity](https://codefinity.com/)
+  - [AlgoExpert](https://www.algoexpert.io/)
+  - [GeeksForGeeks](https://www.geeksforgeeks.org/)
+  - [Excercism](https://exercism.org/)
+  - [Edabit](https://edabit.com/)
+  - [Project Euler](https://projecteuler.net/)
 
 ### 🚀 Introducción a Metodologías Ágiles
 
@@ -984,7 +991,7 @@ journey
 
 Cada tarea se representa como una tarjeta que se mueve entre columnas.
 
-###### WIP Limits (Work In Progress)
+###### [WIP](/others/glossary.md#w) Limits (Work In Progress)
 
 Límites para evitar trabajar en demasiadas tareas al mismo tiempo.
 
@@ -997,7 +1004,7 @@ Límites para evitar trabajar en demasiadas tareas al mismo tiempo.
 ##### 🟢 Conceptos básicos que debe conocer un practicante
 
 - Actualizar el estado de sus tareas en el tablero.
-- No tomar muchas tareas a la vez (respetar WIP).
+- No tomar muchas tareas a la vez (respetar [WIP](/others/glossary.md#w)).
 - Priorizar la finalización de tareas antes de comenzar nuevas.
 
 #### 📚 Diferencias rápidas entre Scrum y Kanban
@@ -1160,7 +1167,7 @@ Documentar y compartir conocimientos adquiridos para ayudar a otros miembros del
 
 ## ✅ Criterios de desempeño
 
-Los criterios de desempeño para un desarrollador practicante o Intern son fundamentales para evaluar su progreso y garantizar un aprendizaje efectivo. Estos criterios se enfocan en la responsabilidad, el compromiso, la colaboración y la documentación, elementos clave para el éxito en este rol. Una vez que estos criterios se desempeñen de forma natural y consistente, demostrando un dominio sólido de las habilidades requeridas, será el momento adecuado para considerar un ascenso al siguiente rol: [desarrollador Junior](./junior.md). Este avance refleja la capacidad del practicante para asumir mayores responsabilidades y enfrentar desafíos más complejos en su carrera profesional.
+Los criterios de desempeño para un desarrollador practicante o Intern son fundamentales para evaluar su progreso y garantizar un aprendizaje efectivo. Estos criterios se enfocan en la responsabilidad, el compromiso, la colaboración y la documentación, elementos clave para el éxito en este rol.
 
 ```mermaid
 mindmap
@@ -1226,4 +1233,4 @@ Difundir aprendizajes y recursos útiles para fomentar la colaboración y el cre
 
 ---
 
-[⬆️](/knowledge.md) | [Junior](./junior.md)
+[⬆️](/knowledge.md#1-practicante--intern-de-desarrollo-de-software) | [Junior](./junior.md)

@@ -53,6 +53,10 @@ This glossary offers a concise overview of the key concepts discussed in this gu
 
 ## C
 
+**CI/CD**: (Continuous Integration / Continuous Delivery) Integración continua y entrega continua, es un conjunto de prácticas y herramientas que automatizan el proceso de desarrollo de software, desde la integración del código hasta su despliegue en producción. Esta automatización permite acelarar el ciclo de lanzamiento, mejorar la calidad del software y facilitar la colaboración entre equipos.
+
+**CMR**: (Customer Relationship Management) Es un sistema de software que ayuda a las empresas a gestiona la información y las interacciones con sus clientes.
+
 **CSS**: (Cascading Style Sheets) Hojas de estilo en cascada, es el lenguaje informático especializado en definir y cohesionar la presentación de un documento escrito en un lenguaje marcado como [HTML](#h), [XML](#x), [SVG](#s).
 
 ## D
@@ -96,6 +100,8 @@ KPI: Key Performance Indicator
 ## P
 
 **PM**: Process Mining, Minería de procesos o [descubrimiento de procesos](/knowledge/hard-skills/Maestría/Gestión-rendimiento-implementación-BPM/README.md#inteligencia-de-procesos-y-monitorización-operacional-y-estratégica)
+
+**POO**: Programación Orientada a Objetos, es un paradigma de programación que organiza el código en objetos, que son como contenedores que guardan datos (atributos) y código (métodos) que actúan sobre esos datos.
 
 **PQL**: Process Query Language.
 

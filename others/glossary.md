@@ -53,7 +53,11 @@ This glossary offers a concise overview of the key concepts discussed in this gu
 
 ## C
 
+**CSS**: (Cascading Style Sheets) Hojas de estilo en cascada, es el lenguaje informático especializado en definir y cohesionar la presentación de un documento escrito en un lenguaje marcado como [HTML](#h), [XML](#x), [SVG](#s).
+
 ## D
+
+**DOM**: (Document Object Model) es una interfaz de programación que representa la estructura de una página web HTML como un árbol de nodos.
 
 ## E
 
@@ -61,9 +65,13 @@ This glossary offers a concise overview of the key concepts discussed in this gu
 
 ## F
 
+**FIFO**: (First in, first out) Primero en entrar, primero en salir. Es un método de gestión de inventario que se utiliza pra controlar el flujo de productos, especialmente aquellos que tienen fecha de caducidad o que pueden volverse obsoletos.
+
 ## G
 
 ## H
+
+**HTML**: (HyperText Markup Language) Lenguaje marcado usado para crear páginas web.
 
 ## I
 
@@ -76,6 +84,8 @@ This glossary offers a concise overview of the key concepts discussed in this gu
 KPI: Key Performance Indicator
 
 ## L
+
+**LIFO**: (Last In, First Out) Ultimo en entrar, primero en salir. Es un método de gestión de inventario donde los productos que se han almacenado más recientemente son los primeros en ser retirados y vendidos.
 
 ## M
 
@@ -95,6 +105,8 @@ KPI: Key Performance Indicator
 
 ## S
 
+**SVG**: (Scalable Vector Graphics) Es un formato de gráficos vectoriales bidimencionales, tanto estáticos como animados, en formato de lenguaje [XML](#x).
+
 ## T
 
 TI: Tecnologías de la información
@@ -107,7 +119,15 @@ TI: Tecnologías de la información
 
 ## W
 
+**W3C**: Es el consorcio internacionale de la [WWW](#w) que genera recomendaciones y estándares que aseguran el crecimiento de la [WWW](#w) a largo plazo.
+
+**WIP**: (Work in progress) Trabajo que se está realizando.
+
+**WWW**: (World Wide Web) La Web o red informatica mundial.
+
 ## X
+
+**XML**: (eXtensible Markup Languaje) es un metalenguaje que permite definir lenguajes de marcas desarrollado por la [W3C](#w)
 
 ## Y
 

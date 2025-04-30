@@ -525,3 +525,7 @@ mindmap
     Feedback Constructivo
     Aprendizaje Autónomo
 ````
+
+---
+
+[Intern](./intern.md) | [⬆️](/knowledge.md) | [SSr Engineer](./SSrEngineer.md) 

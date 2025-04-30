@@ -9,10 +9,44 @@ Las Hard Skills representan los conocimientos técnicos y herramientas que debe 
 ```mermaid
 mindmap
   root((Hard Skills Junior))
-    POO
+    Fundamentos de programación
+      POO
+        Clases
+          Getters & Setters
+        Objetos
+        Herencia
+        Polimorfismo
+        Patrones básicos
+          Factory
+          Singleton
     Frameworks
+      Frontend
+        React
+        Angular
+        Vue
+        Next
+      Backend
+        Django
+        ExpressJS
+        Node.js
     APIs Simples
-    Bases de Datos
+      REST
+      GraphQL
+    Arquitecturas de Software
+      MVC
+      MVVM
+      Arquitectura en capas
+      Basada en componentes
+    Manejo de datos
+      SQL
+      NoSQL
+    Herramientas de desarrollo
+      Git
+        GitHub
+        GitLab
+        Bitbucket
+        Azure DevOps
+      Línea de comando básica
 ```
 
 ### Programación orientada a objetos (POO)
@@ -22,22 +56,46 @@ mindmap
   root((POO Junior))
     Conceptos Básicos
       Clases
+        Definen atributos y métodos
+        Plantillas de objetos
       Objetos
+        Instancias de clases
+        Representan entidades concretas
       Herencia
+        Reutiliza código
+        Crea relaciones "es un tipo de"
       Polimorfismo
+        Mismo método, diferentes comportamientos
+        Flexibilidad en diseño de software
     Patrones
       Factory
+        Crear objetos sin exponer la lógica de instanciación
+        Útil cuando se necesita decidir la clase en tiempo de ejecución
+        Ejemplo: fábrica de métodos de pago
       Singleton
+        Una sola instancia global
+        control central de configuración
+        Ejemplo: clase de configuración
     Aplicación
       MVC
-      Reutilización de código
+        Modelo
+        Vista
+        Controlador
+      MVVM
+        Angular
+        Separación de lógica de prestación
+      REST / Cliente-Servidor
+        Comunicación HTTP
+        Backend como proveedor de datos
+      Basada en componentes
+        React
+        Vue
+        Angular
+      Arquitectura en Capas
+        Presentación
+        Lógica
+        Persistencia
 ````
-
-Comprender los principios de programación orientada a objetos (POO) es esencial para escribir código organizado, extensible y mantenible.
-
-- Aplica conceptos de clases, objetos, herencia, encapsulamiento y polimorfismo.
-- Utiliza patrones básicos como "Factory" o "Singleton" para problemas comunes.
-- Mejora la comprensión de arquitecturas como MVC (Modelo-Vista-Controlador).
 
 #### Conceptos
 
@@ -113,6 +171,139 @@ const admin = new Administrador('Luis', 'luis@email.com', ['crear', 'editar', 'e
 admin.saludar(); // Hola, soy Luis
 admin.mostrarPermisos(); // Luis tiene permisos: crear, editar, eliminar
 ```
+
+##### 🧩 Polimorfismo
+
+El polimorfismo permite que métodos con el mismo nombre se comporten de manera diferente según el objeto que los implemente.
+
+###### Escenario polimorfismo
+
+Cuando diferentes tipos de objeto necesitan responder de manera diferente al mismo mensaje o método.
+Ejemplo: Un sistema de pagos donde diferentes métodos (`Tarjeta`, `PayPal`, `Criptomoneda`) implementan un método `procesarPago()` de manera distinta.
+
+###### Ejemplo polimorfismo
+
+```javascript
+class Pago {
+  procesarPago() {
+    console.log('Procesando pago genérico...');
+  }
+}
+
+class PagoTarjeta extends Pago {
+  procesarPago() {
+    console.log('Procesando pago con Tarjeta de Crédito.');
+  }
+}
+
+class PagoPayPal extends Pago {
+  procesarPago() {
+    console.log('Procesando pago con PayPal.');
+  }
+}
+
+const pagos = [new PagoTarjeta(), new PagoPayPal()];
+
+pagos.forEach(pago => pago.procesarPago());
+// Procesando pago con Tarjeta de Crédito.
+// Procesando pago con PayPal.
+```
+
+#### Patrones de diseño básicos: Factory y Singleton
+
+Comprender patrones de diseño permite escribir código más mantenible, reutilizable y escalable. Dos de los patrones más conocidos y útiles para un desarrollador junior son Factory y Singleton.
+
+##### 🏭 Factory pathern
+
+Permite crear objetos sin especificar su clase concreta, delegando la lógica de creación a una "fábrica".
+
+###### Escenario factory
+
+Cuando necesitas crear instancias de diferentes clases que comparten una interfaz común, pero no sabes cuál exactamente hasta tiempo de ejecución.
+
+###### Ejemplo factory
+
+```javascript
+class Animal {
+  speak() {
+    console.log("Hace un sonido");
+  }
+}
+
+class Perro extends Animal {
+  speak() {
+    console.log("Guau");
+  }
+}
+
+class Gato extends Animal {
+  speak() {
+    console.log("Miau");
+  }
+}
+
+function animalFactory(tipo) {
+  if (tipo === 'perro') return new Perro();
+  if (tipo === 'gato') return new Gato();
+  return new Animal();
+}
+
+const miMascota =animalFactory('gato');
+miMascota.speak(); // Miau
+```
+
+###### Ventajas factory
+
+- Centraliza la lógica de instanciación.
+- Facilita la extensión de código.
+- Mejora el desacoplamiento.
+
+##### 👤 Singleton pathern
+
+Restringe la creación de una clase a una sola instancia global accesible en toda la aplicación.
+
+###### Escenario singleton
+
+Cuando necesitas una única fuente de verdad, como en el manejo de configuración, conexión a una base de datos o caché.
+
+###### Ejemplo singleton
+
+```javascript
+class Config {
+  constructor() {
+    if (Config.instance) {
+      return Config.instance;
+    }
+    this.settings = {};
+    Config.instance = this;
+  }
+
+  set(key, value) {
+    this.settings[key] = value;
+  }
+
+  get(key) {
+    return this.settings[key];
+  }
+}
+
+const config1 = new Config();
+config1.set('tema', 'oscuro');
+
+const config2 = new Config();
+console.log(config2.get('tema')); // oscuro
+```
+
+###### Ventajas singleton
+
+- Garantiza que una clase tenga solo una instancia.
+- Control centralizado del estado.
+
+#### Arquitecturas
+
+Para un Junior es importante comprender las arquitecturas que envuelven su entorno de desarrollo para facilitar el enfoque de su trabajo.
+
+##### MVC
 
 ### Uso de frameworks (React, Angular, Vue, Django, Next, etc.)
 
@@ -212,9 +403,32 @@ Además del conocimiento técnico, los Desarrolladores Junior deben desarrollar 
 mindmap
   root((Essential Skills Junior))
     Organización y Tiempo
+      Planificación
+        Jira
+        Trello
+        Azure DevOps
+        ClickUP
+        Notion
+      Priorización
+        Urgente vs Importante
     Resolución de Bugs
+      Debugging
+        IDEs
+        Consola
+      Análisis
+        Logs
+        Flujo de datos
     Colaboración en Equipo
+      Participación
+        Dailys
+        Retrospectivas
+      Prácticas
+        Pair Programming
+        Code Review
     Adaptabilidad
+      Aprendizaje Rápido
+      Flexibilidad de Implementación
+      Cambio de Prioridades
 ````
 
 ### Organización personal y manejo del tiempo
@@ -299,8 +513,15 @@ Los criterios de desempeño marcan el crecimiento del Junior hacia roles de mayo
 mindmap
   root((Criterios de Desempeño Junior))
     Cumple Tareas
+      Entregables Funcionales
+      Documentación
     Participa en Sprints
+      Ceremonias Ágiles
+        Sprint Planning
+        Retrospectives
     Mejora Continua
+      Feedback Constructivo
+      Aprendizaje Autónomo
 ````
 
 ### Cumple tareas técnicas con supervisión

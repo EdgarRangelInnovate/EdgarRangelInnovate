@@ -1178,7 +1178,6 @@ mindmap
       (Registrar aprendizajes)
       (Mantener notas organizadas)
       (Compartir conocimientos con el equipo)
-    ))
 ```
 
 ### Responsabilidad

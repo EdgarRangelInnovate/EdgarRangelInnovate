@@ -4,110 +4,64 @@ El Desarrollador Junior es un rol fundamental en el inicio de la vida profesiona
 
 ## 🔧 Hard Skills
 
-Las Hard Skills representan los conocimientos técnicos y herramientas que debe dominar un Junior para construir soluciones de calidad, resolver problemas comunes y colaborar dentro del equipo.
+El desarrollador junior ha superado la etapa de [aprendizaje básico](./intern.md) y ahora aplica conocimientos fundamentales para construir soluciones funcionales en entornos de desarrollo reales. Esta sección detalla las competencias técnicas clave organizadas por área.
 
 ```mermaid
 mindmap
-  root((Hard Skills Junior))
-    Fundamentos de programación
-      POO
-        Clases
+  root)Hard Skills Junior((
+    ))Fundamentos de programación((
+      ((POO))
+        (Clases)
           Getters & Setters
-        Objetos
-        Herencia
-        Polimorfismo
-        Patrones básicos
+        (Objetos)
+        (Herencia)
+        (Polimorfismo)
+        (Patrones básicos)
           Factory
           Singleton
-    Frameworks
-      Frontend
+    ))Frameworks((
+      ((Frontend))
         React
         Angular
         Vue
         Next
-      Backend
+      ((Backend))
         Django
         ExpressJS
         Node.js
-    APIs Simples
+    ))APIs Simples((
       REST
       GraphQL
-    Arquitecturas de Software
+    ))Arquitecturas de Software((
       MVC
       MVVM
       Arquitectura en capas
       Basada en componentes
-    Manejo de datos
+    ))Manejo de datos((
       SQL
       NoSQL
-    Herramientas de desarrollo
-      Git
-        GitHub
-        GitLab
-        Bitbucket
-        Azure DevOps
+    ))Herramientas de desarrollo((
+      ((Git))
+        (GitHub)
+        (GitLab)
+        (Bitbucket)
+        (Azure DevOps)
       Línea de comando básica
 ```
 
-### Programación orientada a objetos (POO)
+### Fundamentos de programación
 
-````mermaid
-mindmap
-  root((POO Junior))
-    Conceptos Básicos
-      Clases
-        Definen atributos y métodos
-        Plantillas de objetos
-      Objetos
-        Instancias de clases
-        Representan entidades concretas
-      Herencia
-        Reutiliza código
-        Crea relaciones "es un tipo de"
-      Polimorfismo
-        Mismo método, diferentes comportamientos
-        Flexibilidad en diseño de software
-    Patrones
-      Factory
-        Crear objetos sin exponer la lógica de instanciación
-        Útil cuando se necesita decidir la clase en tiempo de ejecución
-        Ejemplo: fábrica de métodos de pago
-      Singleton
-        Una sola instancia global
-        control central de configuración
-        Ejemplo: clase de configuración
-    Aplicación
-      MVC
-        Modelo
-        Vista
-        Controlador
-      MVVM
-        Angular
-        Separación de lógica de prestación
-      REST / Cliente-Servidor
-        Comunicación HTTP
-        Backend como proveedor de datos
-      Basada en componentes
-        React
-        Vue
-        Angular
-      Arquitectura en Capas
-        Presentación
-        Lógica
-        Persistencia
-````
+Los fundamentos de programación para un desarrollador junior se enfocan en aplicar conceptos avanzados como la programación orientada a objetos, patrones básicos de diseño y manejo de excepciones, consolidando las bases adquiridas como [practicante](intern.md) para resolver problemas más complejos y construir soluciones escalables.
 
-#### Conceptos
+#### Programación orientada a objetos (POO)
 
-Aplica conceptos de Clases, Objetos, Herencia, Encapsulamiento y Polimorfismo.
+La POO permite estructurar el código de forma modular, reutilizable y fácil de mantener. Es un enfoque clave en el desarrollo profesional.
 
 ##### 📚 Clases
 
-Una clase es una plantilla o modelo que define las porpiedades (atributos) y comportamientos (métodos) que los objetos creados a partir de ella tendrán.
+**Descripción:** Una clase es una plantilla o modelo que define las porpiedades (atributos) y comportamientos (métodos) que los objetos creados a partir de ella tendrán.
 
-###### Escenario Clases
-
-Se usan clases cuando necesitamos crear múltiples objetos que comparten las mismas características, pero cuyos datos pueden variar. Ejemplos típicos: Usuario en un sistema, Producto en un catálogo, etc.
+**Escenario de uso:** Se usan clases cuando necesitamos crear múltiples objetos que comparten las mismas características, pero cuyos datos pueden variar. Ejemplos típicos: Usuario en un sistema, Producto en un catálogo, etc.
 
 ###### Ejemplo Clases
 
@@ -121,6 +75,10 @@ class Usuario {
   saludar() {
     console.log(`Hola, soy ${this.nombre}`);
   }
+
+  actualizarEmail(nuevoEmail) {
+    this.email = nuevoEmail;
+  }
 }
 
 // Crear un usuario
@@ -128,30 +86,90 @@ const usuario1 = new Usuario('Ana', 'ana@email.com');
 usuario1.saludar(); // Hola, soy Ana
 ````
 
+```python
+class Usuario:
+  def __init__(self, nombre, email):
+    self.nombre = nombre
+    self.email = email
+
+  def saludar(self):
+    print(f"Hola, soy {self.nombre}")
+
+  def actualizar_email(self, nuevo_email):
+    self.email = nuevo_email
+
+# Crear un usuario
+usuario1 = Usuario('Ana', 'ana@email.com')
+usuario1.saludar() # Hola, soy Ana
+```
+
+##### 🍱 Getters & Setters
+
+**Descripción:** Métodos para acceder o modificar atributos privados de forma controlada.
+
+**Escenario de uso:** Proteger acceso a variables internas como contraseñas o configuraciones.
+
+###### Ejemplo getters & setters
+
+```javascript
+class Configuracion {
+  constructor() {
+    this._modo = 'producción';
+  }
+
+  get modo() {
+    return this._modo;
+  }
+
+  set modo(nuevoModo) {
+    if (nuevoModo === 'dev' || nuevoModo === 'producción') {
+      this._modo = nuevoModo;
+    }
+  }
+}
+```
+
+```python
+class Configuracion:
+  def __init__(self):
+    self._modo = 'producción'
+
+  @property
+  def modo(self):
+    return self._modo
+
+  @modo.setter
+  def modo(self, nuevo_modo):
+    if nuevo_modo in ['dev', 'producción']:
+      self._modo = nuevo_modo
+```
+
 ##### 📦 Objetos
 
-Un objeto es una instancia de una clase. Es una entidad concreta que contiene datos (atributos) y comportamiento (métodos) definidos en la clase.
+**Descripción:** Un objeto es una instancia de una clase. Es una entidad concreta que contiene datos (atributos) y comportamiento (métodos) definidos en la clase.
 
-###### Escenario Objetos
-
-Cada vez que requerimos representar una entidad específica con datos reales en un sistema: un cliente en un CRM, un producto en una tienda online, una tarea en un sistema de gestión.
+**Escenario de uso:** Cada vez que requerimos representar una entidad específica con datos reales en un sistema: un cliente en un CRM, un producto en una tienda online, una tarea en un sistema de gestión.
 
 ###### Ejemplo Objetos
 
 Siguiendo el [ejemplo de clases](#ejemplo-clases), `usuario1` es un objeto creado a partir de la clase `Usuario`.
 
-````javascript
+```javascript
 const usuario2 = new Usuario('Carlos', 'carlos@email.com');
 usuario2.saludar(); // Hola, soy Carlos
-````
+```
+
+```python
+# Crear un usuario
+usuario1 = Usuario('Ana', 'ana@email.com')
+usuario1.saludar() # Hola, soy Ana
+```
 
 ##### 🧬 Herencia
 
-La herencia permite que una clase derive (herede) propiedades y métodos de otra clase existente. Ayuda a reutilizar código y construir jerarquías lógicas.
+**Descripción:** La herencia permite que una clase derive (herede) propiedades y métodos de otra clase existente. Ayuda a reutilizar código y construir jerarquías lógicas.
 
-###### Escenario Herencia
-
-Cuando tenemos una relación "es un tipo de" entre clases. Ejemplo: Un `Administrador` es un tipo de `Usuario` pero con permisos adicionales.
+**Escenario de uso:** Cuando tenemos una relación "es un tipo de" entre clases. Ejemplo: Un `Administrador` es un tipo de `Usuario` pero con permisos adicionales.
 
 ###### Ejemplo Herencia
 
@@ -172,13 +190,21 @@ admin.saludar(); // Hola, soy Luis
 admin.mostrarPermisos(); // Luis tiene permisos: crear, editar, eliminar
 ```
 
+```python
+class Usuario:
+  def __init__(self, nombre):
+    self.nombre = nombre
+
+class Administrador(Usuario):
+  def borrar_usuario(self):
+    pass
+```
+
 ##### 🧩 Polimorfismo
 
-El polimorfismo permite que métodos con el mismo nombre se comporten de manera diferente según el objeto que los implemente.
+**Descripción:** El polimorfismo permite que métodos con el mismo nombre se comporten de manera diferente según el objeto que los implemente.
 
-###### Escenario polimorfismo
-
-Cuando diferentes tipos de objeto necesitan responder de manera diferente al mismo mensaje o método.
+**Escenario de uso:** Cuando diferentes tipos de objeto necesitan responder de manera diferente al mismo mensaje o método.
 Ejemplo: Un sistema de pagos donde diferentes métodos (`Tarjeta`, `PayPal`, `Criptomoneda`) implementan un método `procesarPago()` de manera distinta.
 
 ###### Ejemplo polimorfismo
@@ -209,47 +235,19 @@ pagos.forEach(pago => pago.procesarPago());
 // Procesando pago con PayPal.
 ```
 
-#### Patrones de diseño básicos: Factory y Singleton
-
-Comprender patrones de diseño permite escribir código más mantenible, reutilizable y escalable. Dos de los patrones más conocidos y útiles para un desarrollador junior son Factory y Singleton.
-
 ##### 🏭 Factory pathern
 
-Permite crear objetos sin especificar su clase concreta, delegando la lógica de creación a una "fábrica".
+**Descripción:** Permite crear objetos sin especificar su clase concreta, delegando la lógica de creación a una "fábrica".
 
-###### Escenario factory
-
-Cuando necesitas crear instancias de diferentes clases que comparten una interfaz común, pero no sabes cuál exactamente hasta tiempo de ejecución.
+**Escenario de uso:** Cuando necesitas crear instancias de diferentes clases que comparten una interfaz común, pero no sabes cuál exactamente hasta tiempo de ejecución. Ejemplo crear diferentes tipos de pago según el método elegido.
 
 ###### Ejemplo factory
 
 ```javascript
-class Animal {
-  speak() {
-    console.log("Hace un sonido");
-  }
+function metodoPagoFactory(tipo) {
+  if (tipo === 'tarjeta') return new PagoTarjeta();
+  if (tipo === 'paypal') return new PagoPayPal();
 }
-
-class Perro extends Animal {
-  speak() {
-    console.log("Guau");
-  }
-}
-
-class Gato extends Animal {
-  speak() {
-    console.log("Miau");
-  }
-}
-
-function animalFactory(tipo) {
-  if (tipo === 'perro') return new Perro();
-  if (tipo === 'gato') return new Gato();
-  return new Animal();
-}
-
-const miMascota =animalFactory('gato');
-miMascota.speak(); // Miau
 ```
 
 ###### Ventajas factory
@@ -260,11 +258,9 @@ miMascota.speak(); // Miau
 
 ##### 👤 Singleton pathern
 
-Restringe la creación de una clase a una sola instancia global accesible en toda la aplicación.
+**Descripción:** Restringe la creación de una clase a una sola instancia global accesible en toda la aplicación.
 
-###### Escenario singleton
-
-Cuando necesitas una única fuente de verdad, como en el manejo de configuración, conexión a una base de datos o caché.
+**Escenario de uso:** Cuando necesitas una única fuente de verdad, como en el manejo de configuración, conexión a una base de datos o caché.
 
 ###### Ejemplo singleton
 
@@ -299,53 +295,21 @@ console.log(config2.get('tema')); // oscuro
 - Garantiza que una clase tenga solo una instancia.
 - Control centralizado del estado.
 
-#### Arquitecturas
-
-Para un Junior es importante comprender las arquitecturas que envuelven su entorno de desarrollo para facilitar el enfoque de su trabajo.
-
-##### MVC
-
-### Uso de frameworks (React, Angular, Vue, Django, Next, etc.)
-
-````mermaid
-mindmap
-  root((Frameworks Junior))
-    Frontend
-      React
-        Componentes
-        Props y State
-        Hooks básicos
-      Vue
-        Vue Cli
-        Binding de datos
-        Componentes
-      Angular
-        Componentes y módulos
-        Directivas
-        Introducción a RxJS
-    Backend
-      Django
-      Node.js (Next.js)
-        Modelo de eventos
-      ExpressJS
-        Rutas básicas
-        middlewares simples
-    Fullstack
-      Consumo de APIs REST
-      Integración Frontend/Backend
-    Skills
-      Gestión de estados
-      CLI Tools
-      Componentización
-````
+#### Frameworks
 
 En esta etapa, un Desarrollador Junior debe ser capaz de trabajar con al menos uno de los principales frameworks de frontend y/o backend, comprendiendo los fundamentos de la construcción de aplicaciones modulares, mantenibles y escalables. La expectativa no es la maestría absoluta, sino la capacidad de aprender rápido y aplicar buenas prácticas básicas.
 
-- Frontend:
-  - React: Entender componentes funcionales, props, estado y hooks básicos.
-  - Vue: Uso de Vue CLI, componentes y sistema de binding de datos.
-  - Angular: Conocer el sistema de componentes, directivas, módulos y tener exposición inicial a RxJS para manejar eventos y peticiones asincrónicas.
-- Backend:
+##### Frontend
+
+Herramientas modernas para construir interfaces dinámicas y componentes reutilizables.
+
+Normalmente se usa en desarrollo de SPAs (Single Page Aplications) y PWA (Progressive Web Apps).
+
+- React: Entender componentes funcionales, props, estado y hooks básicos.
+- Vue: Uso de Vue CLI, componentes y sistema de binding de datos.
+- Angular: Conocer el sistema de componentes, directivas, módulos y tener exposición inicial a RxJS para manejar eventos y peticiones asincrónicas.
+
+##### Backend:
   - Node.js: Comprender su modelo asíncrono y basado en eventos.
   - ExpressJS: Crear servidores sencillos, definir rutas, middlewares básicos y manejo de errores.
 - Stack Fullstack:

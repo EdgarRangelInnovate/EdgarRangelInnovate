@@ -706,171 +706,185 @@ Esto busca la palabra "password" recursivamente en todos los archivos dentro de 
 
 ## 🧠 Essential Skills
 
-Además del conocimiento técnico, los Desarrolladores Junior deben desarrollar habilidades esenciales para crecer en un entorno profesional y colaborar efectivamente.
+Los essential skills de un desarrollador junior reflejan su madurez profesional, capacidad de integrarse efectivamente a un equipo y adaptarse a entornos técnicos cambiantes. Aunque ya cuenta con experiencia práctica, aún está en proceso de fortalecer hábitos clave como la autonomía, la comunicación efectiva y la colaboración estructurada.
 
-````mermaid
+```mermaid
 mindmap
-  root((Essential Skills Junior))
-    Organización y Tiempo
-      Planificación
+  root(Essential Skills Junior))
+    ))Organización y Tiempo((
+      ((Planificación))
         Jira
         Trello
         Azure DevOps
         ClickUP
         Notion
-      Priorización
+      ((Priorización))
         Urgente vs Importante
-    Resolución de Bugs
-      Debugging
+    ))Resolución de Bugs((
+      ((Debugging))
         IDEs
         Consola
-      Análisis
+      ((Análisis))
         Logs
         Flujo de datos
-    Colaboración en Equipo
-      Participación
+    ))Colaboración en Equipo((
+      ((Participación))
         Dailys
         Retrospectivas
-      Prácticas
+      ((Prácticas))
         Pair Programming
         Code Review
-    Adaptabilidad
-      Aprendizaje Rápido
-      Flexibilidad de Implementación
-      Cambio de Prioridades
-````
+    ))Adaptabilidad((
+      (Aprendizaje Rápido)
+      (Flexibilidad de Implementación)
+      (Cambio de Prioridades)
+```
 
-### Organización personal y manejo del tiempo
+### Organización y Tiempo
 
-El manejo de tareas y tiempos permite a un Junior ser más predecible y confiable en un proyecto.
+El desarrollador junior debe comenzar a manejar de forma eficiente su tiempo, tareas y prioridades, usando herramientas colaborativas que reflejen su avance en proyectos.
 
-Uso de metodologías ágiles para planificar tareas (Kanban, Scrum).
+#### Planificación
 
-Priorización de actividades según impacto y urgencia.
+El uso de herramientas para la gestión de tareas permite trabajar de forma ordenada, visualizar el progreso y cumplir compromisos del equipo técnico.
 
-````mermaid
+- **Jira**: Estándar en equipos ágiles para el manejo de sprints, tareas, bugs y backlogs.
+- **Trello**: Kanban simple e intuitivo ideal para seguimiento personal y de pequeños equipos.
+- **Azure DevOps**: Integración con repositorios, pipelines y tableros ágiles en proyectos Microsoft.
+- **ClickUP**: Herramienta completa para planificación personal y de equipo.
+- **Notion**: Versátil para documentar, planificar y registrar avances.
+
+#### Priorización
+
+Conforme crece la carga de trabajo, es vital entender qué tareas tienen mayor impacto.
+
+- **Urgente vs Importante**: Técnica básica para diferenciar entre lo que necesita atención inmediata y lo que tiene un valor estratégico a mediano plazo.
+
+### Resolución de Bugs
+
+Se espera que el desarrollador junior pueda identificar errores en el código y comprender su origen sin depender exclusivamente del líder técnico.
+
+#### Debugging
+
+- **[IDE](/others/glossary.md#i)s**: Domina las funciones básicas de depuración como breakpoints, inspección de variables y paso a paso (step into/out).
+- **Consola**: Capacidad de imprimir valores, rastrear el flujo y observar outputs inesperados.
+
+#### Análisis
+
+- **Logs**: Lectura e interpretación de registros de errores o trazas del sistema.
+- **Flujo de datos**: Comprender cómo los datos viajan entre capas del sistema ayuda a encontrar errores en procesos asincrónicos, [API](/others/glossary.md#a)s o formularios.
+
+### Colaboración en Equipo
+
+La interacción diaria con el equipo de desarrollo es fundamental para el crecimiento del rol junior.
+
+#### Participación
+
+- **Dailys**: Presenta avances y obstáculos de forma clara y breve.
+- **Retrospectivas**: Aporta observaciones útiles sobre lo que funcionó y lo que puede mejorar.
+
+#### Prácticas
+
+- **Pair Programming**: Trabajar con un compañero ayuda a nivelar conocimientos y mejorar el enfoque de resolución.
+- **Code Review**: Recibir y dar feedback sobre código fortalece la calidad técnica del equipo.
+
+### Adaptabilidad
+
+El entorno técnico cambia con frecuencia, por lo que se espera que el junior reaccione positivamente a nuevas condiciones.
+
+- **Aprendizaje Rápido**: Capacidad de aprender herramientas o librerías con documentación oficial y ejemplo prácticos.
+- **Flexibilidad de Implementación**: Disposición para cambiar una solución técnica cuando se propone una mejor.
+- **Cambio de Prioridades**: Ser capaz de retomar una tarea pausada, reordenar pendientes o asumir nuevos objetivos sin frustración.
+
+## ✅ Criterios de Desempeño (Junior Developer)
+
+Un desarrollador junior no solo debe cumplir técnicamente con las tareas asignadas, sino también demostrar evolución en su forma de colaborar, aprender y adaptarse a los entornos de desarrollo reales. Estos criterios permiten evaluar su madurez profesional, y sirven como guía para su crecimiento hacia el siguiente nivel: **[Ssr Engineer](./mid-developer.md) (Semi-Senior)**.
+
+A continuación, se presentan los principales criterios de evaluación, junto con un mapa mental para visualizar el alcance esperado de este rol.
+
+```mermaid
 mindmap
-  root((Organización Junior))
-    Planificación
-      Jira
-      Trello
-    Priorización
-      Urgente vs Importante
-````
+  root(Criterios de Desempeño Junior))
+    ))Técnica((
+      Entrega de funcionalidades completas
+      Comprensión de requerimientos simples
+      Participación en construcción de componentes
+    ))Calidad de código((
+      Sigue convenciones del equipo
+      Escribe funciones reutilizables y legibles
+      Aplica control de versiones correctamente
+    ))Autonomía((
+      Resuelve tareas simples sin supervisión constante
+      Investiga por su cuenta antes de pedir ayuda
+    ))Colaboración((
+      Participa activamente en reuniones de equipo
+      Acepta feedback y lo implementa
+      Realiza revisiones de código básicas
+    ))Gestión del tiempo((
+      Estima y planifica tareas propias
+      Informa avances y bloqueos oportunamente
+    ))Aprendizaje continuo((
+      Mejora su conocimiento técnico regularmente
+      Adopta nuevas herramientas con guía moderada
+    ))Preparación para el siguiente nivel((
+      Resuelve tareas con fluidez
+      Se anticipa a posibles errores
+      Propone pequeñas mejoras técnicas o funcionales
+```
 
-### Resolución básica de bugs o errores
+### Técnica
 
-El Junior debe aprender a identificar problemas en su código y resolverlos sistemáticamente.
+El desarrollador junior demuestra capacidad para desarrollar funcionalidades de principio a fin, interpretando requerimientos definidos con claridad. Aporta soluciones a problemas típicos del negocio sin necesidad de rediseñar la arquitectura ni abordar casos complejos.
 
-Uso básico de herramientas de debugging en IDEs.
+- **Entrega de funcionalidades completas**: Participa en la implementación de nuevas vistas, controladores o servicios, cumpliendo con criterios de aceptación definidos.
+- **Comprensión de requerimientos simples**: Interpreta historias de usuario o tareas de Jira, detecta qué se espera del resultado final.
+- **Participación en construcción de componentes**: Puede trabajar en componentes frontend reutilizables o endpoints backend estandarizados.
 
-Análisis de logs y errores comunes en consola.
+### Calidad de código
 
-Métodos de resolución: dividir y conquistar, análisis de flujo de datos.
+No solo escribe código que "funciona", sino que se alinea con los estilos y convenciones del equipo, mejorando su legibilidad y mantenibilidad.
 
-````mermaid
-mindmap
-  root((Resolución de Bugs Junior))
-    Debugging
-      IDEs
-      Consola
-    Análisis
-      Logs
-      Flujos de Datos
-````
+- **Sigue convenciones del equipo**: Respeta el formato de nombres, comentarios, estructura de carpetas y tipos de archivos definidos por el equipo.
+- **Escribe funciones reutilizables y legibles**: Prefiere funciones pequeñas, claras y con nombres descriptivos.
+- **Aplica control de versiones correctamente**: Crea ramas propias, realiza commits claros, actualiza su rama base y participa en el flujo Git del equipo.
 
-### Colaboración fluida con el equipo
+### Autonomía
 
-La colaboración es clave para el éxito en entornos ágiles y multiculturales.
+Un junior debe comenzar a resolver problemas básicos sin requerir supervisión constante, demostrando iniciativa y compromiso con sus tareas.
 
-Participación activa en reuniones de equipo.
+- **Resuelve tareas simples sin supervisión constante**: Identifica, implementa y prueba su propia solución siguiendo criterios definidos.
+- **Investiga por su cuenta antes de pedir ayuda**: Busca documentación oficial, foros o ejemplos de código antes de escalar dudas.
 
-Prácticas de pair programming y revisiones de código.
+### Colaboración
 
-````mermaid
-mindmap
-  root((Colaboración Junior))
-    Participación
-      Dailys
-      Retrospectivas
-    Prácticas
-      Pair Programming
-      Code Review
-````
+El trabajo en equipo es esencial. Se espera que el junior tenga comunicación fluida, sepa colaborar activamente y comparta conocimiento.
 
-### Adaptabilidad a cambios técnicos
+- **Participa activamente en reuniones de equipo**: Habla sobre su progreso en dailys y muestra apertura en retrospectivas.
+- **Acepta feedback y lo implementa**: Aplica los comentarios del equipo de forma constructiva.
+- **Realiza revisiones de código básicas**: Puede revisar código de pares, detectar errores simples o sugerir mejoras menores.
 
-El entorno tecnológico cambia rápidamente; un Junior debe ser flexible ante nuevas herramientas y procesos.
+### Gestión del tiempo
 
-Capacidad para aprender nuevas tecnologías bajo presión.
+A medida que adquiere experiencia, debe aprender a organizar su trabajo, estimar tiempos y reportar impedimentos sin necesidad de seguimiento constante.
 
-Disposición a cambiar implementaciones cuando los requisitos cambian.
+- **Estima y planifica tareas propias**: Puede dividir tareas complejas en subtareas manejables.
+- **Informa avances y bloqueos oportunamente**: Actualiza tareas en el sistema de gestión y no retrasa al equipo por falta de comunicación.
 
-````mermaid
-mindmap
-  root((Adaptabilidad Junior))
-    Aprendizaje Rápido
-    Flexibilidad de Implementación
-    Cambio de Prioridades
-````
+### Aprendizaje continuo
 
-## ✅ Criterios de desempeño para Junior
+Mantiene una actitud proactiva para aprender tecnologías, patrones de diseño o buenas prácticas relevantes para su stack y entorno de trabajo.
 
-Los criterios de desempeño marcan el crecimiento del Junior hacia roles de mayor autonomía.
+- **Mejora su conocimiento técnico regularmente**: Realiza cursos, sigue tutoriales o consulta documentación oficial.
+- **Adopta nuevas herramientas con guía moderada**: Se adapta a herramientas de testing, integración continua o despliegue automatizado.
 
-````mermaid
-mindmap
-  root((Criterios de Desempeño Junior))
-    Cumple Tareas
-      Entregables Funcionales
-      Documentación
-    Participa en Sprints
-      Ceremonias Ágiles
-        Sprint Planning
-        Retrospectives
-    Mejora Continua
-      Feedback Constructivo
-      Aprendizaje Autónomo
-````
+### Preparación para el siguiente nivel: [Ssr Engineer](./mid-developer.md)
 
-### Cumple tareas técnicas con supervisión
+Cuando un desarrollador junior logra realizar sus tareas de forma **natural y fluida**, con **mínimo acompañamiento**, y demuestra capacidad de análisis, colaboración, anticipación de errores y propuestas de mejora, está listo para **ascender a Semi-Senior**.
 
-- Realiza entregables funcionales de complejidad baja o moderada bajo acompañamiento.
-- Documenta adecuadamente las funcionalidades entregadas.
-
-````mermaid
-mindmap
-  root((Cumplimiento de Tareas Junior))
-    Entregables Funcionales
-    Documentación
-````
-
-### Participa activamente en sprints o entregas
-
-- Aporta de forma proactiva durante las reuniones y ceremonias ágiles.
-- Propone pequeñas mejoras o soluciones.
-
-````mermaid
-mindmap
-  root((Participación en Sprints Junior))
-    Ceremonias Ágiles
-      Sprint Planning
-      Retrospectives
-    Mejora de Procesos
-````
-
-### Mejora continua con base en feedback
-
-- Recibe feedback con apertura y aplica las sugerencias en futuros entregables.
-- Busca oportunidades de aprendizaje autodirigido.
-
-````mermaid
-mindmap
-  root((Mejora Continua Junior))
-    Feedback Constructivo
-    Aprendizaje Autónomo
-````
+- **Resuelve tareas con fluidez**: Demuestra agilidad y confianza al trabajar sobre funcionalidades conocidas o repetitivas.
+- **Se anticipa a posibles errores**: Valida inputs, considera casos extremos y gestiona errores comunes sin que se lo soliciten.
+- **Propone pequeñas mejoras técnicas o funcionales**: Identifica oportunidades para refactorizar código, mejorar flujos o optimizar la experiencia del usuario.
 
 ---
 
-[Intern](./intern.md) | [⬆️](/knowledge.md#-hard-skills-junior-dev) | [SSr Engineer](./SSrEngineer.md)
+[Intern](./intern.md) | [⬆️](/knowledge.md#3-desarrollador-semi-senior--mid-level-developer) | [SSr Engineer](./mid-developer.md)

@@ -85,6 +85,8 @@ This glossary offers a concise overview of the key concepts discussed in this gu
 
 ## I
 
+**IDE**: (Integrated Development Environment) es una aplicación informática que proporciona servicios integrales para facilitar al desarrollador o programador el desarrollo de software.
+
 **IP**: En el contexto de BPM es la [inteligencia de procesos](/knowledge/hard-skills/Maestría/Gestión-rendimiento-implementación-BPM/README.md#inteligencia-de-procesos-ip)
 
 ## J

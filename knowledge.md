@@ -30,26 +30,6 @@ En esta primera etapa, el [practicante](./knowledge/tech/intern.md) se inicia en
 
 En esta etapa, el [desarrollador junior](./knowledge/tech/junior.md) comienza a aplicar sus conocimientos técnicos en proyectos reales con mayor autonomía. Aún requiere guía y acompañamiento frecuente, pero ya es capaz de desarrollar funcionalidades básicas, colaborar en sprints y proponer soluciones sencillas. Es un rol clave para consolidar buenas prácticas, afianzar la lógica de programación y ganar experiencia en entornos colaborativos.
 
-##### 🔧 Hard Skills (Junior Dev)
-
-- Programación orientada a objetos (POO)
-- Uso de frameworks (React, Angular, Vue, Django, Next, etc.)
-- Construcción de APIs simples (REST/GraphQL)
-- Bases de datos relacionales y NoSQL básicas
-
-##### 🧠 Essential Skills (Junior Dev)
-
-- Organización personal y manejo del tiempo
-- Resolución básica de bugs o errores
-- Colaboración fluida con el equipo
-- Adaptabilidad a cambios técnicos
-
-##### ✅ Criterios de desempeño (Junior Dev)
-
-- Cumple tareas técnicas con supervisión
-- Participa activamente en sprints o entregas
-- Mejora continua con base en feedback
-
 #### 3. Desarrollador Semi Senior / Mid-Level Developer
 
 El [desarrollador semi senior](./knowledge/tech/mid-developer.md) se desempeña con autonomía técnica en tareas de mediana y alta complejidad. Participa activamente en decisiones técnicas del equipo, guía a perfiles más junior y propone mejoras tanto en código como en procesos. Este nivel representa un punto de inflexión hacia roles de mayor liderazgo técnico y especialización. Se espera pensamiento crítico, compromiso con la calidad y una visión más estratégica del desarrollo.

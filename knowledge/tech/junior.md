@@ -887,4 +887,4 @@ Cuando un desarrollador junior logra realizar sus tareas de forma **natural y fl
 
 ---
 
-[Intern](./intern.md) | [⬆️](/knowledge.md#3-desarrollador-semi-senior--mid-level-developer) | [SSr Engineer](./mid-developer.md)
+[Intern](./intern.md) | [⬆️](/knowledge.md#2-desarrollador-junior-frontend--backend--fullstack) | [SSr Engineer](./ssr-engineer.md)

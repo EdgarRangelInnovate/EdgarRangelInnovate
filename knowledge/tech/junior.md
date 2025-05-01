@@ -798,7 +798,7 @@ El entorno técnico cambia con frecuencia, por lo que se espera que el junior re
 
 ## ✅ Criterios de Desempeño (Junior Developer)
 
-Un desarrollador junior no solo debe cumplir técnicamente con las tareas asignadas, sino también demostrar evolución en su forma de colaborar, aprender y adaptarse a los entornos de desarrollo reales. Estos criterios permiten evaluar su madurez profesional, y sirven como guía para su crecimiento hacia el siguiente nivel: **[Ssr Engineer](./mid-developer.md) (Semi-Senior)**.
+Un desarrollador junior no solo debe cumplir técnicamente con las tareas asignadas, sino también demostrar evolución en su forma de colaborar, aprender y adaptarse a los entornos de desarrollo reales. Estos criterios permiten evaluar su madurez profesional, y sirven como guía para su crecimiento hacia el siguiente nivel: **[Ssr Engineer](./ssr-engineer.md) (Semi-Senior)**.
 
 A continuación, se presentan los principales criterios de evaluación, junto con un mapa mental para visualizar el alcance esperado de este rol.
 
@@ -877,7 +877,7 @@ Mantiene una actitud proactiva para aprender tecnologías, patrones de diseño o
 - **Mejora su conocimiento técnico regularmente**: Realiza cursos, sigue tutoriales o consulta documentación oficial.
 - **Adopta nuevas herramientas con guía moderada**: Se adapta a herramientas de testing, integración continua o despliegue automatizado.
 
-### Preparación para el siguiente nivel: [Ssr Engineer](./mid-developer.md)
+### Preparación para el siguiente nivel: [Ssr Engineer](./ssr-engineer.md)
 
 Cuando un desarrollador junior logra realizar sus tareas de forma **natural y fluida**, con **mínimo acompañamiento**, y demuestra capacidad de análisis, colaboración, anticipación de errores y propuestas de mejora, está listo para **ascender a Semi-Senior**.
 
@@ -887,4 +887,4 @@ Cuando un desarrollador junior logra realizar sus tareas de forma **natural y fl
 
 ---
 
-[Intern](./intern.md) | [⬆️](/knowledge.md#3-desarrollador-semi-senior--mid-level-developer) | [SSr Engineer](./mid-developer.md)
+[Intern](./intern.md) | [⬆️](/knowledge.md#3-desarrollador-semi-senior--mid-level-developer) | [SSr Engineer](./ssr-engineer.md)

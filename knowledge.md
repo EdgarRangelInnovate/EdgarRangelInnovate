@@ -19,7 +19,7 @@ flowchart LR
   %% Eventos
   click A "#/knowledge/tech/intern" "Ir a Pasante"
   click B "#/knowledge/tech/junior" "Ir a Desarrollador Junior"
-  click C "#/knowledge/tech/mid-developer" "Ir a Desarrollador Intermedio"
+  click C "#/knowledge/tech/ssr-engineer" "Ir a Desarrollador Intermedio"
 ```
 
 #### 1. Practicante / Intern de Desarrollo de Software
@@ -32,7 +32,7 @@ En esta etapa, el [desarrollador junior](./knowledge/tech/junior.md) comienza a 
 
 #### 3. Desarrollador Semi Senior / Mid-Level Developer
 
-El [desarrollador semi senior](./knowledge/tech/mid-developer.md) se desempeña con autonomía técnica en tareas de mediana y alta complejidad. Participa activamente en decisiones técnicas del equipo, guía a perfiles más junior y propone mejoras tanto en código como en procesos. Este nivel representa un punto de inflexión hacia roles de mayor liderazgo técnico y especialización. Se espera pensamiento crítico, compromiso con la calidad y una visión más estratégica del desarrollo.
+El [desarrollador semi senior](./knowledge/tech/ssr-engineer.md) se desempeña con autonomía técnica en tareas de mediana y alta complejidad. Participa activamente en decisiones técnicas del equipo, guía a perfiles más junior y propone mejoras tanto en código como en procesos. Este nivel representa un punto de inflexión hacia roles de mayor liderazgo técnico y especialización. Se espera pensamiento crítico, compromiso con la calidad y una visión más estratégica del desarrollo.
 
 ##### 🔧 Hard Skills (Ssr Senior Engineer)
 

@@ -16,6 +16,7 @@ mindmap
         (Objetos)
         (Herencia)
         (Polimorfismo)
+          Sobbreescritura
         (Patrones básicos)
           Factory
           Singleton
@@ -209,7 +210,6 @@ class Administrador(Usuario):
     pass
 ```
 
-<!-- FIXME: Duda entre polimorfismo y sobreescritura -->
 ##### 🧩 Polimorfismo
 
 **Descripción:** El polimorfismo permite que métodos con el mismo nombre se comporten de manera diferente según el objeto que los implemente.
@@ -244,6 +244,32 @@ pagos.forEach(pago => pago.procesarPago());
 // Procesando pago con Tarjeta de Crédito.
 // Procesando pago con PayPal.
 ```
+
+###### 🔁 Sobreescritura de métodos
+
+La **sobreescritura** es una forma específica de polimorfismo en la que una subclase redefine un método que ya existe en su clase base. El método en la subclase debe tener el mismo nombre y firma que el de la superclase.
+
+###### 💡 Ejemplo
+
+```python
+class Vehiculo:
+    def arrancar(self):
+        print("El vehículo arranca.")
+
+class Coche(Vehiculo):
+    def arrancar(self):
+        print("El coche arranca con llave.")
+
+v = Vehiculo()
+v.arrancar()  # El vehículo arranca.
+
+c = Coche()
+c.arrancar()  # El coche arranca con llave.
+```
+
+###### 🔍 Diferencia entre polimorfismo y sobreescritura
+
+La **sobreescritura** es el mecanismo técnico, mientras que el **polimorfismo** es el principio de diseño que la aprovecha. Es decir, sin sobreescritura, no hay polimorfismo en lenguajes como Python o Java.
 
 ##### 🏭 Factory pathern
 

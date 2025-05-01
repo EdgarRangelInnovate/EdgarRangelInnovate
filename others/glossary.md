@@ -37,6 +37,8 @@ This glossary offers a concise overview of the key concepts discussed in this gu
 
 ## A
 
+**API**: (Application Programming Interface) Es una pieza de código que permite a dos aplicaciones comunicarse entre sí para compartir información y funcionalidades.
+
 ## B
 
 **BAM**: Business Activity Monitoring.
@@ -56,6 +58,8 @@ This glossary offers a concise overview of the key concepts discussed in this gu
 **CI/CD**: (Continuous Integration / Continuous Delivery) Integración continua y entrega continua, es un conjunto de prácticas y herramientas que automatizan el proceso de desarrollo de software, desde la integración del código hasta su despliegue en producción. Esta automatización permite acelarar el ciclo de lanzamiento, mejorar la calidad del software y facilitar la colaboración entre equipos.
 
 **CMR**: (Customer Relationship Management) Es un sistema de software que ayuda a las empresas a gestiona la información y las interacciones con sus clientes.
+
+**CRUD**: (Create, Read, Update, Delete) se usa para referirse a las funciones básicas en bases de datos o la capa de persistencia en un software.
 
 **CSS**: (Cascading Style Sheets) Hojas de estilo en cascada, es el lenguaje informático especializado en definir y cohesionar la presentación de un documento escrito en un lenguaje marcado como [HTML](#h), [XML](#x), [SVG](#s).
 
@@ -77,6 +81,8 @@ This glossary offers a concise overview of the key concepts discussed in this gu
 
 **HTML**: (HyperText Markup Language) Lenguaje marcado usado para crear páginas web.
 
+**HTTP**: (HyperText Transfer Protocol) Es el protocolo de comunicación que permite las transferencias de información a través de archivos ([XML](#x), [HTML](#h)…) en la [World Wide Web](#w).
+
 ## I
 
 **IP**: En el contexto de BPM es la [inteligencia de procesos](/knowledge/hard-skills/Maestría/Gestión-rendimiento-implementación-BPM/README.md#inteligencia-de-procesos-ip)
@@ -97,6 +103,8 @@ KPI: Key Performance Indicator
 
 ## O
 
+**ORM**: (Object Relational Mapping) Es una herramienta de software que permite simplificar la interacción entre una aplicación y una base de datos relacional, actuando como intermediario entre el código de la aplicación y la base de datos.
+
 ## P
 
 **PM**: Process Mining, Minería de procesos o [descubrimiento de procesos](/knowledge/hard-skills/Maestría/Gestión-rendimiento-implementación-BPM/README.md#inteligencia-de-procesos-y-monitorización-operacional-y-estratégica)
@@ -105,11 +113,15 @@ KPI: Key Performance Indicator
 
 **PQL**: Process Query Language.
 
+**PWA**: (Progressive Web Application) Aplicativo destinado a funcionar en cualquier plataforma que use un navegador compatible con los estándares. Tiene funcionalidades que incluye trabajar sin conexión, notificaciones push y acceso al hardware del dispositivo, lo que permite crear experiencias de usuario similares a las aplicaciones nativas en dispositivos móviles y de escritorio.
+
 ## Q
 
 ## R
 
 ## S
+
+**SPA**: (Single Page Application) Aplicación de página única, busca dar una experiencia más fluida a los usuarios.
 
 **SVG**: (Scalable Vector Graphics) Es un formato de gráficos vectoriales bidimencionales, tanto estáticos como animados, en formato de lenguaje [XML](#x).
 
@@ -118,6 +130,12 @@ KPI: Key Performance Indicator
 TI: Tecnologías de la información
 
 ## U
+
+**UI**: (User Interface) Se refiere a la forma en que un usuario interactúa con una aplicación o dispositivo.
+
+**UNIX**: Es una familia de sistemas operativos multiusuario y multitarea, desarrollado a partir de 1969 en los Laboratorios Bell por Ken Thompson y Dennis Ritchie, con el objetivo de facilitar el desarrollo de software. Se caracteriza por su sistema de ficheros jerárquico, el uso de archivos de texto y la consideración de los dispositivos como archivos.
+
+**URL**: (Uniform Resource Locator) Es la dirección única de un recurso en la web, como una página web, una imagen o un archivo.
 
 **US**: User Story o [Historias de usuario](/knowledge/hard-skills/development-methodologies/scrum.md#historias-de-usuario).
 

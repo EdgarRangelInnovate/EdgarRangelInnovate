@@ -41,12 +41,21 @@ mindmap
       SQL
       NoSQL
     ))Herramientas de desarrollo((
-      ((Git))
-        (GitHub)
-        (GitLab)
-        (Bitbucket)
-        (Azure DevOps)
-      Línea de comando básica
+      ((Git intermedio))
+        (Resolución de conflictos)
+        (Rebase interactivo)
+        (Cherry-pick)
+        (Trabajo con ramas remotas)
+        (Git hooks básicos)
+      ((Gestión de entornos y dependencias))
+        (npm / yarn)
+        (pip / virtualenv / poetry)
+        (.env y configuración)
+      ((Línea de comandos))
+        (Uso avanzado de terminal)
+        (Automatización con scripts)
+        (Aliases y funciones útiles)
+        (Comandos como grep, sed, awk)
 ```
 
 ### Fundamentos de programación
@@ -55,7 +64,7 @@ Los fundamentos de programación para un desarrollador junior se enfocan en apli
 
 #### Programación orientada a objetos (POO)
 
-La POO permite estructurar el código de forma modular, reutilizable y fácil de mantener. Es un enfoque clave en el desarrollo profesional.
+La [POO](/others/glossary.md#p) permite estructurar el código de forma modular, reutilizable y fácil de mantener. Es un enfoque clave en el desarrollo profesional.
 
 ##### 📚 Clases
 
@@ -148,7 +157,7 @@ class Configuracion:
 
 **Descripción:** Un objeto es una instancia de una clase. Es una entidad concreta que contiene datos (atributos) y comportamiento (métodos) definidos en la clase.
 
-**Escenario de uso:** Cada vez que requerimos representar una entidad específica con datos reales en un sistema: un cliente en un CRM, un producto en una tienda online, una tarea en un sistema de gestión.
+**Escenario de uso:** Cada vez que requerimos representar una entidad específica con datos reales en un sistema: un cliente en un [CRM](/others/glossary.md#c), un producto en una tienda online, una tarea en un sistema de gestión.
 
 ###### Ejemplo Objetos
 
@@ -200,6 +209,7 @@ class Administrador(Usuario):
     pass
 ```
 
+<!-- FIXME: Duda entre polimorfismo y sobreescritura -->
 ##### 🧩 Polimorfismo
 
 **Descripción:** El polimorfismo permite que métodos con el mismo nombre se comporten de manera diferente según el objeto que los implemente.
@@ -295,69 +305,404 @@ console.log(config2.get('tema')); // oscuro
 - Garantiza que una clase tenga solo una instancia.
 - Control centralizado del estado.
 
-#### Frameworks
+### Frameworks
 
 En esta etapa, un Desarrollador Junior debe ser capaz de trabajar con al menos uno de los principales frameworks de frontend y/o backend, comprendiendo los fundamentos de la construcción de aplicaciones modulares, mantenibles y escalables. La expectativa no es la maestría absoluta, sino la capacidad de aprender rápido y aplicar buenas prácticas básicas.
 
-##### Frontend
+<!-- FIXME: Incluir frameworks de windows C#, ASPX, .Net, Core, PHP -->
+#### Frontend
 
 Herramientas modernas para construir interfaces dinámicas y componentes reutilizables.
 
-Normalmente se usa en desarrollo de SPAs (Single Page Aplications) y PWA (Progressive Web Apps).
+Normalmente se usa en desarrollo de [SPA](/others/glossary.md#s)s (Single Page Aplications) y [PWA](/others/glossary.md#p) (Progressive Web Apps).
 
-- React: Entender componentes funcionales, props, estado y hooks básicos.
-- Vue: Uso de Vue CLI, componentes y sistema de binding de datos.
-- Angular: Conocer el sistema de componentes, directivas, módulos y tener exposición inicial a RxJS para manejar eventos y peticiones asincrónicas.
+##### React
 
-##### Backend:
-  - Node.js: Comprender su modelo asíncrono y basado en eventos.
-  - ExpressJS: Crear servidores sencillos, definir rutas, middlewares básicos y manejo de errores.
-- Stack Fullstack:
-  - En proyectos de stack completo, se espera que un Junior pueda integrar frontend y backend, usando APIs RESTful básicas.
+Comprender los fundamentos de React para construir interfaces dinámicas y reutilizables.
 
-### Construcción de APIs simples (REST/GraphQL)
+- **Componentes funcionales:** Crear componentes básicos utilizando funciones.
+- **Props:** Pasar datos entre componentes.
+- **Estado:** Manejar datos internos de un componente con `useState`.
+- **Hooks básicos:** Uso de `useEffect` para manejar efectos secundarios.
 
-````mermaid
-mindmap
-  root((APIs Junior))
-    REST
-      CRUD Endpoints
-    GraphQL
-      Queries
-      Mutations
-    Herramientas
-      Postman
-      Insomnia
-````
+```javascript
+import React, { useState, useEffect } from 'react';
 
-Un Junior debe ser capaz de consumir y crear APIs básicas para conectar aplicaciones frontend y backend.
+function Contador() {
+  const [contador, setContador] = useState(0);
 
-- Diseño de endpoints RESTful simples (GET, POST, PUT, DELETE).
-- Introducción a GraphQL: construcción de queries y mutaciones.
-- Uso de herramientas como Postman para probar APIs.
+  useEffect(() => {
+    console.log(`El contador cambió a: ${contador}`);
+  }, [contador]);
 
-### Bases de datos relacionales y NoSQL básicas
+  return (
+    <div>
+      <p>Contador: {contador}</p>
+      <button onClick={() => setContador(contador + 1)}>Incrementar</button>
+    </div>
+  );
+}
 
-````mermaid
-mindmap
-  root((Bases de Datos Junior))
-    Relacional
-      SQL
-      PostgreSQL
-      MySQL
-    NoSQL
-      MongoDB
-      Firebase
-    Skills
-      CRUD Operaciones
-      Modelado simple
-````
+export default Contador;
+```
+
+##### Next
+
+Comprender los conceptos básicos de Next.js para constuir aplicaciones web modernas.
+
+- **Páginas**: Crear rutas basadas en el sistema de archivos.
+- **Enlace entre páginas**: Uso de `next/link` para navegación.
+- **Estilos**: Aplicar estilos con CSS Modules o `styled-jsx`.
+
+```javascript
+import Link from 'next/link';
+
+function Home() {
+  return (
+    <div>
+      <h1>Página principal</h1>
+      <Link href="/about">
+        <a>Ir a la página de About</a>
+      </Link>
+    </div>
+  );
+}
+
+export default Home;
+```
+
+##### Vue
+
+Comprender los fundamentos de Vue para constuir aplicaciones reactivas y modulares.
+
+- **Componentes**: Crear y estructurar componentes básicos.
+- **Directivas**: Usar directivas como `v-bind`, `v-if`, `v-for` y `v-model`.
+- **Sistema de binding de datos reactivos**: Manejar datos y eventos con `data` y `methods`.
+
+```html
+<template>
+  <div>
+    <p>Contador: {{ contador }}</p>
+    <button @click="incrementar">Incrementar</button>
+  </div>
+</template>
+
+<script>
+  export default {
+    data() {
+      return {
+        contador: 0,
+      };
+    },
+    methods: {
+      incrementar() {
+        this.contador++;
+      },
+    },
+  };
+</script>
+```
+
+##### Angular
+
+Comprender los fundamentos de Angular como:
+
+- **Componentes**: Crear y estructurar componentes básicos.
+- **Directivas**: Usar directivas estructurales (`*ngIf`, `*ngFor`) y de atributo.
+
+```html
+<!-- Cambiar el estilo de un elemento -->
+<p [style.color]="'blue'">Este texto es azul</p>
+
+<!-- Cambiar clases dinámicamente -->
+<div [class.activo]="esActivo">Contenido</div>
+
+<script>
+  export class MiComponente {
+    esActivo: boolean = true;
+  }
+</script>
+```
+  
+- Módulos: Organizar la aplicación en módulos reutilizables.
+- Servicios: Implementar servicios básicos para manejar lógica compartida y peticiones HTTP.
+<!-- FIXME: Para el desarrollador semi-senior
+
+##### - Angular: exposición inicial a [RxJS](https://rxjs.dev/) y [NgRx](https://ngrx.io/) para manejar eventos y peticiones asincrónicas.
+
+##### Next.js
+
+Framework basado en React que permite la creación de aplicaciones web con renderizado del lado del servidor (SSR) y generación de sitios estáticos (SSG). Es ideal para mejorar el rendimiento y la optimización SEO.
+
+- **SSR (Server-Side Rendering):** Comprender cómo Next.js genera páginas dinámicas en el servidor antes de enviarlas al cliente.
+- **SSG (Static Site Generation):** Aprender a generar páginas estáticas en tiempo de compilación para mejorar el rendimiento.
+- **Rutas dinámicas:** Implementar rutas dinámicas para manejar contenido basado en parámetros.
+- **API Routes:** Crear endpoints API directamente en el proyecto Next.js para manejar peticiones del backend. -->
+
+#### Backend
+
+Frameworks para construir servicios web y lógica de negocio del lado del servidor.
+
+##### Django
+
+Comprender los fundamentos de Django para construir aplicaciones web robustas y escalables.
+
+- **Modelos:** Crear modelos para representar datos y generar tablas en la base de datos.
+- **Vistas:** Implementar vistas para manejar la lógica de negocio.
+- **URLs:** Configurar rutas para conectar vistas con [URL](/others/glossary.md#u)s específicas.
+- **ORM:** Usar el [ORM](/others/glossary.md#o) de Django para realizar operaciones [CRUD](/others/glossary.md#c) en la base de datos.
+
+```python
+from django.db import models
+from django.http import HttpResponse
+from django.urls import path
+
+# Modelo
+class Producto(models.Model):
+    nombre = models.CharField(max_length=100)
+    precio = models.DecimalField(max_digits=10, decimal_places=2)
+
+# Vista
+def lista_productos(request):
+    productos = Producto.objects.all()
+    return HttpResponse(", ".join([p.nombre for p in productos]))
+
+# URL
+urlpatterns = [
+    path('productos/', lista_productos),
+]
+```
+
+##### ExpressJS
+
+Comprender los fundamentos de ExpressJS para construir [API](/others/glossary.md#a)s y servicios web.
+
+- **Rutas**: Definir rutas para manejar solicitudes [HTTP](/others/glossary.md#h).
+- **Middlewares**: Usar middlewares básicos para manejar lógica compartida.
+- **Controladores**: Implementar controladores para separar la lógica de negocio.
+- **Manejo de errores**: Configurar middlewares para manejar errores.
+
+```javascript
+const express = require('express');
+const app = express();
+
+// Middleware
+app.use(express.json());
+
+// Rutas
+app.get('/productos', (req, res) => {
+  res.send('Lista de productos');
+});
+
+// Manejo de errores
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).send('Error en el servidor');
+});
+
+// Iniciar servidor
+app.listen(3000, () => {
+  console.log('Servidor corriendo en el puerto 3000');
+});
+```
+
+##### Node.js
+
+Comprender el modelo asíncrono y basado en eventos de Node.js para construir aplicaciones backend.
+
+- **Módulos**: Usar módulos nativos como `fs` y `http`.
+- **Eventos**: Manejar eventos con el módulo `events`.
+- **Promesas y async/await**: Trabajar con operaciones asíncronas.
+- **Creación de servidores**: Crear servidores básicos con el módulo `http`.
+
+```javascript
+const http = require('http');
+
+// Crear servidor
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/plain');
+  res.end('Hola, mundo');
+});
+
+// Iniciar servidor
+server.listen(3000, () => {
+  console.log('Servidor corriendo en el puerto 3000');
+});
+```
+
+<!-- FIXME: GraphQL es para ssr engineer -->
+### Construcción de APIs simples
+
+- Diseñar endpoints RESTful simples para operaciones CRUD (GET, POST, PUT, DELETE).
+- Implementar manejo básico de errores en las respuestas.
+- Probar y depurar APIs usando herramientas como Postman o Insomnia.
+
+```javascript
+const express = require('express');
+const app = express();
+app.use(express.json());
+
+// Endpoint GET
+app.get('/productos', (req, res) => {
+  res.json([{ id: 1, nombre: 'Producto 1' }]);
+});
+
+// Endpoint POST
+app.post('/productos', (req, res) => {
+  const nuevoProducto = req.body;
+  res.status(201).json(nuevoProducto);
+});
+
+// Manejo básico de errores
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).send('Error en el servidor');
+});
+
+app.listen(3000, () => {
+  console.log('Servidor corriendo en el puerto 3000');
+});
+```
+
+### Arquitecturas de software
+
+Estructuras organizativas para separar responsabilidades del código.
+
+#### MVC (Modelo-Vista-Controlador)
+
+Ejemplo:
+
+- Modelo: manejo de datos
+- Vista: interfaz de usuario
+- Controlador: lógica de interacción
+
+#### MVVM (Model-View-ViewModel)
+
+[MVVM](https://es.wikipedia.org/wiki/Modelo%E2%80%93vista%E2%80%93modelo_de_vista) Es un patrón de arquitectura de software. Se caracteriza por tratar de desacoplar lo máximo posible la interfaz de usuario de la lógica de la aplicación.
+
+Ejemplo: Angular con `ngModel` enlazado a componentes.
+
+##### Arquitectura en capas
+
+Capas: Presentación, lógica de negocio, acceso a datos.
+
+##### Basada en componentes
+
+Ejemplo: Cada componente React representa una parte de la [UI](/others/glossary.md#u) reutilizable.
+
+### Manejo de datos
 
 El conocimiento de bases de datos permite a un Junior crear aplicaciones dinámicas que almacenan y procesan información.
 
 - Modelado de datos simple: tablas, relaciones 1:N, 1:1
 - Consultas básicas en SQL (SELECT, INSERT, UPDATE, DELETE).
 - Introducción a bases de datos NoSQL como MongoDB.
+
+#### SQL
+
+Ejemplo: `SELECT * FROM usuarios WHERE edad > 30`
+
+#### NoSQL
+
+Ejemplo: MongoDB con `db.usuarios.find({ edad: { $gt: 30 } })`
+
+### Herramientas de desarrollo
+
+En esta etapa, el desarrollador junior debe ampliar su dominio técnico con herramientas que le permitan trabajar de forma más eficiente, automatizar tareas comunes y gestionar entornos de desarrollo complejos. Aquí se documentan los principales conocimientos esperados:
+
+#### Git intermedio
+
+El uso de Git va más allá de los comandos básicos. Un desarrollador junior debe poder mantener un historial de commits limpio, resolver conflictos y manejar ramas de manera eficiente en colaboración con su equipo.
+
+##### Flujo de trabajo con Git intermedio
+
+A continuación se representa un flujo común en el que un desarrollador junior colabora con un equipo, gestionando ramas, resolviendo conflictos y dejando un historial limpio antes de hacer `merge`.
+
+```mermaid
+gitGraph
+   commit id: "Inicio"
+   branch feature/login
+   checkout feature/login
+   commit id: "Login básico"
+   commit id: "Agregado validación de email"
+   checkout main
+   commit id: "Cambio en validación del backend"
+   checkout feature/login
+   merge main tag: "Conflicto resuelto"
+   commit id: "Commit de resolución"
+   checkout main
+   merge feature/login tag: "Merge limpio"
+```
+
+###### Descripción del flujo
+
+1. Se crea una nueva rama `feature/login` desde `main`.
+2. Se desarrollan varias funcionalidades en esa rama.
+3. Mientras tanto, se hacen cambios en `main` que afectan archivos comunes.
+4. Se hace `merge main` dentro de `feature/login` para incorporar los cambios recientes y resolver cualquier conflicto antes de subir los cambios.
+5. Una vez resuelto el conflicto, se finaliza el desarrollo y se hace `merge` limpio a `main`.
+
+Este flujo promueve la integración continua sin sobrescribir trabajo de otros compañeros, facilita la resolución temprana de conflictos y asegura que `main` se mantenga en un estado estable.
+
+##### Escenarios de uso
+
+- Resolver conflictos de merge cuando varios colaboradores editan el mismo archivo.
+- Limpiar el historial de commits antes de hacer un pull request con `rebase interactivo`.
+- Aplicar cambios específicos de otra rama con `cherry-pick`.
+- Usar `git stash` para guardar trabajo temporal antes de cambiar de rama.
+- Automatizar tareas con *git hooks* como validar commits o ejecutar pruebas.
+
+##### Ejemplo: uso de `rebase interactivo` para limpiar historial
+
+```bash
+git rebase -i HEAD~3
+```
+
+Esto permite combinar, editar o eliminar los últimos tres commits antes de subirlos a una rama remota.
+
+---
+
+#### Gestión de entornos y dependencias
+
+Trabajar en equipo implica gestionar entornos reproducibles y evitar conflictos de versiones. Un junior debe manejar herramientas para definir y aislar dependencias del proyecto.
+
+##### Herramientas comunes
+
+- `npm`, `yarn` (JavaScript): para instalar y versionar paquetes.
+- `pip`, `virtualenv`, `poetry` (Python): para aislar entornos y controlar versiones.
+- Archivos `.env`: para definir variables sensibles como claves o rutas sin exponerlas en el código.
+
+##### Ejemplo: instalación y uso de `dotenv` en Node.js
+
+```bash
+npm install dotenv
+```
+
+```javascript
+// archivo index.js
+require('dotenv').config();
+console.log(process.env.SECRET_KEY);
+```
+
+#### Línea de comandos
+
+El terminal sigue siendo una herramienta poderosa. Un desarrollador junior debería saber automatizar tareas, navegar el sistema de archivos con agilidad y emplear utilidades avanzadas de [Unix](/others/glossary.md#u).
+
+##### Habilidades esperadas
+
+- Crear y ejecutar scripts simples de automatización (`bash`, `sh`).
+- Crear alias para comandos frecuentes.
+- Usar herramientas como `grep`, `awk`, `sed`, `xargs` para manipulación de texto.
+- Conocer `curl` o `wget` para pruebas de [API](/others/glossary.md#a) desde terminal.
+
+Ejemplo: buscar una palabra en múltiples archivos
+
+```perl
+grep -rnw './src' -e 'password'
+```
+
+Esto busca la palabra "password" recursivamente en todos los archivos dentro de la carpeta `src`.
 
 ## 🧠 Essential Skills
 
@@ -528,4 +873,4 @@ mindmap
 
 ---
 
-[Intern](./intern.md) | [⬆️](/knowledge.md) | [SSr Engineer](./SSrEngineer.md) 
+[Intern](./intern.md) | [⬆️](/knowledge.md#-hard-skills-junior-dev) | [SSr Engineer](./SSrEngineer.md)

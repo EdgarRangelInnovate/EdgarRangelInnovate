@@ -17,15 +17,7 @@ mindmap
       (Adaptables por props o estados)
     ))Desarrollo profesional en JS((  
       (Asincronía y Event Loop)
-        Promesas
-        async / await
-        Microtasks vs Macrotasks
-        Call stack y event queue
-        Emulación de múltiples hilos
       (Estructura del runtime JS)
-        Single Thread
-        Web APIs del navegador
-        Concurrencia en JS
     ))Testing((
       (Unitario)
       (De integración)
@@ -145,6 +137,201 @@ const Button = ({ variant, disabled, onClick }) => {
   return <button className={className} onClick={onClick} disabled={disabled}>Click</button>;
 };
 ```
+
+## Desarrollo profesional en JS
+
+El dominio de JavaScript a nivel semi senior implica un entendimiento profundo de cómo funciona el lenguaje detrás de escenas, especialmente su modelo de ejecución, asincronía, y el entorno donde se ejecuta (navegador o Node.js).
+
+```mermaid
+mindmap
+  root(Desarrollo profesional en JS))
+    ))Asincronía y Event Loop((
+      (Promesas)
+      (async / await)
+      (Microtasks vs Macrotasks)
+      (Call stack y event queue)
+      (Emulación de múltiples hilos)
+    ))Estructura del runtime JS((
+      (Single Thread)
+      (Web APIs del navegador)
+      (Concurrencia en JS)
+```
+
+### Asincronía y Event Loop
+
+Comprender cómo JS maneja operaciones asincrónicas es fundamental para evitar bloqueos, race conditions y manejar múltiples tareas concurrentemente.
+
+![event loop form GeeksForGeeks](https://media.geeksforgeeks.org/wp-content/uploads/20250208123836185275/Event-Loop-in-JavaScript.jpg)
+
+Imagen del sitio [GeekForGeeks](https://www.geeksforgeeks.org/what-is-an-event-loop-in-javascript/)
+
+#### Promesas
+<!-- TODO: Agregar Observables -->
+Las **promesas** permiten gestionar operaciones asincrónicas, evitando el "callback hell".
+
+```javascript
+fetch('/api/data')
+  .then(res => res.json())
+  .then(data => console.log(data))
+  .catch(err => console.error(err));
+```
+
+**Escenario de uso**:
+
+- Llamadas a APIs
+- Acceso a bases de datos del navegador
+- Carga de recursos externos
+
+#### async / await
+
+Una sintaxis más limpia para trabajar con promesas, compatible con `try/catch`.
+
+```js
+async function getData() {
+  try {
+    const res = await fetch('/api/data');
+    const data = await res.json();
+    console.log(data);
+  } catch (err) {
+    console.error(err);
+  }
+}
+```
+
+**Ventajas**:
+
+- Legibilidad
+- Flujo estructurado
+- Manejo natural de errores
+
+#### Microtasks vs Macrotasks
+
+JavaScript organiza tareas asincrónicas en dos colas distintas:
+
+- **Microtasks**: Promesas (`.then`, `async/await`, `queueMicrotask`, `MutationObserver`)  
+- **Macrotasks**: `setTimeout`, `setInterval`, `setImmediate`, `requestAnimationFrame`, eventos del DOM
+
+```js
+console.log("1");
+setTimeout(() => console.log("2"), 0);
+Promise.resolve().then(() => console.log("3"));
+console.log("4");
+```
+
+**Resultado**:
+
+```bash
+1
+4
+3
+2
+```
+
+**Motivo**: las microtasks tienen mayor prioridad que las macrotasks.
+
+#### Call Stack y Event Queue
+
+El **Call Stack** es la pila de ejecución de funciones. Cuando una función termina, se saca de la pila.  
+El **Event Queue** es donde esperan las tareas asincrónicas. El **Event Loop** es el encargado de mover tareas de la queue al stack cuando el stack está vacío.
+
+```bash
+[Main thread]
+  └── Call Stack
+        └── función actual
+
+[Asynchronous work]
+  └── Event Queue
+        └── tareas pendientes (promesas, timeouts, etc.)
+```
+
+```js
+function saludar() {
+  console.log("Hola");
+}
+setTimeout(() => console.log("Adiós"), 0);
+saludar();
+```
+
+**Orden**:
+
+1. `saludar()` entra y sale del stack → imprime "Hola"
+2. `setTimeout` se va al Event Queue → imprime "Adiós" después
+
+#### Emulación de múltiples hilos
+
+JS es **single-threaded**, pero puede emular concurrencia mediante:
+
+- Web APIs del navegador
+- **Web Workers** para operaciones pesadas en segundo plano
+- Uso de asincronía para liberar el hilo principal
+
+![Imagen desde sitepoint](https://uploads.sitepoint.com/wp-content/uploads/2022/11/1668257710js-worker-process.svg)
+
+[Imagen de Craig Buckler](https://www.sitepoint.com/developing-faster-javascript-apps-the-ultimate-guide-to-web-workers/)
+
+---
+
+### Estructura del Runtime JS
+
+Comprender cómo se ejecuta JS permite tomar decisiones informadas sobre rendimiento y comportamiento inesperado.
+
+#### Single Thread
+
+JavaScript ejecuta todo el código en un solo hilo por defecto. No hay paralelismo real a menos que se use `Web Workers`.
+
+- Implica cuidado con tareas bloqueantes.
+- Se debe evitar lógica pesada en el hilo principal.
+
+#### Web APIs del navegador
+
+*Funciones como `setTimeout`, `fetch`, `DOM events`, no están en JS como tal, sino que son proporcionadas por el navegador.*
+
+Cuando JS encuentra una operación asincrónica, esta es delegada al entorno del navegador:
+
+Timers (`setTimeout`)
+
+`DOM events`
+
+HTTP requests (`fetch`)
+
+Web Storage, WebSocket, etc.
+
+#### Concurrencia en JS
+
+JS **no es multithread**, pero permite **concurrencia** a través del modelo de **asincronía + event loop**.
+
+```js
+console.log("Inicio");
+setTimeout(() => console.log("Temporizador"), 0);
+console.log("Fin");
+```
+
+---
+
+### Resumen visual
+
+```mermaid
+mindmap
+  root(Asincronía y Runtime)
+    Promesas
+    async/await
+    Event Loop
+      Microtasks
+      Macrotasks
+    Concurrencia
+      Web APIs
+      Call Stack
+      Web Workers
+    JS Runtime
+      Single Thread
+      Event Queue
+```
+
+---
+
+**Conclusión**:  
+Un SSr-Engineer debe dominar cómo funciona la asincronía en JS, desde promesas hasta el event loop, y tener criterio para escribir código no bloqueante, comprender problemas de concurrencia, y aprovechar las herramientas del entorno para tareas pesadas o asíncronas.
+
 
 ### Indicadores de dominio
 

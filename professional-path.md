@@ -17,7 +17,7 @@ Está dividido en cinco etapas evolutivas que detallaré en el siguiente título
 > 😎 Coloquialmente hablando, *solo cuando se entiende y se vive de forma natural las caracteristicas del siguiente rol, es hora de un ascenso.*
 ---
 
-````mermaid
+```mermaid
 flowchart LR
   subgraph A [Phase 1: Foundations]
     subgraph A1 [Tech]
@@ -144,7 +144,7 @@ flowchart LR
   click D21 "#knowledge.md#8-head-of-product" "Ir a Head of product"
   click D22 "#knowledge.md#9-cpo-chief-product-officer" "Ir a CPO"
   click E21 "#knowledge.md#10-coo-chief-operating-officer" "Ir a COO"
-````
+```
 
 ---
 

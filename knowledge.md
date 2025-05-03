@@ -6,6 +6,71 @@ Explora en profundidad las habilidades, conocimientos y roles que componen las r
 
 Esta sección cubre el desarrollo de capacidades técnicas a lo largo de la carrera, desde la programación y arquitectura de software hasta la dirección técnica estratégica. Se destacan las habilidades clave, herramientas, buenas prácticas y métricas de progreso para cada rol.
 
+```mermaid
+flowchart LR
+  subgraph A [Phase 1: Foundations]
+    A1([Intern]) -->
+    A2([Junior]) -->
+    A3([Semi-Senior])
+  end
+  style A fill:#FAD4D4,stroke:#000,stroke-width:1px
+
+  subgraph B [Phase 2: Specialization and Seniority]
+    B1([Senior]) -->
+    B2([Expert]) -->
+    B3([Staff Engineer])
+  end
+  style B fill:#B4D4FA,stroke:#000,stroke-width:1px
+
+  subgraph C [Phase 3: Leadership and Management]
+    C1([Tech Lead]) -->
+    C2([Architect]) -->
+    C3([Manager])
+  end
+  style C fill:#FFF8B0,stroke:#000,stroke-width:1px
+
+  subgraph D [Phase 4: Technology Direction and Organizational Vision]
+    D1([Head Engineering]) -->
+    D2([CTO])
+  end
+  style D fill:#D4F4DD,stroke:#000,stroke-width:1px
+
+  subgraph E [Phase 5: Executive Direction and Strategic Vision]
+    E1([CEO])
+  end
+  style E fill:#EAD4F4,stroke:#000,stroke-width:1px
+  %% Colores para las flechas 0-6
+  linkStyle 0,1,2,3,4,5,6 stroke:#FFC300,stroke-width:2px
+
+  %% Conexiones entre subgraphs 7-10
+  A --> B
+  B --> C
+  C --> D
+  D --> E
+  linkStyle 7,8,9,10 stroke:#33FF57,stroke-width:2px
+
+  %% Enlace de growth 11-14
+  A3 --> B1
+  B3 --> C1
+  C3 --> D1
+  D2 --> E1
+  linkStyle 11,12,13,14 stroke:#3357FF,stroke-width:4px
+
+  %% TODO: completar Eventos path técnico
+  %% click A1 "#knowledge.md#1-practicante--intern-de-desarrollo-de-software" "Ir a Practicante"
+  %% click A2 "#knowledge.md#2-desarrollador-junior-frontend--backend--fullstack" "Ir a Junior Dev"
+  %% click A3 "#knowledge.md#3-desarrollador-semi-senior--mid-level-developer" "Ir a Ssr Senior Dev"
+  %% click B1 "#knowledge.md#4-senior-developer-frontend--backend--fullstack" "Ir a Senior Engineer"
+  %% click B2 "#knowledge.md#5-especialista-técnico--tech-expert" "Ir a Expert Engineer"
+  %% click B3 "#knowledge.md#6-staff-engineer--principal-engineer" "Ir a Staff Engineer"
+  %% click C1 "#knowledge.md#7-tech-lead--líder-técnico" "Ir a Tech Lead"
+  %% click C2 "#knowledge.md#8-arquitecto-de-software--software-architect" "Ir a Architect"
+  %% click C3 "#knowledge.md#9-engineering-manager" "Ir a Tech Manager"
+  %% click D1 "#knowledge.md#10-head-of-engineering--director-de-tecnología" "Ir a Head Engineering"
+  %% click D2 "#knowledge.md#11-cto-chief-technology-officer" "Ir a CTO"
+  %% click E1 "#knowledge.md#12-ceo-chief-executive-officer" "Ir a CEO"
+```
+
 ### ETAPA 1: Fundamentos y crecimiento técnico
 
 🎯**Objetivo**: Adquirir habilidades sólidas de programación, buenas prácticas y trabajo en equipo.
@@ -45,55 +110,18 @@ flowchart LR
   C(Staff Engineer)
 
   %% Eventos
-  click A "#/knowledge/senior" "Ir a Desarrollador Senior"
-  click B "#/knowledge/tech-expert" "Ir a Experto en tecnología"
-  click C "#/knowledge/staff-engineer" "Ir a Ingeniero Principal"
+  click A "#/knowledge/tech/senior" "Ir a Desarrollador Senior"
+  click B "#/knowledge/tech/tech-expert" "Ir a Experto en tecnología"
+  click C "#/knowledge/tech/staff-engineer" "Ir a Ingeniero Principal"
 ```
 
 #### 4. Senior Developer (Frontend / Backend / Fullstack)
 
-El [Desarrollador Senior](./knowledge/senior.md) domina su stack de tecnologías y es capaz de entregar soluciones robustas, escalables y bien estructuradas. Es autónomo, proactivo y cumple un rol clave dentro del equipo, participando en decisiones técnicas, mentoría de perfiles más juniors y contribución directa a la calidad y evolución del producto.
-
-##### 🔧 Hard Skills (Senior Developer)
-
-- Dominio completo de su stack (frameworks, testing, patrones).
-- CI/CD
-- Performance
-- Buenas prácticas
-
-##### 🧠 Essential Skills (Senior Developer)
-
-- Mentoring activo
-- Ownership
-- Comunicación técnica efectiva
-
-##### ✅ Criterios de desempeño (Senior Developer)
-
-- Lidera el desarrollo de módulos o features completas.
-- Mejora la calidad del código, cubrimiento de pruebas y rendimiento.
-- Apoya la evolución del stack y detecta deuda técnica.
+El [Desarrollador Senior](./knowledge/tech/senior.md) domina su stack de tecnologías y es capaz de entregar soluciones robustas, escalables y bien estructuradas. Es autónomo, proactivo y cumple un rol clave dentro del equipo, participando en decisiones técnicas, mentoría de perfiles más juniors y contribución directa a la calidad y evolución del producto.
 
 #### 5. Especialista Técnico / Tech Expert
 
-El [Experto en Tecnología](./knowledge/tech-expert) profundiza en un área específica del desarrollo (frontend, backend, cloud, testing, performance, etc.) y se convierte en una autoridad técnica dentro de la organización. Su rol implica investigar, proponer y aplicar soluciones avanzadas, colaborar en la estandarización de prácticas, y brindar soporte técnico de alto nivel en su especialidad.
-
-##### 🔧 Hard Skills (Tech Expert)
-
-- Experticia profunda en una tecnología o disciplina.
-- Tooling
-- Auditoría técnica, performance y escaneo continuo.
-
-##### 🧠 Essential Skills (Tech Expert)
-
-- Curiosidad profesional
-- Liderazgo técnico no jerárquico
-- Pensamiento crítico
-
-##### ✅ Criterios de desempeño (Tech Expert)
-
-- Se enfoca en un área crítica: DevOps, QA, Arquitectura, Seguridad, Data.
-- Define estándares y mejores prácticas del área.
-- Participa en la toma de decisiones estratégicas de producto desde su expertise.
+El [Experto en Tecnología](./knowledge/tech/expert) profundiza en un área específica del desarrollo (frontend, backend, cloud, testing, performance, etc.) y se convierte en una autoridad técnica dentro de la organización. Su rol implica investigar, proponer y aplicar soluciones avanzadas, colaborar en la estandarización de prácticas, y brindar soporte técnico de alto nivel en su especialidad.
 
 #### 6. Staff Engineer / Principal Engineer
 
@@ -130,14 +158,14 @@ flowchart LR
   C(Engineering Manager)
 
   %% Eventos
-  click A "#/knowledge/tech-lead" "Ir a Líder técnico"
+  click A "#/knowledge/tech/lead" "Ir a Líder técnico"
   click B "#/knowledge/architect" "Ir a Arquitecto de software"
   click C "#/knowledge/engineering-manager" "Ir a Gerente de ingeniería"
 ```
 
 #### 7. Tech Lead / Líder Técnico
 
-El [Tech Lead](./knowledge/tech-lead) es responsable de guiar técnica y estratégicamente a un equipo de desarrollo. Actúa como puente entre la ingeniería y el negocio, tomando decisiones técnicas alineadas con los objetivos del producto. Supervisa la calidad del código, impulsa buenas prácticas, facilita la planificación técnica y mentoriza al equipo.
+El [Tech Lead](./knowledge/tech/lead) es responsable de guiar técnica y estratégicamente a un equipo de desarrollo. Actúa como puente entre la ingeniería y el negocio, tomando decisiones técnicas alineadas con los objetivos del producto. Supervisa la calidad del código, impulsa buenas prácticas, facilita la planificación técnica y mentoriza al equipo.
 
 ##### 🔧 Hard Skill (Tech Lead)
 

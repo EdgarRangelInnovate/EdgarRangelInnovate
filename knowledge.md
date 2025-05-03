@@ -112,7 +112,7 @@ flowchart LR
   %% Eventos
   click A "#/knowledge/tech/senior" "Ir a Desarrollador Senior"
   click B "#/knowledge/tech/tech-expert" "Ir a Experto en tecnología"
-  click C "#/knowledge/tech/staff-engineer" "Ir a Ingeniero Principal"
+  click C "#/knowledge/tech/staff" "Ir a Ingeniero Principal"
 ```
 
 #### 4. Senior Developer (Frontend / Backend / Fullstack)
@@ -121,11 +121,11 @@ El [Desarrollador Senior](./knowledge/tech/senior.md) domina su stack de tecnolo
 
 #### 5. Especialista Técnico / Tech Expert
 
-El [Experto en Tecnología](./knowledge/tech/expert) profundiza en un área específica del desarrollo (frontend, backend, cloud, testing, performance, etc.) y se convierte en una autoridad técnica dentro de la organización. Su rol implica investigar, proponer y aplicar soluciones avanzadas, colaborar en la estandarización de prácticas, y brindar soporte técnico de alto nivel en su especialidad.
+El [Experto en Tecnología](./knowledge/tech/expert.md) profundiza en un área específica del desarrollo (frontend, backend, cloud, testing, performance, etc.) y se convierte en una autoridad técnica dentro de la organización. Su rol implica investigar, proponer y aplicar soluciones avanzadas, colaborar en la estandarización de prácticas, y brindar soporte técnico de alto nivel en su especialidad.
 
 #### 6. Staff Engineer / Principal Engineer
 
-El [Staff Engineer](./knowledge/staff-engineer.md) es un líder técnico transversal que conecta equipos, proyectos y dominios. Combina visión estratégica con ejecución técnica para resolver problemas complejos a nivel de arquitectura y plataforma. Su trabajo no solo impacta un producto, sino múltiples sistemas o áreas, convirtiéndose en una figura clave en la toma de decisiones técnicas de alto nivel.
+El [Staff Engineer](./knowledge/staff.md) es un líder técnico transversal que conecta equipos, proyectos y dominios. Combina visión estratégica con ejecución técnica para resolver problemas complejos a nivel de arquitectura y plataforma. Su trabajo no solo impacta un producto, sino múltiples sistemas o áreas, convirtiéndose en una figura clave en la toma de decisiones técnicas de alto nivel.
 
 ##### 🔧 Hard Skills (Staff Engineer)
 
@@ -165,7 +165,7 @@ flowchart LR
 
 #### 7. Tech Lead / Líder Técnico
 
-El [Tech Lead](./knowledge/tech/lead) es responsable de guiar técnica y estratégicamente a un equipo de desarrollo. Actúa como puente entre la ingeniería y el negocio, tomando decisiones técnicas alineadas con los objetivos del producto. Supervisa la calidad del código, impulsa buenas prácticas, facilita la planificación técnica y mentoriza al equipo.
+El [Tech Lead](./knowledge/tech/lead.md) es responsable de guiar técnica y estratégicamente a un equipo de desarrollo. Actúa como puente entre la ingeniería y el negocio, tomando decisiones técnicas alineadas con los objetivos del producto. Supervisa la calidad del código, impulsa buenas prácticas, facilita la planificación técnica y mentoriza al equipo.
 
 ##### 🔧 Hard Skill (Tech Lead)
 

@@ -19,16 +19,18 @@ mindmap
       (Asincronía y Event Loop)
       (Estructura del runtime JS)
     ))Testing((
-      (Unitario)
-      (De integración)
-      (Automatizadas)
-      (Mocks y stubs)
+      (Tipos)
+      (Herramientas)
+      (Buenas prácticas)
+      (Casos de uso)
+      (Estrategias)
     ))APIs((
-      (Integración con APIs externas)
-      (REST APIs)
-      (GraphQL)
-        Apollo Client
-        Queries & Mutations
+      (Consumo de APIs)
+      (Creación de APIs)
+      (Autenticación)
+      (Validación)
+      (Herramientas)
+      (Patrones y buenas prácticas)
     ))State Management((
       (Context API)
       (Redux)
@@ -78,6 +80,13 @@ mindmap
       (Diagramas de arquitectura)
       (Comentarios efectivos)
       (Documentación de decisiones técnicas)
+    ))Conocimiento básico de servidores((
+      (Tipos de servidores)
+        ngnix
+        docker
+        kubernets
+        iis
+      (Funciones)
 ```
 
 ## Desarrollo de Componentes Avanzados
@@ -273,7 +282,12 @@ JS es **single-threaded**, pero puede emular concurrencia mediante:
 
 ### Estructura del Runtime JS
 
+<!-- TODO: Mejorar porque se repite mucho con el tema anterior y es mejor comprender todo sin repetición -->
 Comprender cómo se ejecuta JS permite tomar decisiones informadas sobre rendimiento y comportamiento inesperado.
+
+![RuntimeJS](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*4OnTfpTMiis5RKuochxmYQ.png)
+
+Imagen de Michael en [medum](https://soymichel.medium.com/javascript-runtime-a2b59931708e)
 
 #### Single Thread
 
@@ -284,17 +298,12 @@ JavaScript ejecuta todo el código en un solo hilo por defecto. No hay paralelis
 
 #### Web APIs del navegador
 
-*Funciones como `setTimeout`, `fetch`, `DOM events`, no están en JS como tal, sino que son proporcionadas por el navegador.*
-
 Cuando JS encuentra una operación asincrónica, esta es delegada al entorno del navegador:
 
-Timers (`setTimeout`)
-
-`DOM events`
-
-HTTP requests (`fetch`)
-
-Web Storage, WebSocket, etc.
+- Timers (`setTimeout`)
+- `DOM events`
+- HTTP requests (`fetch`)
+- Web Storage, WebSocket, etc.
 
 #### Concurrencia en JS
 
@@ -308,65 +317,390 @@ console.log("Fin");
 
 ---
 
-### Resumen visual
+## 🧪 Testing
+
+El testing es una competencia fundamental para un desarrollador semi senior. En este nivel se espera que pueda escribir y mantener pruebas automatizadas, detectar puntos frágiles en la aplicación y asegurar el correcto funcionamiento del código a través de pruebas unitarias, de integración y eventualmente pruebas end-to-end.
+
+Además, debe conocer las principales librerías de testing del ecosistema JavaScript y aplicar buenas prácticas como mocks, cobertura de código y pruebas en pipelines de integración continua.
 
 ```mermaid
 mindmap
-  root(Asincronía y Runtime)
-    Promesas
-    async/await
-    Event Loop
-      Microtasks
-      Macrotasks
-    Concurrencia
-      Web APIs
-      Call Stack
-      Web Workers
-    JS Runtime
-      Single Thread
-      Event Queue
+  root)Testing en JS para SSr-Engineer((  
+    ))Tipos de pruebas((
+      Manuales
+      Unitarias
+      Integración
+      End-to-End
+    ))Herramientas y frameworks((  
+      Jest
+      Vitest
+      Testing Library
+      Cypress
+      Playwright
+    ))Buenas prácticas((  
+      Cobertura adecuada
+      Aislamiento de pruebas
+      Mocks y Spies
+      TDD básico
+      CI/CD con pruebas
+    ))Casos comunes((  
+      Testing de componentes
+      Testing de lógica
+      Testing de APIs
+    ))Estrategias de testing((  
+      Pirámide de pruebas
+      Pruebas automáticas vs manuales
+      Ambientes de prueba
+```
+
+### 🔹 Tipos de pruebas
+
+#### 🤲 Manuales o exploratorias
+
+Son pruebas que se realizan de manera manual con un solo flujo, se recomienda tomar evidencia y no quedan en el sistema.
+
+#### 🧩 Pruebas unitarias
+
+Se centran en probar funciones, clases o componentes individuales de forma aislada. Son rápidas, fáciles de ejecutar y representan la base de una buena estrategia de pruebas.
+
+```js
+function suma(a, b) {
+  return a + b;
+}
+
+test('suma correctamente dos números', () => {
+  expect(suma(2, 3)).toBe(5);
+});
+```
+
+#### 🔗 Pruebas de integración
+
+Verifican que varios módulos o componentes trabajen correctamente entre sí. En un contexto frontend puede ser verificar la interacción entre un formulario y el contexto global.
+
+```js
+import { render, screen } from '@testing-library/react';
+import App from './App';
+
+test('la aplicación muestra la pantalla principal', () => {
+  render(<App />);
+  expect(screen.getByText('Bienvenido')).toBeInTheDocument();
+});
+```
+
+#### 🌐 Pruebas end-to-end (E2E)
+
+Simulan una experiencia de usuario completa a través del navegador. Validan flujos reales desde el inicio hasta el fin, como el login, navegación o el checkout de un carrito.
+
+```js
+// Usando Cypress
+describe('Login flow', () => {
+  it('permite que el usuario inicie sesión', () => {
+    cy.visit('/login');
+    cy.get('input[name=email]').type('usuario@ejemplo.com');
+    cy.get('input[name=password]').type('123456');
+    cy.get('button[type=submit]').click();
+    cy.contains('Dashboard');
+  });
+});
+```
+
+### 🔹 Herramientas y Frameworks
+
+- **Jest:** Framework de pruebas muy popular en el ecosistema React, ideal para unit tests y mocks.
+- **Vitest:** Alternativa moderna y rápida a Jest, altamente compatible con Vite.
+- **Testing Library:** Herramienta para pruebas de componentes enfocada en la accesibilidad y experiencia del usuario.
+- **Cypress:** Para pruebas E2E potentes y fáciles de escribir.
+- **Playwright:** Alternativa más moderna y poderosa a Cypress con capacidades más amplias (multi-browser, screenshots, trazas).
+
+### 🔹 Buenas prácticas
+
+- **Cobertura adecuada:** No es necesario llegar al 100%, pero sí cubrir los flujos críticos de la aplicación.
+- **Pruebas aisladas:** Evitar efectos colaterales o dependencia entre tests.
+- **Mocks y Spies:** Simular dependencias externas ([API](/others/glossary.md#a), localStorage, etc.) para controlar los escenarios de prueba.
+- **[TDD](/others/glossary.md#t) (Desarrollo guiado por pruebas):** Aunque no obligatorio, se recomienda comenzar pruebas antes o durante el desarrollo.
+- **Integración con [CI/CD](/others/glossary.md#c):** Asegurar que los tests se ejecuten automáticamente en pipelines de integración continua.
+
+### 🔹 Casos comunes
+
+- **Testing de componentes:** Verificar que rendericen correctamente según `props` o estado.
+- **Testing de lógica:** Funciones puras o utilitarias independientes del [DOM](/others/glossary.md#d).
+- **Testing de [API](/others/glossary.md#a)s:** Mock de respuestas externas con herramientas como [MSW](https://mswjs.io/) o [axios-mock-adapter](https://www.npmjs.com/package/axios-mock-adapter).
+
+### 🔹 Estrategias de testing
+
+- **Pirámide de pruebas:** Tener más pruebas unitarias que de integración y estas más que E2E.
+- **Automáticas vs Manuales:** Las pruebas automatizadas deben cubrir lo repetible; las manuales lo exploratorio.
+- **Ambientes de prueba:** Separar entornos de desarrollo y producción para realizar pruebas sin afectar usuarios reales.
+
+### 📌 Recomendaciones finales
+
+Un SSr-Engineer debe escribir pruebas como parte natural de su flujo de trabajo. No se trata solo de que "todo pase el test", sino de que los tests representen una forma sólida de prevenir errores, facilitar refactorizaciones y mantener la calidad a largo plazo.
+
+La capacidad de diagnosticar un error con ayuda de los tests o identificar una zona no cubierta en un módulo complejo marca una gran diferencia entre un perfil junior y uno semi-senior.
+
+## APIs
+
+En el rol de SSr-Engineer, se espera un conocimiento sólido sobre [API](/others/glossary.md#a)s, especialmente en la integración, consumo eficiente, diseño básico y herramientas asociadas. No se requiere aún dominio arquitectónico completo, pero sí experiencia práctica, comprensión de buenas prácticas y capacidad para manejar complejidades medias.
+
+```mermaid
+mindmap
+  root(APIs para SSr-Engineer))
+    ))REST API((
+     (Métodos HTTP) 
+     (Códigos de estado) 
+     (Headers y autenticación) 
+     (Consumo con fetch y axios) 
+    ))GraphQL((
+     (Queries y Mutations) 
+     (Fragments) 
+     (Apollo Client) 
+    ))Consumo eficiente((
+     (Cacheo) 
+     (Reintentos) 
+     (AbortController) 
+     (Manejo de errores) 
+    ))Diseño básico((
+     (Endpoints limpios) 
+     (Versionamiento) 
+     (Formato de respuesta) 
+    ))Herramientas y pruebas((
+      (Postman)
+      (Insomnia)
+      (Mocking de APIs)
+      (Pruebas automatizadas de APIs)
+```
+
+### REST API
+
+Una REST API es una interfaz que sigue los principios de la arquitectura REST. Permite que sistemas interactúen usando HTTP como protocolo principal, utilizando recursos identificables mediante URLs y operaciones estándar (GET, POST, PUT, DELETE).
+
+#### Métodos HTTP
+
+- `GET`: Obtener datos.
+- `POST`: Crear nuevos recursos.
+- `PUT` / `PATCH`: Modificar recursos existentes.
+- `DELETE`: Eliminar recursos.
+
+```js
+fetch('/api/user/1', {
+  method: 'GET'
+})
+  .then(res => res.json())
+  .then(data => console.log(data))
+```
+
+#### Códigos de estado
+
+- `200`: OK
+- `201`: Created
+- `400`: Bad Request
+- `401`: Unauthorized
+- `404`: Not Found
+- `500`: Internal Server Error
+
+#### Headers y autenticación
+
+- Autenticación con `Authorization: Bearer <token>`.
+- Headers para `Content-Type`, `Accept`.
+
+```js
+fetch('/api/private', {
+  headers: {
+    'Authorization': 'Bearer TOKEN123',
+    'Content-Type': 'application/json'
+  }
+})
+```
+
+#### Consumo con `fetch` y `axios`
+
+- `fetch`: nativo del navegador, promesas limpias.
+- `axios`: librería externa con manejo de errores, interceptores y soporte para cancelación.
+
+```js
+import axios from 'axios';
+
+axios.get('/api/data')
+  .then(res => console.log(res.data))
+  .catch(err => console.error(err));
+```
+
+### GraphQL
+
+GraphQL es un lenguaje de consultas para APIs que permite al cliente especificar qué datos necesita. Se utiliza comúnmente en lugar de REST cuando se busca eficiencia en las transferencias de datos.
+
+##### Queries y Mutations
+
+- **Query**: Para obtener datos.
+- **Mutation**: Para modificar datos.
+
+```js
+const query = `
+  query {
+    user(id: 1) {
+      name
+      email
+    }
+  }
+`;
+```
+
+##### Fragments
+
+Permiten reutilizar estructuras de datos en varias queries.
+
+```graphql
+fragment UserInfo on User {
+  name
+  email
+}
+```
+
+##### Apollo Client
+
+Librería para consumir APIs GraphQL con facilidad desde React u otros frameworks. Administra caché, errores, suscripciones, etc.
+
+```js
+import { gql, useQuery } from '@apollo/client';
+
+const GET_USERS = gql`
+  query {
+    users {
+      id
+      name
+    }
+  }
+`;
+
+const { loading, error, data } = useQuery(GET_USERS);
 ```
 
 ---
 
-**Conclusión**:  
-Un SSr-Engineer debe dominar cómo funciona la asincronía en JS, desde promesas hasta el event loop, y tener criterio para escribir código no bloqueante, comprender problemas de concurrencia, y aprovechar las herramientas del entorno para tareas pesadas o asíncronas.
+### Consumo eficiente
 
+#### Cacheo
 
-### Indicadores de dominio
+- Evitar consultas innecesarias mediante almacenamiento en memoria.
+- Apollo y SWR ofrecen caché automatizado.
 
-- Aplica patrones como *presentational/container components*.
-- Divide componentes en unidades testables.
-- Aplica *prop drilling* con cautela o usa *context* correctamente.
-- Usa hooks personalizados para lógica compartida (en React).
-- Diseña APIs de componentes claras y consistentes.
+#### Reintentos
+
+- Automatizar reintentos con backoff exponencial ante errores temporales.
+
+```js
+const retryFetch = (url, retries = 3) =>
+  fetch(url).catch(err => {
+    if (retries > 0) return retryFetch(url, retries - 1);
+    throw err;
+  });
+```
+
+#### AbortController
+
+- Permite cancelar peticiones HTTP activamente.
+
+```js
+const controller = new AbortController();
+fetch('/api/data', { signal: controller.signal });
+controller.abort();
+```
+
+#### Manejo de errores
+
+- Controlar errores de red, del servidor, o de formato.
+
+```js
+fetch('/api/data')
+  .then(res => {
+    if (!res.ok) throw new Error('Error en la respuesta');
+    return res.json();
+  });
+```
 
 ---
 
-### Buenas prácticas clave
+### Diseño básico
 
-- Evitar mutaciones directas en props o estado.
-- Desacoplar lógica del renderizado.
-- Nombrar componentes y props de forma semántica.
-- Aplicar control de renderizado con `shouldComponentUpdate`, `React.memo`, o `useMemo`.
+#### Endpoints limpios
+
+- Rutas claras y semánticas: `/users/:id` vs `/getUserById`.
+
+#### Versionamiento
+
+- Buenas prácticas:
+  - `/api/v1/users`
+  - Cambiar versión cuando hay cambios incompatibles.
+
+#### Formato de respuesta
+
+- JSON consistente.
+- Contener siempre estructura clara:
+
+```json
+{
+  "data": {},
+  "error": null,
+  "meta": {
+    "pagination": {}
+  }
+}
+```
+
+---
+
+### Herramientas y pruebas
+
+#### Postman
+
+- Enviar peticiones HTTP manuales.
+- Probar respuestas, headers, autenticación.
+
+#### Insomnia
+
+- Similar a Postman, pero con mejor manejo de ambientes y variables.
+
+#### Mocking de APIs
+
+- Simular respuestas de API durante el desarrollo.
+
+```js
+import { setupServer } from 'msw/node';
+import { rest } from 'msw';
+
+const server = setupServer(
+  rest.get('/api/user', (req, res, ctx) => {
+    return res(ctx.json({ name: 'John' }));
+  })
+);
+```
+
+#### Pruebas automatizadas de APIs
+
+- Pruebas integradas con herramientas como:
+  - Jest + Supertest (Node.js).
+  - Cypress (e2e testing en frontend).
+  - Playwright.
+
+```js
+import request from 'supertest';
+import app from './app';
+
+test('GET /user', async () => {
+  const res = await request(app).get('/user');
+  expect(res.statusCode).toBe(200);
+});
+```
+
+---
+
+## ✅ Conclusión
+
+Un SSr-Engineer debe tener control completo sobre el consumo, diseño básico, optimización y pruebas de APIs REST y GraphQL. Aunque no se espera aún liderazgo en decisiones arquitectónicas, debe estar preparado para integrarse con sistemas complejos y mantener alto estándar técnico en el consumo e integración de servicios.
 
 
-#### Testing unitario y de integración
-- Uso de herramientas como Jest, Testing Library, Pytest o Mocha para validar comportamientos.
-- Capacidad de diseñar pruebas útiles que validen funcionalidades críticas.
-- Automatización básica del proceso de pruebas.
 
-#### Integración y consumo de APIs externas
-- Conexión a servicios REST y GraphQL.
-- Implementación de middleware para autenticación y manejo de errores.
-- Control del ciclo de vida de peticiones (loading, success, error).
-
-#### GraphQL
-- Lectura y escritura de queries, mutations, y uso de fragments.
-- Integración con Apollo Client.
-- Manejo básico de esquema (queries anidadas, tipado, introspección).
-
-#### State Management avanzado
+## State Management avanzado
 - Uso de Context API y Redux para manejar el estado global.
 - Introducción a RxJS para flujos reactivos y NgRx en contextos Angular.
 - Comprensión de observables, operadores y side effects.

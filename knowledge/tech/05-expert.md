@@ -23,4 +23,4 @@ El [Experto en Tecnología](./knowledge/tech/expert) profundiza en un área espe
 
 ---
 
-[Senior](./senior.md) | [⬆️](/knowledge.md#5-especialista-técnico--tech-expert) | [Staff](./staff.md)
+[Senior](./04-senior.md) | [⬆️](/knowledge.md#5-especialista-técnico--tech-expert) | [Staff](./06-staff.md)

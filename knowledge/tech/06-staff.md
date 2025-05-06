@@ -22,4 +22,4 @@ El [Staff Engineer](./knowledge/staff.md) es un líder técnico transversal que 
 
 ---
 
-[Expert](./expert.md) | [⬆️](/knowledge.md#6-staff-engineer--principal-engineer) | [Tech Lead](./lead.md)
+[Expert](./05-expert.md) | [⬆️](/knowledge.md#6-staff-engineer--principal-engineer) | [Tech Lead](./07-lead.md)

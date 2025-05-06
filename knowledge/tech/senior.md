@@ -54,3 +54,5 @@
 - Control sobre ejecución de bajo nivel en entornos restringidos
 
 ---
+
+[Junior](./ssr-engineer.md) | [⬆️](/knowledge.md#4-senior-developer-frontend--backend--fullstack) | [Senior](./expert.md)

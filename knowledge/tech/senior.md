@@ -55,4 +55,4 @@
 
 ---
 
-[Junior](./ssr-engineer.md) | [⬆️](/knowledge.md#4-senior-developer-frontend--backend--fullstack) | [Senior](./expert.md)
+[Ssr-Engineer](./ssr-engineer.md) | [⬆️](/knowledge.md#4-senior-developer-frontend--backend--fullstack) | [Expert](./expert.md)

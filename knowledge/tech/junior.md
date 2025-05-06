@@ -16,6 +16,7 @@ mindmap
         (Objetos)
         (Herencia)
         (Polimorfismo)
+          Sobbreescritura
         (Patrones básicos)
           Factory
           Singleton
@@ -209,7 +210,6 @@ class Administrador(Usuario):
     pass
 ```
 
-<!-- FIXME: Duda entre polimorfismo y sobreescritura -->
 ##### 🧩 Polimorfismo
 
 **Descripción:** El polimorfismo permite que métodos con el mismo nombre se comporten de manera diferente según el objeto que los implemente.
@@ -244,6 +244,32 @@ pagos.forEach(pago => pago.procesarPago());
 // Procesando pago con Tarjeta de Crédito.
 // Procesando pago con PayPal.
 ```
+
+###### 🔁 Sobreescritura de métodos
+
+La **sobreescritura** es una forma específica de polimorfismo en la que una subclase redefine un método que ya existe en su clase base. El método en la subclase debe tener el mismo nombre y firma que el de la superclase.
+
+###### 💡 Ejemplo
+
+```python
+class Vehiculo:
+    def arrancar(self):
+        print("El vehículo arranca.")
+
+class Coche(Vehiculo):
+    def arrancar(self):
+        print("El coche arranca con llave.")
+
+v = Vehiculo()
+v.arrancar()  # El vehículo arranca.
+
+c = Coche()
+c.arrancar()  # El coche arranca con llave.
+```
+
+###### 🔍 Diferencia entre polimorfismo y sobreescritura
+
+La **sobreescritura** es el mecanismo técnico, mientras que el **polimorfismo** es el principio de diseño que la aprovecha. Es decir, sin sobreescritura, no hay polimorfismo en lenguajes como Python o Java.
 
 ##### 🏭 Factory pathern
 
@@ -426,18 +452,6 @@ Comprender los fundamentos de Angular como:
   
 - Módulos: Organizar la aplicación en módulos reutilizables.
 - Servicios: Implementar servicios básicos para manejar lógica compartida y peticiones HTTP.
-<!-- FIXME: Para el desarrollador semi-senior
-
-##### - Angular: exposición inicial a [RxJS](https://rxjs.dev/) y [NgRx](https://ngrx.io/) para manejar eventos y peticiones asincrónicas.
-
-##### Next.js
-
-Framework basado en React que permite la creación de aplicaciones web con renderizado del lado del servidor (SSR) y generación de sitios estáticos (SSG). Es ideal para mejorar el rendimiento y la optimización SEO.
-
-- **SSR (Server-Side Rendering):** Comprender cómo Next.js genera páginas dinámicas en el servidor antes de enviarlas al cliente.
-- **SSG (Static Site Generation):** Aprender a generar páginas estáticas en tiempo de compilación para mejorar el rendimiento.
-- **Rutas dinámicas:** Implementar rutas dinámicas para manejar contenido basado en parámetros.
-- **API Routes:** Crear endpoints API directamente en el proyecto Next.js para manejar peticiones del backend. -->
 
 #### Backend
 
@@ -531,7 +545,6 @@ server.listen(3000, () => {
 });
 ```
 
-<!-- FIXME: GraphQL es para ssr engineer -->
 ### Construcción de APIs simples
 
 - Diseñar endpoints RESTful simples para operaciones CRUD (GET, POST, PUT, DELETE).
@@ -887,4 +900,49 @@ Cuando un desarrollador junior logra realizar sus tareas de forma **natural y fl
 
 ---
 
-[Intern](./intern.md) | [⬆️](/knowledge.md#3-desarrollador-semi-senior--mid-level-developer) | [SSr Engineer](./mid-developer.md)
+[Intern](./intern.md) | [⬆️](/knowledge.md#2-desarrollador-junior-frontend--backend--fullstack) | [SSr Engineer](./ssr-engineer.md)
+
+<!-- TODO: Agregar
+# Junior Developer
+
+## 🔧 Hard Skills
+
+- Fundamentos de Programación Orientada a Objetos
+  - Clases, objetos, herencia, polimorfismo
+  - Diferencia entre polimorfismo y sobreescritura
+- Uso básico de Git y flujos de trabajo
+- Consumo de APIs REST y GraphQL (nivel básico)
+- Frameworks iniciales (React, Angular, Vue)
+- Arquitecturas comunes: MVC, MVVM, arquitectura en capas
+- Uso de SQL y NoSQL básico
+- Manejo básico de herramientas como GitHub, GitLab
+- Consola de comandos básica
+
+## 🧠 Essential Skills
+
+- Organización personal con herramientas como Trello, Notion, Jira
+- Participación en ceremonias ágiles: dailys, retros
+- Resolución de bugs con herramientas básicas (consola, logs)
+- Adaptabilidad: aprendizaje rápido y respuesta a cambios
+
+## ✅ Criterios de Desempeño
+
+- Ejecuta tareas básicas con supervisión.
+- Aprende activamente del feedback.
+- Comprende flujos de trabajo del equipo.
+- Colabora en tareas colectivas como code reviews.
+- Cuando todo lo anterior se realiza con naturalidad y autonomía → listo para el nivel SSr.
+
+## 🧪 Conceptos técnicos típicos
+
+- CSS anidado (nativo y SASS)
+- Bootstrap: grillas, clases, layout
+- Desestructuración básica de arrays y objetos
+- Mutabilidad vs inmutabilidad
+- `sessionStorage` y `localStorage`
+- Promesas con `.then()` y `.catch()`
+- React: `useState`, `useEffect`
+- Angular: `ngIf`, `ngFor`, pipes simples (`date`, `currency`)
+
+---
+ -->

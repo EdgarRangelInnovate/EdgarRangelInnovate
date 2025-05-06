@@ -44,20 +44,8 @@ mindmap
       (Resolución de conflictos)
       (Gestión por ramas)
     ))Frameworks y librerias((
-      ((Front))
-        (NestJS)
-        (Django REST Framework)
-        (React)
-        (Angular)
-        (Next.js)
-          SSR
-          SSG
-          Rutas dinámicas
-          API Routes
-      ((Back))
-        (Express.js)
-        (NestJS)
-        (Consumo de APIs externas)
+      (Front)
+      (Back)
     ))Arquitecturas modernas((
       (MVC / MVVM)
       (Arquitectura en Capas)
@@ -74,22 +62,18 @@ mindmap
       (SQL Avanzado)
       (NoSQL)
       (ORMs)
+    ))Conocimiento básico de servidores((
+      (Tipos de servidores)
+      (Funciones)
     ))Documentación técnica((
       (OpenAPI / Swagger)
       (JSDoc / TSDoc)
       (Diagramas de arquitectura)
       (Comentarios efectivos)
       (Documentación de decisiones técnicas)
-    ))Conocimiento básico de servidores((
-      (Tipos de servidores)
-        ngnix
-        docker
-        kubernets
-        iis
-      (Funciones)
 ```
 
-## Desarrollo de Componentes Avanzados
+### Desarrollo de Componentes Avanzados
 
 Los componentes avanzados son piezas fundamentales en aplicaciones modernas, especialmente en frameworks como React, Angular o Vue. Un SSr-Engineer debe no solo crearlos, sino también optimizarlos para su reutilización, rendimiento y adaptabilidad. Esta habilidad garantiza escalabilidad, mantenibilidad y consistencia en el desarrollo de interfaces.
 
@@ -104,7 +88,7 @@ mindmap
     ))Adaptables por props o estados((
 ```
 
-### Reutilizables
+#### Reutilizables
 
 Un componente reutilizable es una unidad de interfaz que se diseña para ser utilizada en múltiples lugares de una aplicación, sin duplicar código. Encapsula lógica, estructura y estilos, y permite la parametrización para adaptarse a distintos contextos.
 
@@ -120,7 +104,7 @@ const ProductCard = ({ name, price, image }) => (
 );
 ```
 
-### Performance optimizado
+#### Performance optimizado
 
 Componentes optimizados garantizan una experiencia fluida y rápida. Un SSr-Engineer debe evitar renders innecesarios, controlar efectos secundarios y aplicar técnicas como *memoization*, *lazy loading* o *virtual DOM diffing*.
 
@@ -134,7 +118,7 @@ const OptimizedCard = React.memo(({ title }) => {
 ```
 <!-- TODO: Agregar memorization, lazy loading y virtual DOM diffing -->
 
-### Adaptables por props o estados
+#### Adaptables por props o estados
 
 Un componente adaptable reacciona a las propiedades (`props`) o estado (`state`) para modificar su apariencia o comportamiento. Esto permite interfaces dinámicas, intuitivas y fáciles de extender.
 
@@ -147,7 +131,7 @@ const Button = ({ variant, disabled, onClick }) => {
 };
 ```
 
-## Desarrollo profesional en JS
+### Desarrollo profesional en JS
 
 El dominio de JavaScript a nivel semi senior implica un entendimiento profundo de cómo funciona el lenguaje detrás de escenas, especialmente su modelo de ejecución, asincronía, y el entorno donde se ejecuta (navegador o Node.js).
 
@@ -166,7 +150,7 @@ mindmap
       (Concurrencia en JS)
 ```
 
-### Asincronía y Event Loop
+#### Asincronía y Event Loop
 
 Comprender cómo JS maneja operaciones asincrónicas es fundamental para evitar bloqueos, race conditions y manejar múltiples tareas concurrentemente.
 
@@ -174,7 +158,7 @@ Comprender cómo JS maneja operaciones asincrónicas es fundamental para evitar 
 
 Imagen del sitio [GeekForGeeks](https://www.geeksforgeeks.org/what-is-an-event-loop-in-javascript/)
 
-#### Promesas
+##### Promesas
 <!-- TODO: Agregar Observables -->
 Las **promesas** permiten gestionar operaciones asincrónicas, evitando el "callback hell".
 
@@ -191,7 +175,7 @@ fetch('/api/data')
 - Acceso a bases de datos del navegador
 - Carga de recursos externos
 
-#### async / await
+##### async / await
 
 Una sintaxis más limpia para trabajar con promesas, compatible con `try/catch`.
 
@@ -213,7 +197,7 @@ async function getData() {
 - Flujo estructurado
 - Manejo natural de errores
 
-#### Microtasks vs Macrotasks
+##### Microtasks vs Macrotasks
 
 JavaScript organiza tareas asincrónicas en dos colas distintas:
 
@@ -238,7 +222,7 @@ console.log("4");
 
 **Motivo**: las microtasks tienen mayor prioridad que las macrotasks.
 
-#### Call Stack y Event Queue
+##### Call Stack y Event Queue
 
 El **Call Stack** es la pila de ejecución de funciones. Cuando una función termina, se saca de la pila.  
 El **Event Queue** es donde esperan las tareas asincrónicas. El **Event Loop** es el encargado de mover tareas de la queue al stack cuando el stack está vacío.
@@ -266,7 +250,7 @@ saludar();
 1. `saludar()` entra y sale del stack → imprime "Hola"
 2. `setTimeout` se va al Event Queue → imprime "Adiós" después
 
-#### Emulación de múltiples hilos
+##### Emulación de múltiples hilos
 
 JS es **single-threaded**, pero puede emular concurrencia mediante:
 
@@ -280,7 +264,7 @@ JS es **single-threaded**, pero puede emular concurrencia mediante:
 
 ---
 
-### Estructura del Runtime JS
+#### Estructura del Runtime JS
 
 <!-- TODO: Mejorar porque se repite mucho con el tema anterior y es mejor comprender todo sin repetición -->
 Comprender cómo se ejecuta JS permite tomar decisiones informadas sobre rendimiento y comportamiento inesperado.
@@ -289,14 +273,14 @@ Comprender cómo se ejecuta JS permite tomar decisiones informadas sobre rendimi
 
 Imagen de Michael en [medum](https://soymichel.medium.com/javascript-runtime-a2b59931708e)
 
-#### Single Thread
+##### Single Thread
 
 JavaScript ejecuta todo el código en un solo hilo por defecto. No hay paralelismo real a menos que se use `Web Workers`.
 
 - Implica cuidado con tareas bloqueantes.
 - Se debe evitar lógica pesada en el hilo principal.
 
-#### Web APIs del navegador
+##### Web APIs del navegador
 
 Cuando JS encuentra una operación asincrónica, esta es delegada al entorno del navegador:
 
@@ -305,7 +289,7 @@ Cuando JS encuentra una operación asincrónica, esta es delegada al entorno del
 - HTTP requests (`fetch`)
 - Web Storage, WebSocket, etc.
 
-#### Concurrencia en JS
+##### Concurrencia en JS
 
 JS **no es multithread**, pero permite **concurrencia** a través del modelo de **asincronía + event loop**.
 
@@ -317,7 +301,7 @@ console.log("Fin");
 
 ---
 
-## 🧪 Testing
+### 🧪 Testing
 
 El testing es una competencia fundamental para un desarrollador semi senior. En este nivel se espera que pueda escribir y mantener pruebas automatizadas, detectar puntos frágiles en la aplicación y asegurar el correcto funcionamiento del código a través de pruebas unitarias, de integración y eventualmente pruebas end-to-end.
 
@@ -353,13 +337,13 @@ mindmap
       Ambientes de prueba
 ```
 
-### 🔹 Tipos de pruebas
+#### 🔹 Tipos de pruebas
 
-#### 🤲 Manuales o exploratorias
+##### 🤲 Manuales o exploratorias
 
 Son pruebas que se realizan de manera manual con un solo flujo, se recomienda tomar evidencia y no quedan en el sistema.
 
-#### 🧩 Pruebas unitarias
+##### 🧩 Pruebas unitarias
 
 Se centran en probar funciones, clases o componentes individuales de forma aislada. Son rápidas, fáciles de ejecutar y representan la base de una buena estrategia de pruebas.
 
@@ -373,7 +357,7 @@ test('suma correctamente dos números', () => {
 });
 ```
 
-#### 🔗 Pruebas de integración
+##### 🔗 Pruebas de integración
 
 Verifican que varios módulos o componentes trabajen correctamente entre sí. En un contexto frontend puede ser verificar la interacción entre un formulario y el contexto global.
 
@@ -387,7 +371,7 @@ test('la aplicación muestra la pantalla principal', () => {
 });
 ```
 
-#### 🌐 Pruebas end-to-end (E2E)
+##### 🌐 Pruebas end-to-end (E2E)
 
 Simulan una experiencia de usuario completa a través del navegador. Validan flujos reales desde el inicio hasta el fin, como el login, navegación o el checkout de un carrito.
 
@@ -404,7 +388,7 @@ describe('Login flow', () => {
 });
 ```
 
-### 🔹 Herramientas y Frameworks
+#### 🔹 Herramientas y Frameworks
 
 - **Jest:** Framework de pruebas muy popular en el ecosistema React, ideal para unit tests y mocks.
 - **Vitest:** Alternativa moderna y rápida a Jest, altamente compatible con Vite.
@@ -412,7 +396,7 @@ describe('Login flow', () => {
 - **Cypress:** Para pruebas E2E potentes y fáciles de escribir.
 - **Playwright:** Alternativa más moderna y poderosa a Cypress con capacidades más amplias (multi-browser, screenshots, trazas).
 
-### 🔹 Buenas prácticas
+#### 🔹 Buenas prácticas
 
 - **Cobertura adecuada:** No es necesario llegar al 100%, pero sí cubrir los flujos críticos de la aplicación.
 - **Pruebas aisladas:** Evitar efectos colaterales o dependencia entre tests.
@@ -420,25 +404,25 @@ describe('Login flow', () => {
 - **[TDD](/others/glossary.md#t) (Desarrollo guiado por pruebas):** Aunque no obligatorio, se recomienda comenzar pruebas antes o durante el desarrollo.
 - **Integración con [CI/CD](/others/glossary.md#c):** Asegurar que los tests se ejecuten automáticamente en pipelines de integración continua.
 
-### 🔹 Casos comunes
+#### 🔹 Casos comunes
 
 - **Testing de componentes:** Verificar que rendericen correctamente según `props` o estado.
 - **Testing de lógica:** Funciones puras o utilitarias independientes del [DOM](/others/glossary.md#d).
 - **Testing de [API](/others/glossary.md#a)s:** Mock de respuestas externas con herramientas como [MSW](https://mswjs.io/) o [axios-mock-adapter](https://www.npmjs.com/package/axios-mock-adapter).
 
-### 🔹 Estrategias de testing
+#### 🔹 Estrategias de testing
 
 - **Pirámide de pruebas:** Tener más pruebas unitarias que de integración y estas más que E2E.
 - **Automáticas vs Manuales:** Las pruebas automatizadas deben cubrir lo repetible; las manuales lo exploratorio.
 - **Ambientes de prueba:** Separar entornos de desarrollo y producción para realizar pruebas sin afectar usuarios reales.
 
-### 📌 Recomendaciones finales
+#### 📌 Recomendaciones finales
 
 Un SSr-Engineer debe escribir pruebas como parte natural de su flujo de trabajo. No se trata solo de que "todo pase el test", sino de que los tests representen una forma sólida de prevenir errores, facilitar refactorizaciones y mantener la calidad a largo plazo.
 
 La capacidad de diagnosticar un error con ayuda de los tests o identificar una zona no cubierta en un módulo complejo marca una gran diferencia entre un perfil junior y uno semi-senior.
 
-## APIs
+### APIs
 
 En el rol de SSr-Engineer, se espera un conocimiento sólido sobre [API](/others/glossary.md#a)s, especialmente en la integración, consumo eficiente, diseño básico y herramientas asociadas. No se requiere aún dominio arquitectónico completo, pero sí experiencia práctica, comprensión de buenas prácticas y capacidad para manejar complejidades medias.
 
@@ -470,11 +454,11 @@ mindmap
       (Pruebas automatizadas de APIs)
 ```
 
-### REST API
+#### REST API
 
 Una REST API es una interfaz que sigue los principios de la arquitectura REST. Permite que sistemas interactúen usando HTTP como protocolo principal, utilizando recursos identificables mediante URLs y operaciones estándar (GET, POST, PUT, DELETE).
 
-#### Métodos HTTP
+##### Métodos HTTP
 
 - `GET`: Obtener datos.
 - `POST`: Crear nuevos recursos.
@@ -489,7 +473,7 @@ fetch('/api/user/1', {
   .then(data => console.log(data))
 ```
 
-#### Códigos de estado
+##### Códigos de estado
 
 - `200`: OK
 - `201`: Created
@@ -498,7 +482,7 @@ fetch('/api/user/1', {
 - `404`: Not Found
 - `500`: Internal Server Error
 
-#### Headers y autenticación
+##### Headers y autenticación
 
 - Autenticación con `Authorization: Bearer <token>`.
 - Headers para `Content-Type`, `Accept`.
@@ -512,7 +496,7 @@ fetch('/api/private', {
 })
 ```
 
-#### Consumo con `fetch` y `axios`
+##### Consumo con `fetch` y `axios`
 
 - `fetch`: nativo del navegador, promesas limpias.
 - `axios`: librería externa con manejo de errores, interceptores y soporte para cancelación.
@@ -525,7 +509,7 @@ axios.get('/api/data')
   .catch(err => console.error(err));
 ```
 
-### GraphQL
+#### GraphQL
 
 GraphQL es un lenguaje de consultas para APIs que permite al cliente especificar qué datos necesita. Se utiliza comúnmente en lugar de REST cuando se busca eficiencia en las transferencias de datos.
 
@@ -575,16 +559,14 @@ const GET_USERS = gql`
 const { loading, error, data } = useQuery(GET_USERS);
 ```
 
----
+#### Consumo eficiente
 
-### Consumo eficiente
-
-#### Cacheo
+##### Cacheo
 
 - Evitar consultas innecesarias mediante almacenamiento en memoria.
 - Apollo y SWR ofrecen caché automatizado.
 
-#### Reintentos
+##### Reintentos
 
 - Automatizar reintentos con backoff exponencial ante errores temporales.
 
@@ -596,7 +578,7 @@ const retryFetch = (url, retries = 3) =>
   });
 ```
 
-#### AbortController
+##### AbortController
 
 - Permite cancelar peticiones HTTP activamente.
 
@@ -606,7 +588,7 @@ fetch('/api/data', { signal: controller.signal });
 controller.abort();
 ```
 
-#### Manejo de errores
+##### Manejo de errores
 
 - Controlar errores de red, del servidor, o de formato.
 
@@ -618,21 +600,19 @@ fetch('/api/data')
   });
 ```
 
----
+#### Diseño básico
 
-### Diseño básico
-
-#### Endpoints limpios
+##### Endpoints limpios
 
 - Rutas claras y semánticas: `/users/:id` vs `/getUserById`.
 
-#### Versionamiento
+##### Versionamiento
 
 - Buenas prácticas:
   - `/api/v1/users`
   - Cambiar versión cuando hay cambios incompatibles.
 
-#### Formato de respuesta
+##### Formato de respuesta
 
 - JSON consistente.
 - Contener siempre estructura clara:
@@ -649,18 +629,18 @@ fetch('/api/data')
 
 ---
 
-### Herramientas y pruebas
+#### Herramientas y pruebas
 
-#### Postman
+##### Postman
 
 - Enviar peticiones HTTP manuales.
 - Probar respuestas, headers, autenticación.
 
-#### Insomnia
+##### Insomnia
 
 - Similar a Postman, pero con mejor manejo de ambientes y variables.
 
-#### Mocking de APIs
+##### Mocking de APIs
 
 - Simular respuestas de API durante el desarrollo.
 
@@ -675,7 +655,7 @@ const server = setupServer(
 );
 ```
 
-#### Pruebas automatizadas de APIs
+##### Pruebas automatizadas de APIs
 
 - Pruebas integradas con herramientas como:
   - Jest + Supertest (Node.js).
@@ -692,45 +672,320 @@ test('GET /user', async () => {
 });
 ```
 
----
+### State Management
 
-## ✅ Conclusión
+```mermaid
+mindmap
+  root(State Management))
+    ))Context API(( 
+    ))Redux(( 
+    ))RxJS(( 
+    ))NgRx((
+```
 
-Un SSr-Engineer debe tener control completo sobre el consumo, diseño básico, optimización y pruebas de APIs REST y GraphQL. Aunque no se espera aún liderazgo en decisiones arquitectónicas, debe estar preparado para integrarse con sistemas complejos y mantener alto estándar técnico en el consumo e integración de servicios.
+**State Management** o **gestión del estado** es una disciplina fundamental en el desarrollo de interfaces modernas, ya que permite controlar y coordinar cómo fluye y se actualiza la información dentro de una aplicación.
 
+En aplicaciones frontend, especialmente aquellas construidas con frameworks como React o Angular, el manejo adecuado del estado garantiza que los componentes respondan correctamente a las interacciones del usuario, a los datos externos (como APIs) y a los cambios internos del sistema.
 
+Existen distintas estrategias y herramientas para la gestión del estado, que varían en complejidad y alcance:
 
-## State Management avanzado
-- Uso de Context API y Redux para manejar el estado global.
-- Introducción a RxJS para flujos reactivos y NgRx en contextos Angular.
-- Comprensión de observables, operadores y side effects.
+- Desde soluciones integradas y ligeras como la **Context API**,
+- Hasta librerías robustas y estructuradas como **Redux** y **NgRx**,
+- Y herramientas especializadas para flujos de datos reactivos como **RxJS**.
 
-#### Git Intermedio
+La elección de una u otra depende del tamaño de la aplicación, la complejidad de los flujos de datos, el equipo de trabajo y las necesidades de escalabilidad.
+
+A continuación, se desglosan las principales herramientas y conceptos utilizados para la gestión del estado en aplicaciones frontend modernas.
+
+#### 1. **Context API**
+
+La **Context API** es una solución integrada en React para el manejo de estado global. Su uso es ideal en aplicaciones pequeñas a medianas o cuando el manejo del estado no es extremadamente complejo.
+
+##### Detalles clave context
+
+- **Propósito:** Permite compartir datos entre componentes sin necesidad de prop-drilling (pasar props manualmente a través de muchos niveles de componentes).
+- **Estructura:**
+  - **React.createContext:** Se crea el contexto donde se almacenará el estado.
+  - **Provider:** Componente que define el contexto y lo hace disponible a los componentes hijos.
+  - **Consumer:** Componente que se suscribe a los cambios en el contexto.
+
+##### Ejemplo básico context
+
+```jsx
+// Definir el Contexto
+const MyContext = React.createContext();
+
+// Componente Provider
+const MyProvider = ({ children }) => {
+  const [state, setState] = useState('Hello World');
+  
+  return (
+    <MyContext.Provider value={{ state, setState }}>
+      {children}
+    </MyContext.Provider>
+  );
+};
+
+// Componente Consumer
+const MyComponent = () => {
+  const { state, setState } = useContext(MyContext);
+  
+  return (
+    <div>
+      <p>{state}</p>
+      <button onClick={() => setState('New State')}>Update State</button>
+    </div>
+  );
+};
+```
+
+##### Casos de uso context
+
+- **Aplicaciones pequeñas a medianas:** Perfecto para proyectos con un manejo de estado relativamente simple.
+- **Estado global leve:** Ideal para mantener valores que necesitan ser accesibles a lo largo de múltiples componentes.
+
+#### 2. **Redux**
+
+**Redux** es una librería para manejar el estado de manera predecible en aplicaciones JavaScript. Es útil en aplicaciones más grandes y complejas donde se requiere un flujo de datos más estructurado.
+
+##### Detalles clave redux
+
+- **Principios fundamentales:**
+  - **Single source of truth:** Todo el estado se guarda en un único objeto llamado "store".
+  - **State is read-only:** El estado solo se puede modificar a través de acciones.
+  - **Changes are made with pure functions (reducers):** Las modificaciones al estado se realizan con funciones puras que reciben el estado anterior y devuelven un nuevo estado.
+  
+- **Acciones y Reducers:**
+  - **Acciones:** Describen "qué" ocurrió.
+  - **Reducers:** Son funciones que especifican cómo cambia el estado en respuesta a una acción.
+  
+##### Ejemplo básico redux
+
+```javascript
+// Action
+const increment = { type: 'INCREMENT' };
+
+// Reducer
+const counter = (state = 0, action) => {
+  switch (action.type) {
+    case 'INCREMENT':
+      return state + 1;
+    default:
+      return state;
+  }
+};
+
+// Store
+const store = Redux.createStore(counter);
+store.dispatch(increment);
+```
+
+##### Casos de uso redux
+
+- **Aplicaciones grandes:** Útil cuando la aplicación tiene muchos estados compartidos y requiere un flujo de datos claro y centralizado.
+- **Manejo de estado complejo:** Como cuando se necesitan muchas interacciones entre componentes y acciones disparadas por usuarios.
+
+#### 3. **RxJS**
+
+**RxJS** (Reactive Extensions for JavaScript) es una librería para programación reactiva basada en flujos de datos asíncronos y eventos, utilizando **observables**.
+
+##### Detalles clave RxJS
+
+- **Observables:** Un objeto que representa un flujo de datos o eventos que pueden ser observados.
+- **Operadores:** Funciones que permiten transformar, combinar y manejar los datos de los observables.
+- **Efectos secundarios (side effects):** Acciones que se ejecutan como resultado de la suscripción a un observable, como actualizaciones de estado o llamadas a APIs.
+
+##### Ejemplo básico RxJS
+
+```javascript
+import { Observable } from 'rxjs';
+
+const observable = new Observable(subscriber => {
+  subscriber.next('Hello');
+  subscriber.next('World');
+  subscriber.complete();
+});
+
+observable.subscribe({
+  next: value => console.log(value),
+  complete: () => console.log('Done'),
+});
+```
+
+##### Casos de uso RxJS
+
+- **Manejo de flujos de datos asíncronos:** Ideal para tareas como la manipulación de eventos de UI o la integración con APIs.
+- **Composición de eventos complejos:** Permite manejar de manera eficiente eventos complejos como los de usuario o respuestas HTTP.
+
+#### 4. **NgRx**
+
+**NgRx** es una implementación de **Redux** para aplicaciones Angular. Utiliza un enfoque basado en **observables** y se adapta bien a los patrones de programación reactiva, lo que lo convierte en una opción robusta para manejar el estado en aplicaciones Angular de gran escala.
+
+##### Detalles clave NgRx
+
+- **Store:** Centraliza el estado de la aplicación.
+- **Actions:** Describen los eventos que ocurren en la aplicación.
+- **Reducers:** Determinan cómo se actualiza el estado en respuesta a las acciones.
+- **Effects:** Permiten manejar efectos secundarios, como la obtención de datos de una API.
+
+##### Ejemplo básico NgRx
+
+```typescript
+import { createAction, props } from '@ngrx/store';
+
+// Acción
+export const loadData = createAction('[Data Page] Load Data');
+
+// Reducer
+export const dataReducer = createReducer(
+  initialState,
+  on(loadData, state => ({ ...state, loading: true }))
+);
+
+// Efecto
+@Injectable()
+export class DataEffects {
+  loadData$ = createEffect(() => 
+    this.actions$.pipe(
+      ofType(loadData),
+      mergeMap(() => this.dataService.getData()
+        .pipe(
+          map(data => loadDataSuccess({ data })),
+          catchError(() => of(loadDataFailure()))
+        )
+      )
+    )
+  );
+}
+```
+
+##### Casos de uso NgRx
+
+- **Aplicaciones Angular grandes:** Perfecto para manejar el estado centralizado y gestionar interacciones complejas.
+- **Flujos reactivos avanzados:** Aprovecha el poder de RxJS para manejar efectos secundarios y flujos de datos asíncronos.
+
+#### Resumen de **State Management**
+
+- **Context API** es adecuado para aplicaciones simples con un manejo de estado global sin mucha complejidad.
+- **Redux** es ideal para aplicaciones grandes y complejas que requieren un manejo claro y centralizado del estado, con un flujo de datos unidireccional.
+- **RxJS** es una librería poderosa para la programación reactiva, donde los flujos de datos asíncronos y los efectos secundarios son esenciales.
+- **NgRx** es la solución recomendada para aplicaciones Angular grandes, aprovechando la programación reactiva y el patrón Redux.
+
+Este enfoque no solo cubre la implementación básica de estas tecnologías, sino también las prácticas avanzadas y cómo se pueden combinar de manera eficiente para aplicaciones más grandes y complejas.
+
+### Git Intermedio
+```mermaid
+mindmap
+  root(Git Intermedio))
+    ))Branching model((
+    ))Merge((
+    ))Rebase((
+    ))Pull Requests((
+    ))Resolución de conflictos((
+    ))Gestión por ramas((
+```
 - Flujo Git colaborativo: branching, merge, rebase, pull requests.
 - Resolución de conflictos de forma autónoma.
 - Propuesta y revisión de cambios en revisiones de código.
 
-#### Frameworks avanzados
+### Frameworks avanzados
+```mermaid
+mindmap
+  root (Frameworks y librerias))
+    ((Front))
+      (NestJS)
+      (Django REST Framework)
+      (React)
+      (Angular)
+      (Next.js)
+        SSR
+        SSG
+        Rutas dinámicas
+        API Routes
+    ((Back))
+      (Express.js)
+      (NestJS)
+      (Consumo de APIs externas)
+```
+
 - Conocimiento práctico de frameworks como Next.js (SSR, SSG, rutas dinámicas).
 - Implementación de API Routes y renderizado híbrido.
 - Uso de NestJS o Django REST para estructurar APIs robustas.
 
-#### Documentación técnica
-- Uso de Swagger/OpenAPI para describir endpoints.
-- Documentación de funciones y componentes con TSDoc o JSDoc.
-- Diagramas de arquitectura con C4 Model o Mermaid para comunicar diseño.
-
-#### Arquitecturas modernas
+### Arquitecturas modernas
+```mermaid
+mindmap
+  root (Arquitecturas modernas))
+    (MVC / MVVM)
+    (Arquitectura en Capas)
+    (Microservicios)
+    (Micro-frontend)
+    (BFF)
+    (Feature Flags)
+    (Basada en componentes)
+```
 - Aplicación de patrones como MVC, MVVM y arquitectura en capas.
 - Introducción a microservicios, micro-frontend y BFF.
 - Uso de feature flags para experimentación controlada y despliegue progresivo.
 
-#### DevTools y Debugging
+### DevTools y Debugging
+```mermaid
+mindmap
+  root (DevTools y Debugging))
+    (Chrome DevTools)
+    (Network tab)
+    (Performance profiling)
+```
 - Uso de herramientas como Chrome DevTools, Lighthouse o React DevTools.
 - Inspección de flujos de red, eventos, performance y errores.
 - Trazabilidad de flujo de datos para diagnosticar bugs.
 
+### Manejo de datos
+```mermaid
+mindmap
+  root (Manejo de datos))
+    (SQL Avanzado)
+    (NoSQL)
+    (ORMs)
+```
 
+### Conocimiento básico de servidores
+```mermaid
+mindmap
+  root (Conocimiento básico de servidores))
+    (Tipos de servidores)
+      ngnix
+      docker
+      kubernets
+      iis
+    (Funciones)
+```
+
+### Documentación técnica
+```mermaid
+mindmap
+  root (Manejo de datos))
+    (SQL Avanzado)
+    (NoSQL)
+    (ORMs)
+  (Documentación técnica))
+    (OpenAPI / Swagger)
+    (JSDoc / TSDoc)
+    (Diagramas de arquitectura)
+    (Comentarios efectivos)
+    (Documentación de decisiones técnicas)
+  (Conocimiento básico de servidores))
+    (Tipos de servidores)
+      ngnix
+      docker
+      kubernets
+      iis
+    (Funciones)
+```
+
+- Uso de Swagger/OpenAPI para describir endpoints.
+- Documentación de funciones y componentes con TSDoc o JSDoc.
+- Diagramas de arquitectura con C4 Model o Mermaid para comunicar diseño.
 
 ---
 

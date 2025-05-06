@@ -20,3 +20,7 @@ El [Experto en Tecnología](./knowledge/tech/expert) profundiza en un área espe
 - Se enfoca en un área crítica: DevOps, QA, Arquitectura, Seguridad, Data.
 - Define estándares y mejores prácticas del área.
 - Participa en la toma de decisiones estratégicas de producto desde su expertise.
+
+---
+
+[Senior](./senior.md) | [⬆️](/knowledge.md#5-especialista-técnico--tech-expert) | [Staff](./staff.md)

@@ -874,6 +874,7 @@ export class DataEffects {
 Este enfoque no solo cubre la implementación básica de estas tecnologías, sino también las prácticas avanzadas y cómo se pueden combinar de manera eficiente para aplicaciones más grandes y complejas.
 
 ### Git Intermedio
+
 ```mermaid
 mindmap
   root(Git Intermedio))
@@ -884,11 +885,13 @@ mindmap
     ))Resolución de conflictos((
     ))Gestión por ramas((
 ```
+
 - Flujo Git colaborativo: branching, merge, rebase, pull requests.
 - Resolución de conflictos de forma autónoma.
 - Propuesta y revisión de cambios en revisiones de código.
 
 ### Frameworks avanzados
+
 ```mermaid
 mindmap
   root (Frameworks y librerias))
@@ -913,6 +916,7 @@ mindmap
 - Uso de NestJS o Django REST para estructurar APIs robustas.
 
 ### Arquitecturas modernas
+
 ```mermaid
 mindmap
   root (Arquitecturas modernas))
@@ -924,11 +928,13 @@ mindmap
     (Feature Flags)
     (Basada en componentes)
 ```
+
 - Aplicación de patrones como MVC, MVVM y arquitectura en capas.
 - Introducción a microservicios, micro-frontend y BFF.
 - Uso de feature flags para experimentación controlada y despliegue progresivo.
 
 ### DevTools y Debugging
+
 ```mermaid
 mindmap
   root (DevTools y Debugging))
@@ -936,11 +942,13 @@ mindmap
     (Network tab)
     (Performance profiling)
 ```
+
 - Uso de herramientas como Chrome DevTools, Lighthouse o React DevTools.
 - Inspección de flujos de red, eventos, performance y errores.
 - Trazabilidad de flujo de datos para diagnosticar bugs.
 
 ### Manejo de datos
+
 ```mermaid
 mindmap
   root (Manejo de datos))
@@ -950,6 +958,7 @@ mindmap
 ```
 
 ### Conocimiento básico de servidores
+
 ```mermaid
 mindmap
   root (Conocimiento básico de servidores))
@@ -962,6 +971,7 @@ mindmap
 ```
 
 ### Documentación técnica
+
 ```mermaid
 mindmap
   root (Manejo de datos))
@@ -1050,7 +1060,6 @@ mindmap
 - Documentación técnica clara y útil
 - Consumo de APIs REST y GraphQL con herramientas modernas
 - Uso y comprensión de:
-  - RxJS (observables, operadores comunes)
   - NgRx (estado en Angular)
   - GraphQL (queries, mutations, fragments)
   - Next.js: SSR, SSG, rutas dinámicas, API Routes

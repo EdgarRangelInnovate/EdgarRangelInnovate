@@ -27,3 +27,5 @@ El [Tech Lead](./knowledge/tech/lead) es responsable de guiar técnica y estrat�
 - Fomenta un ambiente de colaboración
 
 ---
+
+[Expert](./05-expert.md) | [⬆️](/knowledge.md#6-staff-engineer--principal-engineer) | [Tech Lead](./lead.md)

@@ -1046,7 +1046,7 @@ mindmap
 
 ---
 
-[Junior](./junior.md) | [⬆️](/knowledge.md#3-desarrollador-semi-senior--mid-level-developer) | [Senior](./senior.md)
+[Junior](./02-junior.md) | [⬆️](/knowledge.md#3-desarrollador-semi-senior--mid-level-developer) | [Senior](./04-senior.md)
 
 <!-- TODO: Agregar
 

@@ -55,4 +55,10 @@
 
 ---
 
-[Ssr-Engineer](./ssr-engineer.md) | [⬆️](/knowledge.md#4-senior-developer-frontend--backend--fullstack) | [Expert](./expert.md)
+[Ssr-Engineer](./03-ssr.md) | [⬆️](/knowledge.md#4-senior-developer-frontend--backend--fullstack) | [Expert](./05-expert.md)
+
+<!-- 
+- RabbitMQ 
+- Oauth 2.0
+- Kafka
+ -->

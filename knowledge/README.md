@@ -226,23 +226,6 @@ El [practicante de negocio](./business/01-intern.md) o producto se enfoca en obs
 
 El [analista junior](./business/02-junior.md) da soporte en la recopilación y análisis de datos de negocio, estudios de mercado, identificación de puntos de mejora en procesos, y documentación de requerimientos. Comienza a interactuar con stakeholders de distintas áreas y traduce necesidades del negocio en entregables accionables. Es una etapa de consolidación de habilidades analíticas, atención al detalle y pensamiento estructurado.
 
-##### 🔧 Hard skills (Junior analyst)
-
-- Métricas básicas.
-- Wireframes simples.
-- Backlog grooming.
-
-##### 🧠 Essential skills (Junior analyst)
-
-- Trabajo colaborativo.
-- Responsabilidad.
-- Proactividad.
-
-##### ✅ Criterios de desempeño (Junior analyst)
-
-- Apoya definiciones funcionales.
-- Mantiene tareas operativas al día.
-
 #### 3. Associate Product Manager / Business Analyst
 
 Este [rol](./business/03-analyst.md) intermedio actúa como nexo entre la visión del producto y su ejecución operativa. Colabora con Product Managers, equipos técnicos y stakeholders para definir requerimientos, validar soluciones y hacer seguimiento de entregables. Participa en la priorización y aporta en la toma de decisiones con base en datos y conocimiento contextual. Es un paso clave hacia el liderazgo de producto o estrategia de negocio.

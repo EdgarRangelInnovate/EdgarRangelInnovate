@@ -99,6 +99,8 @@ En esta etapa, el [desarrollador junior](./knowledge/tech/02-junior.md) comienza
 
 El [desarrollador semi senior](./knowledge/tech/03-ssr.md) se desempeña con autonomía técnica en tareas de mediana y alta complejidad. Participa activamente en decisiones técnicas del equipo, guía a perfiles más junior y propone mejoras tanto en código como en procesos. Este nivel representa un punto de inflexión hacia roles de mayor liderazgo técnico y especialización. Se espera pensamiento crítico, compromiso con la calidad y una visión más estratégica del desarrollo.
 
+---
+
 ### ETAPA 2: Especialización y seniority
 
 🎯**Objetivo**: Convertirse en referente técnico en un stack o dominio.

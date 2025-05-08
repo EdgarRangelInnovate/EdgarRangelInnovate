@@ -55,7 +55,7 @@
 
 ---
 
-[Ssr-Engineer](./03-ssr.md) | [⬆️](/knowledge.md#4-senior-developer-frontend--backend--fullstack) | [Expert](./05-expert.md)
+[Ssr-Engineer](./03-ssr.md) | [⬆️](/knowledge/README.md#4-senior-developer-frontend--backend--fullstack) | [Expert](./05-expert.md)
 
 <!-- 
 - RabbitMQ 

@@ -1233,4 +1233,4 @@ Difundir aprendizajes y recursos útiles para fomentar la colaboración y el cre
 
 ---
 
-[⬆️](/knowledge.md#1-practicante--intern-de-desarrollo-de-software) | [Junior](./02-junior.md)
+[⬆️](/knowledge/README.md#1-practicante--intern-de-desarrollo-de-software) | [Junior](./02-junior.md)

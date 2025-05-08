@@ -900,7 +900,7 @@ Cuando un desarrollador junior logra realizar sus tareas de forma **natural y fl
 
 ---
 
-[Intern](./01-intern.md) | [⬆️](/knowledge.md#2-desarrollador-junior-frontend--backend--fullstack) | [SSr Engineer](./03-ssr.md)
+[Intern](./01-intern.md) | [⬆️](/knowledge/README.md#2-desarrollador-junior-frontend--backend--fullstack) | [SSr Engineer](./03-ssr.md)
 
 <!-- TODO: Agregar
 # Junior Developer

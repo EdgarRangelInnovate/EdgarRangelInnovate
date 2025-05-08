@@ -2,7 +2,7 @@
 
 - [**Home**](./README.md)
 - [**Path Profesional**](/professional-path.md)
-- [**Conocimientos**](/knowledge.md)
+- [**Conocimientos**](/knowledge/README.md)
 <!--- [**Artículos**](./contextual-features.md)-->
 
 ---
@@ -15,4 +15,4 @@
 
 ## License
 
-© 2025 System Engineer Edgar Rangel. All rights reserved.
+© 2025 Master Engineer Edgar Rangel. All rights reserved.

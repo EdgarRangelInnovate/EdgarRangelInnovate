@@ -28,4 +28,4 @@ El [Tech Lead](./knowledge/tech/lead) es responsable de guiar técnica y estrat�
 
 ---
 
-[Staff](./06-staff.md) | [⬆️](/knowledge.md#7-tech-lead--líder-técnico) | [Architect](./08-architect.md)
+[Staff](./06-staff.md) | [⬆️](/knowledge/README.md#7-tech-lead--líder-técnico) | [Architect](./08-architect.md)

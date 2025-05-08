@@ -22,4 +22,4 @@ El [CEO](./knowledge/tech/12-ceo.md) con formación técnica lidera la compañí
 
 ---
 
-[Engineering Head](./10-head.md) | [⬆️](/knowledge.md#11-cto-chief-technology-officer) | [CEO](./12-ceo.md)
+[CTO](./11-cto.md) | [⬆️](/knowledge/README.md#12-ceo-chief-executive-officer)

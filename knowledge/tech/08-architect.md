@@ -24,4 +24,4 @@ El [Software Architect](./knowledge/08-architect.md) diseña y valida las decisi
 
 ---
 
-[Tech Lead](./07-lead.md) | [⬆️](/knowledge.md#8-arquitecto-de-software--software-architect) | [Engineer Manager](./09-manager.md)
+[Tech Lead](./07-lead.md) | [⬆️](/knowledge/README.md#8-arquitecto-de-software--software-architect) | [Engineer Manager](./09-manager.md)

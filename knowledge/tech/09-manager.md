@@ -24,4 +24,4 @@ El [Engineering Manager](./knowledge/09-manager.md) combina habilidades técnica
 
 ---
 
-[Architect](./08-architect.md) | [⬆️](/knowledge.md#9-engineering-manager) | [Head of engineering](./10-head.md)
+[Architect](./08-architect.md) | [⬆️](/knowledge/README.md#9-engineering-manager) | [Head of engineering](./10-head.md)

@@ -27,4 +27,4 @@ El [CTO](./knowledge/tech/11-cto.md) define la visión tecnológica de la compa�
 
 ---
 
-[Engineering Head](./10-head.md) | [⬆️](/knowledge.md#11-cto-chief-technology-officer) | [CEO](./12-ceo.md)
+[Engineering Head](./10-head.md) | [⬆️](/knowledge/README.md#11-cto-chief-technology-officer) | [CEO](./12-ceo.md)

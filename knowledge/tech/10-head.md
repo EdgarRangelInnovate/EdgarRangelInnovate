@@ -27,4 +27,4 @@ El [Head of Engineering](./knowledge/tech/10-head.md) es responsable de coordina
 
 ---
 
-[Engineering Manager](./09-manager.md) | [⬆️](/knowledge.md#10-head-of-engineering--director-de-tecnología) | [CTO](./11-cto.md)
+[Engineering Manager](./09-manager.md) | [⬆️](/knowledge/README.md#10-head-of-engineering--director-de-tecnología) | [CTO](./11-cto.md)

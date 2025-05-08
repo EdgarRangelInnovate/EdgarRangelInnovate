@@ -153,26 +153,6 @@ El [Tech Lead](./knowledge/tech/07-lead.md) es responsable de guiar técnica y e
 
 El [Software Architect](./knowledge/08-architect.md) diseña y valida las decisiones estructurales que guían el desarrollo de software en términos de escalabilidad, rendimiento, seguridad y mantenibilidad. Define patrones, evalúa tecnologías y asegura la coherencia de la arquitectura en múltiples proyectos o productos. Su enfoque es holístico y de largo plazo.
 
-##### 🔧 Hard Skills (Software Architect)
-
-- Definición de la arquitectura global de sistemas y aplicaciones
-- Selección de herramientas y tecnologías adecuadas para el equipo
-- Diseño de soluciones escalables, seguras y eficientes
-- Integración de sistemas y coordinación técnica entre equipos
-
-##### 🧠 Essential Skills (Software Architect)
-
-- Pensamiento sistémico y visión a largo plazo
-- Capacidad para guiar decisiones críticas que impactan toda la organización
-- Habilidad para comunicar complejas soluciones técnicas de manera clara y accesible
-- Adaptabilidad ante cambios en la arquitectura o nuevos requerimientos
-
-##### ✅ Criterios de desempeño (Software Architect)
-
-- Toma decisiones sobre la arquitectura de alto nivel
-- Asegura la cohesión técnica entre equipos y sistemas
-- Realiza presentaciones claras a stakeholders para justificar decisiones arquitectónicas
-
 #### 9. Engineering Manager
 
 El [Engineering Manager](./knowledge/09-manager.md) combina habilidades técnicas y de gestión para liderar equipos de ingeniería. Su foco está en el desarrollo de las personas, la entrega efectiva de proyectos y la alineación entre los objetivos técnicos y del negocio. Gestiona capacidades, facilita procesos ágiles y crea un ambiente propicio para la productividad y el crecimiento.

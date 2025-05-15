@@ -3,7 +3,7 @@
 - [**Home**](./README.md)
 - [**Path Profesional**](/professional-path.md)
 - [**Conocimientos**](/knowledge/README.md)
-<!--- [**Artículos**](./contextual-features.md)-->
+- [**Hobbies**](/hobbies/README.md)
 
 ---
 

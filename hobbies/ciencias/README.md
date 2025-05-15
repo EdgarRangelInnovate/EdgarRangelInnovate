@@ -1,0 +1,10 @@
+- Cosmología
+- Física Cúantica
+- Matemática
+- Genética
+- Neurología
+- Computación
+- IA
+- Negocios
+- Psicología
+- Cardiología

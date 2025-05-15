@@ -1,0 +1,3 @@
+Ajedres
+Damas chinas
+Parques

@@ -20,14 +20,11 @@ Esta sección tiene como propósito:
 
 Por ahora, los principales hobbies documentados incluyen:
 
-- 👨🏻‍💻📱🤖 [Ciencias](./ciencias/README.md)
-- 🚴‍♂️ [Deporte](./deporte/README.md)
-- 🎮🎲 [Juegos](./juegos/README.md)
-- 📚 [Libros](./libros/README.md)
-- 🧵 [Manualidades](./manualidades/README.md)
-- 🎬 [Películas](./peliculas/README.md)
-- 📺 [Series de TV](./series/README.md)
-- 📹 [Videos](./videos/README.md) (documentales, análisis, contenido educativo o de entretenimiento)
+- [📽️ Entretenimiento multimedial](./multimedia/README.md)
+- [🕹️ Interactividad lúdica](./interactividad/README.md)
+- [💪 Cuerpo y mente](./cuerpo/README.md)
+- [🎨 Creatividad](./creatividad/README.md)
+- [🔍 Exploración](./exploración/README.md)
 
 Con el tiempo, iré incorporando más categorías a medida que reconozca otros hobbies significativos en mi día a día.
 

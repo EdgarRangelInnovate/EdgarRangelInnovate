@@ -1,18 +1,18 @@
-# Edgar Rangel
+# Edgar Rangel <!-- {docsify-ignore} -->
 
-- [**Home**](./README.md)
-- [**Path Profesional**](/professional-path.md)
-- [**Conocimientos**](/knowledge/README.md)
-- [**Hobbies**](/hobbies/README.md)
+- [**Inicio**](./README.md "Inicio")
+- [**Path Profesional**](/path/README.md "Professional path")
+- [**Conocimientos**](/knowledge/README.md "Knowledge")
+- [**Hobbies**](/hobbies/README.md "Hobbies")
 
 ---
 
-- [**Glosario** 📖](/others/glossary.md)
+- [**Glosario** 📖](/others/glossary.md "Glosario")
 - [**Contactame** 📞](https://www.linkedin.com/in/edgar-rangel-moreno-innovate/)
 - [**Perfil** 👨‍💻](https://github.com/EdgarRangelInnnovate)
 
 ---
 
-## License
+## License <!-- {docsify-ignore} -->
 
 © 2025 Master Engineer Edgar Rangel. All rights reserved.

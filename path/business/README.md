@@ -17,15 +17,15 @@ flowchart LR
 
 #### 1. Practicante de Negocio / Producto
 
-El [practicante de negocio](./business/01-intern.md) o producto se enfoca en observar, aprender y colaborar en tareas operativas y de soporte al equipo de producto o estrategia. Participa en actividades como la investigación de usuarios, validación de hipótesis, análisis básico de datos y documentación de procesos. Su rol es clave para adquirir una comprensión inicial del negocio, mientras desarrolla habilidades de comunicación, observación crítica y colaboración interdisciplinaria.
+El [practicante de negocio][lnk-intern] o producto se enfoca en observar, aprender y colaborar en tareas operativas y de soporte al equipo de producto o estrategia. Participa en actividades como la investigación de usuarios, validación de hipótesis, análisis básico de datos y documentación de procesos. Su rol es clave para adquirir una comprensión inicial del negocio, mientras desarrolla habilidades de comunicación, observación crítica y colaboración interdisciplinaria.
 
 #### 2. Analista Junior / Asistente de Producto
 
-El [analista junior](./business/02-junior.md) da soporte en la recopilación y análisis de datos de negocio, estudios de mercado, identificación de puntos de mejora en procesos, y documentación de requerimientos. Comienza a interactuar con stakeholders de distintas áreas y traduce necesidades del negocio en entregables accionables. Es una etapa de consolidación de habilidades analíticas, atención al detalle y pensamiento estructurado.
+El [analista junior][lnk-junior] da soporte en la recopilación y análisis de datos de negocio, estudios de mercado, identificación de puntos de mejora en procesos, y documentación de requerimientos. Comienza a interactuar con stakeholders de distintas áreas y traduce necesidades del negocio en entregables accionables. Es una etapa de consolidación de habilidades analíticas, atención al detalle y pensamiento estructurado.
 
 #### 3. Associate Product Manager / Business Analyst
 
-Este [rol](./business/03-analyst.md) intermedio actúa como nexo entre la visión del producto y su ejecución operativa. Colabora con Product Managers, equipos técnicos y stakeholders para definir requerimientos, validar soluciones y hacer seguimiento de entregables. Participa en la priorización y aporta en la toma de decisiones con base en datos y conocimiento contextual. Es un paso clave hacia el liderazgo de producto o estrategia de negocio.
+Este [rol][lnk-analyst] intermedio actúa como nexo entre la visión del producto y su ejecución operativa. Colabora con Product Managers, equipos técnicos y stakeholders para definir requerimientos, validar soluciones y hacer seguimiento de entregables. Participa en la priorización y aporta en la toma de decisiones con base en datos y conocimiento contextual. Es un paso clave hacia el liderazgo de producto o estrategia de negocio.
 
 ---
 
@@ -35,13 +35,13 @@ Este [rol](./business/03-analyst.md) intermedio actúa como nexo entre la visió
 
 ```mermaid
 flowchart LR
-  A(Product Manager / PO) -->
+  A(Product Manager / Product Owner) -->
   B(Business Strategist / Service Designer)
 ```
 
 #### 4. Product Manager / Product Owner
 
-El [Product Manager](./business/04-owner.md) (o Product Owner en contextos ágiles) lidera la visión, estrategia y roadmap de un producto o funcionalidad. Actúa como puente entre negocio, usuarios y equipo técnico, priorizando iniciativas con base en valor, impacto y viabilidad. Define KPIs, valida hipótesis, gestiona backlog y asegura que el producto evolucione en línea con los objetivos organizacionales. Su rol es clave para entregar soluciones útiles, usables y viables.
+El [Product Manager][lnk-pm] (o Product Owner en contextos ágiles) lidera la visión, estrategia y roadmap de un producto o funcionalidad. Actúa como puente entre negocio, usuarios y equipo técnico, priorizando iniciativas con base en valor, impacto y viabilidad. Define KPIs, valida hipótesis, gestiona backlog y asegura que el producto evolucione en línea con los objetivos organizacionales. Su rol es clave para entregar soluciones útiles, usables y viables.
 
 ##### 🔧 Hard skills (Product owner)
 
@@ -61,7 +61,7 @@ El [Product Manager](./business/04-owner.md) (o Product Owner en contextos ágil
 
 #### 5. Business Strategist / Service Designer
 
-Este [rol](./business/05-strategist.md) se enfoca en diseñar e implementar estrategias de negocio centradas en el usuario y la sostenibilidad. A través de metodologías como Design Thinking, Service Design o Business Model Canvas, identifica oportunidades, mapea experiencias, optimiza servicios y redefine modelos de negocio. Es un perfil híbrido con visión sistémica, pensamiento creativo y fuerte orientación a resultados. Colabora de cerca con liderazgo, marketing, tecnología y operaciones.
+Este [rol][lnk-bs] se enfoca en diseñar e implementar estrategias de negocio centradas en el usuario y la sostenibilidad. A través de metodologías como Design Thinking, Service Design o Business Model Canvas, identifica oportunidades, mapea experiencias, optimiza servicios y redefine modelos de negocio. Es un perfil híbrido con visión sistémica, pensamiento creativo y fuerte orientación a resultados. Colabora de cerca con liderazgo, marketing, tecnología y operaciones.
 
 ##### 🔧 Hard skills (Service Designer)
 
@@ -94,7 +94,7 @@ flowchart LR
 
 #### 6. Product Lead / Product Operations
 
-El [Product Lead](./business/06-lead.md) supervisa varios equipos o líneas de producto, asegurando alineación estratégica, eficiencia en la entrega y evolución del portafolio. Coordina con stakeholders clave, gestiona objetivos compartidos y fomenta buenas prácticas de gestión de producto. En organizaciones más maduras, puede trabajar en conjunto con Product Ops, un rol orientado a escalar procesos, métricas y herramientas que optimicen el trabajo de los equipos de producto.
+El [Product Lead][lnk-pl] supervisa varios equipos o líneas de producto, asegurando alineación estratégica, eficiencia en la entrega y evolución del portafolio. Coordina con stakeholders clave, gestiona objetivos compartidos y fomenta buenas prácticas de gestión de producto. En organizaciones más maduras, puede trabajar en conjunto con Product Ops, un rol orientado a escalar procesos, métricas y herramientas que optimicen el trabajo de los equipos de producto.
 
 ##### 🔧 Hard skills (Product lead)
 
@@ -115,7 +115,7 @@ El [Product Lead](./business/06-lead.md) supervisa varios equipos o líneas de p
 
 #### 7. Delivery Manager / Business Lead
 
-El [Delivery Manager](./business/07-manager.md) asegura que los equipos entreguen valor de manera efectiva y predecible. Coordina personas, procesos y prioridades para cumplir compromisos y mantener la calidad. En empresas más orientadas a negocio, este rol puede tener el nombre de Business Lead: una figura híbrida que combina conocimiento técnico, visión estratégica y liderazgo operativo para llevar productos o servicios al mercado con éxito, colaborando estrechamente con áreas como ventas, marketing y operaciones.
+El [Delivery Manager][lnk-bl] asegura que los equipos entreguen valor de manera efectiva y predecible. Coordina personas, procesos y prioridades para cumplir compromisos y mantener la calidad. En empresas más orientadas a negocio, este rol puede tener el nombre de Business Lead: una figura híbrida que combina conocimiento técnico, visión estratégica y liderazgo operativo para llevar productos o servicios al mercado con éxito, colaborando estrechamente con áreas como ventas, marketing y operaciones.
 
 ##### 🔧 Hard skills (Delivery Manager)
 
@@ -147,7 +147,7 @@ flowchart LR
 
 #### 8. Head of Product
 
-El [Head of Product](./business/08-head.md) lidera múltiples equipos de producto o áreas estratégicas dentro de la organización. Su rol combina dirección táctica y estratégica, alineando la visión del producto con los objetivos del negocio. Es responsable de formar líderes de producto, establecer frameworks de priorización y coordinarse con otras áreas clave como tecnología, ventas, marketing y operaciones. También promueve una cultura centrada en el usuario y basada en datos.
+El [Head of Product][lnk-head] lidera múltiples equipos de producto o áreas estratégicas dentro de la organización. Su rol combina dirección táctica y estratégica, alineando la visión del producto con los objetivos del negocio. Es responsable de formar líderes de producto, establecer frameworks de priorización y coordinarse con otras áreas clave como tecnología, ventas, marketing y operaciones. También promueve una cultura centrada en el usuario y basada en datos.
 
 ##### 🔧 Hard skills (Head of Product)
 
@@ -167,7 +167,7 @@ El [Head of Product](./business/08-head.md) lidera múltiples equipos de product
 
 #### 9. CPO (Chief Product Officer)
 
-El [CPO](./business/09-cpo.md) (Chief Product Officer) es el máximo responsable de la estrategia de producto en la organización. Define la visión, la propuesta de valor y el enfoque a largo plazo del portafolio de productos o servicios. Trabaja junto al CEO y otros ejecutivos para alinear producto, negocio y mercado. Además, crea las condiciones organizacionales para la innovación, la experimentación y la escalabilidad del producto. Es un rol fundamental en compañías con mentalidad digital o de producto.
+El [CPO][lnk-cpo] (Chief Product Officer) es el máximo responsable de la estrategia de producto en la organización. Define la visión, la propuesta de valor y el enfoque a largo plazo del portafolio de productos o servicios. Trabaja junto al CEO y otros ejecutivos para alinear producto, negocio y mercado. Además, crea las condiciones organizacionales para la innovación, la experimentación y la escalabilidad del producto. Es un rol fundamental en compañías con mentalidad digital o de producto.
 
 ##### 🔧 Hard skills (CPO)
 
@@ -198,7 +198,7 @@ flowchart LR
 
 #### 10. COO (Chief Operating Officer)
 
-El [COO](./business/10-coo.md) es responsable de la operación diaria del negocio. Su enfoque está en ejecutar la estrategia definida junto al CEO, optimizar procesos, gestionar recursos y asegurar la eficiencia de las operaciones. Actúa como puente entre la visión estratégica y la ejecución operativa, trabajando estrechamente con líderes de producto, ingeniería, ventas y otras áreas. Es un rol ideal para personas con enfoque en la entrega, resultados y coordinación de múltiples áreas funcionales.
+El [COO][lnk-coo] es responsable de la operación diaria del negocio. Su enfoque está en ejecutar la estrategia definida junto al CEO, optimizar procesos, gestionar recursos y asegurar la eficiencia de las operaciones. Actúa como puente entre la visión estratégica y la ejecución operativa, trabajando estrechamente con líderes de producto, ingeniería, ventas y otras áreas. Es un rol ideal para personas con enfoque en la entrega, resultados y coordinación de múltiples áreas funcionales.
 
 ##### 🔧 Hard skills (COO)
 
@@ -217,7 +217,7 @@ El [COO](./business/10-coo.md) es responsable de la operación diaria del negoci
 
 #### 11. CEO / Fundador de Empresa
 
-El [CEO](./tech/12-ceo.md) (Chief Executive Officer) o Fundador es quien encarna la visión global de la compañía. Su misión es guiar a la organización hacia su propósito, tomando decisiones clave sobre estrategia, cultura, alianzas, crecimiento y sostenibilidad. Es la figura de mayor influencia y responsabilidad, y su perfil puede ser técnico, de negocio o híbrido. Un CEO debe saber rodearse de líderes competentes, adaptarse a los cambios del mercado y mantener el rumbo en contextos de alta incertidumbre.
+El [CEO][lnk-ceo] (Chief Executive Officer) o Fundador es quien encarna la visión global de la compañía. Su misión es guiar a la organización hacia su propósito, tomando decisiones clave sobre estrategia, cultura, alianzas, crecimiento y sostenibilidad. Es la figura de mayor influencia y responsabilidad, y su perfil puede ser técnico, de negocio o híbrido. Un CEO debe saber rodearse de líderes competentes, adaptarse a los cambios del mercado y mantener el rumbo en contextos de alta incertidumbre.
 
 ##### 🔧 Hard skills
 
@@ -260,3 +260,15 @@ Generalmente, el salto ocurre en roles donde ya existe una intersección natural
 ---
 
 [Inicio](README.md) | [⬆️](../README.md) | [Intern](01-intern.md)
+
+[lnk-intern]:    01-intern.md
+[lnk-junior]:    02-junior.md
+[lnk-analyst]:   03-analyst.md
+[lnk-pm]:        04-pm.md
+[lnk-bs]:        05-bs.md
+[lnk-pl]:        06-pl.md
+[lnk-bl]:        07-bl.md
+[lnk-head]:      08-head.md
+[lnk-cpo]:       09-cpo.md
+[lnk-coo]:       10-coo.md
+[lnk-ceo]:       11-ceo.md

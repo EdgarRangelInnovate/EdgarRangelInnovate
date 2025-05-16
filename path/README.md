@@ -283,3 +283,27 @@ flowchart LR
 - Define cultura organizacional.
 - Decide sobre modelo de negocio y expansión.
 - Lidera visión e innovación a largo plazo.
+
+---
+
+[Technical path](./tech/README.md) | [⬆️](../README.md) | [Business path](./business/README.md)
+
+<style>
+  /* Para el diagrama Mermaid */
+  .mermaid {
+    max-width: 150%;
+    overflow-x: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #f9f9f9;
+  }
+
+  /* Texto destacado para notas */
+  blockquote {
+    border-left: 4px solid #ffb74d;
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+  }
+</style>

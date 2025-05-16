@@ -1,5 +1,5 @@
 <!-- markdownlint-disable-next-line MD041 -->
-- [**Home** 🏠](/README.md)
-- [**Professional Path** 🚏](/professional-path.md)
+- [**Inicio** 🏠](/README.md)
+- [**Professional Path** 🚏](/path/README.md)
 - [**Conocimientos y tips** 🖇️](/knowledge/README.md)
 - [**Hobbies** 🎬](/hobbies/README.md)

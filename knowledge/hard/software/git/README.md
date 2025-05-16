@@ -1,5 +1,7 @@
 # GIT
 
+<!-- TODO: NX Y TURBOREPO que son y para que sirven -->
+
 Git es un sistema de control de versiones distribuido, creado por Linus Torvalds. Su objetivo es llevar registro de los cambios en archivos de computadora y coordinar el trabajo que varias personas realizan sobre archivos compartidos.
 
 ## INSTALACIÓN

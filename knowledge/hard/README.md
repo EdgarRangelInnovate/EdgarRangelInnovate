@@ -117,7 +117,7 @@ A lo largo de mi trayectoria he desarrollado un conjunto sólido de habilidades 
 ### 1. Business Process Management (BPM)
 
 - Modelado de procesos con BPMN 2.0
-  - Adonis BPM suite 
+  - Adonis BPM suite: El siguiente PDF lo extraje de una conferencia a la que asistí donde usan IA para generar procesos.
     <iframe src="/assets/ADONIS-AI-Diseno-y-Analisis-de-Procesos-hecho-en-minutos.pdf" width="100%" height="600px">
         Este navegador no soporta iframes.
     </iframe>

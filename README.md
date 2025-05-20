@@ -3,8 +3,17 @@
 > *Transformar con propósito. Conectar lo técnico, lo humano y lo estratégico.*
 
 [![BPM Master](https://img.shields.io/badge/BPM-Master-blue)](https://es.wikipedia.org/wiki/Gesti%C3%B3n_por_procesos)
-[![20+ años de experiencia](https://img.shields.io/badge/Experiencia-20%2B%20a%C3%B1os-success)](./path/README.md)
+[![10+ años de experiencia](https://img.shields.io/badge/Experiencia-10%2B%20a%C3%B1os-success)](./path/README.md)
 [![IA y Transformación Digital](https://img.shields.io/badge/Inter%C3%A9s-IA%20%26%20Transformaci%C3%B3n%20Digital-ff69b4)](./knowledge/README.md)
+
+[![GitHub](https://img.shields.io/badge/GitHub-Perfil-black?logo=github)](https://github.com/EdgarRangelInnovate)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?logo=linkedin)](https://www.linkedin.com/in/edgar-rangel-moreno-innovate/)
+<!--
+[![CV MD](https://img.shields.io/badge/CV-md-black)](./cv/README.md)
+[![CV ATS](https://img.shields.io/badge/CV-ATS-lightgrey)](./cv/Edgar%20Rangel%20Innovate%20CV%20Senior%20Dev%20ATS.pdf)
+[![CV Mixto](https://img.shields.io/badge/CV-Mixto-blueviolet)](./cv/Edgar%20Rangel%20Innovate%20CV%20Senior%20Dev%20Mixta.pdf)
+[![CV Visual](https://img.shields.io/badge/CV-Infográfico-gold)](./cv/Edgar%20Rangel%20Innovate%20CV%20Senior%20Dev%20Visual.pdf)
+-->
 
 ---
 

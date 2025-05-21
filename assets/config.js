@@ -65,35 +65,35 @@ window.$docsify = {
     },
     markdown: {
         sanitize: false,
-        renderer: {
-            code: function (code, lang) {
-                if (lang === 'drawio') {
-                    if (window.drawioConverter) {
-                        console.log('drawio 转化中');
-                        return window.drawioConverter(code);
-                    } else {
-                        return `<div class='drawio-code'>${code}</div>`;
-                    }
-                } else {
-                    return this.origin.code.apply(this, arguments);
-                }
-            },
-        },
+        // renderer: {
+        //     code: function (code, lang) {
+        //         if (lang === 'drawio') {
+        //             if (window.drawioConverter) {
+        //                 console.log('drawio 转化中');
+        //                 return window.drawioConverter(code);
+        //             } else {
+        //                 return `<div class='drawio-code'>${code}</div>`;
+        //             }
+        //         } else {
+        //             return this.origin.code.apply(this, arguments);
+        //         }
+        //     },
+        // },
     },
-    vueComponents: {
-        'contador-button': {
-            template: `
-              <button @click="count += 1">
-                  Me has clicado {{ count }} veces
-                </button>
-              `,
-            data() {
-                return {
-                    count: 0,
-                };
-            },
-        },
-    },
+    // vueComponents: {
+    //     'contador-button': {
+    //         template: `
+    //           <button @click="count += 1">
+    //               Me has clicado {{ count }} veces
+    //             </button>
+    //           `,
+    //         data() {
+    //             return {
+    //                 count: 0,
+    //             };
+    //         },
+    //     },
+    // },
     mermaidConfig: {
         querySelector: ".mermaid",
     },

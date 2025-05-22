@@ -1,7 +1,7 @@
 
 window.$docsify = {
     name: 'Master Edgar Rangel, Vida y obra',
-    // repo: 'ingalejandrorangel/ingalejandrorangel',
+    // repo: 'EdgarRangelInnovate/EdgarRangelInnovate',
     coverpage: true,
     relativePath: true,
     onlyCover: true,
@@ -63,6 +63,22 @@ window.$docsify = {
             toogleImage: 'url(https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/icons/moon.svg)'
         }
     },
+    search: {
+        // maxAge: 86400000, // Tiempo de vida de la caché de búsqueda en milisegundos (1 día)
+        placeholder: 'Buscar...', // Texto del placeholder en la barra de búsqueda
+        // noData: 'No se encontraron resultados para "${_}"', // Texto cuando no hay resultados
+        // pathNamespaces: ['/en', '/zh-cn'], // Si tuvieras multi-idioma (comentar si no es el caso)
+        // Cobertura de la búsqueda: 'auto' indexa todas las páginas,
+        // o puedes especificar un array de rutas para indexar solo ciertas páginas.
+        // Para empezar, 'auto' es lo más fácil.
+        // depth: 2, // Profundidad de los títulos (h1, h2, etc.) a indexar
+        // hideOtherSidebarContent: false, // Ocultar otro contenido del sidebar al buscar
+        // Recomendado: Agrega esto para que los resultados aparezcan más rápido
+        // El plugin buscará en el archivo `_sidebar.md` y `_navbar.md` también.
+        // Esto es muy útil.
+        paths: 'auto',
+        // depth: 6, // Indexa hasta H6
+    },
     markdown: {
         sanitize: false,
         // renderer: {
@@ -95,6 +111,7 @@ window.$docsify = {
     //     },
     // },
     mermaidConfig: {
+        startOnLoad: true,
         querySelector: ".mermaid",
     },
 };

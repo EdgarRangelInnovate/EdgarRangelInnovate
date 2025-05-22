@@ -37,31 +37,15 @@
 
   <script src="assets/config.js"></script>
 
-  <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-
   <script src="assets/plugins/main.js"></script>
 
-  <!-- Docsify subMaxLevel -->
-  <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script> -->
-
-  <!-- Dark&Light mode switcher -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js" type="text/javascript"></script>
-
-  <!-- Text search -->
-  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
-
-  <!-- Copy to clipboard -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
-
-  <!-- Import D3.js -->
-  <script src="//cdn.jsdelivr.net/npm/d3@7"></script>
-  <!-- mermaid complement -->
-  <script src="//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js"></script>
   <script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <script src="//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js"></script>
+
+  <script src="//unpkg.com/docsify-mermaid-zoom/dist/docsify-mermaid-zoom.js"></script>
   <!-- Import Mermaid -->
   <script type="module">
-    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@latest/dist/mermaid.esm.min.mjs";
     var config = {
       suppressErrors: true,
       flowchart: {
@@ -72,29 +56,23 @@
     mermaid.initialize(config);
     window.mermaid = mermaid;
   </script>
-  <!-- Import Docsify-mermaid-zoom -->
-  <script src="//unpkg.com/docsify-mermaid@2.0.0/dist/docsify-mermaid.js"></script>
-  <script src="//unpkg.com/docsify-mermaid-zoom/dist/docsify-mermaid-zoom.js"></script>
+
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+  <!-- Docsify subMaxLevel -->
+  <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script> -->
+
+  <!-- Text search -->
+  <script src="//unpkg.com/docsify-scroll-to-top/dist/docsify-scroll-to-top.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
 
   <!-- drawio adapter -->
   <!-- <script src="https://cdn.jsdelivr.net/npm/docsify-drawio/viewer.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-drawio/drawio.js"></script> -->
 
-  <!-- Pagination -->
-  <!-- <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script> -->
-
-  <!-- Scroll to top -->
-  <script src="//unpkg.com/docsify-scroll-to-top/dist/docsify-scroll-to-top.min.js"></script>
-
-  <!-- SideBar Collapse -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
-
-  <!-- Zoom image -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
-
   <!-- Google tag (gtag.js) -->
   <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gtag.min.js"></script> -->
-  <script src="assets/plugins/year-update.js"></script>
 </body>
 
 </html>

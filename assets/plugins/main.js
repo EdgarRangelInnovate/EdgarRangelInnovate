@@ -1,22 +1,22 @@
 // Lista de URLs de plugins de CDN y tus propios plugins
 const pluginUrls = [
   // Plugins de CDN (Docsify Plugins)
-  //   '//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js',
-  //   '//unpkg.com/docsify/lib/plugins/search.min.js',
-  //   '//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js',
-  //   '//cdn.jsdelivr.net/npm/d3@7', // D3.js no es un plugin de Docsify per se, pero es una dependencia para algunos
-  //   '//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js',
-  //   '//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js', // Mermaid core
-  //   '//unpkg.com/docsify-mermaid@2.0.0/dist/docsify-mermaid.js', // Asumo que este es diferente al anterior
-  //   '//unpkg.com/docsify-mermaid-zoom/dist/docsify-mermaid-zoom.js',
   //   'https://cdn.jsdelivr.net/npm/docsify-drawio/viewer.min.js',
   //   'https://cdn.jsdelivr.net/npm/docsify-drawio/drawio.js',
-  //   '//unpkg.com/docsify-scroll-to-top/dist/docsify-scroll-to-top.min.js',
-  //   '//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js',
-  //   '//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js',
-  //   // Tus plugins personalizados (rutas relativas a la raíz del sitio)
-  // '/assets/plugins/year-updater.js',
-  '/assets/plugins/dynamic-title.js',
+  '//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js', // Copy to clipboard
+  '//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js', // Tema oscuro y claro switcher
+  '//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js', // pagination
+  '//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js', // sidebar collapse
+  '//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js', // zoom image
+  // '//unpkg.com/docsify-scroll-to-top/dist/docsify-scroll-to-top.min.js', // scroll to top
+  // '//unpkg.com/docsify/lib/plugins/search.min.js', // text search
+  // '//cdn.jsdelivr.net/npm/d3@7', // D3.js no es un plugin de Docsify per se, pero es una dependencia para algunos
+  // '//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js', // Mermaid core
+  // '//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js', // mermaid conector
+  // '//unpkg.com/docsify-mermaid-zoom/dist/docsify-mermaid-zoom.js', // mermaid zoom
+  // Tus plugins personalizados (rutas relativas a la raíz del sitio)
+  '/assets/plugins/dynamic-title.js', // dynamic titles by each page
+  '/assets/plugins/year-update.js', // render actual year
 ];
 
 function loadScript(url) {

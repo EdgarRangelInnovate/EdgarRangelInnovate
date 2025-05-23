@@ -20,11 +20,11 @@ Esta sección tiene como propósito:
 
 Por ahora, los principales hobbies documentados incluyen:
 
-- [📽️ Entretenimiento multimedial](./multimedia/README.md)
-- [🕹️ Interactividad lúdica](./interactividad/README.md)
-- [💪 Cuerpo y mente](./cuerpo/README.md)
+<!-- - [📽️ Entretenimiento multimedial](./multimedia/README.md) -->
+<!-- - [🕹️ Interactividad lúdica](./interactividad/README.md) -->
+<!-- - [💪 Cuerpo y mente](./cuerpo/README.md) -->
 - [🎨 Creatividad](./creatividad/README.md)
-- [🔍 Exploración](./exploración/README.md)
+<!-- - [🔍 Exploración](./exploración/README.md) -->
 
 Con el tiempo, iré incorporando más categorías a medida que reconozca otros hobbies significativos en mi día a día.
 

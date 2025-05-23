@@ -10,9 +10,9 @@ const pluginUrls = [
   '//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js', // zoom image
   // '//unpkg.com/docsify-scroll-to-top/dist/docsify-scroll-to-top.min.js', // scroll to top
   // '//unpkg.com/docsify/lib/plugins/search.min.js', // text search
-  // '//cdn.jsdelivr.net/npm/d3@7', // D3.js no es un plugin de Docsify per se, pero es una dependencia para algunos
-  // '//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js', // Mermaid core
-  // '//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js', // mermaid conector
+  '//cdn.jsdelivr.net/npm/d3@7', // D3.js no es un plugin de Docsify per se, pero es una dependencia para algunos
+  '//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js', // Mermaid core
+  '//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js', // mermaid conector
   // '//unpkg.com/docsify-mermaid-zoom/dist/docsify-mermaid-zoom.js', // mermaid zoom
   // Tus plugins personalizados (rutas relativas a la raíz del sitio)
   '/assets/plugins/dynamic-title.js', // dynamic titles by each page

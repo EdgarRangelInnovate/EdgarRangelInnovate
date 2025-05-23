@@ -5,21 +5,39 @@
   text-align: right;
   z-index: 10;
 }
+
 .sidebar-nav {
   margin-left: 20px;
 }
+
+/* Texto destacado para notas */
+blockquote {
+  border-left: 4px solid #ffb74d;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+}
+
 .markdown-section {
   padding-top: 6vh !important;
   padding-bottom: 6vh !important;
 }
-.markdown-section > button {
+
+.markdown-section>button {
   right: 2vw !important;
   bottom: 2vh !important;
 }
 
-#professional-path > .mermaid {
-  overflow-x: auto;
+.mermaid {
+  overflow: auto;
+  max-height: 60vh;
+  border: 2px solid #000;
+  border-radius: 8px;
+  padding: 0.5rem;
+  background-color: #a3a3a3;
 }
-#professional-path > .mermaid > svg {
-  width: 400%;
-}
+/* 
+.mermaid>svg {
+  width: 100%;
+  height: 1vh;
+} */

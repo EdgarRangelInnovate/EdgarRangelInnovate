@@ -1,6 +1,6 @@
 # Edgar Rangel <!-- {docsify-ignore} -->
 
-- [**Inicio**](./README.md "Inicio")
+- [**Inicio**](README.md "Inicio")
 - [**Professional Path**](/path/README.md "Professional path")
 - [**Habilidades**](/skills/README.md "Knowledge")
 - [**Hobbies**](/hobbies/README.md "Hobbies")

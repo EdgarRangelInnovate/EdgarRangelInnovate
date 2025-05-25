@@ -9,4 +9,4 @@ Si el formulario no se carga correctamente o prefieres utilizar un enlace direct
 
 ---
 
-[⏪ Hobbies](/hobbies/README.md) | [⏫ Subir un nivel](/README.md) | [⏩ Glosario](glossary.md)
+[⏪ Hobbies](/hobbies/README.md) | [⏫ Subir un nivel](/README.md) | [🛡️ Politicas de privacidad](./privacy.md)

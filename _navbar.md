@@ -3,4 +3,4 @@
 - [**Professional Path** 🚏](/path/README.md)
 - [**Conocimientos y tips** 🖇️](/skills/README.md)
 - [**Hobbies** 🎬](/hobbies/README.md)
-- [**Comentarios 📨**](/others/comments.md)
+- [**Comentarios 📨**](/others/feedback.md)

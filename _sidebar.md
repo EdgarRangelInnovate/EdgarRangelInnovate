@@ -8,7 +8,7 @@
 ---
 
 - [**Glosario** 📖](/others/glossary.md "Glosario")
-- [**Perfil** 👨‍💻](https://github.com/EdgarRangelInnnovate)
+- [**Perfil** 👨‍💻](https://github.com/EdgarRangelInnovate)
 - [**Contactame** 📞](https://www.linkedin.com/in/edgar-rangel-moreno-innovate/)
 
 ---

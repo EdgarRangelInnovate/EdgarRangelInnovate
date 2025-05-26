@@ -9,19 +9,20 @@ mindmap
             Issues
             PR
             Bidireccional
-        ))Planear(
+        ))Planificación flexible(
             Backlog
             Tabla
             Kanban
             Roadmap
-        ))Seguimiento(
+        ))Seguimiento Eficiente(
             Automatizaciones
                 (Flujos)
                 (Cambios)
                 (Archivo)
                 (Ramas)
-            GraphQL API
-            Github Actions
+            Extensibilidad
+                (GraphQL API)
+                (Github Actions)
         ))Vistas(
             Filtrado
             Ordenación
@@ -33,7 +34,15 @@ mindmap
 
 ```
 
-Para mayor detalle visite la [página oficial](https://docs.github.com/es/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
+## Beneficios Clave
+
+* **Centralización:** Unifica la planificación y el código en un solo lugar.
+* **Flexibilidad:** Se adapta a diversas metodologías (Kanban, Scrum light, etc.).
+* **Visibilidad:** Ofrece una visión clara del progreso del proyecto.
+* **Automatización:** Reduce tareas manuales, mejorando la eficiencia.
+* **Personalización:** Crea vistas y campos que se ajustan a tus necesidades específicas.
+
+Para obtener una documentación más detallada y técnica, visita la [página oficial de GitHub Projects](https://docs.github.com/es/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects).
 
 ---
 

@@ -153,7 +153,7 @@ Los fundamentos de programación permiten adquirir la lógica y pensamiento comp
     ```
 
     <!-- markdownlint-disable MD033 MD046 -->
-    <!-- FIXME: Corregir el funcionamiento HTML5 -->
+    <!-- FIXME: Corregir el funcionamiento HTML5 https://github.com/EdgarRangelInnovate/EdgarRangelInnovate/issues/74 -->
     <svg width="100" height="100">
         <circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="skyblue" />
     </svg>

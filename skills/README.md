@@ -55,11 +55,3 @@ Las **Essential Skills** (antes llamadas soft skills) son capacidades personales
 
 [hardSkills]: ./hard/README.md
 [essentialSkills]: ./essential/README.md
-
-<!-- TODO: Donde debería posicionar conceptos como:
-- La Navaja de Okam
-- Ley de pareto
-- principio de incertidumbre
-- Teoría de la genialidad
-- Paradoja de la eficiencia
--->

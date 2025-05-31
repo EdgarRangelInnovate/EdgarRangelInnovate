@@ -116,7 +116,7 @@ const OptimizedCard = React.memo(({ title }) => {
   return <h2>{title}</h2>;
 });
 ```
-<!-- TODO: Agregar memorization, lazy loading y virtual DOM diffing -->
+<!-- TODO: Agregar memorization, lazy loading y virtual DOM diffing https://github.com/EdgarRangelInnovate/EdgarRangelInnovate/issues/76-->
 
 #### Adaptables por props o estados
 
@@ -159,7 +159,7 @@ Comprender cómo JS maneja operaciones asincrónicas es fundamental para evitar 
 Imagen del sitio [GeekForGeeks](https://www.geeksforgeeks.org/what-is-an-event-loop-in-javascript/)
 
 ##### Promesas
-<!-- TODO: Agregar Observables -->
+<!-- TODO: Agregar Observables https://github.com/EdgarRangelInnovate/EdgarRangelInnovate/issues/77-->
 Las **promesas** permiten gestionar operaciones asincrónicas, evitando el "callback hell".
 
 ```javascript
@@ -266,7 +266,7 @@ JS es **single-threaded**, pero puede emular concurrencia mediante:
 
 #### Estructura del Runtime JS
 
-<!-- TODO: Mejorar porque se repite mucho con el tema anterior y es mejor comprender todo sin repetición -->
+<!-- TODO: Mejorar porque se repite mucho con el tema anterior y es mejor comprender todo sin repetición https://github.com/EdgarRangelInnovate/EdgarRangelInnovate/issues/67-->
 Comprender cómo se ejecuta JS permite tomar decisiones informadas sobre rendimiento y comportamiento inesperado.
 
 ![RuntimeJS](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*4OnTfpTMiis5RKuochxmYQ.png)
@@ -1048,7 +1048,7 @@ mindmap
 
 [Junior](./02-junior.md) | [⬆️](/knowledge/README.md#3-desarrollador-semi-senior--mid-level-developer) | [Senior](./04-senior.md)
 
-<!-- TODO: Agregar
+<!-- TODO: Agregar https://github.com/EdgarRangelInnovate/EdgarRangelInnovate/issues/67
 
 # SSr-Engineer
 

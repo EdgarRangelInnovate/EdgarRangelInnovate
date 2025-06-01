@@ -101,8 +101,10 @@ SVG admite los estilos en diferentes niveles de importancia:
 
 Ejemplos:
 
-1. [svg con estilos 00](../assets/hardSkills/html/svg00.html ":include :type=iframe width=100% height=400px :scrolling=auto")
-2. [svg con estilos 01](../assets/hardSkills/html/svg01.html ":include :type=iframe width=100% height=400px :scrolling=auto")
+1. ![svg con estilos 00](./assets/svg/svg00.svg)
+2. ![svg con estilos 01](./assets/svg/svg01.svg)
+3. ![svg con gradiente](./assets/svg/gradiente.svg)
+4. ![svg con tema](./assets/svg/tema.svg)
 
 ## Pintado
 

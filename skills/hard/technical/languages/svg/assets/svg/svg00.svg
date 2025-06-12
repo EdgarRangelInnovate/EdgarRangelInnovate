@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="../css/svg000.css" type="text/css"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+  <title>module 1 (Section 3 Lecture 2 Exercise 1 [Answers])</title>
+  <style type="text/css">
+    /* Limpiaremos y ordenaremos un poco el CSS para mayor claridad */
+
+    /* Regla base para todos los rects (será anulada por las más específicas) */
+    rect {
+      fill: green;
+      /* Última regla genérica de rect, entonces esta gana si no hay otra más específica */
+    }
+
+    /* Rects hijos directos de SVG */
+    svg>rect {
+      fill: yellow;
+      /* Más específica que la anterior */
+    }
+
+    /* Rects con la clase 'third' */
+    rect.third {
+      fill: violet;
+      /* Más específica que 'svg > rect' */
+    }
+
+    /* Rect con el id 'ids' */
+    rect#ids {
+      fill: blueviolet;
+      /* Muy específica */
+    }
+
+    /* Rects con la clase 'important' */
+    rect.important {
+      fill: cadetblue !important;
+      /* Ganará sobre las reglas de arriba, pero los estilos inline la anularán */
+    }
+
+    /* Ojo: Las propiedades padding/margin/a/etc. son más para HTML y no aplicarán a los rects SVG directamente. */
+    /* No es necesario incluirlas si el SVG solo contiene elementos SVG. */
+    /* * { padding: 0; margin: 0; fill: red; } -- Eliminar '*' si no quieres que afecte a todo o causa problemas */
+  </style>
+  <rect x="100" y="100" width="200" height="100" fill="orange" />
+  <rect x="400" y="100" width="200" height="100" />
+  <rect class="third" x="100" y="400" width="200" height="100" />
+  <rect class="third" x="400" y="400" width="200" height="100" />
+  <rect id="ids" class="third" style="fill:brown;" x="700" y="100" width="200" height="100" />
+  <rect class="third important" style="fill:brown;" x="700" y="400" width="200" height="100" />
+</svg>

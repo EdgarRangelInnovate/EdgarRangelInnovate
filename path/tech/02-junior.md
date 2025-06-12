@@ -335,7 +335,7 @@ console.log(config2.get('tema')); // oscuro
 
 En esta etapa, un Desarrollador Junior debe ser capaz de trabajar con al menos uno de los principales frameworks de frontend y/o backend, comprendiendo los fundamentos de la construcción de aplicaciones modulares, mantenibles y escalables. La expectativa no es la maestría absoluta, sino la capacidad de aprender rápido y aplicar buenas prácticas básicas.
 
-<!-- FIXME: Incluir frameworks de windows C#, ASPX, .Net, Core, PHP -->
+<!-- FIXME: Incluir frameworks de windows C#, ASPX, .Net, Core, PHP https://github.com/EdgarRangelInnovate/EdgarRangelInnovate/issues/75-->
 #### Frontend
 
 Herramientas modernas para construir interfaces dinámicas y componentes reutilizables.
@@ -902,7 +902,7 @@ Cuando un desarrollador junior logra realizar sus tareas de forma **natural y fl
 
 [Intern](./01-intern.md) | [⬆️](/knowledge/README.md#2-desarrollador-junior-frontend--backend--fullstack) | [SSr Engineer](./03-ssr.md)
 
-<!-- TODO: Agregar
+<!-- TODO: Agregar https://github.com/EdgarRangelInnovate/EdgarRangelInnovate/issues/67
 # Junior Developer
 
 ## 🔧 Hard Skills

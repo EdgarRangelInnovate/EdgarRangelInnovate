@@ -6,6 +6,7 @@ window.$docsify = {
     relativePath: true,
     onlyCover: true,
     loadSidebar: true,
+    autoCollapse: true,
     loadNavbar: true,
     maxLevel: 6,
     subMaxLevel: 6,

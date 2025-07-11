@@ -1,7 +1,7 @@
 const lastUpdatePlugin = function(hook) {
   hook.doneEach(function() {
     setTimeout(() => {
-      fetch('/assets/last-update.json')
+      fetch('/version-info.json')
         .then(response => {
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);

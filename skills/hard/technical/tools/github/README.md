@@ -31,7 +31,7 @@ GitHub no es solo un repositorio de código; es un ecosistema completo que facil
 
 ### 4. **Automatización y CI/CD:**
 
-- **GitHub Actions:** Plataforma de CI/CD (Integración Continua/Despliegue Continuo) integrada. Permite automatizar flujos de trabajo como pruebas, despliegues y publicación de paquetes directamente desde el repositorio.
+- **[GitHub Actions](./actions.md):** Plataforma de CI/CD (Integración Continua/Despliegue Continuo) integrada. Permite automatizar flujos de trabajo como pruebas, despliegues y publicación de paquetes directamente desde el repositorio.
 - **Webhooks:** Notificaciones automáticas a aplicaciones externas cuando ocurren eventos específicos en el repositorio (ej., un `push`, un `pull request` abierto).
 
 ### 5. **Otras Características Relevantes:**

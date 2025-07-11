@@ -17,12 +17,11 @@ GitHub no es solo un repositorio de código; es un ecosistema completo que facil
 
 ### 2. **Gestión de Proyectos y Tareas:**
 
-- **Issues (Incidencias):** Sistema fundamental para el seguimiento de errores, solicitudes de características, preguntas y tareas pendientes. Permiten organizar, priorizar y asignar el trabajo.
+- **[Issues](./issues.md) (Incidencias):** Sistema fundamental para el seguimiento de errores, solicitudes de características, preguntas y tareas pendientes. Permiten organizar, priorizar y asignar el trabajo.
   - **Plantillas (Templates) de Issues y Pull Requests:** Archivos predefinidos (ej., `.github/ISSUE_TEMPLATE/*.md`, `.github/PULL_REQUEST_TEMPLATE.md`) que guían a los usuarios al crear issues o PRs, asegurando la inclusión de información necesaria y estandarizando el proceso.
 - **[Milestones](./milestones.md) (Hitos):** Agrupan Issues y Pull Requests relacionados bajo un objetivo común con una fecha de vencimiento. Son cruciales para seguir el progreso hacia fases específicas del proyecto.
 - **[Projects](./projects.md) (Proyectos):** Tableros Kanban o de proyectos personalizables que permiten visualizar y organizar el flujo de trabajo de Issues, Pull Requests y notas en columnas (ej., "To Do", "In Progress", "Done").
-<!-- TODO: Documentar labels -->
-- **Labels (Etiquetas):** Clasifican Issues y PRs por tipo (ej., `bug`, `feature`), prioridad, área de enfoque, o cualquier otra categoría personalizada.
+- **[Labels](./labels.md) (Etiquetas):** Clasifican Issues y PRs por tipo (ej., `bug`, `feature`), prioridad, área de enfoque, o cualquier otra categoría personalizada.
 
 ### 3. **Colaboración y Revisión de Código:**
 
@@ -37,13 +36,14 @@ GitHub no es solo un repositorio de código; es un ecosistema completo que facil
 
 ### 5. **Otras Características Relevantes:**
 
-- **GitHub Pages:** Alojamiento gratuito de sitios web estáticos directamente desde un repositorio. Ideal para blogs, documentación o portafolios personales (como este mismo sitio).
+- **[GitHub Pages](./pages.md):** Alojamiento gratuito de sitios web estáticos directamente desde un repositorio. Ideal para blogs, documentación o portafolios personales (como este mismo sitio).
 - **GitHub Copilot:** Una herramienta de programación asistida por IA que sugiere código y autocompleta líneas, acelerando el desarrollo.
 - **GitHub CLI:** Herramienta de línea de comandos para interactuar con GitHub desde la terminal.
 - **Seguridad:** Escaneo de vulnerabilidades, Dependabot para actualizaciones de dependencias, auditorías de seguridad.
+- **[Templates](./templates.md):** GitHub permite definir plantillas personalizadas para distintos tipos de interacción en el repositorio, facilitando la estandarización y calidad de la colaboración.
 - **Gists:** Fragmentos de código simples para compartir rápidamente.
 - **Wikis:** Para documentación interna del proyecto.
-- **Versionado Semántico (SemVer):** Aunque no es una característica *nativa* de GitHub, es un estándar de facto (ej. `v1.0.0`, `v2.1.3`) ampliamente adoptado y gestionado a través de *releases* y *tags* en GitHub para indicar versiones de software de manera coherente y predecible.
+- **Versionado Semántico ([SemVer](./semver.md)):** Aunque no es una característica *nativa* de GitHub, es un estándar de facto (ej. `v1.0.0`, `v2.1.3`) ampliamente adoptado y gestionado a través de *releases* y *tags* en GitHub para indicar versiones de software de manera coherente y predecible.
 
 ----
 
@@ -117,4 +117,4 @@ GitHub es una herramienta indispensable para cualquier desarrollador moderno, fa
 
 ----
 
-[⏪ Regresar a Git](../git/README.md) | [⏫ Subir a Hard Technical Skills](../README.md) | [⏩ Avanzar a npm](../npm/README.md)
+[⏪ Regresar a Git](../git/README.md) | [⏫ Subir un nivel](../README.md) | [⏩ Avanzar a npm](../npm/README.md)

@@ -20,17 +20,17 @@ Esta sección detalla mis habilidades técnicas y de ingeniería, fundamentales 
 
 ### Lenguajes de Programación
 
-  - C++
-  - HTML5
-  - CSS3
-  - XML
-  - SVG
-  - PHP
-  - ASP
-  - ASPX
-  - C#
-  - Python
-  - JavaScript
+- C++
+- HTML5
+- CSS3
+- XML
+- SVG
+- PHP
+- ASP
+- ASPX
+- C#
+- Python
+- JavaScript
 
 ## Bases de Datos
 
@@ -69,10 +69,10 @@ Esta sección detalla mis habilidades técnicas y de ingeniería, fundamentales 
 
 ## Clean Code
 
-  - Nombres significativos
-  - Funciones pequeñas
-  - Código autoexplicativo
-  - Separación de responsabilidades
+- Nombres significativos
+- Funciones pequeñas
+- Código autoexplicativo
+- Separación de responsabilidades
 
 ## Frameworks
 
@@ -155,6 +155,10 @@ Esta sección detalla mis habilidades técnicas y de ingeniería, fundamentales 
 
 ### Computación Cuántica
 
+## Herramientas Transversales
+
+Al igual que los aplicativos o lenguajes de programación, las herramientas más usadas en desarrollo de software se documentan en un apartado de [herramientas](./tools/README.md)
+
 ---
 
-[⏪ Regresar a essential skills](../essential/README.md) | [⏫ Subir un nivel](../README.md) | [⏩ Avanzar a Hard Business Skills](../business/README.md)
+[⏪ Regresar a essential skills](../essential/README.md) | [⏫ Subir un nivel](../README.md) | [⏩ Avanzar a Transversals Skills](../transversal/README.md)

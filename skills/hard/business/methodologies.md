@@ -191,15 +191,15 @@ mindmap
 
 Las siguientes son algunas de las herramientas más utilizadas que soportan la implementación de las metodologías mencionadas, especialmente las ágiles:
 
-* **Jira:** Plataforma líder para la gestión de proyectos ágiles (Scrum, Kanban), seguimiento de tareas, bugs e historias de usuario.
-* **Trello:** Herramienta de gestión de proyectos basada en tableros Kanban, ideal para equipos pequeños o proyectos con flujos de trabajo visuales sencillos.
-* **Asana:** Software de gestión de proyectos que permite organizar tareas, colaborar en equipo y seguir el progreso. Soporta metodologías ágiles y tradicionales.
-* **Azure DevOps:** Conjunto de herramientas de Microsoft que cubre todo el ciclo de vida de desarrollo de software, incluyendo la gestión de proyectos (Boards), repositorios de código, pipelines CI/CD.
-* **Monday.com:** Plataforma de gestión de trabajo con alta capacidad de personalización, ideal para equipos que buscan organizar flujos de trabajo visuales y colaborativos.
-* **Miro / Mural:** Pizarras blancas colaborativas online, excelentes para sesiones de brainstorming, retrospectivas, planificación de sprints y mapeo de procesos (útiles para Agile, Lean, 5S).
-* **ServiceNow:** Plataforma ITSM utilizada para gestionar servicios de TI, incidentes, problemas y cambios, muy relevante para la implementación de ITIL.
-* **Microsoft Excel / Google Sheets:** Aunque no son herramientas especializadas, son ampliamente utilizadas para la gestión básica de tareas, seguimiento y reportes, especialmente en etapas iniciales o proyectos pequeños.
-* **[GitHub Projects](./software/github/projects.md):** Plataforma básica pero flexible implementada directamente en GitHub y con sincronización de las tareas de los desarrolladores. Es ideal para la gestión ágil de proyectos basada en código.
+- **Jira:** Plataforma líder para la gestión de proyectos ágiles (Scrum, Kanban), seguimiento de tareas, bugs e historias de usuario.
+- **Trello:** Herramienta de gestión de proyectos basada en tableros Kanban, ideal para equipos pequeños o proyectos con flujos de trabajo visuales sencillos.
+- **Asana:** Software de gestión de proyectos que permite organizar tareas, colaborar en equipo y seguir el progreso. Soporta metodologías ágiles y tradicionales.
+- **Azure DevOps:** Conjunto de herramientas de Microsoft que cubre todo el ciclo de vida de desarrollo de software, incluyendo la gestión de proyectos (Boards), repositorios de código, pipelines CI/CD.
+- **Monday.com:** Plataforma de gestión de trabajo con alta capacidad de personalización, ideal para equipos que buscan organizar flujos de trabajo visuales y colaborativos.
+- **Miro / Mural:** Pizarras blancas colaborativas online, excelentes para sesiones de brainstorming, retrospectivas, planificación de sprints y mapeo de procesos (útiles para Agile, Lean, 5S).
+- **ServiceNow:** Plataforma ITSM utilizada para gestionar servicios de TI, incidentes, problemas y cambios, muy relevante para la implementación de ITIL.
+- **Microsoft Excel / Google Sheets:** Aunque no son herramientas especializadas, son ampliamente utilizadas para la gestión básica de tareas, seguimiento y reportes, especialmente en etapas iniciales o proyectos pequeños.
+- **[GitHub Projects](./software/github/projects.md):** Plataforma básica pero flexible implementada directamente en GitHub y con sincronización de las tareas de los desarrolladores. Es ideal para la gestión ágil de proyectos basada en código.
 
 ---
 

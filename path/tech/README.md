@@ -92,7 +92,7 @@ Al seleccionar una plataforma para evaluar habilidades técnicas, es importante 
 - **Experiencia del usuario**: ¿La interfaz es clara, funcional y sin fricción?
 - **Reportes y métricas**: ¿Entrega informes detallados y medibles sobre el rendimiento del evaluado?
 
-Estas herramientas son útiles no solo para reclutamiento, sino también para autoevaluación y crecimiento profesional continuo. 
+Estas herramientas son útiles no solo para reclutamiento, sino también para autoevaluación y crecimiento profesional continuo.
 
 ## ETAPA 1: Fundamentos y crecimiento técnico
 

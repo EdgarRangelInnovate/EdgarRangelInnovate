@@ -18,11 +18,12 @@ a {
   background-color: #639;
   margin: 50px;
 }
+
 circle {
   fill: #00690c;
 }
 
-/* You should start to write here*/
+/* You should start to write here */
 #outermost {
   margin: 50px;
   border: 2px dashed darkcyan;

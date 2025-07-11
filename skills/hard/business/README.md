@@ -13,6 +13,7 @@ TODO: - **Paradoja de la Eficiencia:** Comprender cómo la obsesión por la efic
 
 - Modelado de procesos con BPMN 2.0
   - Adonis BPM suite: El siguiente PDF lo extraje de una conferencia a la que asistí donde usan IA para generar procesos.
+    <!-- <!-- markdownlint-disable MD033 --> -->
     <iframe src="/assets/ADONIS-AI-Diseno-y-Analisis-de-Procesos-hecho-en-minutos.pdf" width="100%" height="600px">
         Este navegador no soporta iframes.
     </iframe>

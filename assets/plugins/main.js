@@ -17,6 +17,8 @@ const pluginUrls = [
   // Tus plugins personalizados (rutas relativas a la raíz del sitio)
   '/assets/plugins/dynamic-title.js', // dynamic titles by each page
   '/assets/plugins/year-update.js', // render actual year
+  '/assets/plugins/version.js', // render actual version
+  '/assets/plugins/last-update.js', // render last update
 ];
 
 function loadScript(url) {

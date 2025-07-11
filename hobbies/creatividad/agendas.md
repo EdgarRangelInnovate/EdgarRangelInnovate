@@ -18,9 +18,9 @@ Las agendas y los cuadernos son herramientas poderosas para la organización, la
 
 **Ventajas:**
 
-* **Acceso instantáneo:** Localiza secciones de la agenda de forma rápida.
-* **Organización intuitiva:** Ofrece una representación visual de la distribución temática.
-* **Adaptabilidad:** Funciona con cualquier tipo de agenda y número de temas.
+- **Acceso instantáneo:** Localiza secciones de la agenda de forma rápida.
+- **Organización intuitiva:** Ofrece una representación visual de la distribución temática.
+- **Adaptabilidad:** Funciona con cualquier tipo de agenda y número de temas.
 
 ![topicos agenda](./assets/topicos.agenda.jpeg)
 
@@ -33,9 +33,9 @@ Al escribir cualquier tipo de contenido en mis cuadernos o agendas, utilizo la m
 
 **Propósitos:**
 
-* **Comodidad ergonómica:** Al escribir con la mano contraria de la hoja, evita llegar hacia el borde de la hoja sin apoyo natural para la muñeca (Esto por el grosor del cuaderno o agenda).
-* **Desarrollo de la mano no dominante:** Fomenta activamente la habilidad y la agilidad de la mano menos utilizada, promoviendo la creación de nuevas conexiones neuronales y fortaleciendo la plasticidad cerebral.
-* **Relajación y enfoque mental:** He notado que el movimiento más consciente y deliberado requerido al escribir con mi mano izquierda induce un estado de relajación, ayudando a desconectar de preocupaciones y a fomentar una mayor atención al presente.
+- **Comodidad ergonómica:** Al escribir con la mano contraria de la hoja, evita llegar hacia el borde de la hoja sin apoyo natural para la muñeca (Esto por el grosor del cuaderno o agenda).
+- **Desarrollo de la mano no dominante:** Fomenta activamente la habilidad y la agilidad de la mano menos utilizada, promoviendo la creación de nuevas conexiones neuronales y fortaleciendo la plasticidad cerebral.
+- **Relajación y enfoque mental:** He notado que el movimiento más consciente y deliberado requerido al escribir con mi mano izquierda induce un estado de relajación, ayudando a desconectar de preocupaciones y a fomentar una mayor atención al presente.
 
 **Resultados y Motivación:**
 
@@ -50,8 +50,8 @@ Siempre que sea posible, escribo mis notas y reflexiones diarias íntegramente e
 
 **Excepciones y Estrategias:**
 
-* **Reuniones rápidas:** Durante reuniones donde la velocidad y la captura precisa de conceptos son cruciales, priorizo escribir con mi mano dominante (derecha) y en español (mi idioma nativo) para asegurar la máxima eficiencia.
-* **Inmersión gradual:** Esta práctica permite una inmersión continua en el idioma, reforzando vocabulario, gramática y fluidez de pensamiento en inglés.
+- **Reuniones rápidas:** Durante reuniones donde la velocidad y la captura precisa de conceptos son cruciales, priorizo escribir con mi mano dominante (derecha) y en español (mi idioma nativo) para asegurar la máxima eficiencia.
+- **Inmersión gradual:** Esta práctica permite una inmersión continua en el idioma, reforzando vocabulario, gramática y fluidez de pensamiento en inglés.
 
 ## 4. Metodología para la Creación de Mapas Mentales Eficientes
 
@@ -67,9 +67,9 @@ Antes de construir el mapa mental final, sigo un proceso estructurado para la re
 
 **Ventajas:**
 
-* **Eficiencia:** Permite una rápida captura de ideas iniciales sin preocuparse por la disposición gráfica.
-* **Exhaustividad:** Ayuda a asegurar que todos los conceptos importantes sean registrados antes de la visualización.
-* **Generación Rápida de Mapas:** La estructura de lista facilita la conversión directa a un diagrama de Mermaid, lo que acelera la creación del mapa conceptual final y lo hace fácilmente editable.
+- **Eficiencia:** Permite una rápida captura de ideas iniciales sin preocuparse por la disposición gráfica.
+- **Exhaustividad:** Ayuda a asegurar que todos los conceptos importantes sean registrados antes de la visualización.
+- **Generación Rápida de Mapas:** La estructura de lista facilita la conversión directa a un diagrama de Mermaid, lo que acelera la creación del mapa conceptual final y lo hace fácilmente editable.
 
 **Ejemplo:**
 

@@ -1,6 +1,12 @@
-const fs = require('fs');
-const path = require('path');
-const { execSync } = require('child_process');
+import { execSync } from 'child_process';
+import fs from 'fs';
+import path from 'path'; // Importar 'path' así para ES Modules
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+
+// Obtener el __filename y __dirname equivalentes en ES Modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 const packageJsonPath = path.resolve(__dirname, '../package.json');
 const versionInfoPath = path.resolve(__dirname, '../version-info.json');

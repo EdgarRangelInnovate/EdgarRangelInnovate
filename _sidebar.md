@@ -15,6 +15,6 @@
 
 ## License <!-- {docsify-ignore} -->
 <!-- markdownlint-disable MD033 -->
-© <span id="current-year"></span> Master Engineer Edgar Rangel. All rights reserved.
-V-<span id="project-version"></span>
-D-<span id="last-update"></span>
+© <span id="current-year"></span> Master Engineer Edgar Rangel. All rights reserved.  
+V-<span id="project-version"></span>  
+D-<span id="last-update"></span>  

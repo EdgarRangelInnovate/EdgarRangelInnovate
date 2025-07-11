@@ -73,7 +73,7 @@ En la portada de la aplicación se tiene la siguiente documentación:
 
 [Publicación](https://llamalab.com/automate/community/flows/46672 ":include :type=iframe :height=100% :width=300px :scrolling=auto")
 
-### Arquitectura
+### Arquitectura Batería
 
 [Arquitectura](../assets/hardSkills/Battery/pdf/🔋Estado%20de%20la%20Batería🪫.pdf ":include :type=iframe :height=100% :width=300px :scrolling=auto")
 

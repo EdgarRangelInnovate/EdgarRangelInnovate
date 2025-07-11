@@ -92,4 +92,4 @@ Los Milestones son una herramienta poderosa para mantener tus proyectos de softw
 
 ---
 
-[⏪ Regresar a Git](/skills/hard/technical/software/git/README.md) | [⏫ Subir a Hard Technical Skills)](../README.md) | [⏩ Avanzar a npm](../npm/README.md)
+[⏪ Regresar a Git](../git/README.md) | [⏫ Subir un nivel](../README.md) | [⏩ Avanzar a Github pages](./pages.md)

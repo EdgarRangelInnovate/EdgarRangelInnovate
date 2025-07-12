@@ -15,10 +15,11 @@ const pluginUrls = [
   '//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js', // mermaid conector
   // '//unpkg.com/docsify-mermaid-zoom/dist/docsify-mermaid-zoom.js', // mermaid zoom
   // Tus plugins personalizados (rutas relativas a la raíz del sitio)
-  './dynamic-title.js', // dynamic titles by each page
-  './year-update.js', // render actual year
-  './version.js', // render actual version
-  './last-update.js', // render last update
+  '/scripts/update-version-date.js', // render last update
+  '/assets/plugins/dynamic-title.js', // dynamic titles by each page
+  '/assets/plugins/year-update.js', // render actual year
+  '/assets/plugins/version.js', // render actual version
+  '/assets/plugins/last-update.js', // render last update
 ];
 
 function loadScript(url) {

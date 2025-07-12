@@ -72,6 +72,17 @@ jobs:
       # Paso 6: Configurar GitHub Pages (requerido por actions/deploy-pages)
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      # --- Paso de depuración: Listar archivos ANTES de subir el artefacto ---
+      - name: Debug List files in assets/plugins before upload
+        run: |
+          echo "Contenido de assets/plugins/ en el runner de GitHub Actions:"
+          ls -laR assets/plugins/
+          echo "Verificando presencia de archivos específicos:"
+          find . -type f -name "year-update.js"
+          find . -type f -name "last-update.js"
+          echo "--------------------------------------------------------"
+          echo "Contenido de la raíz del artefacto (ej. para verificar si .nojekyll u otros están allí):"
+          ls -la # Para ver el contenido del directorio '.' que se sube
       # Paso 7: Subir el artefacto de la página (tu repositorio entero)
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

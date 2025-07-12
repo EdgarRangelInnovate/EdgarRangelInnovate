@@ -2,7 +2,6 @@
 window.$docsify = {
   name: 'Master Edgar Rangel, Vida y obra',
   // repo: 'EdgarRangelInnovate/EdgarRangelInnovate',
-  basePath: '../',
   coverpage: true,
   relativePath: true,
   onlyCover: true,

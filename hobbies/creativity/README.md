@@ -3,6 +3,7 @@
 Procesos creativos que involucran trabajo con las manos, exploración de materiales o expresión artística:
 
 - [📖 Agendas](./agendas.md)
+- [📄 Articulos y publicaciones](./articles/README.md)
 <!--
 - [🖌️ Dibujo, pintura, modelado](Dibujo.md)
 - [🖨️ Impresión 3d](impresora-3d.md)

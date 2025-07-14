@@ -1,6 +1,7 @@
-# El Llamado del Camino: Existencia, Tecnología y Propósito (2025-07-12)
+# El Llamado del Camino: Existencia, Tecnología y Propósito
 
 **Una Aventura Existencial**  
+*Bogotá, Colombia - Julio 2025*
 
 ![Aventura Existencial](./assets/aventura-existencial.png ":size=25%")
 

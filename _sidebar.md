@@ -4,6 +4,9 @@
 - [**Professional Path**](/path/README.md "Professional path")
 - [**Habilidades**](/skills/README.md "Knowledge")
 - [**Hobbies**](/hobbies/README.md "Hobbies")
+  - [**Creatividad**](/hobbies/creativity/README.md)
+    - [**Artículos**](/hobbies/creativity/articles/README.md)
+      - [**Manifiesto**](/hobbies/creativity/articles/existential-adventure.md)
 
 ---
 

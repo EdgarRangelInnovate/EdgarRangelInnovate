@@ -2,8 +2,6 @@
 
 Procesos creativos que involucran trabajo con las manos, exploración de materiales o expresión artística:
 
-- [📖 Agendas](./agendas.md)
-- [📄 Articulos y publicaciones](./articles/README.md)
 <!--
 - [🖌️ Dibujo, pintura, modelado](Dibujo.md)
 - [🖨️ Impresión 3d](impresora-3d.md)
@@ -11,7 +9,9 @@ Procesos creativos que involucran trabajo con las manos, exploración de materia
 - [🔰 Origami](origami.md)
 - [🧫 Resina epóxica](resina.md)
 -->
+- [📖 Agendas](./agendas.md)
+- [📄 Articulos y publicaciones](./articles/README.md)
 
 ---
 
-[⏪ Conocimientos y tips](/skills/README.md) | [⏫ Subir un nivel](/hobbies/README.md) | [⏩ Agendas](./agendas.md)
+[⏪ Conocimientos y tips](/skills/README.md) | [⏫ Subir un nivel](../README.md) | [⏩ Agendas](./agendas.md)

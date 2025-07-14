@@ -1,7 +1,6 @@
 # El Llamado del Camino: Existencia, Tecnología y Propósito
 
 **Una Aventura Existencial**  
-*Bogotá, Colombia - Julio 2025*
 
 ![Aventura Existencial](./assets/aventura-existencial.png ":size=25%")
 
@@ -204,7 +203,8 @@ Firmo este manifiesto como creador de esta visión, pero también como parte de 
 
 Acepto la inteligencia artificial como compañera. Acepto la tecnología como extensión creativa. Pero no acepto el consumo sin conciencia, la atención fragmentada como norma, ni la normalización del vacío como estándar. Este manifiesto propone que la verdadera evolución no será solo técnica, sino espiritual, filosófica, estética y ética. **Una evolución de especie**, con la tecnología como espejo, no como amo; con el pensamiento como ritual, no como recurso.
 
-A quienes hayan llegado hasta aquí: gracias. No por leerme, sino por detenerse. Por elegir reflexionar, por desafiar la rapidez y dejarse atravesar por ideas densas. Este texto es para ustedes. Y si alguna de estas palabras resuena, entonces este manifiesto ha cumplido su misión.
+A quienes hayan llegado hasta aquí: gracias. No por leerme, sino por detenerse. Por elegir reflexionar, por desafiar la rapidez y dejarse atravesar por ideas densas. Este texto es para ustedes. Y si alguna de estas palabras resuena, entonces este manifiesto ha cumplido su misión.  
+*Bogotá, Colombia - Julio 2025*
 
 ---
 

@@ -1,8 +1,8 @@
-# El Llamado del Camino: Existencia, Tecnología y Propósito
+# El Llamado del Camino: Existencia, Tecnología y Propósito (2025-07-12)
 
 **Una Aventura Existencial**  
 
-![Aventura Existencial](./assets/AventuraExistencial.png)
+![Aventura Existencial](./assets/aventura-existencial.png ":size=25%")
 
 ---
 

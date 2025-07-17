@@ -1,8 +1,8 @@
-# 📚 Knowledge & Skills Acquired
+# 🛠️ Knowledge & Skills Acquired
 
 A lo largo de mi carrera he consolidado un conjunto de habilidades clave que agrupo en dos grandes categorías: técnicas (Hard Skills) y esenciales (Essential Skills).
 
-## 🛠️ Hard Skills
+## 🔧 Hard Skills
 
 Las **Hard Skills** son habilidades técnicas desarrolladas mediante formación académica, experiencia profesional y práctica constante.
 

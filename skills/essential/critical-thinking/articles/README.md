@@ -2,7 +2,7 @@
 
 Reflexiones profundas para despertar a la humanidad.
 
-- [Manifiesto "Aventura Exsistencial"](./existential-adventure.md) 2025-07-12
+- [Manifiesto "Aventura Exsistencial"](/manifiesto) 2025-07-12
   > **Nota para el lector consciente**  
   >
   > Este manifiesto no está hecho para ser leído con prisa, ni como parte de una rutina digital de consumo inmediato. Aquí no hay fórmulas, ni frases diseñadas para viralizarse. Lo que encontrarás a continuación es un recorrido introspectivo, un llamado a sentir cada palabra como una semilla de conciencia.  

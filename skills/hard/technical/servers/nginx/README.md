@@ -103,6 +103,20 @@ if ($is_ssl != "1") {
 
 Un ejemplo completo sería:
 
+<!-- server_name ~^www\.global-selling\.mercadoli(bre|vre)\.com$ ~^global-selling\.mercadoli(bre|vre)\.com$; -->
+<!-- location ~ ^/help/api/content {
+    if ($cookie_meliLab ~ ^(stage|alpha)$) {
+        proxy_pass http://stage.cx-support-peach-frontend.melifrontends.com;
+        break;
+    }
+    if ($cookie_meliLab ~ ^(dev)$) {
+        proxy_pass http://dev.cx-support-peach-frontend.melifrontends.com;
+        break;
+    }
+    proxy_pass http://prod.cx-support-peach-frontend.melifrontends.com;
+    break;
+} -->
+
 ```bash
 include nginx.conf;
 

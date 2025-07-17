@@ -1,24 +1,47 @@
-# PROGRAMMING LANGUAGES
+# 💻 LENGUAJES DE PROGRAMACIÓN
 
-| Programming Language                    | Level                          |
-| --------------------------------------- | ------------------------------ |
-| Assembly                                | :star:                         |
-| Bash                                    | :star:                         |
-| C                                       | :star::star:                   |
-| C#                                      | :star::star::star::star::star: |
-| C++                                     | :star::star::star:             |
-| CSS3                                    | :star::star::star::star::star: |
-| Go                                      | :star:                         |
-| [HTML5](./knowledge/hardSkills/html.md) | :star::star::star::star::star: |
-| Java                                    | :star::star:                   |
-| JavaScript                              | :star::star::star::star::star: |
-| JSON                                    | :star::star::star::star::star: |
-| Markdown                                | :star::star::star::star::star: |
-| PHP                                     | :star::star::star::star::star: |
-| Python                                  | :star:                         |
-| SASS                                    | :star::star::star::star:       |
-| SCSS                                    | :star:                         |
-| SQL                                     | :star::star::star::star::star: |
-| [SVG](./knowledge/hardSkills/svg.md)    | :star::star::star::star:       |
-| [XML](./knowledge/hardSkills/xml.md)    | :star:                         |
-| YAML                                    | :star:                         |
+Esta sección sirve como un **índice de los diversos lenguajes de programación y herramientas de manipulación de datos** que conozco. Cada entrada en la tabla enlaza a una página dedicada con información detallada sobre el lenguaje o la herramienta.
+
+---
+
+| Lenguaje de Programación / Herramienta |
+| --------------------------------------- |
+| [Assembly](./assembly.md) |
+| [Bash](./bash.md) |
+| [C](./c.md) |
+| [C#](./csharp.md) |
+| [C++](./cmasmas.md) |
+| [CSS3](./css3.md) |
+| [DAX](./dax.md) |
+| [Funciones de Excel](./excel.md) |
+| [Go](./go.md) |
+| [HTML5](./html5.md) |
+| [Java](./java/README.md) |
+| [JavaScript](./javascript.md) |
+| [JSON](./json.md) |
+| [LASS](./lass.md) |
+| [Markdown](./markdown.md) |
+| [PHP](./php.md) |
+| [Python](./python.md) |
+| [SASS](./sass.md) |
+| [SCSS](./scss.md) |
+| [SQL](./sql.md) |
+| [SVG](./svg/README.md) |
+| [VBA](./vba.md) |
+| [XML](./xml.md) |
+| [YAML](./yaml.md) |
+
+---
+
+## Documentación por Lenguaje
+
+Haz clic en el nombre de cada lenguaje o herramienta en la tabla anterior para acceder a su documentación específica. Cada página incluirá:
+
+- **Visión General:** Una breve descripción del lenguaje o herramienta.
+- **Usos Comunes:** Para qué tipo de tareas o proyectos se utiliza.
+- **Características Clave:** Puntos importantes que definen su funcionalidad y paradigmas.
+- **Ejemplo de Código:** Un fragmento de código ilustrativo.
+
+---
+
+[⏪ Regresar a metodologías](../../business/methodologies.md) | [⏫ Subir un nivel](../README.md) | [⏩ Avanzar a security](../security/README.md)

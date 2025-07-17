@@ -4,20 +4,6 @@ This document describes the recommended format and structure for using emojis in
 
 ---
 
-## Table of Contents
-
-1. [Commit Format](#commit-format)
-2. [Example](#example)
-3. [Supported Emojis by Commit Message Types](#supported-emojis-by-commit-message-types)
-4. [Commit Message Types](#commit-message-types)
-5. [Commit Summary Suggestions](#commit-summary-suggestions)
-6. [Issue Referencing](#issue-referencing)
-7. [Jira Issue Referencing](#jira-issue-referencing)
-8. [References](#references)
-9. [License](#license)
-
----
-
 ## Commit Format
 
 Use the following format for your commit messages:
@@ -135,10 +121,6 @@ This helps in tracking development tasks in both Git and Jira simultaneously, pr
 - [Karma](http://karma-runner.github.io/1.0/dev/git-commit-msg.html)
 - [Platzi](https://platzi.com/tutoriales/1557-git-github/6359-gitmoji-integrar-emojis-a-nuestros-commit/)
 
-## License
-
-© 2024 Mercado Libre
-
 ---
 
-[Return to README](./README.md#definitions)
+[⏪ Regresar a software](../../software/README.md) | [⏫ Subir un nivel](../README.md) | [⏩ Avanzar a pre-commit](./pre-commit.md)

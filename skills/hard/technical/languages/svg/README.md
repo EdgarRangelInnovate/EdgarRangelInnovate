@@ -282,7 +282,7 @@ La etiqueta `<svg>` define un contenedor para gráficos SVG.
 
 | Atributo              | Descripción                                                                          | Ejemplo                                                           |
 | --------------------- | ------------------------------------------------------------------------------------ | ----------------------------------------------------------------- |
-| `baseProfile`         | Define el perfil de SVG.                                                             |
+| `baseProfile`         | Define el perfil de SVG.                                                             |                                                                   |
 | `class`               | Define una o más clases para el gráfico SVG.                                         | `class="mySVG"`                                                   |
 | `contentScriptType`   | Define el tipo de script.                                                            | `contentScriptType="text/ecmascript"`                             |
 | `contentStyleType`    | Define el tipo de estilo.                                                            | `contentStyleType="text/css"`                                     |
@@ -290,26 +290,26 @@ La etiqueta `<svg>` define un contenedor para gráficos SVG.
 | `height`              | Define el alto del gráfico SVG.                                                      | `height="100%"`                                                   |
 | `id`                  | Define un identificador único para el gráfico SVG.                                   | `id="mySVG"`                                                      |
 | `lang`                | Define el lenguaje del gráfico SVG.                                                  | `lang="en"`                                                       |
-| `onabort`             | Define una función a ejecutar cuando se aborta el gráfico SVG.                       |
-| `onactivate`          | Define una función a ejecutar cuando se activa el gráfico SVG.                       |
-| `onclick`             | Define una función a ejecutar cuando se hace clic en el gráfico SVG.                 |
-| `onerror`             | Define una función a ejecutar cuando se produce un error en el gráfico SVG.          |
-| `onfocusin`           | Define una función a ejecutar cuando se recibe el foco en el gráfico SVG.            |
-| `onfocusout`          | Define una función a ejecutar cuando se pierde el foco en el gráfico SVG.            |
-| `onkeydown`           | Define una función a ejecutar cuando se pulsa una tecla en el gráfico SVG.           |
-| `onkeypress`          | Define una función a ejecutar cuando se pulsa una tecla en el gráfico SVG.           |
-| `onkeyup`             | Define una función a ejecutar cuando se suelta una tecla en el gráfico SVG.          |
-| `onload`              | Define una función a ejecutar cuando se carga el gráfico SVG.                        |
-| `onmousedown`         | Define una función a ejecutar cuando se pulsa un botón del ratón en el gráfico SVG.  |
-| `onmousemove`         | Define una función a ejecutar cuando se mueve el ratón sobre el gráfico SVG.         |
-| `onmouseout`          | Define una función a ejecutar cuando se sale del gráfico SVG con el ratón.           |
-| `onmouseover`         | Define una función a ejecutar cuando se pasa el ratón por encima del gráfico SVG.    |
-| `onmouseup`           | Define una función a ejecutar cuando se suelta un botón del ratón en el gráfico SVG. |
-| `onresize`            | Define una función a ejecutar cuando se redimensiona el gráfico SVG.                 |
-| `onscroll`            | Define una función a ejecutar cuando se desplaza el gráfico SVG.                     |
-| `onunload`            | Define una función a ejecutar cuando se descarga el gráfico SVG.                     |
-| `onunload`            | Define una función a ejecutar cuando se descarga el gráfico SVG.                     |
-| `onzoom`              | Define una función a ejecutar cuando se hace zoom en el gráfico SVG.                 |
+| `onabort`             | Define una función a ejecutar cuando se aborta el gráfico SVG.                       |                                                                   |
+| `onactivate`          | Define una función a ejecutar cuando se activa el gráfico SVG.                       |                                                                   |
+| `onclick`             | Define una función a ejecutar cuando se hace clic en el gráfico SVG.                 |                                                                   |
+| `onerror`             | Define una función a ejecutar cuando se produce un error en el gráfico SVG.          |                                                                   |
+| `onfocusin`           | Define una función a ejecutar cuando se recibe el foco en el gráfico SVG.            |                                                                   |
+| `onfocusout`          | Define una función a ejecutar cuando se pierde el foco en el gráfico SVG.            |                                                                   |
+| `onkeydown`           | Define una función a ejecutar cuando se pulsa una tecla en el gráfico SVG.           |                                                                   |
+| `onkeypress`          | Define una función a ejecutar cuando se pulsa una tecla en el gráfico SVG.           |                                                                   |
+| `onkeyup`             | Define una función a ejecutar cuando se suelta una tecla en el gráfico SVG.          |                                                                   |
+| `onload`              | Define una función a ejecutar cuando se carga el gráfico SVG.                        |                                                                   |
+| `onmousedown`         | Define una función a ejecutar cuando se pulsa un botón del ratón en el gráfico SVG.  |                                                                   |
+| `onmousemove`         | Define una función a ejecutar cuando se mueve el ratón sobre el gráfico SVG.         |                                                                   |
+| `onmouseout`          | Define una función a ejecutar cuando se sale del gráfico SVG con el ratón.           |                                                                   |
+| `onmouseover`         | Define una función a ejecutar cuando se pasa el ratón por encima del gráfico SVG.    |                                                                   |
+| `onmouseup`           | Define una función a ejecutar cuando se suelta un botón del ratón en el gráfico SVG. |                                                                   |
+| `onresize`            | Define una función a ejecutar cuando se redimensiona el gráfico SVG.                 |                                                                   |
+| `onscroll`            | Define una función a ejecutar cuando se desplaza el gráfico SVG.                     |                                                                   |
+| `onunload`            | Define una función a ejecutar cuando se descarga el gráfico SVG.                     |                                                                   |
+| `onunload`            | Define una función a ejecutar cuando se descarga el gráfico SVG.                     |                                                                   |
+| `onzoom`              | Define una función a ejecutar cuando se hace zoom en el gráfico SVG.                 |                                                                   |
 | `preserveAspectRatio` | Define cómo se ajusta el gráfico SVG al área visible.                                | `preserveAspectRatio="xMinYMin meet"`                             |
 | `style`               | Define estilos en línea para el gráfico SVG.                                         | `style="fill:blue;stroke:pink;stroke-width:5;fill-rule:evenodd;"` |
 | `tabindex`            | Define la secuencia de tabulación del gráfico SVG.                                   | `tabindex="0"`                                                    |

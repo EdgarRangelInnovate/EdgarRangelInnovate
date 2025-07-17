@@ -1,4 +1,4 @@
-const yearUpdaterPlugin = function(hook, vm) {
+const yearUpdaterPlugin = function(hook) {
   hook.doneEach(function() {
     setTimeout(() => { 
       const yearSpan = document.getElementById('current-year');

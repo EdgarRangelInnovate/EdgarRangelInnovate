@@ -1,13 +1,31 @@
 {
   "name": "masteredgar",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.3.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint:js": "eslint '**/*.{js,jsx,ts,tsx}'",
+    "lint:css": "stylelint '**/*.{css,scss}'",
+    "lint:html": "htmlhint '**/*.html'",
+    "lint:markdown": "markdownlint-cli2 --config .markdownlint.jsonc '**/*.md' '!node_modules/'",
+    "lint": "npm run lint:js && npm run lint:css && npm run lint:html && npm run lint:markdown",
     "preview": "vite preview",
-    "docs:start": "docsify serve ./"
+    "docs:start": "docsify serve ./",
+    "prepare": "husky",
+    "update:version-date": "node scripts/update-version-date.js",
+    "clean": "rm -rf node_modules package-lock.json"
+  },
+  "dependencies": {
+    "docsify-cli": "^4.4.4"
+  },
+  "devDependencies": {
+    "eslint": "^9.30.1",
+    "htmlhint": "^1.6.3",
+    "husky": "^9.1.7",
+    "markdownlint-cli2": "^0.18.1",
+    "stylelint": "^16.21.1",
+    "stylelint-config-standard": "^38.0.0"
   }
 }

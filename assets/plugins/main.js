@@ -15,7 +15,6 @@ const pluginUrls = [
   '//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js', // mermaid conector
   // '//unpkg.com/docsify-mermaid-zoom/dist/docsify-mermaid-zoom.js', // mermaid zoom
   // Tus plugins personalizados (rutas relativas a la raíz del sitio)
-  '../../scripts/update-version-date.js', // render last update
   './dynamic-title.js', // dynamic titles by each page
   '/assets/plugins/year-update.js', // render actual year
   '/assets/plugins/version.js', // render actual version

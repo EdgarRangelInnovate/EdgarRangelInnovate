@@ -2,7 +2,10 @@
 
 **Una Aventura Existencial**  
 
-![Aventura Existencial](./assets/aventura-existencial.png ":size=25%")
+![Aventura Existencial](/skills/essential/critical-thinking/articles/assets/aventura-existencial.png ":size=25%")
+
+> 💡 **¿Tienes ideas, reflexiones o preguntas?**  
+> Puedes compartir tus comentarios desde el botón ubicado en la parte superior derecha de esta página. Tu voz también hace parte de esta *Aventura Existencial*.
 
 ---
 
@@ -208,4 +211,4 @@ A quienes hayan llegado hasta aquí: gracias. No por leerme, sino por detenerse.
 
 ---
 
-[⏫ Subir un nivel](../README.md)
+[⏫ Subir un nivel](./README.md)

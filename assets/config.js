@@ -17,6 +17,10 @@ window.$docsify = {
     crossChapter: true,
     crossChapterText: true,
   },
+  alias: {
+    '/manifiesto': '/skills/essential/critical-thinking/articles/existential-adventure.md',
+    '/hobbies/creativity/articles/existential-adventure.md': '/skills/essential/critical-thinking/articles/existential-adventure.md',
+  },
   // gtag: 'G-EXDNT7EDBM',
   // https://github.com/zhengxiangqi/docsify-scroll-to-top
   scrollToTop: {

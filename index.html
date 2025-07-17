@@ -1,13 +1,80 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EXDNT7EDBM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-EXDNT7EDBM');
+  </script>
+
+  <meta charset="UTF-8" />
+  <title>Master Edgar Rangel, Vida y obra</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+  <meta name="description" content="Vida y obra del Master Edgar Rangel" />
+
+  <link rel="icon" type="image/png" href="./assets/img/app.png" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
+
+  <!-- Dark and light mode themes -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
+    title="docsify-darklight-theme" type="text/css" />
+
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+
+<body>
+  <div id="app"></div>
+
+  <script src="assets/config.js"></script>
+
+  <script src="assets/plugins/main.js"></script>
+  <!-- TODO: Ajuste temporal para cargue a prueba de fallos -->
+  <script src="assets/plugins/dynamic-title.js"></script>
+  <script src="assets/plugins/year-update.js"></script>
+  <script src="assets/plugins/version.js"></script>
+  <script src="assets/plugins/last-update.js"></script>
+  
+  <script src="//unpkg.com/docsify-mermaid-zoom/dist/docsify-mermaid-zoom.js"></script>
+  <!-- Import Mermaid -->
+  <script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@latest/dist/mermaid.esm.min.mjs";
+    var config = {
+      suppressErrors: true,
+      flowchart: {
+        useMaxWidth: false,
+      },
+    };
+
+    mermaid.initialize(config);
+    window.mermaid = mermaid;
+  </script>
+
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+  <!-- Docsify subMaxLevel -->
+  <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script> -->
+
+  <!-- Text search -->
+  <script src="//unpkg.com/docsify-scroll-to-top/dist/docsify-scroll-to-top.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+
+  <!-- drawio adapter -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/docsify-drawio/viewer.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-drawio/drawio.js"></script> -->
+
+  <!-- Google tag (gtag.js) -->
+  <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gtag.min.js"></script> -->
+</body>
+
 </html>

@@ -1,1 +1,0 @@
-# MY SOFT SKILLS

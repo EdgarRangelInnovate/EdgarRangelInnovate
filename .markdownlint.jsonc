@@ -1,0 +1,14 @@
+{
+  "default": true, // Habilita todas las reglas por defecto
+  // Deshabilita reglas específicas si no se ajustan a tus necesidades
+  "MD013": false, //{ "line-length": 80, "heading-line_length": 80, "code-block-line-length": 80}, // Longitud de línea (ajusta según preferencia)
+  //   "MD033": { "allowed_elements": ["span", "hr"] }, // Permite elementos HTML específicos (ej., para los <span> de Docsify)
+  //   "MD007": { "indent": 4 }, // Indentación de listas (usa 2 o 4 espacios)
+  // Deshabilitar reglas de ejemplo:
+  // "MD001": false, // Headers should be consistent
+  // "MD003": false, // Header style
+  // Configuración para listas no numeradas: exije guiones en lugar de asteriscos
+  "MD004": {
+    "style": "dash"
+  } // Exige guiones (-) para listas no ordenadas
+}

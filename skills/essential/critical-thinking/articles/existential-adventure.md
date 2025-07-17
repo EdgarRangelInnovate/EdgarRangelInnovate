@@ -208,4 +208,4 @@ A quienes hayan llegado hasta aquí: gracias. No por leerme, sino por detenerse.
 
 ---
 
-[⏪ Regresar a Agendas](../agendas.md) | [⏫ Subir un nivel](../README.md) | [⏩ Avanzar a Origami](../origami.md)
+[⏫ Subir un nivel](../README.md)

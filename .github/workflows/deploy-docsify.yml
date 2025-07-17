@@ -33,6 +33,9 @@ jobs:
       # Paso 1: Hacer un checkout del código del repositorio
       - name: Checkout
         uses: actions/checkout@v4
+        # with:
+        #  Permite que el checkout incluya todos los tags del repositorio
+        #  fetch-depth: 1 # Esto es necesario para poder crear tags y releases
       # Paso 2: Configurar Node.js para poder leer package.json
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -69,27 +72,61 @@ jobs:
           echo "{\"version\": \"${{ steps.get_version.outputs.project_version }}\", \"last_update\": \"${{ steps.get_date.outputs.last_update }}\"}" > version-info.json
           # Generar log
           cat version-info.json
-      # Paso 6: Configurar GitHub Pages (requerido por actions/deploy-pages)
+
+      # Paso 6: 🏷️ Crear y subir el tag si no existe
+      - name: Create Git tag for current version
+        run: |
+          VERSION=${{ steps.get_version.outputs.project_version }}
+          TAG="v$VERSION"
+
+          if git ls-remote --tags origin | grep -q "refs/tags/$TAG"; then
+            echo "Tag $TAG ya existe. No se creará nuevamente."
+          else
+            git config user.name "github-actions"
+            git config user.email "github-actions@github.com"
+            git tag -a "$TAG" -m "Release $TAG: versión estable generada automáticamente"
+            git push origin "$TAG"
+            echo "Tag $TAG creado y subido correctamente."
+          fi
+      # # Paso 7:📘 Crear una release en GitHub (si el tag fue nuevo)
+      # - name: Create GitHub release
+      #   if: success()
+      #   env:
+      #     GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   run: |
+      #     VERSION=${{ steps.get_version.outputs.project_version }}
+      #     TAG="v$VERSION"
+
+      #     if gh release view "$TAG" > /dev/null 2>&1; then
+      #       echo "La release $TAG ya existe."
+      #     else
+      #       gh release create "$TAG" \
+      #         --title "Versión $VERSION" \
+      #         --notes "Release $TAG: versión estable generada automáticamente"
+      #       echo "Release $TAG creada exitosamente."
+      #     fi
+
+      # Paso 7: Configurar GitHub Pages (requerido por actions/deploy-pages)
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      # --- Paso de depuración: Listar archivos ANTES de subir el artefacto ---
-      - name: Debug List files in assets/plugins before upload
-        run: |
-          echo "Contenido de assets/plugins/ en el runner de GitHub Actions:"
-          ls -laR assets/plugins/
-          echo "Verificando presencia de archivos específicos:"
-          find . -type f -name "year-update.js"
-          find . -type f -name "last-update.js"
-          echo "--------------------------------------------------------"
-          echo "Contenido de la raíz del artefacto (ej. para verificar si .nojekyll u otros están allí):"
-          ls -la # Para ver el contenido del directorio '.' que se sube
-      # Paso 7: Subir el artefacto de la página (tu repositorio entero)
+      # # --- Paso de depuración: Listar archivos ANTES de subir el artefacto ---
+      # - name: Debug List files in assets/plugins before upload
+      #   run: |
+      #     echo "Contenido de assets/plugins/ en el runner de GitHub Actions:"
+      #     ls -laR assets/plugins/
+      #     echo "Verificando presencia de archivos específicos:"
+      #     find . -type f -name "year-update.js"
+      #     find . -type f -name "last-update.js"
+      #     echo "--------------------------------------------------------"
+      #     echo "Contenido de la raíz del artefacto (ej. para verificar si .nojekyll u otros están allí):"
+      #     ls -la # Para ver el contenido del directorio '.' que se sube
+      # Paso 8: Subir el artefacto de la página (tu repositorio entero)
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
           path: '.'
-      # Paso 8: Desplegar el artefacto en GitHub Pages
+      # Paso 9: Desplegar el artefacto en GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

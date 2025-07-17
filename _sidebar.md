@@ -3,10 +3,14 @@
 - [**Inicio**](README.md "Inicio")
 - [**Professional Path**](/path/README.md "Professional path")
 - [**Habilidades**](/skills/README.md "Knowledge")
+  - [**Esenciales**](/skills/essential/)
+    - [**Pensamiento crítico**](/skills/essential/critical-thinking/README.md)
+      - [**Artículos**](/skills/essential/critical-thinking/articles/README.md)
+        - [**Aventura Existencial**](/skills/essential/critical-thinking/articles/existential-adventure.md)
 - [**Hobbies**](/hobbies/README.md "Hobbies")
   - [**Creatividad**](/hobbies/creativity/README.md)
-    - [**Artículos**](/hobbies/creativity/articles/README.md)
-      - [**Manifiesto**](/hobbies/creativity/articles/existential-adventure.md)
+    - [**Artículos**](/skills/essential/critical-thinking/articles/README.md)
+      - [**Manifiesto**](/skills/essential/critical-thinking/articles/existential-adventure.md)
 
 ---
 

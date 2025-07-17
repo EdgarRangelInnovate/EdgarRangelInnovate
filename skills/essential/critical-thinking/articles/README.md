@@ -13,4 +13,4 @@ Reflexiones profundas para despertar a la humanidad.
 
 ---
 
-[⏪ Conocimientos y tips](/skills/README.md) | [⏫ Subir un nivel](../README.md) | [⏩ Agendas](./agendas.md)
+[⏪ Mas Hobbies](/hobbies/README.md) | [⏫ Subir un nivel](../README.md) | [⏩ Otras habilidades escenciales](/skills/essential/README.md)

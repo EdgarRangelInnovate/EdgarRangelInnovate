@@ -31,8 +31,8 @@ function loadScript(url) {
   // Para plugins de Docsify, simplemente adjuntamos el script.
   // Su código de registro (window.$docsify.plugins.push) se ejecutará
   // tan pronto como el script se cargue y se parseé.
-  script.onload = () => console.log(`Loaded: ${url}`);
-  script.onerror = () => console.error(`Failed to load script: ${url}`);
+  // script.onload = () => console.log(`Loaded: ${url}`);
+  // script.onerror = () => console.error(`Failed to load script: ${url}`);
   document.body.appendChild(script);
 }
 
@@ -47,8 +47,8 @@ pluginUrls.forEach(url => {
     const script = document.createElement('script');
     script.type = 'module';
     script.src = url;
-    script.onload = () => console.log(`Loaded module: ${url}`);
-    script.onerror = () => console.error(`Failed to load module: ${url}`);
+    // script.onload = () => console.log(`Loaded module: ${url}`);
+    // script.onerror = () => console.error(`Failed to load module: ${url}`);
     document.body.appendChild(script);
   } else {
     loadScript(url);

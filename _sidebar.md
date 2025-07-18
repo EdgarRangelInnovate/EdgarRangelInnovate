@@ -21,7 +21,6 @@
 ---
 
 - [🎨 Hobbies](/hobbies/README.md "Vida personal y pasiones")
-  - [🚴 Actividades personales](/hobbies/personal/README.md)
   - [💡 Creatividad](/hobbies/creativity/README.md)
     - [📘 Artículos vinculados](/skills/essential/critical-thinking/articles/README.md)
       - [🪶 Manifiesto: Aventura Existencial](/manifiesto)

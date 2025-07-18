@@ -1,7 +1,11 @@
-const lastUpdatePlugin = function(hook) {
-  hook.doneEach(function() {
+const lastUpdatePlugin = function (hook) {
+  hook.doneEach(function () {
     setTimeout(() => {
-      fetch('/version-info.json')
+      // Detecta el basePath dinámicamente (útil para GitHub Pages)
+      const basePath = window.location.pathname.includes('/EdgarRangelInnovate/')
+        ? '/EdgarRangelInnovate'
+        : '';
+      fetch(`${basePath}/version-info.json`)
         .then(response => {
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);

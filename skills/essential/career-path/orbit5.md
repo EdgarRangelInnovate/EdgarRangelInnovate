@@ -1,5 +1,5 @@
 
-# PROFESSIONAL PATH
+# 🪐 Modelo Orbit5: Evolución Profesional Técnica–Negocio
 
 ✨ Introducción personal al modelo Orbit5
 Durante mi más reciente proceso de autoreconocimiento, sentí la necesidad de hacer una pausa en mi vida profesional. Quería entender con mayor claridad hacia dónde quería ir y cómo podía estructurar mi crecimiento. En ese camino, descubrí que el desarrollo profesional ha evolucionado: hoy contamos con modelos y marcos de referencia que no solo inspiran, sino que también facilitan tomar decisiones conscientes sobre nuestra trayectoria.
@@ -287,4 +287,12 @@ flowchart LR
 
 ---
 
-[Technical path](./tech/README.md) | [⬆️](../README.md) | [Business path](./business/README.md)
+## 🧩 Modelos complementarios
+
+El modelo Orbit5 representa una dimensión estructural de mi trayectoria. Para comprenderla desde el propósito, la experiencia y la influencia, también puedes explorar:
+
+- [Ikigai aplicado](./ikigai.md) → ¿Por qué hago lo que hago?
+- [Skill Tree horizontal](./skill-tree.md) → ¿Qué habilidades he profundizado?
+- [Leadership Lattice](./leadership-lattice.md) → ¿Cómo ejerzo liderazgo sin cargo?
+- [Journey Map profesional](./journey-map.md) → ¿Cuál ha sido mi recorrido real?
+- [Madurez modular](./modular-maturity.md) → ¿En qué nivel de impacto me encuentro?

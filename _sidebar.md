@@ -22,8 +22,14 @@
   - [Transversals](/skills/hard/transversal/README.md)
 
 - [🧭 Cartografía Profesional](/skills/essential/career-path/README.md)
-  - [Technical Path](/skills/essential/career-path/tech/README.md)
-  - [Business Path](/skills/essential/career-path/business/README.md)
+  - [Orbit5: Evolución Profesional Técnica–Negocio](/skills/essential/career-path/orbit5.md)
+    - [Technical Path](/skills/essential/career-path/tech/README.md)
+    - [Business Path](/skills/essential/career-path/business/README.md)
+  - [Ikigai: Propósito y Pasión](/skills/essential/career-path/ikigai.md)
+  - [Skills tree horizontal](/skills/essential/career-path/skills-tree-horizontal.md)
+  - [Leadership lattice](/skills/essential/career-path/leadership-lattice.md)
+  - [Journey map profesional](/skills/essential/career-path/journey-map.md)
+  - [Madurez modular](/skills/essential/career-path/maturity-modular.md)
 
 ---
 

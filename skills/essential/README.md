@@ -15,9 +15,5 @@ Estas habilidades no solo fortalecen el liderazgo, la comunicación y la resoluc
 | **[Pensamiento Crítico][link-critical-thinking]** | Capacidades para reflexionar, cuestionar y construir visión propia sobre la realidad  |
 | **[Career Path][link-career-path]**               | Evolución consciente del perfil profesional basada en roles, valores y propósito      |
 
----
-
-[⏫ Subir un nivel](../README.md)
-
 [link-critical-thinking]: ./critical-thinking/README.md  
 [link-career-path]: ./career-path/README.md

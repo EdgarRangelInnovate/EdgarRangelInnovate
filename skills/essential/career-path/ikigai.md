@@ -44,7 +44,7 @@ También se conecta con:
 
 - [Skill Tree horizontal](./skills-tree.md) → ¿Qué habilidades profundicé por pasión?
 - [Journey Map profesional](./journey-map.md) → ¿Qué decisiones me acercaron a mi propósito?
-- [Madurez modular](./maturity-modular.md) → ¿Estoy listo para influir desde mi Ikigai?
+- [Madurez modular](./modular-maturity.md) → ¿Estoy listo para influir desde mi Ikigai?
 
 ---
 

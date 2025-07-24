@@ -18,15 +18,15 @@ Este modelo me ayuda a mostrar las áreas donde he invertido tiempo, curiosidad,
 
 ## 🌿 Ramas principales
 
-| Rama de conocimiento          | Profundidad | Comentario curado |
-|-------------------------------|-------------|-------------------|
-| **Arquitectura modular**       | 🌌 Alta       | Diseño de sistemas escalables con propósito |
-| **Curaduría editorial digital** | 📘 Media–Alta | Estructura Docsify, narrativa técnica y participativa |
-| **Mentoría técnica y humana**  | 🌱 Media      | Acompañamiento de profesionales en transiciones significativas |
-| **Business Process Management ético** | 🔧 Alta | Aplicación de BPM con visión humanista |
-| **Documentación de conocimiento estructurado** | 🧠 Alta | Redacción, versión, diseño de workflows formativos |
-| **Facilitación de aprendizaje técnico** | 📚 Media | Diseño de cursos, sesiones grupales y personales |
-| **Integración filosófica en tecnología** | 🧭 Alta | Vinculación entre propósito humano y ingeniería digital |
+| Rama de conocimiento                           | Profundidad  | Comentario curado                                              |
+| ---------------------------------------------- | ------------ | -------------------------------------------------------------- |
+| **Arquitectura modular**                       | 🌌 Alta       | Diseño de sistemas escalables con propósito                    |
+| **Curaduría editorial digital**                | 📘 Media–Alta | Estructura Docsify, narrativa técnica y participativa          |
+| **Mentoría técnica y humana**                  | 🌱 Media      | Acompañamiento de profesionales en transiciones significativas |
+| **Business Process Management ético**          | 🔧 Alta       | Aplicación de BPM con visión humanista                         |
+| **Documentación de conocimiento estructurado** | 🧠 Alta       | Redacción, versión, diseño de workflows formativos             |
+| **Facilitación de aprendizaje técnico**        | 📚 Media      | Diseño de cursos, sesiones grupales y personales               |
+| **Integración filosófica en tecnología**       | 🧭 Alta       | Vinculación entre propósito humano y ingeniería digital        |
 
 > 🔗 Algunas ramas cruzan con otras constelaciones de este sitio: puedes ver reflejos en [Ikigai aplicado](./ikigai.md), [Journey Map](./journey-map.md) y [Leadership Lattice](./leadership-lattice.md).
 

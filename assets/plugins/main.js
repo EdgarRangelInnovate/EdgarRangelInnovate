@@ -2,6 +2,10 @@
 const basePath = window.location.pathname.includes('/EdgarRangelInnovate/')
   ? '/EdgarRangelInnovate'
   : '';
+const styleUrls = [
+  `${basePath}/assets/styles/yt-embed.css`,
+  `${basePath}/assets/styles/yt-embed-collapse.css`,
+];
 // Lista de URLs de plugins de CDN y tus propios plugins
 const pluginUrls = [
   // Plugins de CDN (Docsify Plugins)
@@ -23,6 +27,8 @@ const pluginUrls = [
   `${basePath}/assets/plugins/year-update.js`, // render actual year
   `${basePath}/assets/plugins/version.js`, // render actual version
   `${basePath}/assets/plugins/last-update.js`, // render last update
+  `${basePath}/assets/plugins/yt-embed-collapse.js`, // collapse YouTube embeds
+  `${basePath}/assets/plugins/yt-embed.js`, // render YouTube embeds
 ];
 
 function loadScript(url) {
@@ -36,9 +42,18 @@ function loadScript(url) {
   document.body.appendChild(script);
 }
 
+// Cargar estilos CSS
+function loadStyle(url) {
+  const link = document.createElement('link');
+  link.href = url;
+  link.rel = 'stylesheet';
+  link.type = 'text/css';
+  document.head.appendChild(link);
+}
+
 // Cargar todos los scripts inmediatamente después de que main.js se ejecute.
 // Esto sucede justo después de Docsify en index.html.
-console.log('main.js: Iniciando carga de plugins.');
+// console.log('main.js: Iniciando carga de plugins.');
 pluginUrls.forEach(url => {
   // Manejo especial para módulos ES (.mjs)
   // Aunque ya tienes el import en index.html para mermaid,
@@ -54,4 +69,7 @@ pluginUrls.forEach(url => {
     loadScript(url);
   }
 });
-console.log('main.js: Carga de plugins iniciada.');
+// console.log('main.js: Carga de plugins iniciada.');
+
+// console.log('main.js: Iniciando carga de estilos.');
+styleUrls.forEach(loadStyle);

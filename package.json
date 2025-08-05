@@ -1,7 +1,7 @@
 {
   "name": "masteredgar",
   "private": true,
-  "version": "0.6.0",
+  "version": "0.6.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -26,6 +26,7 @@
     "husky": "^9.1.7",
     "markdownlint-cli2": "^0.18.1",
     "stylelint": "^16.21.1",
-    "stylelint-config-standard": "^38.0.0"
+    "stylelint-config-standard": "^38.0.0",
+    "typescript": "^5.9.2"
   }
 }

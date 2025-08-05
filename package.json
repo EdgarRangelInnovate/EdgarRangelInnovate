@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "echo 'No build step required for Docsify'",
-    "docs:build": "docsify build ./",
+    "build": "tsc && vite build",
     "lint:js": "eslint '**/*.{js,jsx,ts,tsx}'",
     "lint:css": "stylelint '**/*.{css,scss}'",
     "lint:html": "htmlhint '**/*.html'",

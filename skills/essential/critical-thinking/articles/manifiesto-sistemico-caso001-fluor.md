@@ -54,7 +54,7 @@ Esta reflexión sobre el fluoruro valida empíricamente una dinámica mucho más
 
 El caso del fluoruro confirma la tesis central de mi trabajo: **el progreso sin propósito es regresión disfrazada.** No estamos ante reflexiones aisladas, sino ante la verificación práctica de un marco conceptual que puede predecir y explicar estas paradojas sistémicas.
 
-*Para explorar el marco teórico completo que permite estas predicciones sistémicas, te invito a examinar mi manifiesto en: [Aventura Existencial](./aventura-existencial.md)*
+*Para explorar el marco teórico completo que permite estas predicciones sistémicas, te invito a examinar mi manifiesto en: [Aventura Existencial](./existential-adventure.md)*
 
 ---
 

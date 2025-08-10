@@ -211,4 +211,9 @@ A quienes hayan llegado hasta aquí: gracias. No por leerme, sino por detenerse.
 
 ---
 
-[⏫ Subir un nivel](./README.md)
+> 🧩 Este manifiesto no es una declaración estática, sino una lente para observar el mundo.  
+> Si deseas ver cómo estas ideas se manifiestan en la práctica, te invito a explorar el siguiente caso:
+
+🔍 [Caso 001: Paradoja Sistémica del Fluoruro](/skills/essential/critical-thinking/articles/manifiesto-sistemico-caso001-fluor.md)
+
+> 🌱 Porque cuando el pensamiento crítico se encuentra con la realidad, nace la evolución.

@@ -1,4 +1,4 @@
-import { execSync } from 'child_process';
+import { execFileSync } from 'child_process';
 import fs from 'fs';
 import path from 'path'; // Importar 'path' así para ES Modules
 import { fileURLToPath } from 'url';

@@ -1,4 +1,4 @@
-import { execSync } from 'child_process';
+import { execFileSync } from 'child_process';
 import fs from 'fs';
 import path from 'path'; // Importar 'path' así para ES Modules
 import { fileURLToPath } from 'url';
@@ -31,7 +31,7 @@ try {
 
   // 4. Añadir version-info.json al stage para que sea parte del commit actual
   // Esto es crucial para que el archivo actualizado se incluya en el commit
-  execSync(`git add ${versionInfoPath}`);
+  execFileSync('git', ['add', versionInfoPath]);
   console.log(`[pre-commit] Added ${path.basename(versionInfoPath)} to git stage.`);
 
 } catch (error) {

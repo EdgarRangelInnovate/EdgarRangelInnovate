@@ -4,33 +4,48 @@
 
 ---
 
-- [🏠 Inicio](/README.md "Presentación general")
-- [📘 Manifiesto: Aventura Existencial](/manifiesto "Fundamento filosófico")
+## 🧠 Fundamento Filosófico
+
+- [🏠 Inicio](/README.md)
+- [📘 Manifiesto: Aventura Existencial](/manifiesto)
 
 ---
 
 ## 🔎 [Áreas de Conocimiento](/skills/README.md) <!-- {docsify-ignore} -->
 
-- [🧩 Fundamentos Cognitivos](/skills/essential/README.md)
-  - [Pensamiento Crítico](/skills/essential/critical-thinking/README.md)
-  - [Gestión del conocimiento](/skills/essential/knowledge/README.md)
+- [🧠 Essential Skills](/skills/essential/README.md)
+  - [Cartografía Profesional](/skills/essential/career-path/README.md)
+    - [Ikigai: Propósito y Pasión](/skills/essential/career-path/ikigai.md)
+    - [Journey map profesional](/skills/essential/career-path/journey-map.md)
+    - [Leadership lattice](/skills/essential/career-path/leadership-lattice.md)
+    - [Madurez modular](/skills/essential/career-path/modular-maturity.md)
+    - [Orbit5: Evolución Profesional Técnica–Negocio](/skills/essential/career-path/orbit5.md)
+      - [Technical Path](/skills/essential/career-path/tech/README.md)
+      - [Business Path](/skills/essential/career-path/business/README.md)
+    - [Skills tree horizontal](/skills/essential/career-path/skill-tree.md)
+    - [Trajectory](/skills/essential/career-path/trajectory.md)
   - [Comunicación](/skills/essential/comunication/README.md)
+  - [Pensamiento Crítico](/skills/essential/critical-thinking/README.md)
+    - [Artículos](/skills/essential/critical-thinking/articles/README.md)
+      - [Manifiesto Sistémico](/skills/essential/critical-thinking/articles/existential-adventure.md)
+      - [Caso 001: Paradoja sistémica](/skills/essential/critical-thinking/articles/manifiesto-sistemico-caso001-fluor.md)
+  - [Gestión del conocimiento](/skills/essential/knowledge/README.md)
 
-- [🛠️ Ingeniería Digital Consciente](/skills/hard/README.md)
+- [🛠️ Hard Skills](/skills/hard/README.md)
   - [Business Skills](/skills/hard/business/README.md)
+    - [BPM](/skills/hard/business/Maestría/README.md)
+    - [Metodologías](/skills/hard/business/methodologies.md)
   - [Technical Skills](/skills/hard/technical/README.md)
+    - [Appsheet](/skills/hard/technical/Appsheet.md)
+    - [Automate](/skills/hard/technical/Automate.md)
+    - [Criptografía](/skills/hard/technical/Criptografía.md)
+    - [Desarrollo seguro](/skills/hard/technical/security/README.md)
+    - [Herramientas](/skills/hard/technical/tools/README.md)
+    - [Lenguajes de programación](/skills/hard/technical/languages/README.md)
+    - [Servidores](/skills/hard/technical/servers/README.md)
+    - [Software](/skills/hard/technical/software/README.md)
   - [Transversals](/skills/hard/transversal/README.md)
-
-- [🧭 Cartografía Profesional](/skills/essential/career-path/README.md)
-  - [Orbit5: Evolución Profesional Técnica–Negocio](/skills/essential/career-path/orbit5.md)
-    - [Technical Path](/skills/essential/career-path/tech/README.md)
-    - [Business Path](/skills/essential/career-path/business/README.md)
-  - [Ikigai: Propósito y Pasión](/skills/essential/career-path/ikigai.md)
-  - [Skills tree horizontal](/skills/essential/career-path/skill-tree.md)
-  - [Leadership lattice](/skills/essential/career-path/leadership-lattice.md)
-  - [Journey map profesional](/skills/essential/career-path/journey-map.md)
-  - [Madurez modular](/skills/essential/career-path/modular-maturity.md)
-  - [Trajectory](/skills/essential/career-path/trajectory.md)
+    - [Idiomas](/skills/hard/transversal/languages.md)
 
 ---
 

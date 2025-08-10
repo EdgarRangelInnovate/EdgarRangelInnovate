@@ -26,9 +26,9 @@
     - [Trajectory](/skills/essential/career-path/trajectory.md)
   - [Comunicación](/skills/essential/comunication/README.md)
   - [Pensamiento Crítico](/skills/essential/critical-thinking/README.md)
-    -[Artículos](/skills/essential/critical-thinking/articles/README.md)
-      -[Manifiesto Sistémico](/skills/essential/critical-thinking/articles/manifiesto-sistemico-caso001-fluor.md)
-      -[Caso 001: Paradoja sistémica](/skills/essential/critical-thinking/articles/manifiesto-sistemico-caso001-fluor.md)
+    - [Artículos](/skills/essential/critical-thinking/articles/README.md)
+      - [Manifiesto Sistémico](/skills/essential/critical-thinking/articles/manifiesto-sistemico-caso001-fluor.md)
+      - [Caso 001: Paradoja sistémica](/skills/essential/critical-thinking/articles/manifiesto-sistemico-caso001-fluor.md)
   - [Gestión del conocimiento](/skills/essential/knowledge/README.md)
 
 - [🛠️ Hard Skills](/skills/hard/README.md)

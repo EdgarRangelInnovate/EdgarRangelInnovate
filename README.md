@@ -3,7 +3,7 @@
 > *Transformar con propósito. Conectar lo técnico, lo humano y lo estratégico.*
 
 [![BPM Master](https://img.shields.io/badge/BPM-Master-blue)](https://es.wikipedia.org/wiki/Gesti%C3%B3n_por_procesos)
-[![10+ años de experiencia](https://img.shields.io/badge/Experiencia-10%2B%20a%C3%B1os-success)](./path/README.md)
+[![15+ años de experiencia](https://img.shields.io/badge/Experiencia-10%2B%20a%C3%B1os-success)](./path/README.md)
 [![IA y Transformación Digital](https://img.shields.io/badge/Inter%C3%A9s-IA%20%26%20Transformaci%C3%B3n%20Digital-ff69b4)](./knowledge/README.md)
 
 [![GitHub](https://img.shields.io/badge/GitHub-Perfil-black?logo=github)](https://github.com/EdgarRangelInnovate)

@@ -2,20 +2,36 @@
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7200 7200">
   <style>
     /* 🌞 theme-1: Original base */
-    .theme-1 {
+    .theme-light {
       --base: #264653;
       /* 🧠 Azul Pizarra: títulos con presencia y ligereza*/
       --base-complement: #E9C46A;
       /* 💡 Amarillo Mostaza Suave: tarjetas, tooltips o hover backgrounds */
-      --base-accent: #E76F51;
+      --base-accent: #D88C74;
       /* 🔥 Rojo Terraco: tabotones, links, íconos de acción que inviten a interacción */
-      --base-stroke: #1B2A41;
+      --base-stroke: #A8C9D8;
       /* 🌊 Azul profundo: bordes, líneas divisorias, elementos que requieran un borde */
       --base-ying: #000;
       /* ☯️ Ying */
       --base-yang: #fff;
       /* ☯️ Yang */
     }
+
+    .theme-dark {
+      --base: #F4F4F4;
+      /* Texto claro */
+      --base-complement: #E9C46A;
+      /* Mostaza Suave */
+      --base-accent: #D88C74;
+      /* Terracota Suavizado */
+      --base-stroke: #1B2A41;
+      /* Azul profundo */
+      --base-ying: #000000;
+      /* Ying */
+      --base-yang: #ffffff;
+      /* Yang */
+    }
+
 
     /* ☯️ taijitu */
     .ying {
@@ -65,7 +81,7 @@
     </g>
   </defs>
 
-  <g id="EdgarRangelLogo" class="theme-1" transform="translate(60 1100)">
+  <g id="EdgarRangelLogo" class="theme-light" transform="translate(60 1100)">
 
     <g id="imposible-triangle">
       <animateTransform attributeName="transform" type="rotate" from="360 3500 2520" to="0 3500 2520" dur="100s"

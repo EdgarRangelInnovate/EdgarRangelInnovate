@@ -1,4 +1,4 @@
-# 🧠 Edgar Rangel <!-- {docsify-ignore} -->
+# 🧠 Edgar Rangel ![logo](assets/img/logo.svg ":size=10%")<!-- {docsify-ignore} -->
 
 > 🌌 Este sitio es una constelación digital que organiza saberes, experiencias y reflexiones. Te invito a explorar cada área como una galaxia que puedes navegar con libertad.
 

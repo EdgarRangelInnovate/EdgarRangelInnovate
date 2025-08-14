@@ -37,33 +37,31 @@ window.$docsify = {
     formatUpdated: '{YYYY}-{MM}-{DD}',
     codeFontFamily: 'Roboto Mono, Monaco, courier, monospace',
     dark: {
-      accent: '#42b983',
-      toogleBackground: '#ffffff',
-      background: '#091a28',
-      textColor: '#f7e2cb',
-      codeTextColor: '#ffffff',
-      codeBackgroundColor: '#0e2233',
-      borderColor: '#0d2538',
-      blockQuoteColor: '#858585',
-      highlightColor: '#d22778',
-      sidebarSublink: '#b4b4b4',
-      codeTypeColor: '#ffffff',
-      coverBackground: 'linear-gradient(to left bottom, hsl(48.97,95.77%,25%) 0%,hsl(194.55,100%,25%) 100%)',
+      toogleBackground: '#E9C46A',              // Mostaza suave para contraste
+      background: '#1B2A41',                    // Azul profundo para fondo
+      textColor: '#F4F4F4',                     // Texto claro sobre fondo oscuro
+      codeBackgroundColor: '#264653',           // Azul pizarra para bloques de código
+      borderColor: '#2A3C4A',                   // Borde sutil en azul grisáceo
+      blockQuoteColor: '#A89EB3',               // Lavanda grisácea para citas
+      accent: '#D88C74',                        // Terracota suavizado
+      highlightColor: '#D88C74',               // Para resaltar sin saturar
+      codeTextColor: '#D88C74',                // Código con calidez controlada
+      coverBackground: 'linear-gradient(to left bottom, #E9C46A 0%, #264653 100%)',
       toogleImage: 'url(https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/icons/sun.svg)'
     },
     light: {
-      accent: '#42b983',
-      toogleBackground: '#091a28',
-      background: '#ffffff',
-      textColor: '#34495e',
-      codeTextColor: '#525252',
-      codeBackgroundColor: '#f8f8f8',
-      borderColor: 'rgba(0, 0, 0, 0.07)',
-      blockQuoteColor: '#858585',
-      highlightColor: '#d22778',
-      sidebarSublink: '#b4b4b4',
-      codeTypeColor: '#091a28',
-      coverBackground: 'linear-gradient(to left bottom, hsl(194.55,100%,46.08%) 0%,hsl(48.97,95.77%,72.16%) 100%)',
+      accent: '#E76F51',                        // Terracota como color de acción
+      toogleBackground: '#264653',              // Azul pizarra para contraste
+      background: '#FFFFFF',                    // Fondo claro
+      textColor: '#264653',                     // Texto en azul pizarra
+      codeTextColor: '#E76F51',                 // Código en terracota
+      codeBackgroundColor: '#F8F8F8',           // Fondo claro para bloques de código
+      borderColor: 'rgba(0, 0, 0, 0.07)',       // Borde sutil
+      blockQuoteColor: '#A89EB3',               // Lavanda grisácea para citas
+      highlightColor: '#E76F51',                // Terracota para resaltar
+      sidebarSublink: '#A89EB3',                // Subenlaces en lavanda
+      codeTypeColor: '#264653',                 // Tipos de código en azul pizarra
+      coverBackground: 'linear-gradient(to left bottom, #E9C46A 0%, #A8C9D8 100%)',
       toogleImage: 'url(https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/icons/moon.svg)'
     }
   },

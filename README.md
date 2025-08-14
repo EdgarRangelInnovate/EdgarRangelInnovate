@@ -27,20 +27,26 @@
 ---
 <!-- markdownlint-disable MD033 -->
 | ![Ingeniero trabajando](./assets/programador.png) | **Ingeniero de Sistemas con más de 20 años de experiencia en desarrollo de software y gestión de proyectos, liderando equipos de entre 3 y 9 personas.**<br><br>Mi pasión por el conocimiento y la tecnología 🔥 me impulsa a buscar nuevas formas de resolver problemas y mejorar la vida de las personas. |
-|--|--|
+| ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 | **He explorado a fondo temas como la Inteligencia Artificial y su aplicación en la transformación de negocios, entendiendo su potencial para cambiar industrias enteras.** | ![Tecnologías](./assets/tecnologías.png) |
-|--|--|
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
 
 | ![Reunión de equipo](./assets/reunión.png) | **Durante mi carrera he participado en proyectos de diversa escala, desde iniciativas personales hasta soluciones empresariales.**<br><br>Tengo experiencia en metodologías ágiles y tradicionales, con foco en calidad y colaboración. |
-|--|--|
+| ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 | **He complementado mi perfil técnico con habilidades de inteligencia emocional, liderazgo y resolución de conflictos.**<br><br>Estas competencias me han permitido liderar equipos de alto rendimiento y contribuir a transformaciones organizacionales. | ![Empresario](./assets/empresario.png) |
-|--|--|
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
 
 | ![Procesos](./assets/procesos.png) | **Recientemente obtuve mi Maestría en Gestión de Procesos de Negocio (BPM), fortaleciendo mis capacidades en análisis, diseño y optimización de procesos.**<br><br>Esta formación me posiciona para liderar la transformación digital desde lo estratégico. |
-|--|--|
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 ---
 
 > 🎯 Actualmente estoy consolidando y expandiendo mi carrera hacia roles de liderazgo tecnológico y estratégico, con el objetivo de emprender y liderar mi propia compañía tecnológica.
+
+|                                                                                    **🔺 Penrose Triangle**                                                                                     | ![Logo Modular](assets/img/logo.svg ":size=60%") |                                            **☯️ Taijitu (Yin-Yang)**                                             |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------: | :-------------------------------------------------------------------------------------------------------------: |
+| Representa lo imposible, lo paradójico, lo que desafía la lógica tradicional. Es la base de mi enfoque modular: construir sistemas que parezcan imposibles, pero que funcionan con elegancia. |                                                  | Simboliza el equilibrio entre opuestos, la armonía entre lo técnico y lo humano, lo estratégico y lo emocional. |
+
+> **Ambos se integran con cortes modulares que reflejan mi filosofía de diseño iterativo, adaptable y consciente. Juntos, representan la unión entre lo imposible y lo equilibrado: sistemas conscientes que trascienden la lógica tradicional.**

@@ -13,6 +13,8 @@ Objetivo: organizar el contenido por niveles de abstracción y complejidad, desd
   - [3. SQL ANSI: base portable](#3-sql-ansi-base-portable)
   - [4. DDL / DML / Transacciones](#4-ddl--dml--transacciones)
   - [5. Joins (combinación de tablas)](#5-joins-combinación-de-tablas)
+    - [5.1. Subconsultas (Subqueries)](#51-subconsultas-subqueries)
+      - [Tipos de Subconsultas](#tipos-de-subconsultas)
     - [Complemento: UNION vs JOIN](#complemento-union-vs-join)
   - [6. Expresiones de Tabla Común (CTE)](#6-expresiones-de-tabla-común-cte)
   - [7. Índices y EXPLAIN (optimización)](#7-índices-y-explain-optimización)
@@ -154,7 +156,52 @@ INNER JOIN pedidos b ON a.id = b.cliente_id
 WHERE a.activo = TRUE;
 ```
 
----
+### 5.1. Subconsultas (Subqueries)
+
+Una subconsulta es una consulta `SELECT` anidada dentro de otra consulta (`SELECT`, `INSERT`, `UPDATE` o `DELETE`). Permiten realizar operaciones complejas y filtrar datos basados en los resultados de otra consulta.
+
+#### Tipos de Subconsultas
+
+1. **Subconsulta Escalar**
+    Devuelve un único valor (una fila, una columna). Se puede usar en cualquier lugar donde se espere un valor único, como en la lista de `SELECT` o en una cláusula `WHERE`.
+
+    *Ejemplo: Obtener los productos cuyo precio es superior al precio promedio.*
+
+    ```sql
+    SELECT nombre, precio
+    FROM productos
+    WHERE precio > (SELECT AVG(precio) FROM productos);
+    ```
+
+2. **Subconsulta de Múltiples Filas**
+
+    Devuelve un conjunto de filas. Se utiliza con operadores que manejan conjuntos, como `IN`, `NOT IN`, `ANY` y `ALL`.
+
+    *Ejemplo: Encontrar todos los clientes que han realizado al menos un pedido.*
+
+    ```sql
+    SELECT id, nombre
+    FROM clientes
+    WHERE id IN (SELECT DISTINCT cliente_id FROM pedidos);
+    ```
+
+3. **Subconsulta Correlacionada**
+
+    Es una subconsulta que depende de la consulta externa para sus valores. Se evalúa una vez por cada fila procesada por la consulta externa, lo que puede hacerla menos eficiente que un `JOIN`.
+
+    *Ejemplo: Encontrar productos cuyo precio es el máximo en su categoría.*
+
+    ```sql
+    SELECT p1.nombre, p1.categoria, p1.precio
+    FROM productos p1
+    WHERE p1.precio = (
+        SELECT MAX(p2.precio)
+        FROM productos p2
+        WHERE p2.categoria = p1.categoria -- La subconsulta depende de la fila actual de p1
+    );
+    ```
+
+    En muchos casos, un `JOIN` o una función de ventana (`window function`) son alternativas más eficientes.
 
 ### Complemento: UNION vs JOIN
 

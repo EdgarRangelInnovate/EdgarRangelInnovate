@@ -20,17 +20,7 @@ Esta sección detalla mis habilidades técnicas y de ingeniería, fundamentales 
 
 ### Lenguajes de Programación
 
-- C++
-- HTML5
-- CSS3
-- XML
-- SVG
-- PHP
-- ASP
-- ASPX
-- C#
-- Python
-- JavaScript
+Para poder desarrollar todos los sitemas digitales se ha necesitado desarrollar [Lenguajes de programación](./languages/README.md)
 
 ## Bases de Datos
 

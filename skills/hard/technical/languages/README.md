@@ -4,32 +4,35 @@ Esta sección sirve como un **índice de los diversos lenguajes de programación
 
 ---
 
-| Lenguaje de Programación / Herramienta |
-| --------------------------------------- |
-| [Assembly](./assembly.md) |
-| [Bash](./bash.md) |
-| [C](./c.md) |
-| [C#](./csharp.md) |
-| [C++](./cmasmas.md) |
-| [CSS3](./css3.md) |
-| [DAX](./dax.md) |
-| [Funciones de Excel](./excel.md) |
-| [Go](./go.md) |
-| [HTML5](./html5.md) |
-| [Java](./java/README.md) |
-| [JavaScript](./javascript.md) |
-| [JSON](./json.md) |
-| [LASS](./lass.md) |
-| [Markdown](./markdown.md) |
-| [PHP](./php.md) |
-| [Python](./python.md) |
-| [SASS](./sass.md) |
-| [SCSS](./scss.md) |
-| [SQL](./sql.md) |
-| [SVG](./svg/README.md) |
-| [VBA](./vba.md) |
-| [XML](./xml.md) |
-| [YAML](./yaml.md) |
+Entre los lenguajes que conozco y he trabajado se encuentran:
+
+- [Assembly](./assembly.md)
+- [ASP](./asp.md)
+- [ASPX](./asp.md)
+- [Bash](./bash.md)
+- [C](./c.md)
+- [C#](./csharp.md)
+- [C++](./cmasmas.md)
+- [CSS3](./css3.md)
+- [DAX](./dax.md)
+- [Funciones de Excel](./excel.md)
+- [Go](./go.md)
+- [HTML5](./html5.md)
+- [Java](./java/README.md)
+- [JavaScript](./javascript.md)
+- [JSON](./json.md)
+- [LASS](./lass.md)
+- [Markdown](./markdown.md)
+- [PHP](./php.md)
+- [Python](./python.md)
+- [SASS](./sass.md)
+- [SCSS](./scss.md)
+- [SQL](./sql.md)
+- [SVG](./svg/README.md)
+- [TypeScript](./typescript.md)
+- [VBA](./vba.md)
+- [XML](./xml.md)
+- [YAML](./yaml.md)
 
 ---
 

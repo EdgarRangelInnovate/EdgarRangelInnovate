@@ -34,15 +34,15 @@ Esta sección detalla mis habilidades técnicas y de ingeniería, fundamentales 
 
 ## Bases de Datos
 
-| Base de Datos  | Nivel                          |
-| -------------- | ------------------------------ |
-| MySQL          | :star::star::star::star::star: |
-| MongoDB        | :star::star::star::star::star: |
-| MariaDB        | :star::star::star::star:       |
-| SQL Server     | :star::star::star::star:       |
-| SQLite         | :star::star::star::star:       |
-| PostgreSQL     | :star::star::star:             |
-| Oracle         | :star::star:                   |
+| Base de Datos | Nivel                          |
+| ------------- | ------------------------------ |
+| MySQL         | :star::star::star::star::star: |
+| MongoDB       | :star::star::star::star::star: |
+| MariaDB       | :star::star::star::star:       |
+| SQL Server    | :star::star::star::star:       |
+| SQLite        | :star::star::star::star:       |
+| PostgreSQL    | :star::star::star:             |
+| Oracle        | :star::star:                   |
 
 ### Estructuras de datos
 
@@ -101,19 +101,9 @@ Esta sección detalla mis habilidades técnicas y de ingeniería, fundamentales 
 
 ## Sistemas e infraestructuras
 
-### Teoría general de sistemas
+Esta área abarca el conjunto de componentes de hardware y software que sirven como base para construir, desplegar, ejecutar y escalar aplicaciones y servicios. Incluye desde la configuración de servidores y redes hasta la orquestación de contenedores y la automatización de la infraestructura.
 
-### redes
-
-### sistemas operativos
-
-### protocolos de comunicación
-
-### Contenerización de apps
-
-### Portabilidad
-
-### cloud basics
+Para una exploración detallada de conceptos clave como alta disponibilidad, recuperación ante desastres, seguridad, IaC y monitorización, consulta el documento principal de [**Infraestructura**](./infraestructure/README.md).
 
 ## DevOps
 
@@ -133,13 +123,13 @@ Esta sección detalla mis habilidades técnicas y de ingeniería, fundamentales 
 
 ### Ciencia de Datos
 
-| Herramienta         | Nivel        |
-| ------------------- | ------------ |
-| Python              | :star:       |
-| Jupyter Notebook    | :star:       |
-| Keras               | :star:       |
-| PyTorch             | :star:       |
-| TensorFlow          | :star::star: |
+| Herramienta      | Nivel        |
+| ---------------- | ------------ |
+| Python           | :star:       |
+| Jupyter Notebook | :star:       |
+| Keras            | :star:       |
+| PyTorch          | :star:       |
+| TensorFlow       | :star::star: |
 
 #### Modelos matemáticos
 

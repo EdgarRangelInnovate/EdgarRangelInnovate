@@ -6,6 +6,7 @@ Esta sección sirve como un **índice de los diversos lenguajes de programación
 
 Entre los lenguajes que conozco y he trabajado se encuentran:
 
+- [Angular](./angular/README.md)
 - [Assembly](./assembly.md)
 - [ASP](./asp.md)
 - [ASPX](./asp.md)

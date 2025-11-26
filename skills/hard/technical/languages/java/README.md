@@ -147,6 +147,8 @@ Spring utiliza anotaciones para declarar *Beans* y configurar su comportamiento:
 
 ## **Concurrencia y Asincronía**
 
+[![multithread lifecycle](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwH2kce7chGieYTXGo1Di0lio1VyARzyrKagqwtDX-5DkGvBOCH5_zPm2Ak4qc7_Cbb-jnz8W5xmKcz-PQewe2rHD61FBPZxpeKHjLxRNdPiFoLMMnr51HrHLPxi0bojNgbFboXueehgTK/s1600/Presentation1.png)](https://codehungry.blogspot.com/2018/02/lifecycle-of-thread-in-java.html)
+
 Java fue diseñado con la concurrencia en mente, pero su manejo incorrecto introduce riesgos complejos.
 
 - **Threads y Runnable:** Unidad básica de concurrencia. Una clase Runnable define la tarea a ejecutar en el *thread*.

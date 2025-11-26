@@ -159,11 +159,13 @@ root (Tipos de software))
 | ----------------------------------- | :-----: | :----: | :---: | :-------: | :------: | :--------: | :-------: | :---: |
 | 1Password                           |   [ ]   |  [ ]   |  [ ]  |    [ ]    |   [ ]    |    [ ]     |    [ ]    |  [ ]  |
 | Adobe                               |   [ ]   |  [ ]   |  [ ]  |    [ ]    |   [ ]    |    [ ]     |    [ ]    |  [ ]  |
+| [Antigravity](./antigravity.md)     |   [X]   |  [ ]   |  [ ]  |    [ ]    |   [ ]    |    [ ]     |    [ ]    |  [ ]  |
 | [Automate(llamalab)](./Automate.md) |   [ ]   |  [ ]   |  [ ]  |    [ ]    |   [ ]    |    [ ]     |    [ ]    |  [ ]  |
 | Automator                           |   [ ]   |  [ ]   |  [ ]  |    [ ]    |   [ ]    |    [ ]     |    [ ]    |  [ ]  |
 | Azure DevOps                        |   [ ]   |  [ ]   |  [ ]  |    [ ]    |   [ ]    |    [ ]     |    [ ]    |  [ ]  |
 | [Appsheet](./Appsheet.md)           |   [ ]   |  [ ]   |  [ ]  |    [ ]    |   [ ]    |    [ ]     |    [ ]    |  [ ]  |
 | Apromore                            |   [ ]   |  [ ]   |  [ ]  |    [ ]    |   [ ]    |    [ ]     |    [ ]    |  [ ]  |
+| [Bases de datos](./dbs/README.md)   |   [ ]   |  [ ]   |  [ ]  |    [ ]    |   [ ]    |    [ ]     |    [X]    |  [ ]  |
 | Bizagi                              |   [ ]   |  [ ]   |  [ ]  |    [ ]    |   [ ]    |    [ ]     |    [ ]    |  [ ]  |
 | BSC Designer                        |   [ ]   |  [ ]   |  [ ]  |    [ ]    |   [ ]    |    [ ]     |    [ ]    |  [ ]  |
 | Catalina                            |   [ ]   |  [ ]   |  [ ]  |    [ ]    |   [ ]    |    [ ]     |    [ ]    |  [ ]  |
@@ -206,5 +208,4 @@ root (Tipos de software))
 
 ---
 
-<!-- [⏪ Servers](../servers/README.md) |  -->
-[⏫ Subir un nivel](../README.md)<!-- | [⏩ Hobbies](/hobbies/README.md) -->
+[⏫ Subir un nivel](../README.md)

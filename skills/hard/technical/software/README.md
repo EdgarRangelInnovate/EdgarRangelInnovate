@@ -165,6 +165,7 @@ root (Tipos de software))
 | [Azure DevOps](./azure/README.md)   |   [ ]   |  [ ]   |  [X]  |    [ ]    |   [ ]    |    [ ]     |    [ ]    |  [ ]  |
 | [Appsheet](./Appsheet.md)           |   [ ]   |  [ ]   |  [ ]  |    [ ]    |   [ ]    |    [ ]     |    [ ]    |  [ ]  |
 | Apromore                            |   [ ]   |  [ ]   |  [ ]  |    [ ]    |   [ ]    |    [ ]     |    [ ]    |  [ ]  |
+| [AWS](./aws/README.md)              |   [ ]   |  [ ]   |  [X]  |    [ ]    |   [ ]    |    [ ]     |    [ ]    |  [ ]  |
 | [Bases de datos](./dbs/README.md)   |   [ ]   |  [ ]   |  [ ]  |    [ ]    |   [ ]    |    [ ]     |    [X]    |  [ ]  |
 | Bizagi                              |   [ ]   |  [ ]   |  [ ]  |    [ ]    |   [ ]    |    [ ]     |    [ ]    |  [ ]  |
 | BSC Designer                        |   [ ]   |  [ ]   |  [ ]  |    [ ]    |   [ ]    |    [ ]     |    [ ]    |  [ ]  |

@@ -10,6 +10,7 @@ Este documento resume los principales tipos de bases de datos, cuándo usarlas y
   - [Relacionales](#relacionales)
   - [No relacionales (NoSQL)](#no-relacionales-nosql)
   - [Columnar / Analítica (OLAP)](#columnar--analítica-olap)
+  - [Data Lakes](#data-lakes)
   - [Infraestructura y conceptos operativos comunes](#infraestructura-y-conceptos-operativos-comunes)
   - [Key-Value, Caches y Almacenamiento Local (client-side)](#key-value-caches-y-almacenamiento-local-client-side)
   - [Cuándo elegir uno u otro](#cuándo-elegir-uno-u-otro)
@@ -96,6 +97,36 @@ Características:
 - Normalmente no ofrecen ACID completa para escrituras concurrentes; no son adecuadas para workloads OLTP.
 - Suelen soportar particionado por rango, compresión y motores de almacenamiento especializados (ej. MergeTree en ClickHouse).
 - Buen candidato para métricas, logs y time-series; no reemplazan un RDBMS para transacciones.
+
+[📇](#índice)
+
+---
+
+## Data Lakes
+
+Un Data Lake es un repositorio centralizado que permite almacenar grandes cantidades de datos estructurados, semi-estructurados y no estructurados en su formato nativo y a cualquier escala. A diferencia de las bases de datos o los data warehouses, los datos se cargan en bruto, sin necesidad de definir un esquema previo.
+
+**Características Clave:**
+
+- **Schema-on-Read:** El esquema se aplica cuando se leen los datos, no cuando se escriben. Esto ofrece una flexibilidad inmensa para almacenar todo tipo de datos.
+- **Almacenamiento Desacoplado del Cómputo:** Generalmente utilizan almacenamiento de objetos de bajo costo (como Amazon S3, Azure Blob Storage) y motores de cómputo separados (como Spark, Presto, Athena) para procesar los datos.
+- **Flexibilidad y Escalabilidad:** Diseñados para escalar a petabytes de datos de forma económica.
+- **Fuente de Datos Diversa:** Ideal para ingestar datos de logs, IoT, redes sociales, multimedia y cualquier otra fuente de datos en bruto.
+
+**Data Lake vs. Data Warehouse:**
+
+- **Data Lake:** Almacena datos brutos y sin procesar. Es ideal para científicos de datos y analistas que necesitan explorar datos en su forma original para Machine Learning o análisis exploratorio. El esquema es dinámico (schema-on-read).
+- **Data Warehouse:** Almacena datos limpios, transformados y estructurados, optimizados para análisis de negocio y reporting (BI). El esquema está predefinido (schema-on-write).
+
+**Tecnologías Comunes (Ecosistema):**
+
+- **Almacenamiento:** Amazon S3, Azure Data Lake Storage (ADLS), Google Cloud Storage.
+- **Procesamiento y Consulta:** Apache Spark, Presto, AWS Athena, Google BigQuery.
+- **Formatos de Tabla (para crear "Lakehouses"):** Apache Iceberg, Delta Lake, Apache Hudi. Estos formatos añaden capacidades transaccionales y de gestión de esquema sobre los data lakes.
+
+Casos de uso:
+
+- Análisis de Big Data, Machine Learning, procesamiento de datos en streaming, archivo de datos a largo plazo.
 
 [📇](#índice)
 

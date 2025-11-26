@@ -162,7 +162,7 @@ root (Tipos de software))
 | [Antigravity](./antigravity.md)     |   [X]   |  [ ]   |  [ ]  |    [ ]    |   [ ]    |    [ ]     |    [ ]    |  [ ]  |
 | [Automate(llamalab)](./Automate.md) |   [ ]   |  [ ]   |  [ ]  |    [ ]    |   [ ]    |    [ ]     |    [ ]    |  [ ]  |
 | Automator                           |   [ ]   |  [ ]   |  [ ]  |    [ ]    |   [ ]    |    [ ]     |    [ ]    |  [ ]  |
-| Azure DevOps                        |   [ ]   |  [ ]   |  [ ]  |    [ ]    |   [ ]    |    [ ]     |    [ ]    |  [ ]  |
+| [Azure DevOps](./azure/README.md)   |   [ ]   |  [ ]   |  [X]  |    [ ]    |   [ ]    |    [ ]     |    [ ]    |  [ ]  |
 | [Appsheet](./Appsheet.md)           |   [ ]   |  [ ]   |  [ ]  |    [ ]    |   [ ]    |    [ ]     |    [ ]    |  [ ]  |
 | Apromore                            |   [ ]   |  [ ]   |  [ ]  |    [ ]    |   [ ]    |    [ ]     |    [ ]    |  [ ]  |
 | [Bases de datos](./dbs/README.md)   |   [ ]   |  [ ]   |  [ ]  |    [ ]    |   [ ]    |    [ ]     |    [X]    |  [ ]  |

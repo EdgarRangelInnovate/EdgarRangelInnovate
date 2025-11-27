@@ -1,5 +1,7 @@
 # Contraseñas de un solo uso (OTP)
 
+![Colisiones OTP](./assets/otps.jpg)
+
 Una **Contraseña de un solo uso** (OTP, por sus siglas en inglés *One-Time Password*) es una contraseña que es válida para una única sesión de inicio de sesión o transacción. Su gran ventaja es que, si un atacante la intercepta, no puede volver a utilizarla en el futuro, neutralizando los ataques de repetición (*replay attacks*).
 
 ## Índice

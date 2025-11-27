@@ -103,6 +103,12 @@ Para una exploración detallada de conceptos clave como alta disponibilidad, rec
 - Nginx básico
 - Automatización de procesos con scripts
 
+## Ciberseguridad
+
+La ciberseguridad es la práctica de proteger sistemas, redes y programas de ataques digitales. Abarca un conjunto de estrategias y tecnologías para garantizar la confidencialidad, integridad y disponibilidad de la información.
+
+Para una exploración detallada de sus diferentes ramas y conceptos, consulta la sección de [**Ciberseguridad**](./cibersecurity/README.md).
+
 ## Automatizaciones
 
 ### RPA

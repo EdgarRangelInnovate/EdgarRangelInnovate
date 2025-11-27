@@ -2,6 +2,33 @@
 
 Una **Contraseña de un solo uso** (OTP, por sus siglas en inglés *One-Time Password*) es una contraseña que es válida para una única sesión de inicio de sesión o transacción. Su gran ventaja es que, si un atacante la intercepta, no puede volver a utilizarla en el futuro, neutralizando los ataques de repetición (*replay attacks*).
 
+## Índice
+
+- [Contraseñas de un solo uso (OTP)](#contraseñas-de-un-solo-uso-otp)
+  - [Índice](#índice)
+  - [Tipos de Algoritmos OTP](#tipos-de-algoritmos-otp)
+    - [1. HOTP (HMAC-based One-Time Password)](#1-hotp-hmac-based-one-time-password)
+    - [2. TOTP (Time-based One-Time Password)](#2-totp-time-based-one-time-password)
+  - [🔬 Análisis Profundo: La Entropía en Semillas TOTP Cortas](#-análisis-profundo-la-entropía-en-semillas-totp-cortas)
+  - [El Problema Oculto: El Desajuste de Bits (Base32 vs. Bytes)](#el-problema-oculto-el-desajuste-de-bits-base32-vs-bytes)
+  - [Demostración Práctica: La Colisión Masiva en Semillas de 2 Caracteres](#demostración-práctica-la-colisión-masiva-en-semillas-de-2-caracteres)
+    - [Los "Disparadores de Cambio" (Change Triggers)](#los-disparadores-de-cambio-change-triggers)
+  - [Cálculo Riguroso: Entropía Necesaria vs. Entropía Útil](#cálculo-riguroso-entropía-necesaria-vs-entropía-útil)
+  - [Conclusión y Recomendación para Desarrolladores](#conclusión-y-recomendación-para-desarrolladores)
+    - [Una Mirada al Futuro: Los Límites del Sistema](#una-mirada-al-futuro-los-límites-del-sistema)
+      - [El Desafío Actual: Fuerza Bruta y Defensas Frágiles](#el-desafío-actual-fuerza-bruta-y-defensas-frágiles)
+      - [La Amenaza Cuántica: Rompiendo los Cimientos](#la-amenaza-cuántica-rompiendo-los-cimientos)
+      - [Soluciones y el Camino a Seguir](#soluciones-y-el-camino-a-seguir)
+    - [🔬 El Estado de la Investigación y Uso del OTP](#-el-estado-de-la-investigación-y-uso-del-otp)
+      - [1. 🌐 Uso Actual de TOTP/OTP (Sí, es muy usado)](#1--uso-actual-de-totpotp-sí-es-muy-usado)
+      - [2. 🧐 Investigación en Ciberseguridad sobre OTP](#2--investigación-en-ciberseguridad-sobre-otp)
+      - [3. 🧠 Investigación en la Intersección Biológica y Criptográfica](#3--investigación-en-la-intersección-biológica-y-criptográfica)
+    - [Más Allá del OTP: La Revolución de la Autenticación](#más-allá-del-otp-la-revolución-de-la-autenticación)
+      - [🧬 Biometría Inequívoca: El Factor "Quién Eres" Real](#-biometría-inequívoca-el-factor-quién-eres-real)
+      - [🛡️ Criptografía de Canal Basada en Biología](#️-criptografía-de-canal-basada-en-biología)
+
+---
+
 ## Tipos de Algoritmos OTP
 
 Existen principalmente dos tipos de algoritmos para generar OTPs:

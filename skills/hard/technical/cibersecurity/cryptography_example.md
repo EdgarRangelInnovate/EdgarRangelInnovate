@@ -302,3 +302,7 @@ Se usa el siguiente código fuente:
             print("Mensaje Desencriptado:", mensaje_desencriptado_dinamico)
             print("Clave usada:", clave_generada)
     ```
+
+---
+
+[⬅️ Regresar](./README.md#ramas-de-la-ciberseguridad)
